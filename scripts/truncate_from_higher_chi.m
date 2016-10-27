@@ -5,11 +5,11 @@ function truncate_from_higher_chi
   % temperatures = [Constants.T_crit];
   chi_max = 48;
   chi_lower = 8;
-  extra_steps = 1000;
-  tolerance = 1e-7;
+  extra_steps = 400;
+  N_values = [2000];
 
   %%% calculate m from truncated tensors.
-  sim_chi_max = FixedToleranceSimulation(temperatures, [chi_max], [tolerance]).run();
+  sim_chi_max = FixedNSimulation(temperatures, [chi_max], N_values).run();
   order_params_chi_max = sim_chi_max.compute(OrderParameter);
 
   sim_truncated = sim_chi_max.truncate_tensors_to_lower_chi(chi_lower, 1);
@@ -20,9 +20,8 @@ function truncate_from_higher_chi
   order_params_truncated_plus_extra_steps = sim_truncated_plus_extra_steps.compute(OrderParameter);
   free_energy_truncated_plus_extra_steps = sim_truncated_plus_extra_steps.compute(FreeEnergy);
 
-
   %%% calculate m from regularly converged tensors
-  sim = FixedToleranceSimulation(temperatures, [chi_lower], [tolerance]).run();
+  sim = FixedNSimulation(temperatures, [chi_lower], N_values).run();
   order_params = sim.compute(OrderParameter);
   free_energy = sim.compute(FreeEnergy);
 

@@ -19,13 +19,13 @@ function main
   % plot_tolerance
   % measure_corr_length
   % plot_ctm
-  plot_truncation_error
+  % plot_truncation_error
   % scaling_coordinate
   % test_order_param_strip
   % test_order_param_strip2
   % plot_eigenvalues_transfer_matrix
   % plot_spin_up_vs_symmetric
   % plot_free_energy
-  % truncate_from_higher_chi
+  truncate_from_higher_chi
 
 end
