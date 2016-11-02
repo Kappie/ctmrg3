@@ -1,4 +1,4 @@
-function markerplot(x_values, y_matrix, axis_scale)
+function markerplot(x_values, y_matrix, line_style, axis_scale)
 
   % size_y = sort(size(y_matrix));
   % size_x = size(x_values);
@@ -27,5 +27,5 @@ function markerplot(x_values, y_matrix, axis_scale)
     end
   end
 
-  set_markers(handles);
+  set_markers(handles, line_style);
 end

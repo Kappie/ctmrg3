@@ -1,6 +1,7 @@
 function plot_ctm
-  temperatures = [Constants.T_crit];
-  chi_values = 6:2:12;
+  width = 0.1;
+  temperatures = [Constants.T_crit + width];
+  chi_values = [120];
   tolerances = [1e-9];
 
   sim = FixedToleranceSimulation(temperatures, chi_values, tolerances);
@@ -18,7 +19,7 @@ function plot_ctm
       temperatures(1), chi_values(c), tensors(c).C, tensors(c).T);
     included_singular_values = full_singular_values(1:chi_values(c));
     thrown_away_singular_values = full_singular_values(chi_values(c) + 1:end)
-    plot(chi_values(c)+1:2*chi_values(c), thrown_away_singular_values, [MARKERS(c) '--'])
+    % plot(chi_values(c)+1:2*chi_values(c), thrown_away_singular_values, [MARKERS(c) '--'])
     line_handles(c) = plot(1:chi_values(c), included_singular_values, [MARKERS(c) '--']);
   end
 

@@ -26,6 +26,9 @@ function main
   % plot_eigenvalues_transfer_matrix
   % plot_spin_up_vs_symmetric
   % plot_free_energy
-  truncate_from_higher_chi
+  % truncate_from_higher_chi
+  % plot_singular_values
+  % data_collapse_chi2
+  correlation_boundary
 
 end

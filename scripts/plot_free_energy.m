@@ -10,7 +10,7 @@ function plot_free_energy
   diffs = free_energies - exact_free_energies;
 
   % markerplot(temperatures, [free_energies exact_free_energies]);
-  markerplot(temperatures, diffs);
+  markerplot(temperatures, free_energies);
   make_legend(chi_values, '\chi');
 
 end

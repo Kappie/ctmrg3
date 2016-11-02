@@ -1,4 +1,4 @@
-function my_export_fig(filename)
+function my_export_fig(filename, scriptname)
   full_path = fullfile(Constants.PLOTS_DIR, filename);
   export_fig(full_path);
 
@@ -13,4 +13,10 @@ function my_export_fig(filename)
   tikz_figures_path = fullfile(Constants.PLOTS_DIR, 'latex_figures', tikz_figure_filename);
   matlab2tikz(tikz_figures_path, 'height', '\fheight', 'width', '\fwidth');
   % matlab2tikz(tikz_figures_path);
+
+  % also save a copy of the script that generated the plot,
+  % for reproducibility later.
+  script_backup_dir = fullfile(Constants.PLOTS_DIR, 'matlab_scripts');
+  script_path = fullfile(Constants.BASE_DIR, 'scripts', scriptname);
+  copyfile(script_path, script_backup_dir);
 end
