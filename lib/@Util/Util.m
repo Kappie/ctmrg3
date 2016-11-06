@@ -105,5 +105,29 @@ classdef Util
     function error = abs_relative_error(true_value, estimate)
       error  = abs( Util.relative_error(true_value, estimate) );
     end
+
+    function [M, largest_element] = scale_by_largest_element(M)
+      largest_element = max(M(:));
+      M = M / largest_element;
+    end
+
+    function s = scale_singular_values(singular_values)
+      s = singular_values / sum(singular_values);
+    end
+
+    function C = symmetrize_C(C)
+      C = Util.symmetrize(C);
+    end
+
+    function T = symmetrize_T(T)
+      % Why do we not symmetrize in the physical dimension?
+      % Squeeze deletes the singleton dimension to obtain a chi x chi matrix.
+      T(1,:,:) = Util.symmetrize(squeeze(T(1,:,:)));
+      T(2,:,:) = Util.symmetrize(squeeze(T(2,:,:)));
+    end
+
+    function m = symmetrize(m)
+      m = triu(m) + triu(m, 1)';
+    end
   end
 end

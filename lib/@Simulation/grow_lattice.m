@@ -19,32 +19,9 @@ function [C, T, singular_values, truncation_error, full_singular_values] = grow_
 
   % Scale elements to prevent values from diverging when performing numerous growth steps.
   % Resymmetrize to prevent numerical errors adding up to unsymmetrize tensors.
-  C = scale_by_largest_element(C);
-  C = symmetrize_C(C);
-  T = scale_by_largest_element(T);
-  T = symmetrize_T(T);
-  singular_values = scale_singular_values(diag(s));
-end
-
-function M = scale_by_largest_element(M)
-  M = M / max(M(:));
-end
-
-function s = scale_singular_values(singular_values)
-  s = singular_values / sum(singular_values);
-end
-
-function C = symmetrize_C(C)
-  C = symmetrize(C);
-end
-
-function T = symmetrize_T(T)
-  % Why do we not symmetrize in the physical dimension?
-  % Squeeze deletes the singleton dimension to obtain a chi x chi matrix.
-  T(1,:,:) = symmetrize(squeeze(T(1,:,:)));
-  T(2,:,:) = symmetrize(squeeze(T(2,:,:)));
-end
-
-function m = symmetrize(m)
-  m = triu(m) + triu(m, 1)';
+  C = Util.scale_by_largest_element(C);
+  C = Util.symmetrize_C(C);
+  T = Util.scale_by_largest_element(T);
+  T = Util.symmetrize_T(T);
+  singular_values = Util.scale_singular_values(diag(s));
 end

@@ -1,9 +1,9 @@
 function correlation_boundary
   width = 0.1;
   % temperatures = [Constants.T_crit + width/10, Constants.T_crit + width];
-  temperatures = [Constants.T_crit + 0.001];
-  chi_values = [4];
-  steps = 3000;
+  temperatures = [Constants.T_crit + width];
+  chi_values = [16];
+  steps = 100;
 
   magnetizations = zeros(numel(temperatures), numel(chi_values), steps);
   sim = FixedNSimulation([], [], []);
@@ -19,6 +19,6 @@ function correlation_boundary
     end
   end
 
-  plot(1:steps, squeeze(magnetizations))
+  semilogy(1:steps, squeeze(magnetizations))
   % xlabel()
 end

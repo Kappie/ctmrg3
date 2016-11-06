@@ -29,6 +29,7 @@ function main
   % truncate_from_higher_chi
   % plot_singular_values
   % data_collapse_chi2
-  correlation_boundary
+  % correlation_boundary
+  correlation_function
 
 end
