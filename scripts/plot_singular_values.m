@@ -3,9 +3,9 @@ function plot_singular_values
   % temperatures = [Constants.T_crit + width, Constants.T_crit + width/10, Constants.T_crit + width/100];
   % temperatures = [Constants.T_crit - width, Constants.T_crit - width/10, Constants.T_crit + width, Constants.T_crit + width/10];
   % temperatures = Constants.T_crit - width;
-  temperatures = Constants.inverse_reduced_Ts(0.01);
-  chi_values = [80 120];
-  tolerance = 1e-9;
+  temperatures = Constants.inverse_reduced_Ts(0.00);
+  chi_values = [10 12];
+  tolerance = 1e-8;
 
   sim = FixedToleranceSimulation(temperatures, chi_values, tolerance).run();
   tensors = sim.tensors;
@@ -38,7 +38,7 @@ function plot_singular_values
   markerplot(1:min(chi_values), diffs, 'none')
   hline(0,'-')
   xlabel('$i$')
-  ylabel('$C_i^{80} - C_i^{120}$')
+  ylabel('$C_i^{10} - C_i^{12}$')
 end
 
 function [groups, step_numbers] = partition(singular_values)
