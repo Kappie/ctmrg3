@@ -30,12 +30,13 @@ function main
   % data_collapse_chi2
   % correlation_boundary
   % correlation_boundary2
-  correlation_function
+  % correlation_function
+  % netcon_test
   % plot_magnetization
 
   % compare_correlation_lengths
   % plot_chi_vs_m
-  % benchmark
+  benchmark
 
   % sim = FixedNSimulation(Constants.T_crit, 4, 50);
   % sim.LOAD_FROM_DB = false; sim.SAVE_TO_DB = false;

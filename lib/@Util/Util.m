@@ -142,8 +142,14 @@ classdef Util
       % Final order is specified so that the new tensor is ordered according to
       % [d, chi, d, chi], with the pairs of d, chi corresponding to what will be the reshaped
       % legs of the new C.
-      C = ncon({C, T, T, a}, {[1, 2], [3, 1, -1], [4, 2, -2], [3, -3, -4, 4]}, ...
-      [1, 2, 3, 4], [-3 -1 -4 -2]);
+
+      % OLD
+      % C = ncon({C, T, T, a}, {[1, 2], [3, 1, -1], [4, 2, -2], [3, -3, -4, 4]}, ...
+      % [1, 2, 3, 4], [-3 -1 -4 -2]);
+
+      % optimal sequence comes from netcon
+      sequence = [2 3 1 4];
+      C = ncon({a, T, C, T}, {[-1 1 4 -3], [1 2 -2], [2 3], [4 3 -4]}, sequence);
     end
 
     function T = grow_T(T, a)
@@ -161,13 +167,19 @@ classdef Util
       % to attach U first, so that U.U_transpose becomes a unity in the relevant
       % subspace when we construct the lattice later.
       % TODO: Why are U and U_transpose the same after the first step?
-      T = ncon({T, U, U_transpose}, {[1 2 3 4 -1], [1 2 -2], [3 4 -3]});
+      % sequence = [1 4 2 3];
+      T = ncon({T, U, U_transpose}, {[2 3 1 4 -1], [2 3 -2], [1 4 -3]}, [1 4 2 3]);
+      % OLD
+      % T = ncon({T, U, U_transpose}, {[1 2 3 4 -1], [1 2 -2], [3 4 -3]});
     end
 
     function [C, T, singular_values, truncation_error, full_singular_values, U, U_transpose] = grow_lattice(chi, a, C, T)
       C = Util.grow_C(C, T, a);
       [U, s, U_transpose, truncation_error, full_singular_values] = tensorsvd(C, [1 2], [3 4], chi, 'n');
-      C = Util.truncate_C(C, U, U_transpose);
+      % We don't have to do this step:
+      % C = Util.truncate_C(C, U, U_transpose);
+      % This is equivalent:
+      C = s;
 
       T = Util.grow_T(T, a);
       T = Util.truncate_T(T, U, U_transpose);
