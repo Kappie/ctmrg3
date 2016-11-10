@@ -1,37 +1,41 @@
 function truncate_from_higher_chi
   width = 0.005;
   number_of_points = 19;
-  temperatures = Util.linspace_around_T_crit(width, number_of_points);
-  % temperatures = [Constants.T_crit];
-  chi_max = 48;
-  chi_lower = 8;
+  % temperatures = Util.linspace_around_T_crit(width, number_of_points);
+  temperatures = [Constants.T_crit];
+  chi_max = 12;
+  chi_lower = 10;
   extra_steps = 400;
-  tolerances = [1e-7];
+  tolerances = [1e-8];
 
   %%% calculate m from truncated tensors.
-  sim_chi_max = FixedToleranceSimulation(temperatures, [chi_max], tolerances).run();
+  sim_chi_max = FixedToleranceSimulation(temperatures, chi_max, tolerances).run();
   order_params_chi_max = sim_chi_max.compute(OrderParameter);
-  correlation_lengths_chi_max = sim_chi_max.compute(CorrelationLength);
+  correlation_lengths_chi_max = sim_chi_max.compute(CorrelationLength2);
 
   sim_truncated = sim_chi_max.truncate_tensors_to_lower_chi(chi_lower, 1);
   order_params_truncated = sim_truncated.compute(OrderParameter);
   free_energy_truncated = sim_truncated.compute(FreeEnergy);
-  correlation_lengths_truncated = sim_truncated.compute(CorrelationLength);
+  correlation_lengths_truncated = sim_truncated.compute(CorrelationLength2);
 
-  sim_truncated_plus_extra_steps = sim_chi_max.truncate_tensors_to_lower_chi(chi_lower, extra_steps);
-  order_params_truncated_plus_extra_steps = sim_truncated_plus_extra_steps.compute(OrderParameter);
-  free_energy_truncated_plus_extra_steps = sim_truncated_plus_extra_steps.compute(FreeEnergy);
-  correlation_lengths_truncated_plus_extra_steps = sim_truncated_plus_extra_steps.compute(CorrelationLength);
+  % sim_truncated_plus_extra_steps = sim_chi_max.truncate_tensors_to_lower_chi(chi_lower, extra_steps);
+  % order_params_truncated_plus_extra_steps = sim_truncated_plus_extra_steps.compute(OrderParameter);
+  % free_energy_truncated_plus_extra_steps = sim_truncated_plus_extra_steps.compute(FreeEnergy);
+  % correlation_lengths_truncated_plus_extra_steps = sim_truncated_plus_extra_steps.compute(CorrelationLength2);
 
   %%% calculate m from regularly converged tensors
   sim = FixedToleranceSimulation(temperatures, [chi_lower], tolerances).run();
   order_params = sim.compute(OrderParameter);
   free_energy = sim.compute(FreeEnergy);
-  correlation_lengths = sim.compute(CorrelationLength);
+  correlation_lengths = sim.compute(CorrelationLength2);
 
-  markerplot(temperatures, [correlation_lengths_chi_max correlation_lengths_truncated correlation_lengths_truncated_plus_extra_steps correlation_lengths])
+  free_energy
+  free_energy_truncated
+  free_energy_truncated - free_energy
 
-  legend({'chi max', 'truncated', 'truncated + extra steps'}, 'Location', 'best')
+  % markerplot(temperatures, [correlation_lengths_chi_max correlation_lengths_truncated correlation_lengths_truncated_plus_extra_steps correlation_lengths])
+
+  % legend({'chi max', 'truncated', 'truncated + extra steps'}, 'Location', 'best')
 
   % subplot(2, 1, 1)
   % order_params_truncated

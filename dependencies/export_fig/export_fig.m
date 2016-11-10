@@ -256,8 +256,10 @@ function [imageData, alpha] = export_fig(varargin)
     fig = get(0, 'CurrentFigure');
     [fig, options] = parse_args(nargout, fig, varargin{:});
 
-    % Hard coded by Geert. There's no fucking way to make the function call work... 
+    % Hard coded by Geert. There's no fucking way to make the function call work...
     options.transparent = true;
+    options.pdf = true;
+    options.png = false;
 
     % Ensure that we have a figure handle
     if isequal(fig,-1)

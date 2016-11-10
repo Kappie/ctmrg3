@@ -7,7 +7,11 @@ classdef CorrelationLength < Quantity
       % reshape into 2chi^2 x 2chi^2 matrix
       [transfer_matrix, ~, ~] = lreshape(transfer_matrix, [1 2 3], [4 5 6]);
 
+      % Degeneracies? Seems to be fine.
       eigenvalues = sort(eigs(transfer_matrix, 2), 'descend');
+      if IsNear(eigenvalues(1), eigenvalues(2), 1e-10)
+        warning(['degenerate largest eigenvalue of transfer matrix for T = ' num2str(temperature)])
+      end
       value = 1 / log(eigenvalues(1) / eigenvalues(2));
     end
   end

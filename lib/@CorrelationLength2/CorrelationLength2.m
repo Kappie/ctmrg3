@@ -21,7 +21,10 @@ classdef CorrelationLength2 < Quantity
 
 
 
-      eigenvalues = eigs(transfer_matrix, 2);
+      eigenvalues = sort(eigs(transfer_matrix, 2), 'descend');
+      if IsNear(eigenvalues(1), eigenvalues(2), 1e-10)
+        warning(['degenerate largest eigenvalue of transfer matrix for T = ' num2str(temperature)])
+      end
       value = 1 / log(eigenvalues(1) / eigenvalues(2));
     end
   end

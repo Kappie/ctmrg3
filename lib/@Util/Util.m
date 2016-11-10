@@ -98,6 +98,11 @@ classdef Util
       Ts = linspace_around(Constants.T_crit, width, number_of_points);
     end
 
+    function Ts = linspace_around_t(width, number_of_points)
+      reduced_temperatures = linspace_around(0, width, number_of_points);
+      Ts = Constants.inverse_reduced_Ts(reduced_temperatures);
+    end
+
     function error = relative_error(true_value, estimate)
       error = (estimate - true_value) ./ true_value;
     end
@@ -112,7 +117,9 @@ classdef Util
     end
 
     function s = scale_singular_values(singular_values)
-      s = singular_values / sum(singular_values);
+      % s = singular_values / sum(singular_values);
+      s = singular_values / norm(singular_values);
+
     end
 
     function C = symmetrize_C(C)
@@ -128,6 +135,44 @@ classdef Util
 
     function m = symmetrize(m)
       m = triu(m) + triu(m, 1)';
+    end
+
+    function C = grow_C(C, T, a)
+      % Final order is specified so that the new tensor is ordered according to
+      % [d, chi, d, chi], with the pairs of d, chi corresponding to what will be the reshaped
+      % legs of the new C.
+      C = ncon({C, T, T, a}, {[1, 2], [3, 1, -1], [4, 2, -2], [3, -3, -4, 4]}, ...
+      [1, 2, 3, 4], [-3 -1 -4 -2]);
+    end
+
+    function T = grow_T(T, a)
+      % Again, final order is chosen such that we have [d, chi, d, chi, d], i.e.
+      % left legs, right legs, middle physical leg.
+      T = ncon({T, a}, {[1 -2 -4], [1 -1 -5 -3]});
+    end
+
+    function C = truncate_C(C, U, U_transpose)
+      C = ncon({C, U_transpose, U}, {[1 2 3 4], [1 2 -1], [3 4 -2]});
+    end
+
+    function T = truncate_T(T, U, U_transpose)
+      % Again, keeping only chi most relevant eigenvectors, and being careful
+      % to attach U first, so that U.U_transpose becomes a unity in the relevant
+      % subspace when we construct the lattice later.
+      % TODO: Why are U and U_transpose the same after the first step?
+      T = ncon({T, U, U_transpose}, {[1 2 3 4 -1], [1 2 -2], [3 4 -3]});
+    end
+
+    function [C, T, singular_values, truncation_error, full_singular_values, U, U_transpose] = grow_lattice(temperature, chi, C, T)
+      a = Util.construct_a(temperature);
+
+      C = Util.grow_C(C, T, a);
+      [U, s, U_transpose, truncation_error, full_singular_values] = tensorsvd(C, [1 2], [3 4], chi, 'n');
+      C = Util.truncate_C(C, U, U_transpose);
+
+      T = Util.grow_T(T, a);
+      T = Util.truncate_T(T, U, U_transpose);
+      singular_values = Util.scale_singular_values(diag(s));
     end
   end
 end

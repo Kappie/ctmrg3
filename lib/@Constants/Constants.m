@@ -37,6 +37,10 @@ classdef Constants
       ts = arrayfun(@Constants.reduced_T, temperatures);
     end
 
+    function Ts = inverse_reduced_Ts(reduced_ts)
+      Ts = Constants.T_crit * reduced_ts + Constants.T_crit;
+    end
+
     function k = kappa()
       c = 1/2;
       k = 6 / (c*(1 + sqrt(12/c)));

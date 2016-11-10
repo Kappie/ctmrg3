@@ -1,26 +1,44 @@
 function plot_singular_values
   width = 0.0001;
   % temperatures = [Constants.T_crit + width, Constants.T_crit + width/10, Constants.T_crit + width/100];
-  temperatures = [Constants.T_crit - width, Constants.T_crit - width/10, Constants.T_crit + width, Constants.T_crit + width/10];
+  % temperatures = [Constants.T_crit - width, Constants.T_crit - width/10, Constants.T_crit + width, Constants.T_crit + width/10];
   % temperatures = Constants.T_crit - width;
-  chi = 120;
-  tolerance = 1e-8;
+  temperatures = Constants.inverse_reduced_Ts(0.01);
+  chi_values = [80 120];
+  tolerance = 1e-9;
 
-  sim = FixedToleranceSimulation(temperatures, chi, tolerance).run();
+  sim = FixedToleranceSimulation(temperatures, chi_values, tolerance).run();
   tensors = sim.tensors;
-  singular_values = zeros(numel(temperatures), chi);
+  singular_values = zeros(numel(chi_values), max(chi_values));
+
   for t = 1:numel(temperatures)
-    [~, ~, singular_values_t, ~, ~] = sim.grow_lattice(temperatures(t), ...
-      chi, tensors(t).C, tensors(t).T);
-    singular_values(t, :) = singular_values_t;
+    for c = 1:numel(chi_values)
+      [~, ~, singular_values_chi, ~, ~] = sim.grow_lattice(temperatures(t), ...
+        chi_values(c), tensors(t, c).C, tensors(t, c).T);
+        % plot(1:chi_values(c), singular_values, 'marker', MARKERS(c), 'LineStyle', '--')
+      singular_values(c, 1:chi_values(c)) = singular_values_chi;
+    end
   end
 
   [groups, step_numbers] = partition(singular_values(1,:))
 
-  markerplot(1:chi, singular_values, 'none', 'semilogy')
-  make_legend(Constants.reduced_Ts(temperatures), 't')
+
+  subplot(2, 1, 1)
+  markerplot(1:max(chi_values), singular_values, 'none', 'semilogy')
+  % make_legend(Constants.reduced_Ts(temperatures), 't')
+  make_legend(chi_values, '\chi')
   xlabel('$i$')
   ylabel('$C_i$')
+
+  subplot(2, 1, 2)
+  diffs = singular_values(1, 1:min(chi_values)) - singular_values(2, 1:min(chi_values));
+  % Is normalization sum(s) = 1 OK?
+  sum(singular_values(1,:).^2)
+  sum(singular_values(2,:).^2)
+  markerplot(1:min(chi_values), diffs, 'none')
+  hline(0,'-')
+  xlabel('$i$')
+  ylabel('$C_i^{80} - C_i^{120}$')
 end
 
 function [groups, step_numbers] = partition(singular_values)

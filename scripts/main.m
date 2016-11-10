@@ -15,7 +15,6 @@ function main
   % calculate_kappa
   % data_collapse_chi_power_law
   % plot_N_vs_chi
-  % plot_chi_vs_m
   % plot_tolerance
   % measure_corr_length
   % plot_ctm
@@ -27,9 +26,19 @@ function main
   % plot_spin_up_vs_symmetric
   % plot_free_energy
   % truncate_from_higher_chi
-  % plot_singular_values
+  plot_singular_values
   % data_collapse_chi2
   % correlation_boundary
-  correlation_function
+  % correlation_boundary2
+  % correlation_function
+  % plot_magnetization
+
+  % compare_correlation_lengths
+  % plot_chi_vs_m
+
+  % sim = FixedNSimulation(Constants.T_crit, 4, 50);
+  % sim.LOAD_FROM_DB = false; sim.SAVE_TO_DB = false;
+  % sim = sim.run()
+
 
 end

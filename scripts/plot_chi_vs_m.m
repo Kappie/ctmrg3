@@ -1,14 +1,14 @@
 function plot_chi_vs_m
   temperatures = [Constants.T_crit];
-  chi_values = 10:2:20;
-  N_values = [1000, 5000, 10000];
+  chi_values = [4 6 8 10 12];
+  tolerance = 1e-7;
 
-  sim = FixedNSimulation(temperatures, chi_values, N_values).run();
+  sim = FixedToleranceSimulation(temperatures, chi_values, tolerance).run();
   order_parameters = sim.compute(OrderParameter)
 
-  beta = 1/8; nu = 1; kappa = Constants.kappa;
-  markerplot(chi_values.^(-beta*nu/kappa), order_parameters);
-  make_legend(N_values, 'N')
-  xlabel('$\chi^{-\frac{\kappa \beta}{\nu}}$')
-  ylabel('$|m|$')
+  beta = 1/8; nu = 1;
+  markerplot(chi_values, order_parameters.^(-nu/beta), '--', 'loglog')
+  % make_legend(N_values, 'N')
+  % xlabel('$\chi^{-\frac{\kappa \beta}{\nu}}$')
+  % ylabel('$|m|$')
 end
