@@ -12,6 +12,7 @@ classdef (Abstract) Simulation
     N_values;
     tolerances;
     tensors;
+    a_tensors;
     initial_condition = 'spin-up';
   end
 
@@ -21,6 +22,8 @@ classdef (Abstract) Simulation
       obj.chi_values   = chi_values;
       % create empty array of structs that I can fill with C, T tensors.
       obj.tensors = struct('C', {}, 'T', {});
+      % precalculate a-tensors for each temperature
+      obj = obj.calculate_a_tensors;
     end
 
     function obj = after_initialization(obj)
@@ -44,7 +47,7 @@ classdef (Abstract) Simulation
   methods(Static)
     % I put grow_lattice in a separate file grow_lattice.m with helper functions, so I have
     % to declare it here in order to make it Static (otherwise it would be public).
-    [C, T, singular_values, truncation_error, full_singular_values] = grow_lattice(temperature, chi, C, T);
+    % [C, T, singular_values, truncation_error, full_singular_values] = grow_lattice(temperature, chi, C, T);
 
     function s = initial_singular_values(chi)
       s = ones(chi, 1) / chi;

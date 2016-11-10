@@ -27,3 +27,6 @@ set(0, 'DefaultAxesLineWidth', 0.75);
 % set(0, 'DefaultLegendColor', 'none');
 % set(0, 'DefaultAxesFontWeight', 'bold')
 format long;
+
+global ncon_skipCheckInputs;
+ncon_skipCheckInputs = false;

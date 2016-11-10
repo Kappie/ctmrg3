@@ -1,6 +1,6 @@
-function [C, T, singular_values, truncation_error, full_singular_values] = grow_lattice(temperature, chi, C, T)
+function [C, T, singular_values, truncation_error, full_singular_values] = grow_lattice(obj, chi, a, C, T)
     [C, T, singular_values, truncation_error, full_singular_values, U, U_transpose] = ...
-      Util.grow_lattice(temperature, chi, C, T);
+      Util.grow_lattice(chi, a, C, T);
 
   % Scale elements to prevent values from diverging when performing numerous growth steps.
   % Resymmetrize to prevent numerical errors adding up to unsymmetrize tensors.

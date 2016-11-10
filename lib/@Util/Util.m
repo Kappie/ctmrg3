@@ -164,9 +164,7 @@ classdef Util
       T = ncon({T, U, U_transpose}, {[1 2 3 4 -1], [1 2 -2], [3 4 -3]});
     end
 
-    function [C, T, singular_values, truncation_error, full_singular_values, U, U_transpose] = grow_lattice(temperature, chi, C, T)
-      a = Util.construct_a(temperature);
-
+    function [C, T, singular_values, truncation_error, full_singular_values, U, U_transpose] = grow_lattice(chi, a, C, T)
       C = Util.grow_C(C, T, a);
       [U, s, U_transpose, truncation_error, full_singular_values] = tensorsvd(C, [1 2], [3 4], chi, 'n');
       C = Util.truncate_C(C, U, U_transpose);

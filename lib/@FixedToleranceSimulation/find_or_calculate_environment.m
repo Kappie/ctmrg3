@@ -14,9 +14,13 @@ function tensor_struct = find_or_calculate_environment(obj, temperature, chi, to
     'WHERE temperature = ? AND chi = ? AND convergence >= ? AND initial = ?' ...
     'ORDER BY convergence ASC ' ...
     'LIMIT 1'];
-  query_result = sqlite3.execute(obj.db_id, query, temperature, chi, tolerance, obj.initial_condition);
+  if obj.LOAD_FROM_DB
+    query_result = sqlite3.execute(obj.db_id, query, temperature, chi, tolerance, obj.initial_condition);
+  else
+    query_result = [];
+  end
 
-  if isempty(query_result) || ~obj.LOAD_FROM_DB
+  if isempty(query_result)
     display('Did not find a matching record.');
     [initial_C, initial_T] = obj.initial_tensors(temperature);
     [C, T, convergence, N, converged] = obj.calculate_environment(temperature, chi, tolerance, initial_C, initial_T);

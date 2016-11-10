@@ -51,6 +51,7 @@ function correlation_function
 
   subplot(2, 1, 1)
   corr_lengths_fit = -1./slopes;
+  corr_lengths_fit ./ 2 - corr_lengths
   markerplot(chi_values, [corr_lengths_fit; corr_lengths], '--')
   hline(Constants.correlation_length(temperatures(1)), '--')
   xlabel('$\chi$')

@@ -2,6 +2,7 @@ function [C, T, convergence] = calculate_environment(obj, temperature, chi, N, i
   C = initial_C;
   T = initial_T;
   singular_values = obj.initial_singular_values(chi);
+  a = obj.a_tensors(temperature);
 
   % Temporary addition
   % convergences = zeros(1, N);
@@ -10,7 +11,7 @@ function [C, T, convergence] = calculate_environment(obj, temperature, chi, N, i
 
   for iteration = 1:N
     singular_values_old = singular_values;
-    [C, T, singular_values, truncation_error] = obj.grow_lattice(temperature, chi, C, T);
+    [C, T, singular_values, truncation_error] = obj.grow_lattice(chi, a, C, T);
 
     % Addition to inspect tolerance behaviour
     % convergences(iteration) = obj.calculate_convergence(singular_values, singular_values_old, chi);
