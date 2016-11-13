@@ -33,11 +33,10 @@ function main
   % correlation_function
   % netcon_test
   % plot_magnetization
-
+  plot_m_vs_T
   % compare_correlation_lengths
   % plot_chi_vs_m
-  benchmark
-
+  % benchmark
   % sim = FixedNSimulation(Constants.T_crit, 4, 50);
   % sim.LOAD_FROM_DB = false; sim.SAVE_TO_DB = false;
   % sim = sim.run()

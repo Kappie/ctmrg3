@@ -47,7 +47,11 @@ classdef Constants
     end
 
     function xi = correlation_length(T)
-      xi = -1 / (log(sinh(2*(1/T))));
+      if T >= Constants.T_crit
+        xi = -1 / (log(sinh(2*(1/T))));
+      else
+        error('dont know that yet');
+      end
     end
 
     function m = order_parameter(temperature)
