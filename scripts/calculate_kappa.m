@@ -1,24 +1,22 @@
 function calculate_kappa
-  temperatures = [Constants.T_crit];
-  chi_values = 4:1:46;
+  width = 0.5;
+  temperatures = [Constants.T_crit + width];
+  chi_values = 4:1:50;
   % chi_values = [6, 10, 16, 24, 34, 46, 60];
   tolerances = [1e-7];
   beta = 1/8; nu = 1;
 
   sim = FixedToleranceSimulation(temperatures, chi_values, tolerances);
-  % sim.SAVE_TO_DB = false; sim.LOAD_FROM_DB = false;
   sim = sim.run();
-  % corr_lengths = sim.compute(CorrelationLength);
-  % load('correlation_lengths_chi6-60.mat', 'corr_lengths')
-  load('correlation_lengths_chi4-46_tol1e-7.mat', 'corr_lengths')
-  % load('correlation_lengths_chi16-64.mat', 'corr_lengths')
-  % order_params = sim.compute(OrderParameter);
+  corr_lengths2 = sim.compute(CorrelationLength2);
 
-  % [total_slope1, ~] = logfit(chi_values, order_params, 'loglog')
-  [slope, intercept] = logfit(chi_values, corr_lengths, 'loglog')
+  % [graph_type, slope, intercept] = logfit(chi_values, corr_lengths2)
+  markerplot(chi_values, corr_lengths2, '--')
+  corr_lengths2
   xlabel('$\chi$')
   ylabel('$\xi(\chi)$')
-  legend({'data', ['$\kappa$ = ' num2str(total_slope2)]}, 'Location', 'best')
+  % legend({'data', ['$\kappa$ = ' num2str(slope)]}, 'Location', 'best')
+
   % xticks(chi_values)
   % slope; %    1.940045384131416
   % METHOD 1: calculate by scaling of correlation length at T_crit
@@ -42,7 +40,4 @@ function calculate_kappa
   % ylabel('$\kappa$')
   % legend_labels = {'extracted from $m$', 'extracted from $\xi$'}
   % legend(legend_labels, 'Location', 'best')
-
-
-
 end

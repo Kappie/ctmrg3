@@ -3,7 +3,7 @@ function main
 
   % plot_m_vs_chi
   % data_collapse_N
-  % data_collapse_chi
+  data_collapse_chi
   % perform_error_estimate_chi
   % plot_correlation_length
   % scaling_function_argument
@@ -33,13 +33,12 @@ function main
   % correlation_function
   % netcon_test
   % plot_magnetization
-  plot_m_vs_T
+  % plot_m_vs_T
   % compare_correlation_lengths
   % plot_chi_vs_m
   % benchmark
-  % sim = FixedNSimulation(Constants.T_crit, 4, 50);
-  % sim.LOAD_FROM_DB = false; sim.SAVE_TO_DB = false;
-  % sim = sim.run()
+  % free_energy_spin_up_symmetric
+
 
 
 end

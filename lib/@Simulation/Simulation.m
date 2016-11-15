@@ -22,8 +22,6 @@ classdef (Abstract) Simulation
       obj.chi_values   = chi_values;
       % create empty array of structs that I can fill with C, T tensors.
       obj.tensors = struct('C', {}, 'T', {});
-      % precalculate a-tensors for each temperature
-      obj = obj.calculate_a_tensors;
     end
 
     function obj = after_initialization(obj)

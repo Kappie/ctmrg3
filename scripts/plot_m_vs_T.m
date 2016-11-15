@@ -7,5 +7,4 @@ function plot_m_vs_T
   sim = FixedToleranceSimulation(temperatures, chi_values, tolerance).run();
   order_params = sim.compute(OrderParameter);
   markerplot(temperatures, order_params)
-
 end

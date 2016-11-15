@@ -1,23 +1,29 @@
 function data_collapse_chi
-  chi_values = [34, 46];
-  % x_start = 0.06; x_end = 0.3;
+  chi_values = [10 14 20 27];
+  x_start = -0.2; x_end = +0.1;
+  number_of_points = 10;
   % x_values = linspace(0.1, 0.2, 10);
-  x_values = linspace(0.06666666, 0.2, 10);
-  tolerances = [1e-9];
+  x_values = linspace(x_start, x_end, number_of_points);
+  temperatures_per_chi = 1e3;
+  tolerances = [1e-7];
+  max_x_err = 1e-3;
+  tolerance_correlation_length = 1e-7;
 
   DATABASE = fullfile(Constants.DB_DIR, 'scaling_function.db');
 
-  calculate_corresponding_temperatures(x_values, chi_values, DATABASE);
+  % calculate_corresponding_temperatures(x_values, chi_values, tolerance_correlation_length, max_x_err, DATABASE);
   % temperatures = retrieve_corresponding_temperatures(x_values, chi_values, DATABASE);
 
-  temperatures = retrieve_all_temperatures(x_start, x_end, chi_values, DATABASE);
+  temperatures = retrieve_all_temperatures(x_start, x_end, chi_values, temperatures_per_chi, DATABASE);
 
   order_parameters = containers.Map('keyType', 'double', 'valueType', 'any');
   correlation_lengths = containers.Map('keyType', 'double', 'valueType', 'any');
 
   for chi = chi_values
-    sim = FixedToleranceSimulation(temperatures(chi), [chi], tolerances).run();
-    order_parameters(chi) = sim.compute(OrderParameter);
+    sim = FixedToleranceSimulation(temperatures(chi), [chi], tolerances);
+    sim.initial_condition = 'spin-up';
+    sim = sim.run();
+    order_parameters(chi) = sim.compute(OrderParameterStrip);
     correlation_lengths(chi) = sim.compute(CorrelationLength);
   end
 
@@ -37,7 +43,7 @@ function data_collapse_chi
       temperatures_chi = temperatures(chi);
       correlation_lengths_chi = correlation_lengths(chi);
       order_parameters_chi = order_parameters(chi);
-      T_pseudocrit = Constants.T_pseudocrit(chi);
+      % T_pseudocrit = Constants.T_pseudocrit(chi);
 
       x_values = zeros(1, numel(temperatures_chi));
       scaling_function_values = zeros(1, numel(temperatures_chi));
@@ -68,25 +74,24 @@ end
 
 % find t * xi(chi, t) ^ (1/v) that equals x
 % Used for finding equally spaced values for making a nice data collapse.
-function calculate_corresponding_temperatures(x_values, chi_values, db)
+function calculate_corresponding_temperatures(x_values, chi_values, tolerance_correlation_length, max_x_err, db)
   db_id = sqlite3.open(db);
 
-  max_err = 1e-4;
   % round to 5 decimal places; the x coordinate doesn't matter to high precision
   % in a data collapse.
   x_values = arrayfun(@(x) round(x, 5), x_values);
   temperatures = zeros(1, numel(x_values));
-  width = 0.05;
+  width = 0.2;
 
   function stop = outfun(chi, temperature, optimValues, state)
-    if strcmp(state, 'done') | optimValues.fval < max_err
+    if strcmp(state, 'done') | optimValues.fval < max_x_err
       stop = true;
     elseif strcmp(state, 'init')
       stop = false;
     else
       x_value = Constants.reduced_T(temperature) * ...
-        calculate_correlation_length(temperature, chi);
-      store_to_db(x_value, temperature, chi, 0, max_err, db_id);
+        calculate_correlation_length(temperature, chi, tolerance_correlation_length);
+      store_to_db(x_value, temperature, chi, 0, max_x_err, db_id);
       stop = false;
     end
   end
@@ -101,9 +106,9 @@ function calculate_corresponding_temperatures(x_values, chi_values, db)
         display(['Already in DB: ' num2str(x_values(x_index))])
         continue
       else
-        f = @(temperature) (abs(Constants.reduced_T(temperature) * calculate_correlation_length(temperature, chi_values(chi_index)) - x_values(x_index)));
+        f = @(temperature) (abs(Constants.reduced_T(temperature) * calculate_correlation_length(temperature, chi_values(chi_index), tolerance_correlation_length) - x_values(x_index)));
         [temperature, err] = fminbnd(f, Constants.T_crit - width, Constants.T_crit + width, options)
-        store_to_db(x_values(x_index), temperature, chi_values(chi_index), err, max_err, db_id)
+        store_to_db(x_values(x_index), temperature, chi_values(chi_index), err, max_x_err, db_id)
       end
     end
   end
@@ -111,9 +116,9 @@ function calculate_corresponding_temperatures(x_values, chi_values, db)
   sqlite3.close(db);
 end
 
-function store_to_db(x, temperature, chi, err, max_err, db_id)
+function store_to_db(x, temperature, chi, err, max_x_err, db_id)
   x = round(x, 5);
-  if err > max_err
+  if err > max_x_err
     fprintf(['not storing this shit: error is ', num2str(err), '.\n'])
   else
     query = 'insert into scaling_function (x, temperature, chi, error) values (?, ?, ?, ?);';
@@ -134,15 +139,14 @@ function temperatures = retrieve_corresponding_temperatures(x_values, chi_values
   end
 end
 
-function xi = calculate_correlation_length(temperature, chi)
+function xi = calculate_correlation_length(temperature, chi, tolerance)
   if temperature < 0
     xi = 0;
   elseif temperature > 20
     error('hou maar op')
   else
-    tolerance = 1e-7;
-    sim = FixedToleranceSimulation([temperature], [chi], [tolerance]).run();
-    xi = sim.compute(CorrelationLength);
+    sim = FixedToleranceSimulation(temperature, chi, tolerance).run();
+    xi = sim.compute(CorrelationLength2);
   end
 end
 
@@ -152,16 +156,30 @@ function result = query_db(x, chi, db_id)
   result = sqlite3.execute(db_id, query, x, chi);
 end
 
-function temperatures = retrieve_all_temperatures(x_start, x_end, chi_values, db)
+function temperatures = retrieve_all_temperatures(x_start, x_end, chi_values, temperatures_per_chi, db)
   db_id = sqlite3.open(db);
   temperatures = containers.Map('KeyType', 'double', 'ValueType', 'any');
 
   for c = 1:numel(chi_values)
-    query = ['select temperature from scaling_function ' ...
+    query = ['select x, temperature from scaling_function ' ...
       'where x >= ? and x <= ? ' ...
       'and chi = ?;'];
     result = sqlite3.execute(db_id, query, x_start, x_end, chi_values(c));
     temps = arrayfun(@(s) s.temperature, result);
+    x_values = arrayfun(@(s) s.x, result);
+    % thin out, in order to not get too much temperatures (takes longer to simulate and curve is already clear.)
+    step_size = ceil(numel(temps) / temperatures_per_chi);
+    temps = temps(1:step_size:end);
+    temperature_width = 0.001;
+    temps = keep(temps, @(T) T > Constants.T_crit - temperature_width & T < Constants.T_crit + temperature_width);
+    if isempty(temps)
+      display(['no temperatures for temperature width = ' num2str(temperature_width) ' and chi = ' num2str(chi_values(c))])
+    end
     temperatures(chi_values(c)) = temps;
   end
+end
+
+function array = keep(array, p)
+  indices_to_keep = p(array);
+  array = array(indices_to_keep);
 end

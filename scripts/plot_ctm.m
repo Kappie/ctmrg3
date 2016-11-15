@@ -1,13 +1,14 @@
 function plot_ctm
   width = 0.1;
   temperatures = [Constants.T_crit + width];
-  chi_values = [120];
+  chi_values = [10];
   tolerances = [1e-9];
 
   sim = FixedToleranceSimulation(temperatures, chi_values, tolerances);
   % sim.LOAD_FROM_DB = false; sim.SAVE_TO_DB = false;
   sim = sim.run();
   tensors = sim.tensors;
+  a = sim.a_tensors(temperatures(1));
 
   figure
   hold on
@@ -16,7 +17,7 @@ function plot_ctm
 
   for c = 1:numel(chi_values)
     [C, T, singular_values, truncation_error, full_singular_values] = sim.grow_lattice( ...
-      temperatures(1), chi_values(c), tensors(c).C, tensors(c).T);
+      chi_values(c), a, tensors(c).C, tensors(c).T);
     included_singular_values = full_singular_values(1:chi_values(c));
     thrown_away_singular_values = full_singular_values(chi_values(c) + 1:end)
     % plot(chi_values(c)+1:2*chi_values(c), thrown_away_singular_values, [MARKERS(c) '--'])
