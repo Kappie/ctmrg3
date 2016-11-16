@@ -3,7 +3,7 @@ function main
 
   % plot_m_vs_chi
   % data_collapse_N
-  data_collapse_chi
+  % data_collapse_chi
   % perform_error_estimate_chi
   % plot_correlation_length
   % scaling_function_argument
@@ -38,6 +38,8 @@ function main
   % plot_chi_vs_m
   % benchmark
   % free_energy_spin_up_symmetric
+
+  test_afun
 
 
 

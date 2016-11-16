@@ -1,17 +1,17 @@
 function data_collapse_chi
-  chi_values = [10 14 20 27];
+  chi_values = [32 37];
   x_start = -0.2; x_end = +0.1;
   number_of_points = 10;
   % x_values = linspace(0.1, 0.2, 10);
   x_values = linspace(x_start, x_end, number_of_points);
   temperatures_per_chi = 1e3;
-  tolerances = [1e-7];
+  tolerances = [1e-8];
   max_x_err = 1e-3;
-  tolerance_correlation_length = 1e-7;
+  tolerance_correlation_length = 1e-6;
 
   DATABASE = fullfile(Constants.DB_DIR, 'scaling_function.db');
 
-  % calculate_corresponding_temperatures(x_values, chi_values, tolerance_correlation_length, max_x_err, DATABASE);
+  calculate_corresponding_temperatures(x_values, chi_values, tolerance_correlation_length, max_x_err, DATABASE);
   % temperatures = retrieve_corresponding_temperatures(x_values, chi_values, DATABASE);
 
   temperatures = retrieve_all_temperatures(x_start, x_end, chi_values, temperatures_per_chi, DATABASE);
@@ -81,7 +81,7 @@ function calculate_corresponding_temperatures(x_values, chi_values, tolerance_co
   % in a data collapse.
   x_values = arrayfun(@(x) round(x, 5), x_values);
   temperatures = zeros(1, numel(x_values));
-  width = 0.2;
+  width = 0.05;
 
   function stop = outfun(chi, temperature, optimValues, state)
     if strcmp(state, 'done') | optimValues.fval < max_x_err

@@ -185,5 +185,18 @@ classdef Util
       T = Util.truncate_T(T, U, U_transpose);
       singular_values = Util.scale_singular_values(diag(s));
     end
+
+    function transfer_matrix = construct_transfer_matrix2(T)
+      transfer_matrix = ncon({T, T}, {[1 -1 -3], [1 -2 -4]});
+      transfer_matrix = lreshape(transfer_matrix, [1 2], [3 4]);
+    end
+
+    function x = multiply_by_transfer_matrix(a, T, x)
+      chi = size(T, 2);
+      x = reshape(x, chi, 2, chi);
+      % best sequence: 2 1 3 4 5
+      x = ncon({T, a, T, x}, {[1 -1 2], [1 3 4 -2], [4 5 -3], [2 3 5]}, [2 1 3 4 5]);
+      x = x(:);
+    end
   end
 end

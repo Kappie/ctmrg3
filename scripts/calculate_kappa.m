@@ -15,6 +15,7 @@ function calculate_kappa
   corr_lengths2
   xlabel('$\chi$')
   ylabel('$\xi(\chi)$')
+  title(['$T = T_c + ' num2str(width) '$'])
   % legend({'data', ['$\kappa$ = ' num2str(slope)]}, 'Location', 'best')
 
   % xticks(chi_values)
