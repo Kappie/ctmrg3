@@ -198,5 +198,23 @@ classdef Util
       x = ncon({T, a, T, x}, {[1 -1 2], [1 3 4 -2], [4 5 -3], [2 3 5]}, [2 1 3 4 5]);
       x = x(:);
     end
+
+    function [eigenvectors, eigenvalues] = largest_eigenvalues_transfer_matrix(a, T, number_of_eigenvalues)
+      % Diagonalize using a custom function to multiply T*x
+      chi = size(T, 2);
+      transfer_matrix_size = 2 * chi * chi;
+
+      function x = multiply_by_transfer_matrix(x)
+        x = Util.multiply_by_transfer_matrix(a, T, x);
+      end
+
+      [eigenvectors, diagonal] = eigs(@multiply_by_transfer_matrix, ...
+        transfer_matrix_size, number_of_eigenvalues);
+      eigenvalues = sort(diag(diagonal), 'descend');
+
+      if IsNear(eigenvalues(1), eigenvalues(2), 1e-10)
+        warning(['degenerate largest eigenvalue of transfer matrix for T = ' num2str(temperature)])
+      end
+    end
   end
 end

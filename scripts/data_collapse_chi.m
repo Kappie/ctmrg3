@@ -24,7 +24,7 @@ function data_collapse_chi
     sim.initial_condition = 'spin-up';
     sim = sim.run();
     order_parameters(chi) = sim.compute(OrderParameterStrip);
-    correlation_lengths(chi) = sim.compute(CorrelationLength);
+    correlation_lengths(chi) = sim.compute(CorrelationLengthAfun);
   end
 
 
