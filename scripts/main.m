@@ -1,9 +1,20 @@
 function main
   rehash;
 
+  % plot_order_param_and_correlation_length
+
+  % plot_ctm
+  % data_collapse_chi
+
+  % plot_truncation_error
+
+  % data_collapse_chi_bounding_box
+  free_energy_competing_states
+
+  % mse_data_collapse
+
   % plot_m_vs_chi
   % data_collapse_N
-  data_collapse_chi
   % perform_error_estimate_chi
   % plot_correlation_length
   % scaling_function_argument
@@ -17,8 +28,6 @@ function main
   % plot_N_vs_chi
   % plot_tolerance
   % measure_corr_length
-  % plot_ctm
-  % plot_truncation_error
   % scaling_coordinate
   % test_order_param_strip
   % test_order_param_strip2
@@ -38,8 +47,10 @@ function main
   % plot_chi_vs_m
   % benchmark
   % free_energy_spin_up_symmetric
+  % plot_spectrum_T_ball
 
   % test_afun
+  % debug_order_param_strip
 
 
 

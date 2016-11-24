@@ -1,30 +1,36 @@
 function plot_order_parameter
-  % chi_values = [4, 6, 8, 10];
-  % tolerances = [1e-7];
-  % width = 0.02;
-  % number_of_points = 10;
-  % temperatures = linspace(Constants.T_crit - width, Constants.T_crit + width, number_of_points);
-  %
-  % sim = FixedToleranceSimulation(temperatures, chi_values, tolerances).run();
-  % order_params = sim.compute(OrderParameter);
-  %
-  % markerplot(temperatures, order_params)
-  % make_legend(chi_values, '\chi')
-  % line = vline(Constants.T_crit, '--');
-  % set(line, 'Color', 'black')
-  % xlabel('$T$')
-  % ylabel('$|m|$')
+  width = +0.10000;
+  temperature = Constants.T_crit + width;
+  t = Constants.reduced_Ts(temperature);
+  chi_values = 6:1:45;
+  tolerance = 1e-12;
+
+  exact_value = Constants.order_parameter(temperature);
+
+  sim = FixedToleranceSimulation(temperature, chi_values, tolerance);
+  sim.initial_condition = 'spin-up';
+  sim = sim.run();
+  order_params = sim.compute(OrderParameterStrip);
+  % order_params_strip = sim.compute(OrderParameterStrip);
+  % norms = sim.compute(PartitionFunction);
+  % unnormalized_order_params = norms .* order_params;
+
+  % correlation_lengths = sim.compute(CorrelationLengthAfun)
+
+  markerplot(chi_values, [abs(order_params - exact_value)], '--', 'semilogy')
+  legend({'square lattice', 'strip'}, 'Location', 'best')
+  vline(20, '--')
+  vline(30, '--')
+  vline(40, '--')
+  % legend({'norm', 'unnormalized $m$'}, 'Location', 'best')
+  xlabel('$\chi$')
+  ylabel('$m$')
+  title(['$t = ' num2str(t) '$'])
+  % diffs = order_params_strip - exact_value;
+  % [chi_values' diffs']
 
 
-  % chi_values = [32];
-  % N_values = [200, 400, 600, 800];
-  % sim = FixedNSimulation(temperatures, chi_values, N_values).run();
-  % order_params = sim.compute(OrderParameter);
-  %
-  % markerplot(temperatures, order_params)
-  % make_legend(N_values, 'N')
-  % line = vline(Constants.T_crit, '--');
-  % set(line, 'Color', 'black')
-  % xlabel('$T$')
-  % ylabel('$|m|$')
+
+  % [order_params' correlation_lengths' chi_values']
+
 end

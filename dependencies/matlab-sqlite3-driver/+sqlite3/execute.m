@@ -27,4 +27,5 @@ function results = execute(varargin)
                           varargin{2}, ...
                           varargin(3:end));
   end
+  fclose('all');
 end

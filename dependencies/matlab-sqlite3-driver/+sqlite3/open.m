@@ -35,4 +35,5 @@ function database = open(filename, varargin)
 %
 % See also sqlite3.close sqlite3.execute
   database = libsqlite3_('open', filename, varargin{:});
+  fclose('all');
 end

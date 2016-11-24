@@ -4,11 +4,6 @@ function tensor_struct = find_or_calculate_environment(obj, temperature, chi, to
   % I do not simulate again.
   % If I find a record with matching temperature and chi and higher tolerance
   % I select the C, T from that record to use as initial C, T for the new simulation.
-  fprintf(['searching database for: \n' ...
-    'temperature = ' num2str(temperature) ...
-    ', chi = ' num2str(chi) ...
-    ', convergence = ' num2str(tolerance) '\n'])
-
   query = ['SELECT * ' ...
     'FROM tensors ' ...
     'WHERE temperature = ? AND chi = ? AND convergence >= ? AND initial = ?' ...
@@ -21,13 +16,11 @@ function tensor_struct = find_or_calculate_environment(obj, temperature, chi, to
   end
 
   if isempty(query_result)
-    display('Did not find a matching record.');
     [initial_C, initial_T] = obj.initial_tensors(temperature);
     [C, T, convergence, N, converged] = obj.calculate_environment(temperature, chi, tolerance, initial_C, initial_T);
     simulated = true;
   else
     if query_result.chi == chi & query_result.convergence == tolerance
-      display('Found a matching record.')
       [C, T] = Util.deserialize_tensors(query_result);
       simulated = false;
     else

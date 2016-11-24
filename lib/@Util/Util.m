@@ -104,7 +104,7 @@ classdef Util
     end
 
     function error = relative_error(true_value, estimate)
-      error = (estimate - true_value) ./ true_value;
+      error = (estimate - true_value) ./ abs(true_value);
     end
 
     function error = abs_relative_error(true_value, estimate)
@@ -191,6 +191,22 @@ classdef Util
       transfer_matrix = lreshape(transfer_matrix, [1 2], [3 4]);
     end
 
+    function transfer_matrix = construct_transfer_matrix(a, T)
+      % Construct T - a - T
+      transfer_matrix = ncon({T, a, T}, {[1 -1 -4], [1 -2 2 -5], [2 -3 -6]});
+
+      % reshape into 2chi^2 x 2chi^2 matrix
+      [transfer_matrix, ~, ~] = lreshape(transfer_matrix, [1 2 3], [4 5 6]);
+    end
+
+    function T_ball = construct_T_ball(b, T)
+      % represents T - b - T, where represents summation over spin config
+      % times spin eigenvalue on a site.
+      T_ball = ncon({T, b, T}, {[1 -1 -4], [1 -2 2 -5], [2 -3 -6]});
+      % reshape into 2chi^2 x 2chi^2 matrix
+      [T_ball, ~, ~] = lreshape(T_ball, [1 2 3], [4 5 6]);
+    end
+
     function x = multiply_by_transfer_matrix(a, T, x)
       chi = size(T, 2);
       x = reshape(x, chi, 2, chi);
@@ -212,8 +228,10 @@ classdef Util
         transfer_matrix_size, number_of_eigenvalues);
       eigenvalues = sort(diag(diagonal), 'descend');
 
-      if IsNear(eigenvalues(1), eigenvalues(2), 1e-10)
-        warning(['degenerate largest eigenvalue of transfer matrix for T = ' num2str(temperature)])
+      if number_of_eigenvalues > 1
+        if IsNear(eigenvalues(1), eigenvalues(2), 1e-10)
+          warning(['degenerate largest eigenvalue of transfer matrix for T = ' num2str(temperature)])
+        end
       end
     end
   end

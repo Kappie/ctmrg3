@@ -1,8 +1,8 @@
 function plot_ctm
   width = 0.1;
-  temperatures = [Constants.T_crit + width];
-  chi_values = [10];
-  tolerances = [1e-9];
+  temperatures = Constants.T_crit + width;
+  chi_values = 120;
+  tolerances = [1e-7];
 
   sim = FixedToleranceSimulation(temperatures, chi_values, tolerances);
   % sim.LOAD_FROM_DB = false; sim.SAVE_TO_DB = false;

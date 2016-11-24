@@ -10,5 +10,7 @@ function obj = save_to_db(obj, temperature, chi, N, convergence, C, T)
       ', N = ' num2str(N) ...
       ', convergence = ' num2str(convergence) ...
       ', initial = ' obj.initial_condition '\n'])
+    % prevent matlab from crashing? :(
+    fclose('all');
   end
 end
