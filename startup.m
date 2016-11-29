@@ -11,7 +11,7 @@ set(groot, 'defaulttextinterpreter', 'latex');
 set(gca, 'Color', 'none'); % Sets axes background
 set(gca, 'fontsize', font_size)
 
-colors = mathematica_colors('scientific');
+colors = mathematica_colors('textbook');
 % colors = brewermap(9, 'Set1');
 % colors = brewermap(8, 'Paired');
 % colors = brewermap(9, 'Purples');

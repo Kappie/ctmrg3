@@ -17,7 +17,7 @@ function tensor_struct = find_or_calculate_environment(obj, temperature, chi, to
 
   if isempty(query_result)
     [initial_C, initial_T] = obj.initial_tensors(temperature);
-    [C, T, convergence, N, converged] = obj.calculate_environment(temperature, chi, tolerance, initial_C, initial_T);
+    [C, T, convergence, N, converged, truncation_error] = obj.calculate_environment(temperature, chi, tolerance, initial_C, initial_T);
     simulated = true;
   else
     if query_result.chi == chi & query_result.convergence == tolerance

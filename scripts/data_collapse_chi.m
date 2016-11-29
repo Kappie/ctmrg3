@@ -2,10 +2,11 @@ function data_collapse_chi
   % chi_values = [23 27 32 33 42 43];
   % chi_values = [27 28 29 30 31 32];
   chi_values = [6 10 12 18 22 27 32 38];
-  x_start = -0.1; x_end = +0.1;
+  % chi_values = [6 10 12];
+  x_start = -0.10; x_end = +0.1;
   number_of_points = 5;
   x_values = linspace(x_start, x_end, number_of_points);
-  temperatures_per_chi = 30;
+  temperatures_per_chi = 1e3;
   tolerances = [1e-7];
   max_x_err = 1e-3;
   tolerance_correlation_length = 1e-6;
@@ -107,7 +108,7 @@ function calculate_corresponding_temperatures(x_values, chi_values, tolerance_co
   % in a data collapse.
   x_values = arrayfun(@(x) round(x, 5), x_values);
   temperatures = zeros(1, numel(x_values));
-  width = 0.05;
+  width = 0.20;
 
   function stop = outfun(chi, temperature, optimValues, state)
     % if strcmp(state, 'done') | optimValues.fval < max_x_err
@@ -213,7 +214,7 @@ function temperatures = retrieve_all_temperatures(x_start, x_end, chi_values, te
     % thin out, in order to not get too much temperatures (takes longer to simulate and curve is already clear.)
     step_size = ceil(numel(temps) / temperatures_per_chi);
     temps = temps(1:step_size:end);
-    temperature_width = 0.0010;
+    temperature_width = 10;
     temps = keep(temps, @(T) T > Constants.T_crit - temperature_width & T < Constants.T_crit + temperature_width);
     if isempty(temps)
       display(['no temperatures for temperature width = ' num2str(temperature_width) ' and chi = ' num2str(chi_values(c))])

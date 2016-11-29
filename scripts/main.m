@@ -1,7 +1,7 @@
 function main
   rehash;
 
-  % plot_order_param_and_correlation_length
+  magnetization_sum
 
   % plot_ctm
   % data_collapse_chi
@@ -9,9 +9,11 @@ function main
   % plot_truncation_error
 
   % data_collapse_chi_bounding_box
-  free_energy_competing_states
+  % free_energy_competing_states
 
   % mse_data_collapse
+
+  % plot_order_param_and_correlation_length
 
   % plot_m_vs_chi
   % data_collapse_N

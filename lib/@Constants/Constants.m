@@ -62,6 +62,10 @@ classdef Constants
       end
     end
 
+    function ms = order_parameters(temperatures)
+      ms = arrayfun(@Constants.order_parameter, temperatures);
+    end
+
     function f = free_energy_per_site(temperature)
       J = 1;
       k = sinh(2*(1/temperature)*J)^-2;
