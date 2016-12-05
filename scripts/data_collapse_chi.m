@@ -1,19 +1,20 @@
 function data_collapse_chi
   % chi_values = [23 27 32 33 42 43];
   % chi_values = [27 28 29 30 31 32];
-  chi_values = [6 10 12 18 22 27 32 38];
+  % chi_values = [6 10 12 18 22 27 32 38];
+  chi_values = [6 18 27 38]
   % chi_values = [6 10 12];
   x_start = -0.10; x_end = +0.1;
   number_of_points = 5;
   x_values = linspace(x_start, x_end, number_of_points);
-  temperatures_per_chi = 1e3;
+  temperatures_per_chi = 15;
   tolerances = [1e-7];
   max_x_err = 1e-3;
   tolerance_correlation_length = 1e-6;
 
   DATABASE = fullfile(Constants.DB_DIR, 'tensors.db');
 
-  calculate_corresponding_temperatures(x_values, chi_values, tolerance_correlation_length, max_x_err, DATABASE);
+  % calculate_corresponding_temperatures(x_values, chi_values, tolerance_correlation_length, max_x_err, DATABASE);
 
   temperatures = retrieve_all_temperatures(x_start, x_end, chi_values, temperatures_per_chi, DATABASE);
 

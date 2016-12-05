@@ -1,6 +1,7 @@
 addpath(genpath('./dependencies/'));
 addpath('./lib/');
 addpath('./scripts');
+addpath('./scripts/one_site_contribution/')
 
 font_size = 16;
 
@@ -29,4 +30,4 @@ set(0, 'DefaultAxesLineWidth', 0.75);
 format long;
 
 global ncon_skipCheckInputs;
-ncon_skipCheckInputs = true;
+ncon_skipCheckInputs = false;

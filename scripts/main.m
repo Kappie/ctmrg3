@@ -1,10 +1,14 @@
 function main
   rehash;
 
-  magnetization_sum
+  % compare_magnetization_sum
+  % test_binder_cumulant
+  % test_magnetization
+
+  % magnetization_sum
 
   % plot_ctm
-  % data_collapse_chi
+  data_collapse_chi
 
   % plot_truncation_error
 
