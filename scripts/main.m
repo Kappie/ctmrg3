@@ -1,6 +1,13 @@
 function main
   rehash;
 
+
+
+  % data_collapse_chi_bounding_box
+  optimize_kappa
+  % plot_m_vs_tolerance
+  % data_collapse_chi_power_law
+  % plot_binder_ratio
   % compare_magnetization_sum
   % test_binder_cumulant
   % test_magnetization
@@ -8,16 +15,14 @@ function main
   % magnetization_sum
 
   % plot_ctm
-  data_collapse_chi
-
+  % find_optimal_box_size
   % plot_truncation_error
-
-  % data_collapse_chi_bounding_box
   % free_energy_competing_states
 
   % mse_data_collapse
 
   % plot_order_param_and_correlation_length
+  % data_collapse_chi
 
   % plot_m_vs_chi
   % data_collapse_N
@@ -30,7 +35,6 @@ function main
   % test_accuracy_t_pseudocrit
   % plot_order_parameter
   % calculate_kappa
-  % data_collapse_chi_power_law
   % plot_N_vs_chi
   % plot_tolerance
   % measure_corr_length

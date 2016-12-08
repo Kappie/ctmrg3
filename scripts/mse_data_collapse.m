@@ -13,7 +13,7 @@ function [total_mse, mse_L_values] = mse_data_collapse(x_values, y_values, L_val
   mse_L_values = [];
 
   L_max = L_values(end);
-  x_values_L_max = x_values(L_max)
+  x_values_L_max = x_values(L_max);
   y_values_L_max = y_values(L_max);
   left_bound = x_values_L_max(1);
   right_bound = x_values_L_max(end);
@@ -34,8 +34,15 @@ function [total_mse, mse_L_values] = mse_data_collapse(x_values, y_values, L_val
 end
 
 function mse = mean_squared_error_from_interpolation(x_values_observation, y_values_observation, x_values_estimation, y_values_estimation)
-  interpolated_y_values = interp1(x_values_estimation, y_values_estimation, x_values_observation);
-  errors = y_values_observation - interpolated_y_values;
+  % if x-values are the same, we don't need to extrapolate. Also catches the case when there is only one x-value.
+  if x_values_observation == x_values_estimation
+    errors = y_values_observation - y_values_estimation;
+    mse = mean(errors .^ 2);
+  else
+    interpolated_y_values = interp1(x_values_estimation, y_values_estimation, x_values_observation, 'pchip');
+    % errors = (y_values_observation - interpolated_y_values);
+    errors = (y_values_observation - interpolated_y_values);
 
-  mse = mean(errors .^ 2);
+    mse = mean(errors .^ 2);
+  end
 end

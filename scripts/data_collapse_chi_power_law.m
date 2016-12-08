@@ -1,31 +1,14 @@
 function data_collapse_chi_power_law
-  % Gather neccessary measurements of order parameter
-  % chi_values = [4, 8, 10, 14, 16, 24, 32];
   chi_values = [16, 32];
   tolerances = [1e-7];
   temperature_width = 0.001;
-  T_pseudocrits = arrayfun(@Constants.T_pseudocrit, chi_values);
   epsilon = 1e-9;
   number_of_points = 10;
-  % temperatures = zeros(number_of_points, numel(chi_values));
-  % order_params = zeros(number_of_points, numel(chi_values));
 
-  % for c = 1:numel(chi_values)
-  %   temperatures(:, c) = linspace(T_pseudocrits(c) - temperature_width, ...
-  %     T_pseudocrits(c) - epsilon, number_of_points);
-  %   sim = FixedToleranceSimulation(temperatures(:, c), [chi_values(c)], tolerances).run();
-  %   order_params(:, c) = sim.compute(OrderParameter);
-  % end
 
-  temperatures = linspace(Constants.T_crit - temperature_width, ...
-    Constants.T_crit + epsilon, number_of_points);
+  temperatures = linspace(Constants.T_crit - temperature_width, Constants.T_crit, number_of_points);
   sim = FixedToleranceSimulation(temperatures, chi_values, tolerances).run();
   order_params = sim.compute(OrderParameter);
-  % temperatures_extra = linspace(Constants.T_crit - epsilon, Constants.T_pseudocrit(chi_values(end)), number_of_points);
-  % temperatures = [temperatures temperatures_extra];
-  % temperatures_zoom = linspace(Constants.T_crit - temperature_width/10, ...
-  %   Constants.T_crit + temperature_width/10, number_of_points);
-  % temperatures = [temperatures temperatures_zoom];
 
   % DO DATA COLLAPSE
   %

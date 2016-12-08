@@ -1,17 +1,23 @@
-function [total_mse, mse_L_values] = data_collapse(chi_values, temperatures, order_parameters, correlation_lengths)
+function [total_mse, mse_L_values] = data_collapse(chi_values, temperatures, order_parameters, correlation_lengths, plot_result)
   % input:
   % chi_values: column vector
   % temperatures: map from chi value to array
   % order_parameters: map from chi value to array
   % correlation_lengths: array of size (1, numel(chi_values))
 
+  if ~exist('plot_result', 'var')
+    plot_result = false;
+  end
+
   % Critical exponents
   beta = 1/8; nu = 1;
   MARKERS = markers();
 
-  figure
-  hold on
-  marker_index = 1;
+  if plot_result
+    figure
+    hold on
+    marker_index = 1;
+  end
 
   x_values = containers.Map('keyType', 'double', 'valueType', 'any');
   scaling_function_values = containers.Map('keyType', 'double', 'valueType', 'any');
@@ -30,9 +36,11 @@ function [total_mse, mse_L_values] = data_collapse(chi_values, temperatures, ord
     x_values(correlation_lengths(c)) = x_values_chi;
     scaling_function_values(correlation_lengths(c)) = scaling_function_values_chi;
 
-    marker = MARKERS(marker_index);
-    plot(x_values_chi, scaling_function_values_chi, marker);
-    marker_index = marker_index + 1;
+    if plot_result
+      marker = MARKERS(marker_index);
+      plot(x_values_chi, scaling_function_values_chi, marker);
+      marker_index = mod(marker_index, numel(MARKERS)) + 1;
+    end
   end
 
   [total_mse, mse_L_values] = mse_data_collapse(x_values, scaling_function_values, correlation_lengths);

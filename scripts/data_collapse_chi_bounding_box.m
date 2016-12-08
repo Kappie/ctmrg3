@@ -1,31 +1,31 @@
 function data_collapse_chi_bounding_box
   % loads chi_values and corresponding corr_lengths and t_stars
   % chi_values = [2 4 6 8 10 12 14 16 24 32]
-  % chi_values = [6 16 24 32];
-  load('t_stars_chi2-32_tol1e-8_TolX1e-7.mat');
+  chi_values = 32:50;
+  % load('t_stars_chi2-32_tol1e-8_TolX1e-7.mat');
   % correlation lengths have a negative sign, because they were acquired from fminbnd
   % and I forgot to make them positive again.
-  corr_lengths = -corr_lengths;
+  % corr_lengths = -corr_lengths;
   tolerance = 1e-7;
-  x_width_left = 0.2;
+  x_width_left = 0.1;
   x_width_right = 0.0;
-  number_of_points = 10;
+  number_of_points = 2;
 
-  % corr_lengths = find_corresponding_correlation_lengths(chi_values, tolerance)
+  corr_lengths = find_corresponding_correlation_lengths(chi_values, tolerance)
 
   % skip first few chi_values
   % skipBegin = 0;
   % chi_values = chi_values(skipBegin + 1 : end)
   % corr_lengths = corr_lengths(skipBegin + 1 : end)
-  chi_values = chi_values([3 8 10])
-  corr_lengths = corr_lengths([3 8 10])
+  % chi_values = chi_values([3 8 10])
+  % corr_lengths = corr_lengths([3 8 10])
 
   temperatures = find_corresponding_temperatures(chi_values, corr_lengths, x_width_left, x_width_right, number_of_points);
   celldisp(values(temperatures));
   order_parameters = find_corresponding_order_params(temperatures, chi_values, tolerance);
 
 
-  [total_mse, mse_L_values] = data_collapse(chi_values, temperatures, order_parameters, corr_lengths)
+  [total_mse, mse_L_values] = data_collapse(chi_values, temperatures, order_parameters, corr_lengths, true)
 
   xlabel('$t\xi_{\max}(\chi)$')
   ylabel('$\xi_{\max}(\chi)^{\beta/\nu}m(t, \xi_{\max}(\chi))$')
@@ -37,10 +37,10 @@ function data_collapse_chi_bounding_box
       legend_labels{end + 1} = ['$\chi = ' num2str(chi_values(c)) '$, mse = ' num2str(mse_L_values(c))];
     end
   end
-  legend(legend_labels)
+  legend(legend_labels, 'Location', 'best')
+  title(['tolerance = ' num2str(tolerance)])
   % make_legend(chi_values, '\chi')
 end
-
 
 function temperatures = find_corresponding_temperatures(chi_values, corr_lengths, x_width_left, x_width_right, number_of_points)
   temperatures = containers.Map('keyType', 'double', 'valueType', 'any');

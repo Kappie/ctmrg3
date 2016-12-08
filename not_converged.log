@@ -1,3 +1,8 @@
 test
 temperature = 1.513630, chi = 16.000000, tolerance = 1e-07, max iterations = 2000000.000000 at 24-Nov-2016 15:08:27.
 temperature = -1.221989, chi = 2.000000, tolerance = 1e-07, max iterations = 100000.000000 at 25-Nov-2016 11:58:07.
+temperature = 2.269408, chi = 32.000000, tolerance = 1e-07, max iterations = 100000.000000 at 07-Dec-2016 10:25:23.
+temperature = 2.269408, chi = 32.000000, tolerance = 1e-07, max iterations = 100000.000000 at 07-Dec-2016 10:31:24.
+temperature = 2.269408, chi = 32.000000, tolerance = 1e-07, max iterations = 100000.000000 at 07-Dec-2016 10:41:57.
+temperature = 2.269408, chi = 32.000000, tolerance = 1e-07, max iterations = 100000.000000 at 07-Dec-2016 10:52:18.
+temperature = 2.269185, chi = 32.000000, tolerance = 1e-15, max iterations = 2000000.000000 at 07-Dec-2016 21:22:46.

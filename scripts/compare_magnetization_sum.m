@@ -1,8 +1,8 @@
 function compare_magnetization_sum
-  temperature = Constants.T_crit - 0.001;
-  chi = 4;
-  tolerance = 1e-15;
+  chi = 16;
+  temperature = Constants.T_pseudocrit(chi) ;
+  tolerance = 1e-7;
 
-  m_sum = magnetization_sum(temperature, chi, tolerance);
 
+  % [a, b, C, T, Cm, Tm, iterations, convergence, converged] = calculate_environment_tensors_m_at_each_site(temperature, chi, tolerance);
 end
