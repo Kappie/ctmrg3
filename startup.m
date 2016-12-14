@@ -30,4 +30,4 @@ set(0, 'DefaultAxesLineWidth', 0.75);
 format long;
 
 global ncon_skipCheckInputs;
-ncon_skipCheckInputs = true;
+ncon_skipCheckInputs = false;

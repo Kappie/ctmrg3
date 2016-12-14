@@ -1,21 +1,21 @@
 function calculate_kappa
-  width = -0.05;
+  width = 0;
   temperatures = [Constants.T_crit + width];
-  chi_values = 4:1:55;
+  chi_values = 4:1:100;
   % chi_values = [6, 10, 16, 24, 34, 46, 60];
-  tolerances = [1e-13];
+  tolerances = [1e-7];
   beta = 1/8; nu = 1;
 
   sim = FixedToleranceSimulation(temperatures, chi_values, tolerances);
   sim = sim.run();
   corr_lengths = sim.compute(CorrelationLengthAfun);
 
-  % [graph_type, slope, intercept] = logfit(chi_values, corr_lengths)
-  markerplot(chi_values, corr_lengths, '--')
+  [slope, intercept] = logfit(chi_values, corr_lengths, 'loglog')
+  % markerplot(chi_values, corr_lengths, '--')
   [chi_values' corr_lengths']
   xlabel('$\chi$')
   ylabel('$\xi(\chi)$')
-  title(['$T = T_c + ' num2str(width) '$'])
+  % title(['$T = T_c + ' num2str(width) '$'])
   % legend({'data', ['$\kappa$ = ' num2str(slope)]}, 'Location', 'best')
 
 

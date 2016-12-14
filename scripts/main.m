@@ -1,10 +1,11 @@
 function main
   rehash;
 
-
-
+  order_param_vs_corr_length
   % data_collapse_chi_bounding_box
-  optimize_kappa
+  % data_collapse_lots_of_steps
+  % test_correlation_length_afun2
+  % optimize_kappa
   % plot_m_vs_tolerance
   % data_collapse_chi_power_law
   % plot_binder_ratio

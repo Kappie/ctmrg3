@@ -1,4 +1,4 @@
-function [total_mse, mse_L_values] = data_collapse(chi_values, temperatures, order_parameters, correlation_lengths, plot_result)
+function [total_mse, mse_L_values, norm_of_residuals] = data_collapse(chi_values, temperatures, order_parameters, correlation_lengths, plot_result)
   % input:
   % chi_values: column vector
   % temperatures: map from chi value to array
@@ -44,5 +44,5 @@ function [total_mse, mse_L_values] = data_collapse(chi_values, temperatures, ord
   end
 
   [total_mse, mse_L_values] = mse_data_collapse(x_values, scaling_function_values, correlation_lengths);
-  % norm_of_residuals = polyfit_data_collapse(x_values, scaling_function_values, correlation_lengths)
+  norm_of_residuals = polyfit_data_collapse(x_values, scaling_function_values, correlation_lengths)
 end

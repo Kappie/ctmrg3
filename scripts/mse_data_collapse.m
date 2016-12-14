@@ -34,15 +34,16 @@ function [total_mse, mse_L_values] = mse_data_collapse(x_values, y_values, L_val
 end
 
 function mse = mean_squared_error_from_interpolation(x_values_observation, y_values_observation, x_values_estimation, y_values_estimation)
-  % if x-values are the same, we don't need to extrapolate. Also catches the case when there is only one x-value.
-  if x_values_observation == x_values_estimation
-    errors = y_values_observation - y_values_estimation;
-    mse = mean(errors .^ 2);
+  % no need for extrapolation (and covers the case where both x_values consist of 1 element)
+  if all(size(x_values_observation) == size(x_values_estimation)) && all(x_values_observation == x_values_estimation)
+    errors = (y_values_observation - y_values_estimation) / y_values_observation;
+
   else
     interpolated_y_values = interp1(x_values_estimation, y_values_estimation, x_values_observation, 'pchip');
     % errors = (y_values_observation - interpolated_y_values);
-    errors = (y_values_observation - interpolated_y_values);
-
-    mse = mean(errors .^ 2);
+    % why is relative error better?
+    errors = (y_values_observation - interpolated_y_values) / y_values_observation;
   end
+
+  mse = mean(errors .^ 2);
 end

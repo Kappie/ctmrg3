@@ -12,7 +12,7 @@ function [norm_of_residuals] = polyfit_data_collapse(x_values, y_values, L_value
   % L_values: array of L values. Assumption: L_values is sorted in ascending order.
 
   % order of polynomial to fit
-  order = 3;
+  order = 0;
   skip_L_values = 0;
 
   total_x_values = [];
@@ -25,5 +25,6 @@ function [norm_of_residuals] = polyfit_data_collapse(x_values, y_values, L_value
 
   [polynomial, error_struct] = polyfit(total_x_values, total_y_values, order);
   norm_of_residuals = error_struct.normr;
+  norm_of_residuals = norm_of_residuals / total_y_values(end);
 
 end
