@@ -179,6 +179,7 @@ classdef Util
 
       T = Util.grow_T(T, a);
       T = Util.truncate_T(T, U, U_transpose);
+
       singular_values = Util.scale_singular_values(diag(s));
       % We don't have to do this step:
       % C = Util.truncate_C(C, U, U_transpose);

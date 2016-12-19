@@ -5,7 +5,6 @@ function [C, T, singular_values, truncation_error, full_singular_values] = grow_
   % Scale elements to prevent values from diverging when performing numerous growth steps.
   % Resymmetrize to prevent numerical errors adding up to unsymmetrize tensors.
   [C, largest_element] = Util.scale_by_largest_element(C);
-  largest_element
   C = Util.symmetrize_C(C);
   T = Util.scale_by_largest_element(T);
   T = Util.symmetrize_T(T);

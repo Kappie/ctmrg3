@@ -1,8 +1,10 @@
 function main
   rehash;
 
+  find_T_crit
   % order_param_vs_corr_length
-  plot_ctm
+  % plot_ctm
+  % second_eigenvalue_ctm
 
   % data_collapse_chi_bounding_box
   % data_collapse_lots_of_steps
