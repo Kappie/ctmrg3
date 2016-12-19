@@ -1,7 +1,9 @@
 function main
   rehash;
 
-  order_param_vs_corr_length
+  % order_param_vs_corr_length
+  plot_ctm
+
   % data_collapse_chi_bounding_box
   % data_collapse_lots_of_steps
   % test_correlation_length_afun2
@@ -15,7 +17,6 @@ function main
 
   % magnetization_sum
 
-  % plot_ctm
   % find_optimal_box_size
   % plot_truncation_error
   % free_energy_competing_states
