@@ -118,8 +118,8 @@ classdef Util
 
     function s = scale_singular_values(singular_values)
       % s = singular_values / sum(singular_values);
-      s = singular_values / norm(singular_values);
-      % [s, ~] = Util.scale_by_largest_element(singular_values);
+      % s = singular_values / norm(singular_values);
+      [s, ~] = Util.scale_by_largest_element(singular_values);
 
     end
 
@@ -176,14 +176,14 @@ classdef Util
     function [C, T, singular_values, truncation_error, full_singular_values, U, U_transpose] = grow_lattice(chi, a, C, T)
       C = Util.grow_C(C, T, a);
       [U, s, U_transpose, truncation_error, full_singular_values] = tensorsvd(C, [1 2], [3 4], chi, 'n');
-      % We don't have to do this step:
-      % C = Util.truncate_C(C, U, U_transpose);
-      % This is equivalent:
-      C = s;
 
       T = Util.grow_T(T, a);
       T = Util.truncate_T(T, U, U_transpose);
       singular_values = Util.scale_singular_values(diag(s));
+      % We don't have to do this step:
+      % C = Util.truncate_C(C, U, U_transpose);
+      % This is equivalent:
+      C = diag(singular_values);
     end
 
     function transfer_matrix = construct_transfer_matrix2(T)
