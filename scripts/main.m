@@ -1,7 +1,8 @@
 function main
   rehash;
 
-  find_T_crit
+  fit_power_law_T_pseudocrit
+  % find_T_crit
   % order_param_vs_corr_length
   % plot_ctm
   % second_eigenvalue_ctm
