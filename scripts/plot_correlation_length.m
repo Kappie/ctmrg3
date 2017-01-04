@@ -1,15 +1,21 @@
 function plot_correlation_length
-  temperature = Constants.T_crit + [0.1];
-  chi_values = [8, 16, 32, 48, 64, 80, 96];
-  tolerances = [1e-10];
+  load('T_pseudocrits_energy_gap20-Dec-2016 13:20:06');
+  temperature = Constants.T_crit;
+  tolerances = [1e-5, 1e-6, 1e-7, 1e-8];
+  chi_indices = [6, 9];
+  correlation_lengths = zeros(numel(chi_indices), numel(tolerances));
 
-  sim = FixedToleranceSimulation(temperature, chi_values, tolerances);
-  sim = sim.run();
-  correlation_lengths = sim.compute(CorrelationLength);
+  for c = chi_indices
+    sim = FixedToleranceSimulation(T_pseudocrits(c), chi_values(c), tolerances).run();
+    correlation_lengths(c, :) = sim.compute(CorrelationLengthAfun2);
+  end
 
-  markerplot(1./chi_values, correlation_lengths, '--')
-  hline(Constants.correlation_length(temperature), '--', '$\xi{\mathrm{exact}}$')
-  xlabel('$1/\chi$')
+  %
+  markerplot(tolerances, correlation_lengths, '--', 'semilogx')
+  % hline(Constants.correlation_length(temperature), '--', '$\xi{\mathrm{exact}}$')
+  xlabel('tolerance')
   ylabel('$\xi(\chi)$')
+  make_legend(chi_values(chi_indices), '\chi')
+  title(['$T = ' num2str(T_pseudocrits(chi_indices)) '$'])
   % export_fig(fullfile(Constants.PLOTS_DIR, 'correlation_length_vs_t_tol1e-7_width1e-2.pdf'))
 end

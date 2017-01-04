@@ -1,7 +1,10 @@
 function main
   rehash;
 
-  fit_power_law_T_pseudocrit
+  data_collapse_free_energy
+  % plot_correlation_length
+  % plot_free_energy
+  % fit_power_law_T_pseudocrit
   % find_T_crit
   % order_param_vs_corr_length
   % plot_ctm
@@ -32,7 +35,6 @@ function main
   % plot_m_vs_chi
   % data_collapse_N
   % perform_error_estimate_chi
-  % plot_correlation_length
   % scaling_function_argument
   % data_collapse_nishino
   % find_pseudocritical_point
@@ -48,7 +50,7 @@ function main
   % test_order_param_strip2
   % plot_eigenvalues_transfer_matrix
   % plot_spin_up_vs_symmetric
-  % plot_free_energy
+  % plot_correlation_length
   % truncate_from_higher_chi
   % plot_singular_values
   % data_collapse_chi2

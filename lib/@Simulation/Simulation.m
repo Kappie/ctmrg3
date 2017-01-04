@@ -18,7 +18,8 @@ classdef (Abstract) Simulation
 
   methods
     function obj = Simulation(temperatures, chi_values)
-      obj.temperatures = temperatures;
+      significant_digits = 13;
+      obj.temperatures = arrayfun(@(temp) round(temp, significant_digits), temperatures);
       obj.chi_values   = chi_values;
       % create empty array of structs that I can fill with C, T tensors.
       obj.tensors = struct('C', {}, 'T', {});

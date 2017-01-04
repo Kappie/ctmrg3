@@ -1,8 +1,8 @@
-function [total_mse, mse_L_values, norm_of_residuals] = data_collapse(chi_values, temperatures, order_parameters, correlation_lengths, plot_result)
+function [total_mse, mse_L_values, norm_of_residuals] = data_collapse(chi_values, temperatures, quantities, correlation_lengths, plot_result)
   % input:
   % chi_values: column vector
   % temperatures: map from chi value to array
-  % order_parameters: map from chi value to array
+  % quantities: map from chi value to array
   % correlation_lengths: array of size (1, numel(chi_values))
 
   if ~exist('plot_result', 'var')
@@ -24,7 +24,7 @@ function [total_mse, mse_L_values, norm_of_residuals] = data_collapse(chi_values
 
   for c = 1:numel(chi_values)
     temperatures_chi = temperatures(chi_values(c));
-    order_params_chi = order_parameters(chi_values(c));
+    order_params_chi = quantities(chi_values(c));
     x_values_chi = zeros(1, numel(temperatures_chi));
     scaling_function_values_chi = zeros(1, numel(temperatures_chi));
 
