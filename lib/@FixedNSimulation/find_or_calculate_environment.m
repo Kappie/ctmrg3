@@ -29,6 +29,7 @@ function tensor_struct = find_or_calculate_environment(obj, temperature, chi, N)
     else
       % 0 iterations remaining, nothing to simulate!
       [C, T] = Util.deserialize_tensors(query_result);
+      convergence = query_result.convergence;
     end
   end
 
@@ -36,5 +37,5 @@ function tensor_struct = find_or_calculate_environment(obj, temperature, chi, N)
     obj.save_to_db(temperature, chi, N, convergence, C, T);
   end
 
-  tensor_struct = struct('C', C, 'T', T);
+  tensor_struct = struct('C', C, 'T', T, 'convergence', convergence);
 end

@@ -1,6 +1,9 @@
 function main
   rehash;
 
+  % crossover_between_chi_and_N
+  % data_collapse_nishino
+
   data_collapse_free_energy
   % plot_correlation_length
   % plot_free_energy
@@ -9,6 +12,7 @@ function main
   % order_param_vs_corr_length
   % plot_ctm
   % second_eigenvalue_ctm
+  % save_t_pseudocrits_to_db
 
   % data_collapse_chi_bounding_box
   % data_collapse_lots_of_steps
@@ -36,7 +40,6 @@ function main
   % data_collapse_N
   % perform_error_estimate_chi
   % scaling_function_argument
-  % data_collapse_nishino
   % find_pseudocritical_point
   % plot_pseudocritical_temperature
   % test_accuracy_t_pseudocrit

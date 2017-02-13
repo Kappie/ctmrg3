@@ -22,7 +22,7 @@ classdef (Abstract) Simulation
       obj.temperatures = arrayfun(@(temp) round(temp, significant_digits), temperatures);
       obj.chi_values   = chi_values;
       % create empty array of structs that I can fill with C, T tensors.
-      obj.tensors = struct('C', {}, 'T', {});
+      obj.tensors = struct('C', {}, 'T', {}, 'convergence', {});
       % precalculate a-tensors for each temperature
       obj = obj.calculate_a_tensors;
     end

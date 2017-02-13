@@ -1,18 +1,16 @@
 function data_collapse_chi_bounding_box
-  % loads chi_values and corresponding corr_lengths and t_stars
-  % chi_values = [2 4 6 8 10 12 14 16 24 32]
-  chi_values = 64:100;
-  % load('t_stars_chi2-32_tol1e-8_TolX1e-7.mat');
-  % correlation lengths have a negative sign, because they were acquired from fminbnd
-  % and I forgot to make them positive again.
-  % corr_lengths = -corr_lengths;
-  tolerance = 1e-8;
-  x_width_left = 0.1;
+  chi_values = [8, 16, 32];
+  tolerance = 1e-7;
+  x_width_left = 500;
   x_width_right = 0.0;
-  number_of_points = 1;
-  throw_away_width = 0.1;
+  number_of_points = 5;
+  throw_away_width = 1;
 
-  corr_lengths = find_corresponding_correlation_lengths(chi_values, tolerance)
+  % corr_lengths = find_corresponding_correlation_lengths(chi_values, tolerance)
+  corr_lengths = zeros(1, numel(chi_values));
+  for c = 1:numel(chi_values)
+    corr_lengths(c) = ctm_length_scale(Constants.T_crit, chi_values(c), tolerance);
+  end
 
   % skip first few chi_values
   % skipBegin = 0;
