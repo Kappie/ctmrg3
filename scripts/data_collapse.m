@@ -1,4 +1,4 @@
-function [total_mse, mse_L_values, norm_of_residuals] = data_collapse(chi_values, temperatures, quantities, correlation_lengths, plot_result)
+function [total_mse, mse_L_values, norm_of_residuals] = data_collapse(chi_values, temperatures, quantities, correlation_lengths, scaling_exponent, plot_result)
   % input:
   % chi_values: column vector
   % temperatures: map from chi value to array
@@ -9,8 +9,8 @@ function [total_mse, mse_L_values, norm_of_residuals] = data_collapse(chi_values
     plot_result = false;
   end
 
-  % Critical exponents
-  beta = 1/8; nu = 1;
+  % Set nu to one for simplicity.
+  nu = 1;
   MARKERS = markers();
 
   if plot_result
@@ -30,7 +30,7 @@ function [total_mse, mse_L_values, norm_of_residuals] = data_collapse(chi_values
 
     for t = 1:numel(temperatures_chi)
       x_values_chi(t) = Constants.reduced_T(temperatures_chi(t)) * correlation_lengths(c)^(1/nu);
-      scaling_function_values_chi(t) = order_params_chi(t) * correlation_lengths(c)^(beta/nu);
+      scaling_function_values_chi(t) = order_params_chi(t) * correlation_lengths(c)^(scaling_exponent/nu);
     end
 
     x_values(correlation_lengths(c)) = x_values_chi;
@@ -44,5 +44,5 @@ function [total_mse, mse_L_values, norm_of_residuals] = data_collapse(chi_values
   end
 
   [total_mse, mse_L_values] = mse_data_collapse(x_values, scaling_function_values, correlation_lengths);
-  norm_of_residuals = polyfit_data_collapse(x_values, scaling_function_values, correlation_lengths)
+  norm_of_residuals = polyfit_data_collapse(x_values, scaling_function_values, correlation_lengths);
 end

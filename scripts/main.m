@@ -1,10 +1,15 @@
 function main
   rehash;
 
+  plot_entropy_at_T_crit
+  % data_collapse_chi_power_law
+  % plot_m_vs_chi
+  % plot_correlation_length_vs_chi
+  % plot_correlation_length
   % crossover_between_chi_and_N
   % data_collapse_nishino
 
-  data_collapse_free_energy
+  % data_collapse_free_energy
   % plot_correlation_length
   % plot_free_energy
   % fit_power_law_T_pseudocrit
@@ -19,7 +24,6 @@ function main
   % test_correlation_length_afun2
   % optimize_kappa
   % plot_m_vs_tolerance
-  % data_collapse_chi_power_law
   % plot_binder_ratio
   % compare_magnetization_sum
   % test_binder_cumulant
@@ -36,7 +40,6 @@ function main
   % plot_order_param_and_correlation_length
   % data_collapse_chi
 
-  % plot_m_vs_chi
   % data_collapse_N
   % perform_error_estimate_chi
   % scaling_function_argument

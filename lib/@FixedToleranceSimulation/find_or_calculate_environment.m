@@ -16,6 +16,8 @@ function tensor_struct = find_or_calculate_environment(obj, temperature, chi, to
   end
 
   if isempty(query_result)
+    fprintf(['Did not find record for:\n' ...
+      'chi = ' num2str(chi) ', temperature = ' num2str(temperature) ', tolerance = ' num2str(tolerance) '.\n'])
     [initial_C, initial_T] = obj.initial_tensors(temperature);
     [C, T, convergence, N, converged, truncation_error] = obj.calculate_environment(temperature, chi, tolerance, initial_C, initial_T);
     simulated = true;

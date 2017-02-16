@@ -5,6 +5,7 @@ classdef Constants
     BASE_DIR = fullfile(fileparts(mfilename('fullpath')), '..', '..');
     DB_DIR = fullfile(Constants.BASE_DIR, 'db');
     PLOTS_DIR = '~/Dropbox/Plots';
+    THESIS_PLOTS_DIR = '~/Documents/Natuurkunde/Scriptie/LatexFiles/plots/';
   end
 
   methods(Static)

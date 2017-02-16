@@ -1,6 +1,6 @@
-function my_export_fig(filename, scriptname)
-  if nargin ~= 2
-    error('You forgot an argument.');
+function my_export_fig(filename, scriptname, save_to_thesis_plots_folder)
+  if nargin == 2
+    save_to_thesis_plots_folder = false;
   end
 
   full_path = fullfile(Constants.PLOTS_DIR, filename);
@@ -13,10 +13,15 @@ function my_export_fig(filename, scriptname)
   % savefig(matlab_figures_path);
 
   % Also save as tikz figure
-  % tikz_figure_filename = [name, '.tex'];
-  % tikz_figures_path = fullfile(Constants.PLOTS_DIR, 'latex_figures', tikz_figure_filename);
-  % matlab2tikz(tikz_figures_path, 'height', '\fheight', 'width', '\fwidth');
-  % matlab2tikz(tikz_figures_path);
+  tikz_figure_filename = [name, '.tikz'];
+  tikz_figure_path = fullfile(Constants.PLOTS_DIR, 'latex_figures', tikz_figure_filename);
+  % matlab2tikz(tikz_figure_path, 'height', '\figureheight', 'width', '\figurewidth');
+  matlab2tikz(tikz_figure_path);
+
+  if save_to_thesis_plots_folder
+    thesis_plots_path = fullfile(Constants.THESIS_PLOTS_DIR, tikz_figure_filename);
+    copyfile(tikz_figure_path, thesis_plots_path);
+  end
 
   % also save a copy of the script that generated the plot,
   % for reproducibility later.
