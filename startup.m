@@ -1,7 +1,7 @@
 addpath(genpath('./dependencies/'));
 addpath('./lib/');
 addpath('./scripts');
-addpath('./scripts/one_site_contribution/')
+% addpath('./scripts/one_site_contribution/')
 
 font_size = 16;
 

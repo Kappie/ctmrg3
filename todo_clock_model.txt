@@ -1,0 +1,16 @@
+Central questions:
+- check if I find if a different pseudocritical point if I minimize energy gap
+  instead of maximize entropy? Should we scale in entropy or in some length scale?
+
+
+Technical todo:
+- check if increasing tolerance matters for pseudocritical point (seems to matter)
+
+- resolve the degeneracy going on. Which chi values to take?
+
+- for q = 6 check if symmetric boundary conditions give better results
+  (since magnetization should be zero anyway)
+
+- check how singular values should scale if we want to calculate entropy?
+
+- check why a power law still works at the kosterlitz thouless transition

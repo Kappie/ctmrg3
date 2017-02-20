@@ -11,32 +11,37 @@ classdef (Abstract) Simulation
     chi_values;
     N_values;
     tolerances;
+    q;
     tensors;
     a_tensors;
     initial_condition = 'spin-up';
+    significant_digits = 13;
+    lattices;
   end
 
   methods
-    function obj = Simulation(temperatures, chi_values)
-      significant_digits = 13;
-      obj.temperatures = arrayfun(@(temp) round(temp, significant_digits), temperatures);
+    function obj = Simulation(temperatures, chi_values, q)
+      obj.temperatures = arrayfun(@(temp) round(temp, obj.significant_digits), temperatures);
       obj.chi_values   = chi_values;
+      obj.q            = q;
       % create empty array of structs that I can fill with C, T tensors.
       obj.tensors = struct('C', {}, 'T', {}, 'convergence', {});
+      % initialize lattice objects that contain all physical information
+      obj = obj.initialize_lattices();
       % precalculate a-tensors for each temperature
-      obj = obj.calculate_a_tensors;
+      obj = obj.calculate_a_tensors();
     end
 
     function obj = after_initialization(obj)
     end
 
     function [C, T] = initial_tensors(obj, temperature)
+      lattice = obj.lattices(temperature);
       if strcmp(obj.initial_condition, 'spin-up')
-        C = Util.spin_up_initial_C(temperature);
-        T = Util.spin_up_initial_T(temperature);
+        C = lattice.spin_up_initial_C();
+        T = lattice.spin_up_initial_T();
       elseif strcmp(obj.initial_condition, 'symmetric')
-        C = Util.symmetric_initial_C(temperature);
-        T = Util.symmetric_initial_T(temperature);
+        error('I do not know these boundary conditions yet.')
       end
     end
   end

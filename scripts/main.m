@@ -1,7 +1,11 @@
 function main
   rehash;
 
-  plot_entropy_at_T_crit
+  % plot_T_vs_m
+  find_T_crit
+  % fit_power_law_T_pseudocrit
+  % test_clock_model
+  % plot_entropy_at_T_crit
   % data_collapse_chi_power_law
   % plot_m_vs_chi
   % plot_correlation_length_vs_chi
@@ -12,7 +16,6 @@ function main
   % data_collapse_free_energy
   % plot_correlation_length
   % plot_free_energy
-  % fit_power_law_T_pseudocrit
   % find_T_crit
   % order_param_vs_corr_length
   % plot_ctm

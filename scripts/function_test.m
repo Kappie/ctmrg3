@@ -1,12 +1,9 @@
 function function_test
-  global getal
-  getal = 1;
-
-  function y = plus_een(x)
-    global getal
-    getal = 2;
+  function y = add_one(x)
     y = x + 1;
   end
 
-  display(getal)
+  mijn_functie = @add_one;
+  mijn_functie(1)
+  mijn_andere_functie = @mijn_functie
 end
