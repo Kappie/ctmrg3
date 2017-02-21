@@ -1,7 +1,8 @@
 function main
   rehash;
 
-  find_T_crit
+  hello_hello
+  % find_T_crit
   % plot_ctm
   % plot_T_vs_m
   % fit_power_law_T_pseudocrit
