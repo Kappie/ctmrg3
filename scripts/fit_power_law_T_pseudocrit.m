@@ -1,26 +1,35 @@
 function fit_power_law_T_pseudocrit
   q = 4;
-  TolX = 1e-8;
-  tolerance = [1e-7];
+  TolX = 1e-9;
+  tolerances = [1e-7];
   method = 'energy gap';
 
+  figure
 
-  [T_pseudocrits, chi_values] = load_T_pseudocrits_from_db(tolerance, q, TolX, method);
-  indices_to_throw_away = [4 6 8];
-  % T_pseudocrits(indices_to_throw_away) = [];
-  % chi_values(indices_to_throw_away) = [];
+  for tolerance = tolerances
+    [T_pseudocrits, chi_values] = load_T_pseudocrits_from_db(tolerance, q, TolX, method);
+    chi_values
+    % indices_to_fit = [];
+    % T_pseudocrits(indices_to_throw_away) = [];
+    % chi_values(indices_to_throw_away) = [];
 
-  [eigenvalues] = load_eigenvalues_ctm(T_pseudocrits, chi_values, tolerance, q);
-  length_scales = calculate_length_scales(eigenvalues);
-  entropies = calculate_entropies(eigenvalues);
+    % [eigenvalues] = load_eigenvalues_ctm(T_pseudocrits, chi_values, tolerance, q);
+    % [length_scales, energy_gaps] = calculate_length_scales(eigenvalues);
+    % entropies = calculate_entropies(eigenvalues);
+
+    % hold on
+    % markerplot(length_scales, T_pseudocrits, '--')
+  end
+
+  % make_legend_tolerances(tolerances)
+  % hold off
 
   % markerplot(length_scales, T_pseudocrits, '--')
 
 
-  % for c = 1:numel(chi_values)
-  %   length_scales(c) = calculate_correlation_length(T_pseudocrits(c), chi_values(c), 1e-8);
-  % end
-  figure
+  for c = 1:numel(chi_values)
+    length_scales(c) = calculate_correlation_length(T_pseudocrits(c), chi_values(c), tolerance, q);
+  end
   fit_power_law(T_pseudocrits, length_scales)
   % fit_kosterlitz_transition(T_pseudocrits, entropies, T_crit_guess)
 end
@@ -82,10 +91,12 @@ function eigenvalues = load_eigenvalues_ctm(T_pseudocrits, chi_values, tolerance
   end
 end
 
-function length_scales = calculate_length_scales(eigenvalues)
+function [length_scales, energy_gaps] = calculate_length_scales(eigenvalues)
   length_scales = zeros(1, length(eigenvalues));
+  energy_gaps = zeros(1, length(eigenvalues));
   for i = 1:length(eigenvalues)
     eigenvalues_chi = eigenvalues{i};
+    energy_gaps(i) = eigenvalues_chi(1) - eigenvalues_chi(2);
     length_scales(i) = exp(1/(log(eigenvalues_chi(1)/eigenvalues_chi(2))));
   end
 end
@@ -96,4 +107,9 @@ function entropies = calculate_entropies(eigenvalues)
     eigenvalues_chi = eigenvalues{i};
     entropies(i) = -sum(log(eigenvalues_chi.^4).*eigenvalues_chi.^4);
   end
+end
+
+function corr_lengths = calculate_correlation_length(T, chi, tolerance, q)
+  sim = FixedToleranceSimulation(T, chi, tolerance, q).run();
+  corr_lengths = sim.compute('correlation_length');
 end

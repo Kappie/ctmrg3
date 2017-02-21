@@ -418,7 +418,8 @@ if isempty(x2fit) || isempty(y2fit)
 end
 
 
-range=[min(x2fit) max(x2fit)];
+% range=[min(x2fit) max(x2fit)];
+range=[min(x) max(x)];
 % make this compatible with skipping some points.... don't know how yet....
 switch graphType
     case {'logx','loglog'}

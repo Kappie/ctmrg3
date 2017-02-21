@@ -7,21 +7,28 @@ function my_export_fig(filename, scriptname, save_to_thesis_plots_folder)
   export_fig(full_path);
 
   [~, name, extension] = fileparts(filename);
+
+  if save_to_thesis_plots_folder
+    % Also save data to file in thesis data folder
+    data_filename = [name '.dat'];
+    full_path = fullfile(Constants.THESIS_PLOTS_DATA_DIR, data_filename)
+    store_data_of_current_fig_to_file(full_path)
+  end
   % Also save figure as .fig so I can edit it later.
   % matlab_figure_filename = [name, '.fig'];
   % matlab_figures_path = fullfile(Constants.PLOTS_DIR, 'matlab_figures', matlab_figure_filename);
   % savefig(matlab_figures_path);
 
   % Also save as tikz figure
-  tikz_figure_filename = [name, '.tikz'];
-  tikz_figure_path = fullfile(Constants.PLOTS_DIR, 'latex_figures', tikz_figure_filename);
-  % matlab2tikz(tikz_figure_path, 'height', '\figureheight', 'width', '\figurewidth');
-  matlab2tikz(tikz_figure_path);
-
-  if save_to_thesis_plots_folder
-    thesis_plots_path = fullfile(Constants.THESIS_PLOTS_DIR, tikz_figure_filename);
-    copyfile(tikz_figure_path, thesis_plots_path);
-  end
+  % tikz_figure_filename = [name, '.tikz'];
+  % tikz_figure_path = fullfile(Constants.PLOTS_DIR, 'latex_figures', tikz_figure_filename);
+  % % matlab2tikz(tikz_figure_path, 'height', '\figureheight', 'width', '\figurewidth');
+  % matlab2tikz(tikz_figure_path);
+  %
+  % if save_to_thesis_plots_folder
+  %   thesis_plots_path = fullfile(Constants.THESIS_PLOTS_DIR, tikz_figure_filename);
+  %   copyfile(tikz_figure_path, thesis_plots_path);
+  % end
 
   % also save a copy of the script that generated the plot,
   % for reproducibility later.

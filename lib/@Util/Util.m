@@ -208,33 +208,35 @@ classdef Util
       [T_ball, ~, ~] = lreshape(T_ball, [1 2 3], [4 5 6]);
     end
 
-    function x = multiply_by_transfer_matrix(a, T, x)
-      chi = size(T, 2);
-      x = reshape(x, chi, 2, chi);
-      % best sequence: 2 1 3 4 5
-      x = ncon({T, a, T, x}, {[1 -1 2], [1 3 4 -2], [4 5 -3], [2 3 5]}, [2 1 3 4 5]);
-      x = x(:);
-    end
-
-    function [eigenvectors, eigenvalues] = largest_eigenvalues_transfer_matrix(a, T, number_of_eigenvalues)
-      % Diagonalize using a custom function to multiply T*x
-      chi = size(T, 2);
-      transfer_matrix_size = 2 * chi * chi;
-
-      function x = multiply_by_transfer_matrix(x)
-        x = Util.multiply_by_transfer_matrix(a, T, x);
-      end
-
-      [eigenvectors, diagonal] = eigs(@multiply_by_transfer_matrix, ...
-        transfer_matrix_size, number_of_eigenvalues);
-      eigenvalues = sort(diag(diagonal), 'descend');
-
-      if number_of_eigenvalues > 1
-        if IsNear(eigenvalues(1), eigenvalues(2), 1e-10)
-          warning(['degenerate largest eigenvalue of transfer matrix for T = ' num2str(temperature)])
-        end
-      end
-    end
+    % function x = multiply_by_transfer_matrix(a, T, x)
+    %   chi = size(T, 2);
+    %   x = reshape(x, chi, 2, chi);
+    %   % best sequence: 2 1 3 4 5
+    %   x = ncon({T, a, T, x}, {[1 -1 2], [1 3 4 -2], [4 5 -3], [2 3 5]}, [2 1 3 4 5]);
+    %   x = x(:);
+    % end
+    %
+    % function [eigenvectors, eigenvalues] = largest_eigenvalues_transfer_matrix(a, T, number_of_eigenvalues)
+    %   % Diagonalize using a custom function to multiply T*x
+    %   chi = size(T, 2);
+    %   transfer_matrix_size = 2 * chi * chi;
+    %
+    %   function x = multiply_by_transfer_matrix(x)
+    %     x = Util.multiply_by_transfer_matrix(a, T, x);
+    %   end
+    %
+    %   [eigenvectors, diagonal] = eigs(@multiply_by_transfer_matrix, ...
+    %     transfer_matrix_size, number_of_eigenvalues);
+    %   eigenvalues = diag(diagonal);
+    %   % Let's not sort this here; the order of eigenvectors gets messed up.
+    %   % eigenvalues = sort(diag(diagonal), 'descend');
+    %
+    %   if number_of_eigenvalues > 1
+    %     if IsNear(eigenvalues(1), eigenvalues(2), 1e-10)
+    %       warning(['degenerate largest eigenvalue of transfer matrix for T = ' num2str(temperature)])
+    %     end
+    %   end
+    % end
 
     function s = initial_singular_values(chi)
       s = ones(chi, 1) / chi;

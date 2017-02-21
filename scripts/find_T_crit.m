@@ -1,23 +1,40 @@
 function find_T_crit
-  q = 4;
-  chi_values = 14:2:20;
-  tolerance = 1e-8;
-  T_crit_lower_bound = 1.1;
-  T_crit_upper_bound = 1.2;
-  initial_range = [T_crit_lower_bound T_crit_upper_bound];
-  TolX = 1e-8;
+  q_values = [2, 4];
+  T_crit_bounds = {[2.2 2.3], [1.1 1.2]};
+  % T_crit_bounds = {[1.1 1.2]};
+  chi_values = 40:2:50;
+  tolerance = 1e-7;
+  TolX = 1e-9;
   method = 'energy gap';
 
-  range = initial_range;
   for chi = chi_values
-    [T_pseudocrit, entropy, energy_gap] = find_T_pseudocrit(chi, tolerance, q, range, TolX, method);
-    save_to_db(T_pseudocrit, entropy, energy_gap, chi, tolerance, q, TolX, method);
-    % We assume the pseudocritical temperature of a system with bigger chi
-    % will be smaller than the previous pseudocritical temperature
-    range = [range(1) T_pseudocrit];
+    for q_index = 1:numel(q_values)
+      range = T_crit_bounds{q_index};
+      q = q_values(q_index);
+      if is_in_db(chi, tolerance, q, TolX, method)
+        [T_pseudocrit, entropy, energy_gap] = find_T_pseudocrit(chi, tolerance, q, range, TolX, method);
+        save_to_db(T_pseudocrit, entropy, energy_gap, chi, tolerance, q, TolX, method);
+      end
+      % We assume the pseudocritical temperature of a system with bigger chi
+      % will be smaller than the previous pseudocritical temperature
+      % Don't do this anymore: the sequence of temperatures tried by the algorithm depends on the
+      % initial range, so it is better to leave it always the same.
+      % range = [range(1) T_pseudocrit];
+    end
   end
 
 
+end
+
+function answer = is_in_db(chi, tolerance, q, TolX, method)
+  db_path = fullfile(Constants.DB_DIR, 't_pseudocrits.db');
+  query = ['select * from t_pseudocrits ' ...
+    'where chi = ? and tolerance = ? and q = ? and tol_x = ? and method = ?'];
+  db_id = sqlite3.open(db_path);
+  result = sqlite3.execute(db_id, query, chi, tolerance, q, TolX, method);
+  sqlite3.close(db_id);
+
+  answer = isempty(result);
 end
 
 function save_to_db(T_pseudocrit, entropy, energy_gap, chi, tolerance, q, TolX, method);

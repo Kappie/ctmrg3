@@ -1,8 +1,9 @@
 function main
   rehash;
 
-  % plot_T_vs_m
   find_T_crit
+  % plot_ctm
+  % plot_T_vs_m
   % fit_power_law_T_pseudocrit
   % test_clock_model
   % plot_entropy_at_T_crit
@@ -18,7 +19,6 @@ function main
   % plot_free_energy
   % find_T_crit
   % order_param_vs_corr_length
-  % plot_ctm
   % second_eigenvalue_ctm
   % save_t_pseudocrits_to_db
 

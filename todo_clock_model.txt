@@ -14,3 +14,17 @@ Technical todo:
 - check how singular values should scale if we want to calculate entropy?
 
 - check why a power law still works at the kosterlitz thouless transition
+
+Plots to make:
+
+- T_pseudocrit vs chi
+- T_pseudocrit vs correlation length
+- T_pseudocrit vs ctm length scale
+
+- plot order parameter around T_crit for different chi
+- see how energy gap varies with temperature
+- see how entropy varies with temperature
+
+- plot spectrum of ctm versus temperature
+
+- compare entropy and energy gap
