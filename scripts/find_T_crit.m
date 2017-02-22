@@ -12,10 +12,11 @@ function find_T_crit
     for q_index = 1:numel(q_values)
       range = T_crit_bounds{q_index};
       q = q_values(q_index);
-      if is_in_db(chi, tolerance, q, TolX, method)
-	display(['Already in database for q = ' num2str(q) ' chi = ' num2str(chi)])
+      if not_in_db(chi, tolerance, q, TolX, method)
         [T_pseudocrit, entropy, energy_gap] = find_T_pseudocrit(chi, tolerance, q, range, TolX, method);
         save_to_db(T_pseudocrit, entropy, energy_gap, chi, tolerance, q, TolX, method);
+      else
+         display(['Already in database for q = ' num2str(q) ' chi = ' num2str(chi)])
       end
       % We assume the pseudocritical temperature of a system with bigger chi
       % will be smaller than the previous pseudocritical temperature
@@ -28,7 +29,7 @@ function find_T_crit
 
 end
 
-function answer = is_in_db(chi, tolerance, q, TolX, method)
+function answer = not_in_db(chi, tolerance, q, TolX, method)
   db_path = fullfile(Constants.DB_DIR, 't_pseudocrits.db');
   query = ['select * from t_pseudocrits ' ...
     'where chi = ? and tolerance = ? and q = ? and tol_x = ? and method = ?'];
