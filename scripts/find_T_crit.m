@@ -1,9 +1,9 @@
 function find_T_crit
-  q_values = [4];
+  q_values = [2];
   % T_crit_bounds = {[2.2 2.3], [1.1 1.2]};
-  T_crit_bounds = {[1.1 1.2]};
-  % T_crit_bounds = {[2.2 2.3]};
-  chi_values = 10:2:20;
+  % T_crit_bounds = {[1.1 1.2]};
+  T_crit_bounds = {[2.2 2.3]};
+  chi_values = 22:2:30;
   tolerance = 1e-7;
   TolX = 1e-6;
   method = 'energy gap';
@@ -13,6 +13,7 @@ function find_T_crit
       range = T_crit_bounds{q_index};
       q = q_values(q_index);
       if is_in_db(chi, tolerance, q, TolX, method)
+	display(['Already in database for q = ' num2str(q) ' chi = ' num2str(chi)])
         [T_pseudocrit, entropy, energy_gap] = find_T_pseudocrit(chi, tolerance, q, range, TolX, method);
         save_to_db(T_pseudocrit, entropy, energy_gap, chi, tolerance, q, TolX, method);
       end

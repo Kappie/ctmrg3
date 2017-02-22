@@ -1,9 +1,9 @@
 function main
   rehash;
 
-  test_texual_queries
+  % test_texual_queries
   % plot_entropy_at_T_crit
-  % find_T_crit
+  find_T_crit
   % plot_ctm
   % plot_T_vs_m
   % fit_power_law_T_pseudocrit
