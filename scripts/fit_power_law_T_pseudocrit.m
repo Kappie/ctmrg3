@@ -1,5 +1,5 @@
 function fit_power_law_T_pseudocrit
-  q = 4;
+  q = 2;
   TolX = 1e-9;
   tolerances = [1e-7];
   method = 'energy gap';
@@ -13,12 +13,13 @@ function fit_power_law_T_pseudocrit
     % T_pseudocrits(indices_to_throw_away) = [];
     % chi_values(indices_to_throw_away) = [];
 
-    % [eigenvalues] = load_eigenvalues_ctm(T_pseudocrits, chi_values, tolerance, q);
-    % [length_scales, energy_gaps] = calculate_length_scales(eigenvalues);
-    % entropies = calculate_entropies(eigenvalues);
+    [eigenvalues] = load_eigenvalues_ctm(T_pseudocrits, chi_values, tolerance, q);
+    [length_scales, energy_gaps] = calculate_length_scales(eigenvalues);
+    entropies = calculate_entropies(eigenvalues);
 
     % hold on
-    % markerplot(length_scales, T_pseudocrits, '--')
+    % plot(eigenvalues{20}, '--o')
+    markerplot(chi_values, energy_gaps, '--')
   end
 
   % make_legend_tolerances(tolerances)
@@ -27,10 +28,10 @@ function fit_power_law_T_pseudocrit
   % markerplot(length_scales, T_pseudocrits, '--')
 
 
-  for c = 1:numel(chi_values)
-    length_scales(c) = calculate_correlation_length(T_pseudocrits(c), chi_values(c), tolerance, q);
-  end
-  fit_power_law(T_pseudocrits, length_scales)
+  % for c = 1:numel(chi_values)
+  %   length_scales(c) = calculate_correlation_length(T_pseudocrits(c), chi_values(c), tolerance, q);
+  % end
+  % fit_power_law(T_pseudocrits, length_scales)
   % fit_kosterlitz_transition(T_pseudocrits, entropies, T_crit_guess)
 end
 
@@ -85,9 +86,8 @@ function eigenvalues = load_eigenvalues_ctm(T_pseudocrits, chi_values, tolerance
   for i = 1:numel(T_pseudocrits)
     sim = FixedToleranceSimulation(T_pseudocrits(i), chi_values(i), tolerance, q).run();
     % We still need to normalize the eigenvalues!
-    unnormalized_eigenvalues = diag(sim.tensors.C);
-    normalized_eigenvalues = unnormalized_eigenvalues / norm(unnormalized_eigenvalues);
-    eigenvalues{end+1} = normalized_eigenvalues;
+    eigenvalues_chi = diag(sim.tensors.C);
+    eigenvalues{end+1} = Util.scale_by_trace_condition(eigenvalues_chi);
   end
 end
 
@@ -105,7 +105,7 @@ function entropies = calculate_entropies(eigenvalues)
   entropies = zeros(1, length(eigenvalues));
   for i = 1:length(eigenvalues)
     eigenvalues_chi = eigenvalues{i};
-    entropies(i) = -sum(log(eigenvalues_chi.^4).*eigenvalues_chi.^4);
+    entropies(i) = -sum(log2(eigenvalues_chi.^4).*eigenvalues_chi.^4);
   end
 end
 

@@ -1,10 +1,11 @@
 function find_T_crit
-  q_values = [2, 4];
-  T_crit_bounds = {[2.2 2.3], [1.1 1.2]};
-  % T_crit_bounds = {[1.1 1.2]};
-  chi_values = 40:2:50;
+  q_values = [4];
+  % T_crit_bounds = {[2.2 2.3], [1.1 1.2]};
+  T_crit_bounds = {[1.1 1.2]};
+  % T_crit_bounds = {[2.2 2.3]};
+  chi_values = 10:2:20;
   tolerance = 1e-7;
-  TolX = 1e-9;
+  TolX = 1e-6;
   method = 'energy gap';
 
   for chi = chi_values
@@ -55,7 +56,7 @@ function [T_pseudocrit, entropy, energy_gap] = find_T_pseudocrit(chi, tolerance,
   function negative_entropy = minimize_negative_entropy(temperature)
     % We maximize the entropy to find the pseudocritical point.
     sim = FixedToleranceSimulation(temperature, chi, tolerance, q).run();
-    negative_entropy = -sim.compute(Entropy);
+    negative_entropy = -sim.compute('entropy');
   end
 
   function energy_gap = minimize_energy_gap(temperature)

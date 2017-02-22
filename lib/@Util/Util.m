@@ -118,9 +118,15 @@ classdef Util
 
     function s = scale_singular_values(singular_values)
       % s = singular_values / sum(singular_values);
-      s = singular_values / norm(singular_values);
+      % s = singular_values / norm(singular_values);
       % [s, ~] = Util.scale_by_largest_element(singular_values);
+      s = Util.scale_by_trace_condition(singular_values);
+    end
 
+    % Scale such that Tr(C^4) = 1.
+    function s = scale_by_trace_condition(singular_values)
+      normalization = sum(singular_values.^4)^(1/4);
+      s = singular_values / normalization;
     end
 
     function C = symmetrize_C(C)

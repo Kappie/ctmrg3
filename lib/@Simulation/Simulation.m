@@ -7,6 +7,8 @@ classdef (Abstract) Simulation
     db_id;
     LOAD_FROM_DB = true;
     SAVE_TO_DB = true;
+    STORE_DB_QUERIES_TO_FILE = false;
+    DB_QUERY_FILE;
     temperatures;
     chi_values;
     N_values;

@@ -6,14 +6,8 @@ function plot_ctm
   tolerances = [1e-7];
   q = 4;
 
-  sim = FixedToleranceSimulation(temperatures, chi_values, tolerances, q);
-  % sim.LOAD_FROM_DB = false; sim.SAVE_TO_DB = false;
-  sim = sim.run();
+  sim = FixedToleranceSimulation(temperatures, chi_values, tolerances, q).run;
   tensors = sim.tensors;
-  a = sim.a_tensors(round(temperatures(1), 13));
-  figure
-  hold on
-  MARKERS = markers();
   line_handles = zeros(1, numel(chi_values));
   sizes = zeros(1, numel(chi_values));
 

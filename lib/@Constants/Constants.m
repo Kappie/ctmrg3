@@ -4,6 +4,7 @@ classdef Constants
     T_crit = 2.269185314213022;
     BASE_DIR = fullfile(fileparts(mfilename('fullpath')), '..', '..');
     DB_DIR = fullfile(Constants.BASE_DIR, 'db');
+    DB_QUERY_DIR = fullfile(Constants.BASE_DIR, 'db_queries');
     PLOTS_DIR = '~/Dropbox/Plots';
     THESIS_PLOTS_DATA_DIR = '~/Documents/Natuurkunde/Scriptie/LatexFiles/plots/data/';
   end
@@ -23,6 +24,14 @@ classdef Constants
       chi_values = [2, 4, 6, 8, 10, 12, 14, 16, 24, 32];
       map = containers.Map(chi_values, pseudocritical_temps);
       T = map(chi);
+    end
+
+    function T = T_crit_guess(q)
+      if q == 4
+        T = 1.137;
+      else
+        error('I do not know that value of q')
+      end
     end
 
     function t = reduced_T_dot(T, T_pseudocrit)
