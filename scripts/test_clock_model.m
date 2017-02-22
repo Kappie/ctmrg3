@@ -1,6 +1,7 @@
 function test_clock_model
-  q = 4;
-  T_start = 1.13; T_end = 1.15;
+  q = 2;
+  % T_start = 1.13; T_end = 1.15;
+  T_start = 2.26; T_end = 2.28;
   number_of_points = 10;
   temperatures = linspace(T_start, T_end, number_of_points);
   chi_values = [4, 16, 20, 26, 50]
