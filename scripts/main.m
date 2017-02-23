@@ -1,7 +1,6 @@
 function main
   rehash;
 
-  test_textual_queries
   % plot_entropy_at_T_crit
   % find_T_crit
   % plot_ctm
