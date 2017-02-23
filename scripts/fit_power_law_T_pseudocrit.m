@@ -1,6 +1,6 @@
 function fit_power_law_T_pseudocrit
   q = 2;
-  TolX = 1e-9;
+  TolX = 1e-6;
   tolerances = [1e-7];
   method = 'energy gap';
 
@@ -8,7 +8,6 @@ function fit_power_law_T_pseudocrit
 
   for tolerance = tolerances
     [T_pseudocrits, chi_values] = load_T_pseudocrits_from_db(tolerance, q, TolX, method);
-    chi_values
     % indices_to_fit = [];
     % T_pseudocrits(indices_to_throw_away) = [];
     % chi_values(indices_to_throw_away) = [];
@@ -17,10 +16,14 @@ function fit_power_law_T_pseudocrit
     [length_scales, energy_gaps] = calculate_length_scales(eigenvalues);
     entropies = calculate_entropies(eigenvalues);
 
+    chi_values
     % hold on
-    % plot(eigenvalues{20}, '--o')
-    markerplot(chi_values, energy_gaps, '--')
+    % semilogy(eigenvalues{end}, '--o')
+    % markerplot(chi_values, T_pseudocrits, '--')
+    % hline(Constants.T_crit, '--')
+    % diffs = T_pseudocrits - Constants.T_crit
   end
+
 
   % make_legend_tolerances(tolerances)
   % hold off
@@ -31,14 +34,14 @@ function fit_power_law_T_pseudocrit
   % for c = 1:numel(chi_values)
   %   length_scales(c) = calculate_correlation_length(T_pseudocrits(c), chi_values(c), tolerance, q);
   % end
-  % fit_power_law(T_pseudocrits, length_scales)
+  fit_power_law(T_pseudocrits, length_scales)
   % fit_kosterlitz_transition(T_pseudocrits, entropies, T_crit_guess)
 end
 
 
-function fit_power_law(T_pseudocrits, length_scales, T_crit_guess)
-  search_width = 0.1;
-  TolX = 1e-6;
+function fit_power_law(T_pseudocrits, length_scales)
+  search_width = 0.01;
+  TolX = 1e-14;
   T_crit_guess = T_pseudocrits(end);
 
   function mse = f_minimize(T_crit)

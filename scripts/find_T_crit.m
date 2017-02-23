@@ -3,10 +3,10 @@ function find_T_crit
   % T_crit_bounds = {[2.2 2.3], [1.1 1.2]};
   % T_crit_bounds = {[1.1 1.2]};
   T_crit_bounds = {[2.2 2.3]};
-  chi_values = 10:2:20;
+  chi_values = [41]
   tolerance = 1e-7;
-  TolX = 1e-6;
-  method = 'entropy';
+  TolX = 1e-1;
+  method = 'energy gap';
 
   for chi = chi_values
     for q_index = 1:numel(q_values)

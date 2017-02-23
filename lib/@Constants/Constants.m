@@ -29,6 +29,8 @@ classdef Constants
     function T = T_crit_guess(q)
       if q == 4
         T = 1.137;
+      elseif q == 2
+        T = Constants.T_crit;
       else
         error('I do not know that value of q')
       end
