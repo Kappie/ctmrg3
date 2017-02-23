@@ -1,7 +1,7 @@
 function main
   rehash;
 
-  % test_texual_queries
+  test_textual_queries
   % plot_entropy_at_T_crit
   % find_T_crit
   % plot_ctm
@@ -13,7 +13,7 @@ function main
   % plot_m_vs_chi
   % plot_correlation_length_vs_chi
   % plot_correlation_length
-  crossover_between_chi_and_N
+  % crossover_between_chi_and_N
   % data_collapse_nishino
 
   % data_collapse_free_energy

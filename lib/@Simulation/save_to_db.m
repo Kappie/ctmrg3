@@ -14,12 +14,5 @@ function obj = save_to_db(obj, temperature, chi, N, convergence, C, T)
       ', q = ' num2str(obj.q) '\n'])
     % prevent matlab from crashing? :(
     fclose('all');
-  elseif obj.STORE_DB_QUERIES_TO_FILE
-    textual_representation = textualize_query(query, temperature, chi, N, convergence, ...
-      getByteStreamFromArray(C), getByteStreamFromArray(T), obj.initial_condition, obj.q);
-    obj.DB_QUERY_FILE
-    file_id = fopen(obj.DB_QUERY_FILE, 'a');
-    fprintf(file_id, [textual_representation '\n']);
-    fclose(file_id);
   end
 end
