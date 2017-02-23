@@ -10,5 +10,5 @@ function profile_ctm
   profile on
     sim = sim.run();
   profile off
-  profsave(profile('info'), 'profile_results_server')
+  profsave(profile('info'), 'profile_results_server_single_comp')
 end
