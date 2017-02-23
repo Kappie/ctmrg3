@@ -1,10 +1,10 @@
 function main
   rehash;
 
-  profile_ctm
+  % profile_ctm
   % plot_entropy_at_T_crit
   % profile on
-  % find_T_crit
+  find_T_crit
   % profile viewer
   % plot_ctm
   % plot_T_vs_m
