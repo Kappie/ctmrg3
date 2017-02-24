@@ -11,6 +11,4 @@ For product information, visit www.mathworks.com.
 
 	Academic License
 
-Did not find record for:
-chi = 30, temperature = 2.2692, tolerance = 1e-06, q = 2.
->> 
+Starting parallel pool (parpool) using the 'local' profile ... connected to 12 workers.
