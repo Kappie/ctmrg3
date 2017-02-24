@@ -1,8 +1,8 @@
 function fit_power_law_T_pseudocrit
-  q = 2;
-  TolX = 1e-6;
+  q = 4;
+  TolX = 1e-8;
   tolerances = [1e-7];
-  method = 'energy gap';
+  method = 'entropy';
 
   figure
 
@@ -19,7 +19,7 @@ function fit_power_law_T_pseudocrit
     chi_values
     % hold on
     % semilogy(eigenvalues{end}, '--o')
-    % markerplot(chi_values, T_pseudocrits, '--')
+    markerplot(chi_values, T_pseudocrits, '--')
     % hline(Constants.T_crit, '--')
     % diffs = T_pseudocrits - Constants.T_crit
   end
@@ -34,12 +34,17 @@ function fit_power_law_T_pseudocrit
   % for c = 1:numel(chi_values)
   %   length_scales(c) = calculate_correlation_length(T_pseudocrits(c), chi_values(c), tolerance, q);
   % end
-  fit_power_law(T_pseudocrits, length_scales)
+  if strcmp(method, 'energy gap')
+    [T_crit, mse] = fit_power_law(T_pseudocrits, length_scales)
+  elseif strcmp(method, 'entropy')
+    [T_crit, mse] = fit_power_law(T_pseudocrits, entropies)
+  end
+  Constants.T_crit_guess(q) - T_crit
   % fit_kosterlitz_transition(T_pseudocrits, entropies, T_crit_guess)
 end
 
 
-function fit_power_law(T_pseudocrits, length_scales)
+function [T_crit, mse, exitflag] = fit_power_law(T_pseudocrits, length_scales)
   search_width = 0.01;
   TolX = 1e-14;
   T_crit_guess = T_pseudocrits(end);
@@ -52,7 +57,7 @@ function fit_power_law(T_pseudocrits, length_scales)
 
   options = optimset('Display', 'iter', 'TolX', TolX);
   [T_crit, mse, exitflag] = fminbnd(@f_minimize, ...
-    T_crit_guess - search_width, T_crit_guess, options)
+    T_crit_guess - search_width, T_crit_guess, options);
 end
 
 % function fit_kosterlitz_transition(T_pseudocrits, length_scales, T_crit_guess)

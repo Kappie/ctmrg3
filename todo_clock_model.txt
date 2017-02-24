@@ -32,3 +32,6 @@ Plots to make:
 
 Magic numbers for q = 4:
 1, 3, 4, 6, 10, 14, 19, 25, 34, 46, 59, 75, 96
+
+magic numbers for Ising model:
+1, 2, 3, 4, 5, 6, 7, 9, 11, 13, 15, 18, 21, 24, 28, 33, 38, 43, 49, 56, 64, 72, 81, 92
