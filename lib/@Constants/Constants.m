@@ -31,6 +31,10 @@ classdef Constants
         T = 1 / (log(1 + sqrt(2)));
       elseif q == 2
         T = Constants.T_crit;
+      elseif q == 5
+        T = 0.944;
+      elseif q == 6
+        0.908;
       else
         error('I do not know that value of q')
       end

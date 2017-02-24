@@ -1,9 +1,10 @@
 function plot_ctm
-  q = 2;
+  q = 5;
   T_crit_guess = Constants.T_crit_guess(q)
-  width = 0.1; number_of_points = 3;
+  width = 0.1; number_of_points = 1;
   temperatures = linspace(T_crit_guess - width, T_crit_guess + width, number_of_points);
-  chi_values = [110];
+  % temperatures = Constants.T_crit_guess(q);
+  chi_values = [40];
   tolerance = 1e-7;
 
   sim = FixedToleranceSimulation(temperatures, chi_values, tolerance, q).run();

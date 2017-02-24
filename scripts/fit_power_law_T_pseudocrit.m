@@ -1,8 +1,8 @@
 function fit_power_law_T_pseudocrit
-  q = 4;
-  TolX = 1e-8;
+  q = 2;
+  TolX = 1e-6;
   tolerances = [1e-7];
-  method = 'entropy';
+  method = 'energy gap';
 
   figure
 
@@ -30,6 +30,7 @@ function fit_power_law_T_pseudocrit
 
   % markerplot(length_scales, T_pseudocrits, '--')
 
+  T_pseudocrits - Constants.T_crit_guess(q)
 
   % for c = 1:numel(chi_values)
   %   length_scales(c) = calculate_correlation_length(T_pseudocrits(c), chi_values(c), tolerance, q);

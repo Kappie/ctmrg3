@@ -1,17 +1,18 @@
 function find_T_crit
-  q_values = [4];
-  % T_crit_bounds = {[2.2 2.3], [1.1 1.2]};
-  T_crit_bounds = {[1.1 1.2]};
-  % T_crit_bounds = {[2.2 2.3]};
-  chi_values = [59]
+  T_crit_bounds = containers.Map('keyType', 'double', 'valueType', 'any');
+  T_crit_bounds(2) = [2.2 2.3];
+  T_crit_bounds(4) = [1.1 1.2];
+  T_crit_bounds(5) = [0.9 1.1];
+
+  q_values = [5];
+  chi_values = [10 20 30];
   tolerance = 1e-7;
-  TolX = 1e-1;
-  method = 'energy gap';
+  TolX = 1e-6;
+  method = 'entropy';
 
   for chi = chi_values
-    for q_index = 1:numel(q_values)
-      range = T_crit_bounds{q_index};
-      q = q_values(q_index);
+    for q = q_values
+      range = T_crit_bounds(q);
       if not_in_db(chi, tolerance, q, TolX, method)
         [T_pseudocrit, entropy, energy_gap] = find_T_pseudocrit(chi, tolerance, q, range, TolX, method);
         save_to_db(T_pseudocrit, entropy, energy_gap, chi, tolerance, q, TolX, method);
