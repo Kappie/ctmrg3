@@ -1,11 +1,11 @@
 function main
   rehash;
 
-  test_parfor
+  % test_parfor
   % profile_ctm
   % plot_entropy_at_T_crit
   % profile on
-  % find_T_crit
+  find_T_crit
   % profile viewer
   % plot_ctm
   % plot_T_vs_m

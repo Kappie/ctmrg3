@@ -11,4 +11,68 @@ For product information, visit www.mathworks.com.
 
 	Academic License
 
-Starting parallel pool (parpool) using the 'local' profile ... connected to 12 workers.
+Did not find record for:
+chi = 125, temperature = 1.1382, tolerance = 1e-07, q = 4.sstored to database: 
+temperature = 1.1382, chi = 125, N = 1536, convergence = 1e-07, initial = spin-up, q = 4
+ 
+ Func-count     x          f(x)         Procedure
+    1         1.1382    -0.495254        initial
+Did not find record for:
+chi = 125, temperature = 1.1618, tolerance = 1e-07, q = 4.
+stored to database: 
+temperature = 1.1618, chi = 125, N = 234, convergence = 1e-07, initial = spin-up, q = 4
+    2         1.1618    -0.330812        golden
+Did not find record for:
+chi = 125, temperature = 1.1236, tolerance = 1e-07, q = 4.
+stored to database: 
+temperature = 1.1236, chi = 125, N = 421, convergence = 1e-07, initial = spin-up, q = 4
+    3        1.12361    -0.131249        golden
+Did not find record for:
+chi = 125, temperature = 1.1458, tolerance = 1e-07, q = 4.
+stored to database: 
+temperature = 1.1458, chi = 125, N = 526, convergence = 1e-07, initial = spin-up, q = 4
+    4        1.14583    -0.406195        parabolic
+Did not find record for:
+chi = 125, temperature = 1.1326, tolerance = 1e-07, q = 4.
+{Error using libsqlite3_
+database is locked: INSERT INTO tensors (temperature, chi, n, convergence, c,
+t, initial, q) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+
+Error in sqlite3.execute (line 25)
+    results = libsqlite3_('execute', ...
+
+Error in Simulation/save_to_db (line 5)
+    sqlite3.execute(obj.db_id,  query, ...
+
+Error in FixedToleranceSimulation/find_or_calculate_environment (line 45)
+    obj.save_to_db(temperature, chi, N, tolerance, C, T);
+
+Error in Simulation/find_or_calculate_environment_for_every_combination (line
+7)
+        obj.tensors(i1, i2, i3) =
+        obj.find_or_calculate_environment(values1(i1), values2(i2),
+        values3(i3));
+
+Error in FixedToleranceSimulation/run (line 2)
+  obj =
+  obj.find_or_calculate_environment_for_every_combination(obj.temperatures,
+  obj.chi_values, obj.tolerances);
+
+Error in find_T_crit>find_T_pseudocrit/minimize_negative_entropy (line 60)
+    sim = FixedToleranceSimulation(temperature, chi, tolerance, q).run();
+
+Error in fminbnd (line 292)
+    fu = funfcn(x,varargin{:});
+
+Error in find_T_crit>find_T_pseudocrit (line 77)
+  [T_pseudocrit, minimized_quantity, EXITFLAG, OUTPUT] = fminbnd(f_minimize,
+  ...
+
+Error in find_T_crit (line 16)
+        [T_pseudocrit, entropy, energy_gap] = find_T_pseudocrit(chi, tolerance,
+        q, range, TolX, method);
+
+Error in main (line 8)
+  find_T_crit
+} 
+>> 
