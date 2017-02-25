@@ -4,9 +4,9 @@ function test_clock_model
   width = 0.2;
   T_start = Constants.T_crit_guess(q) - width;
   T_end = Constants.T_crit_guess(q) + width;
-  number_of_points = 30;
+  number_of_points = 20;
   temperatures = linspace(T_start, T_end, number_of_points);
-  chi_values = [4, 16, 26, 40]
+  chi_values = [4, 16]
   tolerance = 1e-7;
 
   sim = FixedToleranceSimulation(temperatures, chi_values, tolerance, q).run();

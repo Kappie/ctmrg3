@@ -5,12 +5,12 @@ function main
   % profile_ctm
   % plot_entropy_at_T_crit
   % profile on
-  find_T_crit
+  % find_T_crit
   % profile viewer
   % plot_ctm
   % plot_T_vs_m
   % fit_power_law_T_pseudocrit
-  % test_clock_model
+  test_clock_model
   % plot_entropy_at_T_crit
   % data_collapse_chi_power_law
   % plot_m_vs_chi
