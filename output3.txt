@@ -1,0 +1,63 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+ 
+ Func-count     x          f(x)         Procedure
+    1         1.1382    -0.494761        initial
+    2         1.1618    -0.330812        golden
+    3        1.12361    -0.131249        golden
+    4        1.14584    -0.406139        parabolic
+    5        1.13262    -0.245923        golden
+    6        1.14111    -0.449671        golden
+Did not find record for:
+chi = 105, temperature = 1.1361, tolerance = 1e-07, q = 4.
+stored to database: 
+temperature = 1.1361, chi = 105, N = 4240, convergence = 1e-07, initial = spin-up, q = 4
+    7        1.13607    -0.555004        golden
+Did not find record for:
+chi = 105, temperature = 1.1348, tolerance = 1e-07, q = 4.
+stored to database: 
+temperature = 1.1348, chi = 105, N = 9238, convergence = 1e-07, initial = spin-up, q = 4
+    8        1.13475    -0.445591        golden
+Did not find record for:
+chi = 105, temperature = 1.1369, tolerance = 1e-07, q = 4.
+stored to database: 
+temperature = 1.1369, chi = 105, N = 2501, convergence = 1e-07, initial = spin-up, q = 4
+    9        1.13688     -0.52691        golden
+Did not find record for:
+chi = 105, temperature = 1.1356, tolerance = 1e-07, q = 4.
+stored to database: 
+temperature = 1.1356, chi = 105, N = 8082, convergence = 1e-07, initial = spin-up, q = 4
+   10        1.13557    -0.577872        golden
+Did not find record for:
+chi = 105, temperature = 1.1353, tolerance = 1e-07, q = 4.
+stored to database: 
+temperature = 1.1353, chi = 105, N = 22759, convergence = 1e-07, initial = spin-up, q = 4
+   11        1.13525     -0.59511        golden
+Did not find record for:
+chi = 105, temperature = 1.1351, tolerance = 1e-07, q = 4.
+stored to database: 
+temperature = 1.1351, chi = 105, N = 33752, convergence = 1e-07, initial = spin-up, q = 4
+   12        1.13506    -0.568912        golden
+Did not find record for:
+chi = 105, temperature = 1.1353, tolerance = 1e-07, q = 4.
+stored to database: 
+temperature = 1.1353, chi = 105, N = 14832, convergence = 1e-07, initial = spin-up, q = 4
+   13        1.13534    -0.590248        parabolic
+Did not find record for:
+chi = 105, temperature = 1.1352, tolerance = 1e-07, q = 4.
+stored to database: 
+temperature = 1.1352, chi = 105, N = 50548, convergence = 1e-07, initial = spin-up, q = 4
+   14        1.13518    -0.599544        golden
+Did not find record for:
+chi = 105, temperature = 1.1351, tolerance = 1e-07, q = 4.
