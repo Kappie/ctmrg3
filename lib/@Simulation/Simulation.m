@@ -26,6 +26,10 @@ classdef (Abstract) Simulation
       obj.temperatures = arrayfun(@(temp) round(temp, obj.significant_digits), temperatures);
       obj.chi_values   = chi_values;
       obj.q            = q;
+      if q > 4
+        obj.initial_condition = 'symmetric';
+      end
+
       % create empty array of structs that I can fill with C, T tensors.
       obj.tensors = struct('C', {}, 'T', {}, 'convergence', {});
       % initialize lattice objects that contain all physical information
@@ -43,7 +47,8 @@ classdef (Abstract) Simulation
         C = lattice.spin_up_initial_C();
         T = lattice.spin_up_initial_T();
       elseif strcmp(obj.initial_condition, 'symmetric')
-        error('I do not know these boundary conditions yet.')
+        C = lattice.symmetric_initial_C();
+        T = lattice.symmetric_initial_T();
       end
     end
   end
