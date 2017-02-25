@@ -146,3 +146,8 @@ temperature = 0.98255, chi = 70, N = 5102, convergence = 1e-07, initial = spin-u
     4       0.982555    -0.535236        parabolic
 Did not find record for:
 chi = 70, temperature = 0.9702, tolerance = 1e-07, q = 5.
+stored to database: 
+temperature = 0.9702, chi = 70, N = 4772, convergence = 1e-07, initial = spin-up, q = 5
+    5       0.970203    -0.479905        parabolic
+Did not find record for:
+chi = 70, temperature = 0.97783, tolerance = 1e-07, q = 5.
