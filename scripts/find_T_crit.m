@@ -5,7 +5,7 @@ function find_T_crit
   T_crit_bounds(5) = [0.9 1.1];
 
   q_values = [5];
-  chi_values = [10 20 30];
+  chi_values = [10 20];
   tolerance = 1e-7;
   TolX = 1e-6;
   method = 'entropy';
