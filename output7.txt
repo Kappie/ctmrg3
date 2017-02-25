@@ -1,0 +1,92 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+Did not find record for:
+chi = 80, temperature = 0.97639, tolerance = 1e-07, q = 5.
+stored to database: 
+temperature = 0.97639, chi = 80, N = 18751, convergence = 1e-07, initial = spin-up, q = 5
+ 
+ Func-count     x          f(x)         Procedure
+    1       0.976393    -0.570678        initial
+Did not find record for:
+chi = 80, temperature = 1.0236, tolerance = 1e-07, q = 5.
+stored to database: 
+temperature = 1.0236, chi = 80, N = 502, convergence = 1e-07, initial = spin-up, q = 5
+    2        1.02361    -0.384963        golden
+Did not find record for:
+chi = 80, temperature = 0.94721, tolerance = 1e-07, q = 5.
+stored to database: 
+temperature = 0.94721, chi = 80, N = 3600, convergence = 1e-07, initial = spin-up, q = 5
+    3       0.947214     -0.44577        golden
+Did not find record for:
+chi = 80, temperature = 0.98171, tolerance = 1e-07, q = 5.
+stored to database: 
+temperature = 0.98171, chi = 80, N = 5020, convergence = 1e-07, initial = spin-up, q = 5
+    4       0.981709    -0.542498        parabolic
+Did not find record for:
+chi = 80, temperature = 0.96951, tolerance = 1e-07, q = 5.
+stored to database: 
+temperature = 0.96951, chi = 80, N = 5559, convergence = 1e-07, initial = spin-up, q = 5
+    5       0.969508    -0.492437        parabolic
+Did not find record for:
+chi = 80, temperature = 0.97711, tolerance = 1e-07, q = 5.
+stored to database: 
+temperature = 0.97711, chi = 80, N = 13645, convergence = 1e-07, initial = spin-up, q = 5
+    6       0.977111    -0.566882        parabolic
+Did not find record for:
+chi = 80, temperature = 0.97376, tolerance = 1e-07, q = 5.
+stored to database: 
+temperature = 0.97376, chi = 80, N = 15807, convergence = 1e-07, initial = spin-up, q = 5
+    7       0.973763     -0.54782        golden
+Did not find record for:
+chi = 80, temperature = 0.97612, tolerance = 1e-07, q = 5.
+stored to database: 
+temperature = 0.97612, chi = 80, N = 22016, convergence = 1e-07, initial = spin-up, q = 5
+    8       0.976119    -0.572127        parabolic
+Did not find record for:
+chi = 80, temperature = 0.97522, tolerance = 1e-07, q = 5.
+stored to database: 
+temperature = 0.97522, chi = 80, N = 59297, convergence = 1e-07, initial = spin-up, q = 5
+    9       0.975219    -0.576839        golden
+Did not find record for:
+chi = 80, temperature = 0.97466, tolerance = 1e-07, q = 5.
+stored to database: 
+temperature = 0.97466, chi = 80, N = 42319, convergence = 1e-07, initial = spin-up, q = 5
+   10       0.974663    -0.570633        golden
+Did not find record for:
+chi = 80, temperature = 0.97556, tolerance = 1e-07, q = 5.
+stored to database: 
+temperature = 0.97556, chi = 80, N = 35300, convergence = 1e-07, initial = spin-up, q = 5
+   11       0.975563     -0.57505        golden
+Did not find record for:
+chi = 80, temperature = 0.97501, tolerance = 1e-07, q = 5.
+stored to database: 
+temperature = 0.97501, chi = 80, N = 107931, convergence = 1e-07, initial = spin-up, q = 5
+   12       0.975007    -0.577771        golden
+Did not find record for:
+chi = 80, temperature = 0.97488, tolerance = 1e-07, q = 5.
+stored to database: 
+temperature = 0.97488, chi = 80, N = 72975, convergence = 1e-07, initial = spin-up, q = 5
+   13       0.974875    -0.576024        golden
+Did not find record for:
+chi = 80, temperature = 0.97507, tolerance = 1e-07, q = 5.
+stored to database: 
+temperature = 0.97507, chi = 80, N = 88620, convergence = 1e-07, initial = spin-up, q = 5
+   14        0.97507    -0.577572        parabolic
+Did not find record for:
+chi = 80, temperature = 0.97496, tolerance = 1e-07, q = 5.
+stored to database: 
+temperature = 0.97496, chi = 80, N = 104484, convergence = 1e-07, initial = spin-up, q = 5
+   15       0.974957     -0.57752        golden
+Did not find record for:
+chi = 80, temperature = 0.97502, tolerance = 1e-07, q = 5.

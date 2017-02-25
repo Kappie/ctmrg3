@@ -61,3 +61,43 @@ temperature = 1.1352, chi = 105, N = 50548, convergence = 1e-07, initial = spin-
    14        1.13518    -0.599544        golden
 Did not find record for:
 chi = 105, temperature = 1.1351, tolerance = 1e-07, q = 4.
+stored to database: 
+temperature = 1.1351, chi = 105, N = 72446, convergence = 1e-07, initial = spin-up, q = 4
+   15        1.13514      -0.5966        golden
+Did not find record for:
+chi = 105, temperature = 1.1352, tolerance = 1e-07, q = 4.
+stored to database: 
+temperature = 1.1352, chi = 105, N = 43961, convergence = 1e-07, initial = spin-up, q = 4
+   16        1.13519    -0.599063        parabolic
+Did not find record for:
+chi = 105, temperature = 1.1352, tolerance = 1e-07, q = 4.
+stored to database: 
+temperature = 1.1352, chi = 105, N = 60842, convergence = 1e-07, initial = spin-up, q = 4
+   17        1.13517    -0.600047        parabolic
+Did not find record for:
+chi = 105, temperature = 1.1352, tolerance = 1e-07, q = 4.
+stored to database: 
+temperature = 1.1352, chi = 105, N = 90490, convergence = 1e-07, initial = spin-up, q = 4
+   18        1.13516    -0.600645        golden
+Did not find record for:
+chi = 105, temperature = 1.1352, tolerance = 1e-07, q = 4.
+stored to database: 
+temperature = 1.1352, chi = 105, N = 100984, convergence = 1e-07, initial = spin-up, q = 4
+   19        1.13515    -0.600099        golden
+Did not find record for:
+chi = 105, temperature = 1.1352, tolerance = 1e-07, q = 4.
+stored to database: 
+temperature = 1.1352, chi = 105, N = 83939, convergence = 1e-07, initial = spin-up, q = 4
+   20        1.13516    -0.600591        parabolic
+Did not find record for:
+chi = 105, temperature = 1.1352, tolerance = 1e-07, q = 4.
+stored to database: 
+temperature = 1.1352, chi = 105, N = 91446, convergence = 1e-07, initial = spin-up, q = 4
+   21        1.13516    -0.600649        parabolic
+Did not find record for:
+chi = 105, temperature = 1.1352, tolerance = 1e-07, q = 4.
+stored to database: 
+temperature = 1.1352, chi = 105, N = 94468, convergence = 1e-07, initial = spin-up, q = 4
+   22        1.13516    -0.600652        parabolic
+Did not find record for:
+chi = 105, temperature = 1.1352, tolerance = 1e-07, q = 4.
