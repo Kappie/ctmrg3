@@ -1,24 +1,33 @@
 function test_clock_model
-  q = 5;
-  % T_start = 1.13; T_end = 1.15;
-  width = 0.2;
+  q = 4;
+  initial_conditions = {'spin-up'};
+  width = 0.05;
   T_start = Constants.T_crit_guess(q) - width;
   T_end = Constants.T_crit_guess(q) + width;
-  number_of_points = 20;
+  number_of_points = 10;
   temperatures = linspace(T_start, T_end, number_of_points);
-  chi_values = [4, 16]
+  chi_values = [4, 16, 26, 40]
   tolerance = 1e-7;
 
-  sim = FixedToleranceSimulation(temperatures, chi_values, tolerance, q).run();
-  entropies = sim.compute('entropy');
-  energy_gaps = sim.compute('energy_gap');
+  entropies = zeros(numel(initial_conditions), numel(temperatures));
+  % for i = 1:numel(initial_conditions)
+    sim = FixedToleranceSimulation(temperatures, chi_values, tolerance, q);
+    sim.initial_condition = initial_conditions{1}
+    sim = sim.run();
+    entropies = sim.compute('entropy')
+    % entropies(i, :) = sim.compute('entropy');
 
   markerplot(temperatures, entropies, '--')
+  make_legend(chi_values, '\chi')
   xlabel('$T$')
   ylabel('$S(T, \chi)$')
-  title('$q = 5$ clock model')
-
-  make_legend(chi_values, '\chi')
+  title('$q = 4$ clock model')
+  % legend(initial_conditions, 'Location', 'best')
+  % xlabel('$T$')
+  % ylabel('$S(T, \chi)$')
+  % title('$q = 5$ clock model')
+  %
+  % make_legend(chi_values, '\chi')
 
 
 

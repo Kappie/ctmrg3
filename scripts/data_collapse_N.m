@@ -1,12 +1,13 @@
 function data_collapse_N
   % Gather neccessary measurements of order parameter
   temperature_width = 0.5;
+  q = 2;
   temperatures = linspace(Constants.T_crit - temperature_width, Constants.T_crit + temperature_width, 9);
-  N_values = 25:25:1000;
-  chi = 32;
+  N_values = 25:25:100;
+  chi = 100;
 
-  sim = FixedNSimulation(temperatures, [chi], N_values).run();
-  order_params = sim.compute(OrderParameter);
+  sim = FixedNSimulation(temperatures, chi, N_values, q).run();
+  order_params = sim.compute('order_parameter');
 
   % DO DATA COLLAPSE
   %

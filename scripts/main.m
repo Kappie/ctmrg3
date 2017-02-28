@@ -1,6 +1,14 @@
 function main
   rehash;
 
+  % data_collapse_N
+  test_fixed_N
+
+  % fit_power_law_T_pseudocrit
+  % test_exponential_fit
+  % test_power_law_fit
+  % fit_exponential
+  % test_boundary_conditions
   % test_parfor
   % profile_ctm
   % plot_entropy_at_T_crit
@@ -9,8 +17,7 @@ function main
   % profile viewer
   % plot_ctm
   % plot_T_vs_m
-  % fit_power_law_T_pseudocrit
-  test_clock_model
+  % test_clock_model
   % plot_entropy_at_T_crit
   % data_collapse_chi_power_law
   % plot_m_vs_chi
@@ -48,7 +55,6 @@ function main
   % plot_order_param_and_correlation_length
   % data_collapse_chi
 
-  % data_collapse_N
   % perform_error_estimate_chi
   % scaling_function_argument
   % find_pseudocritical_point

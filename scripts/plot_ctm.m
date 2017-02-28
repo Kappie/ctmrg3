@@ -1,6 +1,6 @@
 function plot_ctm
   q = 5;
-  temperatures = [0.95 0.99 1.1]
+  temperatures = [0.7 0.95 0.99 1.1]
   chi_values = [40];
   tolerance = 1e-7;
 
