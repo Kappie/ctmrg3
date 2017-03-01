@@ -34,7 +34,8 @@ function tensor_struct = find_or_calculate_environment(obj, temperature, chi, to
         ', convergence = ' num2str(query_result.convergence) ...
         ', N = ' num2str(query_result.n) '\n'])
       [initial_C, initial_T] = Util.deserialize_tensors(query_result);
-      [C, T, convergence, additional_N, converged] = obj.calculate_environment(temperature, chi, tolerance, initial_C, initial_T);
+      [C, T, convergence, additional_N, converged, truncation_error] = obj.calculate_environment(temperature, chi, ...
+        tolerance, initial_C, initial_T);
       fprintf(['I did an additional ' num2str(additional_N) ' steps.\n'])
       N = query_result.n + additional_N;
       simulated = true;

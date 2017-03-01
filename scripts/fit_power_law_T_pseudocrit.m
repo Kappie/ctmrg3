@@ -1,8 +1,8 @@
 function fit_power_law_T_pseudocrit
-  q = 2;
+  q = 4;
   TolX = 1e-6;
   tolerances = [1e-7];
-  method = 'energy gap';
+  method = 'entropy';
 
   figure
 
@@ -19,24 +19,24 @@ function fit_power_law_T_pseudocrit
 
     chi_values
     % markerplot(exp(entropies), T_pseudocrits, '--')
-    % for c = 1:numel(chi_values)
-    %   display(['doing chi = ' num2str(chi_values(c))]);
-    %   correlation_lengths(c) = calculate_correlation_length(T_pseudocrits(c), ...
-    %     chi_values(c), tolerance, q);
-    %
-    % end
+    for c = 1:numel(chi_values)
+      display(['doing chi = ' num2str(chi_values(c))]);
+      correlation_lengths(c) = calculate_correlation_length(T_pseudocrits(c), ...
+        chi_values(c), tolerance, q);
+    end
+    markerplot(chi_values, correlation_lengths, '--')
     % load('correlation_lengths_q5_chi10-80.mat', 'correlation_lengths')
     % hold on
     % semilogy(eigenvalues{end}, '--o')
     % markerplot(length_scales, T_pseudocrits, '--')
     % plot(chi_values, T_pseudocrits, '--o')
-    model_name = 'power2'
-    x = length_scales;
-    y = T_pseudocrits;
-    fit_options = fitoptions(model_name, 'Lower', [0 -10 2.25], ...
-      'Upper', [Inf 0 2.27], 'Startpoint', [1 -1 Constants.T_crit], 'Exclude', x < 0);
-    [fit_obj, goodness] = fit(x', y', model_name, fit_options)
-    plot(fit_obj, x, y)
+    % model_name = 'power2'
+    % x = length_scales;
+    % y = T_pseudocrits;
+    % fit_options = fitoptions(model_name, 'Lower', [0 -10 2.25], ...
+    %   'Upper', [Inf 0 2.27], 'Startpoint', [1 -1 Constants.T_crit], 'Exclude', x < 0);
+    % [fit_obj, goodness] = fit(x', y', model_name, fit_options)
+    % plot(fit_obj, x, y)
     % xlabel('$\chi$')
     % ylabel('$T^{*}(\chi)$')
     % title('5-state clock model. $T^{*}(\chi)$ as point of maximum entropy.')
