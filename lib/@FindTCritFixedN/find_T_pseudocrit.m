@@ -1,15 +1,17 @@
 function [T_pseudocrit, tensors, truncation_error]  = find_T_pseudocrit(obj, q, N)
   function neg_entropy = negative_entropy(temperature)
     % We maximize the entropy to find the pseudocritical point.
-    chi_start = 90;
-    set_chi(chi_start);
-    truncation_error = Inf;
+    set_chi(obj.chi_start);
+    done = false;
 
-    while truncation_error > obj.max_truncation_error
-      set_chi(get_chi() + 10);
-      % chi = chi + 10;
+    while done == false;
       sim = FixedNSimulation(temperature, get_chi(), N, q).run();
       truncation_error = sim.compute('truncation_error');
+      if truncation_error > obj.max_truncation_error
+        set_chi(get_chi() + 40);
+      else
+        done = true;
+      end
     end
 
     neg_entropy = -sim.compute('entropy');

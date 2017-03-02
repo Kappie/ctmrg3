@@ -4,6 +4,7 @@ function find_T_pseudocrit_oo
   TolX = 1e-6;
 
   sim = FindTCritFixedN(q, TolX, N_values);
+  sim.chi_start = 200;
   sim = sim.run();
   sim.T_pseudocrits
   sim.truncation_errors

@@ -4,6 +4,7 @@ classdef FindTCritFixedN < FindTCrit
     N_values;
     max_truncation_error = 1e-6;
     truncation_errors = [];
+    chi_start = 100;
   end
 
   methods
