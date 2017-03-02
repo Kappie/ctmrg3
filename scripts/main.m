@@ -3,7 +3,7 @@ function main
 
   % test_free_energy
   % data_collapse_N
-  test_fixed_N
+  % test_fixed_N
 
   % fit_power_law_T_pseudocrit
   % test_exponential_fit
