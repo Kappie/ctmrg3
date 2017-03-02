@@ -19,7 +19,8 @@ function [T_pseudocrit, tensors, truncation_error] = find_T_pseudocrit_if_not_in
       ' max_truncation_error = ' num2str(obj.max_truncation_error)])
   else
     % T_pseudocrit not known: run simulations
-    [T_pseudocrit, tensors, truncation_error] = obj.find_T_pseudocrit(q, N);
+    [T_pseudocrit, tensors, truncation_error_struct] = obj.find_T_pseudocrit(q, N);
+    truncation_error = truncation_error_struct.truncation_error;
     obj.store_to_db(T_pseudocrit, q, N, tensors, truncation_error);
   end
 end

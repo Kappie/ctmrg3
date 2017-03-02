@@ -6,9 +6,11 @@ function [T_pseudocrit, tensors, truncation_error]  = find_T_pseudocrit(obj, q, 
 
     while done == false;
       sim = FixedNSimulation(temperature, get_chi(), N, q).run();
-      truncation_error = sim.compute('truncation_error');
+      truncation_error_struct = sim.compute('truncation_error');
+      truncation_error = truncation_error_struct.truncation_error;
+      full_singular_values = truncation_error_struct.full_singular_values;
       if truncation_error > obj.max_truncation_error
-        set_chi(get_chi() + 40);
+        set_chi(sufficient_chi(full_singular_values, obj.max_truncation_error));
       else
         done = true;
       end

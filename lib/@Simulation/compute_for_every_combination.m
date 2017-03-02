@@ -1,5 +1,9 @@
 function values = compute_for_every_combination(obj, quantity, temperatures, values1, values2)
-  values = zeros(numel(temperatures), numel(values1), numel(values2));
+  if strcmp(quantity, 'truncation_error')
+    values = struct('truncation_error', {}, 'full_singular_values', {});
+  else
+    values = zeros(numel(temperatures), numel(values1), numel(values2));
+  end
 
   for T_index = 1:numel(temperatures)
     for i1 = 1:numel(values1)
