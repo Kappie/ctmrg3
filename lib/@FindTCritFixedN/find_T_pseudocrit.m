@@ -10,7 +10,9 @@ function [T_pseudocrit, tensors, truncation_error]  = find_T_pseudocrit(obj, q, 
       truncation_error = truncation_error_struct.truncation_error;
       full_singular_values = truncation_error_struct.full_singular_values;
       if truncation_error > obj.max_truncation_error
-        set_chi(sufficient_chi(full_singular_values, obj.max_truncation_error));
+        % I take a larger chi value than looks necessary by halving the truncation_error,
+        % but when starting from a larger chi, a larger value is needed to attain the required truncation error
+        set_chi(sufficient_chi(full_singular_values, obj.max_truncation_error/2));
       else
         done = true;
       end
