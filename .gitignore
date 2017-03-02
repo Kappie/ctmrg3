@@ -1,2 +1,5 @@
 db/tensors.db
 db/*
+!db/*.sql
+!db/*.sqlite
+!db/*.sqlite3
