@@ -1,10 +1,12 @@
 function main
   rehash;
 
+  fit_T_crit_n
+  % custom_fit_test
   % test_free_energy
   % data_collapse_N
   % test_fixed_N
-  find_T_pseudocrit_oo
+  % find_T_pseudocrit_oo
 
   % fit_power_law_T_pseudocrit
   % test_exponential_fit

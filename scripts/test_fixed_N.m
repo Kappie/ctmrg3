@@ -1,15 +1,14 @@
 function test_fixed_N
-  N_values = 100;
-  chi_values = [10];
+  N_values = 50:50:200;
+  chi_values = [10, 20];
   q = 4;
   temperature = Constants.T_crit/2;
 
   sim = FixedNSimulation(temperature, chi_values, N_values, q).run();
+  truncation_errors = arrayfun(@ (s) s.truncation_error, sim.compute('truncation_error'))
 
-
-
-  % markerplot(N_values, truncation_errors, '--', 'semilogy')
-  % make_legend(chi_values, '\chi')
+  markerplot(N_values, truncation_errors, '--', 'semilogy')
+  make_legend(chi_values, '\chi')
 
 
   % x = N_values;
