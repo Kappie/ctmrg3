@@ -10,7 +10,7 @@ function benchmark_matrix_operations
 
   profile on
   multiplication(A, B, repeats);
-  singular_value_decomposition(A, repeats/2000);
+  singular_value_decomposition(A, repeats/20);
   vector_addition(a, b, repeats);
   profile off
   profsave(profile('info'), 'matrix_operations_laptop')
