@@ -7,9 +7,13 @@ function benchmark_parallelisation
   B = rand(matrix_size);
 
   profile on
+  do_multiplication(A, B, repeats);
+  profile off
+  profsave(profile('info'), 'matrix_multiplication_workstation')
+end
+
+function do_multiplication(A, B, repeats)
   for i = 1:repeats
     A * B;
   end
-  profile off
-  profile viewer
 end
