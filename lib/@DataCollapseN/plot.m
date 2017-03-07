@@ -1,0 +1,19 @@
+function plot(obj)
+  % [x_values, scaling_function_values] = obj.collapse(...
+  %   obj.results.T_crit, ...
+  %   obj.results.beta, ...
+  %   obj.results.nu)
+  [x_values, scaling_function_values] = obj.collapse(...
+    Constants.T_crit, ...
+    0.125, ...
+    1);
+
+  figure
+  for N_i = 1:numel(obj.N_values)
+    hold on
+    plot(x_values(:, N_i), scaling_function_values(:, N_i), 'LineStyle', 'None', 'marker', 'o')
+  end
+  hold off
+
+  make_legend(obj.N_values, 'N')
+end

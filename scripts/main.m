@@ -1,7 +1,9 @@
 function main
   rehash;
 
-  fit_T_crit_n
+  benchmark_matrix_multiplication
+  % test_data_collapse_N
+  % fit_T_crit_n
   % custom_fit_test
   % test_free_energy
   % data_collapse_N
