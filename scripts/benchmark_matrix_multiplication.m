@@ -1,7 +1,7 @@
 function benchmark_matrix_multiplication
-  rng(1)
+  rng(7)
   maxNumCompThreads(1)
-  sizes = [25:25:400 450:50:600];
+  sizes = 40:1:60;
   timeits_matrix_mult = zeros(1, numel(sizes));
   timeits_matrix_mult_stds = zeros(1, numel(sizes));
   timeits_svd = zeros(1, numel(sizes));
@@ -16,7 +16,7 @@ function benchmark_matrix_multiplication
     [timeits_svd(i), timeits_svd_stds(i)] = timeit2(perform_svd);
   end
 
-  save('benchmark_mult_svd_singlethread.mat', 'sizes', ...
+  save('benchmark_mult_svd_singlethread_small.mat', 'sizes', ...
     'timeits_matrix_mult', 'timeits_svd', ...
     'timeits_matrix_mult_stds', 'timeits_svd_stds');
 
