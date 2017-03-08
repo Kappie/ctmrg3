@@ -1,0 +1,1971 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+set chi to 100
+Found record: 0 iterations remaining.
+set chi to 194
+Did not find record
+stored to database: 
+temperature = 1.1146, chi = 194, N = 140, convergence = 7.3849e-05, initial = spin-up, q = 4
+ 
+ Func-count     x          f(x)         Procedure
+    1        1.11459   -0.0951501        initial
+set chi to 100
+Found record: 0 iterations remaining.
+set chi to 195
+Did not find record
+stored to database: 
+temperature = 1.1854, chi = 195, N = 140, convergence = 6.956e-08, initial = spin-up, q = 4
+    2        1.18541    -0.273131        golden
+set chi to 100
+Found record: 0 iterations remaining.
+    3        1.22918    -0.212006        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1868, chi = 100, N = 140, convergence = 1.755e-08, initial = spin-up, q = 4
+set chi to 193
+Did not find record
+stored to database: 
+temperature = 1.1868, chi = 193, N = 140, convergence = 3.8681e-08, initial = spin-up, q = 4
+    4        1.18683    -0.270495        parabolic
+set chi to 100
+Found record: 0 iterations remaining.
+set chi to 259
+Did not find record
+stored to database: 
+temperature = 1.1584, chi = 259, N = 140, convergence = 0.00040264, initial = spin-up, q = 4
+set chi to 397
+Did not find record
+stored to database: 
+temperature = 1.1584, chi = 397, N = 140, convergence = 0.00043111, initial = spin-up, q = 4
+    5        1.15836    -0.342594        golden
+set chi to 100
+Found record: 0 iterations remaining.
+set chi to 297
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 297, N = 140, convergence = 0.014029, initial = spin-up, q = 4
+set chi to 546
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 546, N = 140, convergence = 0.014596, initial = spin-up, q = 4
+    6        1.14164    -0.360587        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1342, chi = 100, N = 140, convergence = 0.0081473, initial = spin-up, q = 4
+set chi to 285
+Did not find record
+stored to database: 
+temperature = 1.1342, chi = 285, N = 140, convergence = 0.0099534, initial = spin-up, q = 4
+set chi to 505
+Did not find record
+stored to database: 
+temperature = 1.1342, chi = 505, N = 140, convergence = 0.010369, initial = spin-up, q = 4
+    7        1.13421    -0.239909        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 100, N = 140, convergence = 0.011684, initial = spin-up, q = 4
+set chi to 297
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 297, N = 140, convergence = 0.014029, initial = spin-up, q = 4
+set chi to 546
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 546, N = 140, convergence = 0.014596, initial = spin-up, q = 4
+    8        1.14164    -0.360591        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.148, chi = 100, N = 140, convergence = 0.0045935, initial = spin-up, q = 4
+set chi to 288
+Did not find record
+stored to database: 
+temperature = 1.148, chi = 288, N = 140, convergence = 0.0057462, initial = spin-up, q = 4
+set chi to 512
+Did not find record
+stored to database: 
+temperature = 1.148, chi = 512, N = 140, convergence = 0.0059943, initial = spin-up, q = 4
+    9        1.14803    -0.380393        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1462, chi = 100, N = 140, convergence = 0.0066463, initial = spin-up, q = 4
+set chi to 292
+Did not find record
+stored to database: 
+temperature = 1.1462, chi = 292, N = 140, convergence = 0.0081769, initial = spin-up, q = 4
+set chi to 527
+Did not find record
+stored to database: 
+temperature = 1.1462, chi = 527, N = 140, convergence = 0.0085124, initial = spin-up, q = 4
+   10        1.14617    -0.382566        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1465, chi = 100, N = 140, convergence = 0.0062763, initial = spin-up, q = 4
+set chi to 291
+Did not find record
+stored to database: 
+temperature = 1.1465, chi = 291, N = 140, convergence = 0.0077306, initial = spin-up, q = 4
+set chi to 524
+Did not find record
+stored to database: 
+temperature = 1.1465, chi = 524, N = 140, convergence = 0.0080607, initial = spin-up, q = 4
+   11        1.14648    -0.382514        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1462, chi = 100, N = 140, convergence = 0.0066123, initial = spin-up, q = 4
+set chi to 292
+Did not find record
+stored to database: 
+temperature = 1.1462, chi = 292, N = 140, convergence = 0.008136, initial = spin-up, q = 4
+set chi to 527
+Did not find record
+stored to database: 
+temperature = 1.1462, chi = 527, N = 140, convergence = 0.0084709, initial = spin-up, q = 4
+   12        1.14619    -0.382567        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1462, chi = 100, N = 140, convergence = 0.006589, initial = spin-up, q = 4
+set chi to 292
+Did not find record
+stored to database: 
+temperature = 1.1462, chi = 292, N = 140, convergence = 0.0081081, initial = spin-up, q = 4
+set chi to 527
+Did not find record
+stored to database: 
+temperature = 1.1462, chi = 527, N = 140, convergence = 0.0084426, initial = spin-up, q = 4
+   13        1.14621    -0.382567        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1462, chi = 100, N = 140, convergence = 0.0065899, initial = spin-up, q = 4
+set chi to 292
+Did not find record
+stored to database: 
+temperature = 1.1462, chi = 292, N = 140, convergence = 0.0081091, initial = spin-up, q = 4
+set chi to 527
+Did not find record
+stored to database: 
+temperature = 1.1462, chi = 527, N = 140, convergence = 0.0084436, initial = spin-up, q = 4
+   14        1.14621    -0.382567        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1462, chi = 100, N = 140, convergence = 0.0065903, initial = spin-up, q = 4
+set chi to 292
+Did not find record
+stored to database: 
+temperature = 1.1462, chi = 292, N = 140, convergence = 0.0081096, initial = spin-up, q = 4
+set chi to 527
+Did not find record
+stored to database: 
+temperature = 1.1462, chi = 527, N = 140, convergence = 0.0084441, initial = spin-up, q = 4
+   15        1.14621    -0.382567        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1462, chi = 100, N = 140, convergence = 0.0065895, initial = spin-up, q = 4
+set chi to 292
+Did not find record
+stored to database: 
+temperature = 1.1462, chi = 292, N = 140, convergence = 0.0081086, initial = spin-up, q = 4
+set chi to 527
+Did not find record
+stored to database: 
+temperature = 1.1462, chi = 527, N = 140, convergence = 0.0084431, initial = spin-up, q = 4
+   16        1.14621    -0.382567        parabolic
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+Found record: 0 iterations remaining.
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1146, chi = 100, N = 160, convergence = 1.6221e-05, initial = spin-up, q = 4
+set chi to 195
+Did not find record
+stored to database: 
+temperature = 1.1146, chi = 195, N = 160, convergence = 2.5776e-05, initial = spin-up, q = 4
+ 
+ Func-count     x          f(x)         Procedure
+    1        1.11459   -0.0951517        initial
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1854, chi = 100, N = 160, convergence = 1.6242e-09, initial = spin-up, q = 4
+set chi to 195
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1854, chi = 195, N = 160, convergence = 3.9187e-09, initial = spin-up, q = 4
+    2        1.18541    -0.273131        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.2292, chi = 100, N = 160, convergence = 3.1335e-15, initial = spin-up, q = 4
+    3        1.22918    -0.212006        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1868, chi = 100, N = 160, convergence = 9.0397e-10, initial = spin-up, q = 4
+set chi to 193
+Did not find record
+stored to database: 
+temperature = 1.1868, chi = 193, N = 160, convergence = 2.0748e-09, initial = spin-up, q = 4
+    4        1.18683    -0.270496        parabolic
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1584, chi = 100, N = 160, convergence = 8.4176e-05, initial = spin-up, q = 4
+set chi to 260
+Did not find record
+stored to database: 
+temperature = 1.1584, chi = 260, N = 160, convergence = 0.00013669, initial = spin-up, q = 4
+set chi to 404
+Did not find record
+stored to database: 
+temperature = 1.1584, chi = 404, N = 160, convergence = 0.00014511, initial = spin-up, q = 4
+    5        1.15836    -0.342742        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1416, chi = 100, N = 160, convergence = 0.0095499, initial = spin-up, q = 4
+set chi to 304
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 304, N = 160, convergence = 0.01177, initial = spin-up, q = 4
+set chi to 585
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 585, N = 160, convergence = 0.012315, initial = spin-up, q = 4
+    6        1.14164    -0.380327        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1313, chi = 100, N = 160, convergence = 0.0039794, initial = spin-up, q = 4
+set chi to 281
+Did not find record
+stored to database: 
+temperature = 1.1313, chi = 281, N = 160, convergence = 0.0050578, initial = spin-up, q = 4
+set chi to 495
+Did not find record
+stored to database: 
+temperature = 1.1313, chi = 495, N = 160, convergence = 0.0053301, initial = spin-up, q = 4
+    7        1.13131    -0.200478        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.148, chi = 100, N = 160, convergence = 0.0025884, initial = spin-up, q = 4
+set chi to 291
+Did not find record
+stored to database: 
+temperature = 1.148, chi = 291, N = 160, convergence = 0.003384, initial = spin-up, q = 4
+set chi to 532
+Did not find record
+stored to database: 
+temperature = 1.148, chi = 532, N = 160, convergence = 0.0035808, initial = spin-up, q = 4
+    8        1.14803    -0.386013        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1463, chi = 100, N = 160, convergence = 0.0040861, initial = spin-up, q = 4
+set chi to 296
+Did not find record
+stored to database: 
+temperature = 1.1463, chi = 296, N = 160, convergence = 0.0052228, initial = spin-up, q = 4
+set chi to 551
+Did not find record
+stored to database: 
+temperature = 1.1463, chi = 551, N = 160, convergence = 0.0054952, initial = spin-up, q = 4
+    9         1.1463    -0.391527        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1453, chi = 100, N = 160, convergence = 0.0051211, initial = spin-up, q = 4
+set chi to 299
+Did not find record
+stored to database: 
+temperature = 1.1453, chi = 299, N = 160, convergence = 0.0064757, initial = spin-up, q = 4
+set chi to 562
+Did not find record
+stored to database: 
+temperature = 1.1453, chi = 562, N = 160, convergence = 0.0068017, initial = spin-up, q = 4
+   10        1.14534    -0.393168        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1439, chi = 100, N = 160, convergence = 0.0068379, initial = spin-up, q = 4
+set chi to 302
+Did not find record
+stored to database: 
+temperature = 1.1439, chi = 302, N = 160, convergence = 0.008528, initial = spin-up, q = 4
+set chi to 573
+Did not find record
+stored to database: 
+temperature = 1.1439, chi = 573, N = 160, convergence = 0.00895, initial = spin-up, q = 4
+   11        1.14393    -0.392585        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1449, chi = 100, N = 160, convergence = 0.0056809, initial = spin-up, q = 4
+set chi to 300
+Did not find record
+stored to database: 
+temperature = 1.1449, chi = 300, N = 160, convergence = 0.0071587, initial = spin-up, q = 4
+set chi to 566
+Did not find record
+stored to database: 
+temperature = 1.1449, chi = 566, N = 160, convergence = 0.0075043, initial = spin-up, q = 4
+   12        1.14486    -0.393433        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1448, chi = 100, N = 160, convergence = 0.0057174, initial = spin-up, q = 4
+set chi to 300
+Did not find record
+stored to database: 
+temperature = 1.1448, chi = 300, N = 160, convergence = 0.0072007, initial = spin-up, q = 4
+set chi to 566
+Did not find record
+stored to database: 
+temperature = 1.1448, chi = 566, N = 160, convergence = 0.0075498, initial = spin-up, q = 4
+   13        1.14483    -0.393435        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1448, chi = 100, N = 160, convergence = 0.0057478, initial = spin-up, q = 4
+set chi to 300
+Did not find record
+stored to database: 
+temperature = 1.1448, chi = 300, N = 160, convergence = 0.0072359, initial = spin-up, q = 4
+set chi to 566
+Did not find record
+stored to database: 
+temperature = 1.1448, chi = 566, N = 160, convergence = 0.0075878, initial = spin-up, q = 4
+   14        1.14481    -0.393436        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1448, chi = 100, N = 160, convergence = 0.0057453, initial = spin-up, q = 4
+set chi to 300
+Did not find record
+stored to database: 
+temperature = 1.1448, chi = 300, N = 160, convergence = 0.007233, initial = spin-up, q = 4
+set chi to 566
+Did not find record
+stored to database: 
+temperature = 1.1448, chi = 566, N = 160, convergence = 0.0075846, initial = spin-up, q = 4
+   15        1.14481    -0.393436        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1448, chi = 100, N = 160, convergence = 0.0057449, initial = spin-up, q = 4
+set chi to 300
+Did not find record
+stored to database: 
+temperature = 1.1448, chi = 300, N = 160, convergence = 0.0072325, initial = spin-up, q = 4
+set chi to 566
+Did not find record
+stored to database: 
+temperature = 1.1448, chi = 566, N = 160, convergence = 0.0075841, initial = spin-up, q = 4
+   16        1.14481    -0.393436        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1448, chi = 100, N = 160, convergence = 0.0057458, initial = spin-up, q = 4
+set chi to 300
+Did not find record
+stored to database: 
+temperature = 1.1448, chi = 300, N = 160, convergence = 0.0072335, initial = spin-up, q = 4
+set chi to 566
+Did not find record
+stored to database: 
+temperature = 1.1448, chi = 566, N = 160, convergence = 0.0075851, initial = spin-up, q = 4
+   17        1.14481    -0.393436        parabolic
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+Found record: 0 iterations remaining.
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1146, chi = 100, N = 180, convergence = 4.8937e-06, initial = spin-up, q = 4
+set chi to 195
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1146, chi = 195, N = 180, convergence = 8.6942e-06, initial = spin-up, q = 4
+ 
+ Func-count     x          f(x)         Procedure
+    1        1.11459    -0.095152        initial
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1854, chi = 100, N = 180, convergence = 8.7928e-11, initial = spin-up, q = 4
+set chi to 195
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1854, chi = 195, N = 180, convergence = 2.2251e-10, initial = spin-up, q = 4
+    2        1.18541    -0.273131        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.2292, chi = 100, N = 180, convergence = 3.581e-15, initial = spin-up, q = 4
+    3        1.22918    -0.212006        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1868, chi = 100, N = 180, convergence = 4.5013e-11, initial = spin-up, q = 4
+set chi to 193
+Did not find record
+stored to database: 
+temperature = 1.1868, chi = 193, N = 180, convergence = 1.1085e-10, initial = spin-up, q = 4
+    4        1.18683    -0.270496        parabolic
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1584, chi = 100, N = 180, convergence = 2.3179e-05, initial = spin-up, q = 4
+set chi to 260
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1584, chi = 260, N = 180, convergence = 4.0401e-05, initial = spin-up, q = 4
+set chi to 405
+Did not find record
+stored to database: 
+temperature = 1.1584, chi = 405, N = 180, convergence = 4.6298e-05, initial = spin-up, q = 4
+    5        1.15836    -0.342779        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1416, chi = 100, N = 180, convergence = 0.0076701, initial = spin-up, q = 4
+set chi to 309
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 309, N = 180, convergence = 0.0096867, initial = spin-up, q = 4
+set chi to 618
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 618, N = 180, convergence = 0.010208, initial = spin-up, q = 4
+    6        1.14164    -0.396289        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1313, chi = 100, N = 180, convergence = 0.0031982, initial = spin-up, q = 4
+set chi to 286
+Did not find record
+stored to database: 
+temperature = 1.1313, chi = 286, N = 180, convergence = 0.0041982, initial = spin-up, q = 4
+set chi to 520
+Did not find record
+stored to database: 
+temperature = 1.1313, chi = 520, N = 180, convergence = 0.0044709, initial = spin-up, q = 4
+    7        1.13131    -0.202924        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.148, chi = 100, N = 180, convergence = 0.0014022, initial = spin-up, q = 4
+set chi to 294
+Did not find record
+stored to database: 
+temperature = 1.148, chi = 294, N = 180, convergence = 0.001918, initial = spin-up, q = 4
+set chi to 545
+Did not find record
+stored to database: 
+temperature = 1.148, chi = 545, N = 180, convergence = 0.0020663, initial = spin-up, q = 4
+    8        1.14803    -0.388866        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1419, chi = 100, N = 180, convergence = 0.007372, initial = spin-up, q = 4
+set chi to 309
+Did not find record
+stored to database: 
+temperature = 1.1419, chi = 309, N = 180, convergence = 0.0093226, initial = spin-up, q = 4
+set chi to 617
+Did not find record
+stored to database: 
+temperature = 1.1419, chi = 617, N = 180, convergence = 0.0098283, initial = spin-up, q = 4
+    9        1.14189    -0.397887        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1444, chi = 100, N = 180, convergence = 0.0043175, initial = spin-up, q = 4
+set chi to 305
+Did not find record
+stored to database: 
+temperature = 1.1444, chi = 305, N = 180, convergence = 0.0055763, initial = spin-up, q = 4
+set chi to 593
+Did not find record
+stored to database: 
+temperature = 1.1444, chi = 593, N = 180, convergence = 0.0059188, initial = spin-up, q = 4
+   10        1.14437    -0.402436        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1458, chi = 100, N = 180, convergence = 0.0029184, initial = spin-up, q = 4
+set chi to 301
+Did not find record
+stored to database: 
+temperature = 1.1458, chi = 301, N = 180, convergence = 0.0038385, initial = spin-up, q = 4
+set chi to 576
+Did not find record
+stored to database: 
+temperature = 1.1458, chi = 576, N = 180, convergence = 0.0040949, initial = spin-up, q = 4
+   11        1.14576    -0.398765        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1439, chi = 100, N = 180, convergence = 0.0048293, initial = spin-up, q = 4
+set chi to 306
+Did not find record
+stored to database: 
+temperature = 1.1439, chi = 306, N = 180, convergence = 0.0062071, initial = spin-up, q = 4
+set chi to 598
+Did not find record
+stored to database: 
+temperature = 1.1439, chi = 598, N = 180, convergence = 0.0065775, initial = spin-up, q = 4
+   12        1.14392    -0.402881        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1436, chi = 100, N = 180, convergence = 0.005251, initial = spin-up, q = 4
+set chi to 307
+Did not find record
+stored to database: 
+temperature = 1.1436, chi = 307, N = 180, convergence = 0.0067242, initial = spin-up, q = 4
+set chi to 602
+Did not find record
+stored to database: 
+temperature = 1.1436, chi = 602, N = 180, convergence = 0.0071203, initial = spin-up, q = 4
+   13        1.14358    -0.402911        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1437, chi = 100, N = 180, convergence = 0.0050841, initial = spin-up, q = 4
+set chi to 306
+Did not find record
+stored to database: 
+temperature = 1.1437, chi = 306, N = 180, convergence = 0.0065204, initial = spin-up, q = 4
+set chi to 600
+Did not find record
+stored to database: 
+temperature = 1.1437, chi = 600, N = 180, convergence = 0.0069058, initial = spin-up, q = 4
+   14        1.14371    -0.402936        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1437, chi = 100, N = 180, convergence = 0.0050808, initial = spin-up, q = 4
+set chi to 306
+Did not find record
+stored to database: 
+temperature = 1.1437, chi = 306, N = 180, convergence = 0.0065163, initial = spin-up, q = 4
+set chi to 600
+Did not find record
+stored to database: 
+temperature = 1.1437, chi = 600, N = 180, convergence = 0.0069016, initial = spin-up, q = 4
+   15        1.14371    -0.402936        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1437, chi = 100, N = 180, convergence = 0.0050829, initial = spin-up, q = 4
+set chi to 306
+Did not find record
+stored to database: 
+temperature = 1.1437, chi = 306, N = 180, convergence = 0.0065187, initial = spin-up, q = 4
+set chi to 600
+Did not find record
+stored to database: 
+temperature = 1.1437, chi = 600, N = 180, convergence = 0.0069041, initial = spin-up, q = 4
+   16        1.14371    -0.402936        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1437, chi = 100, N = 180, convergence = 0.0050832, initial = spin-up, q = 4
+set chi to 306
+Did not find record
+stored to database: 
+temperature = 1.1437, chi = 306, N = 180, convergence = 0.0065193, initial = spin-up, q = 4
+set chi to 600
+Did not find record
+stored to database: 
+temperature = 1.1437, chi = 600, N = 180, convergence = 0.0069047, initial = spin-up, q = 4
+   17        1.14371    -0.402936        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1437, chi = 100, N = 180, convergence = 0.0050825, initial = spin-up, q = 4
+set chi to 306
+Did not find record
+stored to database: 
+temperature = 1.1437, chi = 306, N = 180, convergence = 0.0065182, initial = spin-up, q = 4
+set chi to 600
+Did not find record
+stored to database: 
+temperature = 1.1437, chi = 600, N = 180, convergence = 0.0069036, initial = spin-up, q = 4
+   18        1.14371    -0.402936        parabolic
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+Found record: 0 iterations remaining.
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1146, chi = 100, N = 200, convergence = 1.4354e-06, initial = spin-up, q = 4
+set chi to 195
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1146, chi = 195, N = 200, convergence = 3.0731e-06, initial = spin-up, q = 4
+ 
+ Func-count     x          f(x)         Procedure
+    1        1.11459   -0.0951521        initial
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1854, chi = 100, N = 200, convergence = 4.6438e-12, initial = spin-up, q = 4
+set chi to 195
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1854, chi = 195, N = 200, convergence = 1.308e-11, initial = spin-up, q = 4
+    2        1.18541    -0.273131        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.2292, chi = 100, N = 200, convergence = 3.8885e-15, initial = spin-up, q = 4
+    3        1.22918    -0.212006        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1868, chi = 100, N = 200, convergence = 2.1858e-12, initial = spin-up, q = 4
+set chi to 193
+Did not find record
+stored to database: 
+temperature = 1.1868, chi = 193, N = 200, convergence = 6.3265e-12, initial = spin-up, q = 4
+    4        1.18683    -0.270496        parabolic
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1584, chi = 100, N = 200, convergence = 6.2038e-06, initial = spin-up, q = 4
+set chi to 260
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1584, chi = 260, N = 200, convergence = 1.1758e-05, initial = spin-up, q = 4
+set chi to 406
+Did not find record
+stored to database: 
+temperature = 1.1584, chi = 406, N = 200, convergence = 1.4364e-05, initial = spin-up, q = 4
+    5        1.15836    -0.342788        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1416, chi = 100, N = 200, convergence = 0.0060492, initial = spin-up, q = 4
+set chi to 313
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 313, N = 200, convergence = 0.0078242, initial = spin-up, q = 4
+set chi to 644
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 644, N = 200, convergence = 0.0083206, initial = spin-up, q = 4
+    6        1.14164    -0.408865        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1313, chi = 100, N = 200, convergence = 0.0025837, initial = spin-up, q = 4
+set chi to 289
+Did not find record
+stored to database: 
+temperature = 1.1313, chi = 289, N = 200, convergence = 0.0035028, initial = spin-up, q = 4
+set chi to 541
+Did not find record
+stored to database: 
+temperature = 1.1313, chi = 541, N = 200, convergence = 0.0037713, initial = spin-up, q = 4
+    7        1.13131    -0.204776        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.148, chi = 100, N = 200, convergence = 0.00073486, initial = spin-up, q = 4
+set chi to 295
+Did not find record
+stored to database: 
+temperature = 1.148, chi = 295, N = 200, convergence = 0.0010573, initial = spin-up, q = 4
+set chi to 552
+Did not find record
+stored to database: 
+temperature = 1.148, chi = 552, N = 200, convergence = 0.0011622, initial = spin-up, q = 4
+    8        1.14803    -0.390261        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1377, chi = 100, N = 200, convergence = 0.0087886, initial = spin-up, q = 4
+set chi to 316
+Did not find record
+stored to database: 
+temperature = 1.1377, chi = 316, N = 200, convergence = 0.011305, initial = spin-up, q = 4
+set chi to 653
+Did not find record
+stored to database: 
+temperature = 1.1377, chi = 653, N = 200, convergence = 0.011953, initial = spin-up, q = 4
+    9        1.13769    -0.351433        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.144, chi = 100, N = 200, convergence = 0.0032676, initial = spin-up, q = 4
+set chi to 308
+Did not find record
+stored to database: 
+temperature = 1.144, chi = 308, N = 200, convergence = 0.0043306, initial = spin-up, q = 4
+set chi to 615
+Did not find record
+stored to database: 
+temperature = 1.144, chi = 615, N = 200, convergence = 0.0046451, initial = spin-up, q = 4
+   10        1.14397     -0.40963        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.143, chi = 100, N = 200, convergence = 0.0043295, initial = spin-up, q = 4
+set chi to 311
+Did not find record
+stored to database: 
+temperature = 1.143, chi = 311, N = 200, convergence = 0.0056726, initial = spin-up, q = 4
+set chi to 629
+Did not find record
+stored to database: 
+temperature = 1.143, chi = 629, N = 200, convergence = 0.0060579, initial = spin-up, q = 4
+   11        1.14301    -0.411319        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1429, chi = 100, N = 200, convergence = 0.0044461, initial = spin-up, q = 4
+set chi to 311
+Did not find record
+stored to database: 
+temperature = 1.1429, chi = 311, N = 200, convergence = 0.0058187, initial = spin-up, q = 4
+set chi to 630
+Did not find record
+stored to database: 
+temperature = 1.1429, chi = 630, N = 200, convergence = 0.0062104, initial = spin-up, q = 4
+   12        1.14291    -0.411358        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1428, chi = 100, N = 200, convergence = 0.0045769, initial = spin-up, q = 4
+set chi to 311
+Did not find record
+stored to database: 
+temperature = 1.1428, chi = 311, N = 200, convergence = 0.0059823, initial = spin-up, q = 4
+set chi to 631
+Did not find record
+stored to database: 
+temperature = 1.1428, chi = 631, N = 200, convergence = 0.0063824, initial = spin-up, q = 4
+   13        1.14281    -0.411368        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1428, chi = 100, N = 200, convergence = 0.0045491, initial = spin-up, q = 4
+set chi to 311
+Did not find record
+stored to database: 
+temperature = 1.1428, chi = 311, N = 200, convergence = 0.0059475, initial = spin-up, q = 4
+set chi to 631
+Did not find record
+stored to database: 
+temperature = 1.1428, chi = 631, N = 200, convergence = 0.0063459, initial = spin-up, q = 4
+   14        1.14283    -0.411369        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1428, chi = 100, N = 200, convergence = 0.0045484, initial = spin-up, q = 4
+set chi to 311
+Did not find record
+stored to database: 
+temperature = 1.1428, chi = 311, N = 200, convergence = 0.0059467, initial = spin-up, q = 4
+set chi to 631
+Did not find record
+stored to database: 
+temperature = 1.1428, chi = 631, N = 200, convergence = 0.006345, initial = spin-up, q = 4
+   15        1.14283    -0.411369        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1428, chi = 100, N = 200, convergence = 0.004548, initial = spin-up, q = 4
+set chi to 311
+Did not find record
+stored to database: 
+temperature = 1.1428, chi = 311, N = 200, convergence = 0.0059462, initial = spin-up, q = 4
+set chi to 631
+Did not find record
+stored to database: 
+temperature = 1.1428, chi = 631, N = 200, convergence = 0.0063445, initial = spin-up, q = 4
+   16        1.14283    -0.411369        parabolic
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+Found record: 0 iterations remaining.
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1146, chi = 100, N = 220, convergence = 4.1294e-07, initial = spin-up, q = 4
+set chi to 195
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1146, chi = 195, N = 220, convergence = 1.2474e-06, initial = spin-up, q = 4
+ 
+ Func-count     x          f(x)         Procedure
+    1        1.11459   -0.0951522        initial
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1854, chi = 100, N = 220, convergence = 2.3824e-13, initial = spin-up, q = 4
+set chi to 195
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1854, chi = 195, N = 220, convergence = 8.6523e-13, initial = spin-up, q = 4
+    2        1.18541    -0.273131        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.2292, chi = 100, N = 220, convergence = 4.6836e-15, initial = spin-up, q = 4
+    3        1.22918    -0.212006        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1868, chi = 100, N = 220, convergence = 1.059e-13, initial = spin-up, q = 4
+set chi to 193
+Did not find record
+stored to database: 
+temperature = 1.1868, chi = 193, N = 220, convergence = 4.69e-13, initial = spin-up, q = 4
+    4        1.18683    -0.270496        parabolic
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1584, chi = 100, N = 220, convergence = 1.6262e-06, initial = spin-up, q = 4
+set chi to 260
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1584, chi = 260, N = 220, convergence = 3.3497e-06, initial = spin-up, q = 4
+set chi to 406
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1584, chi = 406, N = 220, convergence = 4.3439e-06, initial = spin-up, q = 4
+    5        1.15836     -0.34279        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1416, chi = 100, N = 220, convergence = 0.004684, initial = spin-up, q = 4
+set chi to 317
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 317, N = 220, convergence = 0.0062122, initial = spin-up, q = 4
+set chi to 665
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 665, N = 220, convergence = 0.0066586, initial = spin-up, q = 4
+    6        1.14164     -0.41853        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1313, chi = 100, N = 220, convergence = 0.0020947, initial = spin-up, q = 4
+set chi to 292
+Did not find record
+stored to database: 
+temperature = 1.1313, chi = 292, N = 220, convergence = 0.0029342, initial = spin-up, q = 4
+set chi to 558
+Did not find record
+stored to database: 
+temperature = 1.1313, chi = 558, N = 220, convergence = 0.0031844, initial = spin-up, q = 4
+    7        1.13131    -0.206188        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.148, chi = 100, N = 220, convergence = 0.00037504, initial = spin-up, q = 4
+set chi to 296
+Did not find record
+stored to database: 
+temperature = 1.148, chi = 296, N = 220, convergence = 0.00060243, initial = spin-up, q = 4
+set chi to 558
+Did not find record
+stored to database: 
+temperature = 1.148, chi = 558, N = 220, convergence = 0.00063936, initial = spin-up, q = 4
+    8        1.14803    -0.390924        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1377, chi = 100, N = 220, convergence = 0.0080362, initial = spin-up, q = 4
+set chi to 320
+Did not find record
+stored to database: 
+temperature = 1.1377, chi = 320, N = 220, convergence = 0.010544, initial = spin-up, q = 4
+set chi to 681
+Did not find record
+stored to database: 
+temperature = 1.1377, chi = 681, N = 220, convergence = 0.011215, initial = spin-up, q = 4
+    9        1.13769    -0.365807        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1436, chi = 100, N = 220, convergence = 0.0025352, initial = spin-up, q = 4
+set chi to 312
+Did not find record
+stored to database: 
+temperature = 1.1436, chi = 312, N = 220, convergence = 0.0034415, initial = spin-up, q = 4
+set chi to 636
+Did not find record
+stored to database: 
+temperature = 1.1436, chi = 636, N = 220, convergence = 0.0037328, initial = spin-up, q = 4
+   10        1.14357    -0.415707        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1415, chi = 100, N = 220, convergence = 0.0049064, initial = spin-up, q = 4
+set chi to 317
+Did not find record
+stored to database: 
+temperature = 1.1415, chi = 317, N = 220, convergence = 0.006495, initial = spin-up, q = 4
+set chi to 666
+Did not find record
+stored to database: 
+temperature = 1.1415, chi = 666, N = 220, convergence = 0.0069568, initial = spin-up, q = 4
+   11        1.14147    -0.418134        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1422, chi = 100, N = 220, convergence = 0.0040013, initial = spin-up, q = 4
+set chi to 316
+Did not find record
+stored to database: 
+temperature = 1.1422, chi = 316, N = 220, convergence = 0.0053384, initial = spin-up, q = 4
+set chi to 658
+Did not find record
+stored to database: 
+temperature = 1.1422, chi = 658, N = 220, convergence = 0.0057356, initial = spin-up, q = 4
+   12        1.14219    -0.418934        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1427, chi = 100, N = 220, convergence = 0.0033958, initial = spin-up, q = 4
+set chi to 314
+Did not find record
+stored to database: 
+temperature = 1.1427, chi = 314, N = 220, convergence = 0.004555, initial = spin-up, q = 4
+set chi to 649
+Did not find record
+stored to database: 
+temperature = 1.1427, chi = 649, N = 220, convergence = 0.0049112, initial = spin-up, q = 4
+   13        1.14272    -0.418301        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 100, N = 220, convergence = 0.0040887, initial = spin-up, q = 4
+set chi to 316
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 316, N = 220, convergence = 0.00545, initial = spin-up, q = 4
+set chi to 659
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 659, N = 220, convergence = 0.0058553, initial = spin-up, q = 4
+   14        1.14212    -0.418949        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 100, N = 220, convergence = 0.0041075, initial = spin-up, q = 4
+set chi to 316
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 316, N = 220, convergence = 0.0054741, initial = spin-up, q = 4
+set chi to 659
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 659, N = 220, convergence = 0.0058806, initial = spin-up, q = 4
+   15        1.14211     -0.41895        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 100, N = 220, convergence = 0.0041123, initial = spin-up, q = 4
+set chi to 316
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 316, N = 220, convergence = 0.0054801, initial = spin-up, q = 4
+set chi to 659
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 659, N = 220, convergence = 0.0058869, initial = spin-up, q = 4
+   16         1.1421     -0.41895        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 100, N = 220, convergence = 0.0041108, initial = spin-up, q = 4
+set chi to 316
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 316, N = 220, convergence = 0.0054783, initial = spin-up, q = 4
+set chi to 659
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 659, N = 220, convergence = 0.0058849, initial = spin-up, q = 4
+   17         1.1421     -0.41895        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 100, N = 220, convergence = 0.0041114, initial = spin-up, q = 4
+set chi to 316
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 316, N = 220, convergence = 0.005479, initial = spin-up, q = 4
+set chi to 659
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 659, N = 220, convergence = 0.0058857, initial = spin-up, q = 4
+   18         1.1421     -0.41895        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 100, N = 220, convergence = 0.0041096, initial = spin-up, q = 4
+set chi to 316
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 316, N = 220, convergence = 0.0054767, initial = spin-up, q = 4
+set chi to 659
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 659, N = 220, convergence = 0.0058834, initial = spin-up, q = 4
+   19         1.1421     -0.41895        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 100, N = 220, convergence = 0.0041091, initial = spin-up, q = 4
+set chi to 316
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 316, N = 220, convergence = 0.0054762, initial = spin-up, q = 4
+set chi to 659
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 659, N = 220, convergence = 0.0058829, initial = spin-up, q = 4
+   20         1.1421     -0.41895        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 100, N = 220, convergence = 0.00411, initial = spin-up, q = 4
+set chi to 316
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 316, N = 220, convergence = 0.0054772, initial = spin-up, q = 4
+set chi to 659
+Did not find record
+stored to database: 
+temperature = 1.1421, chi = 659, N = 220, convergence = 0.0058841, initial = spin-up, q = 4
+   21         1.1421     -0.41895        parabolic
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+Found record: 0 iterations remaining.
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1146, chi = 100, N = 240, convergence = 1.1721e-07, initial = spin-up, q = 4
+set chi to 195
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1146, chi = 195, N = 240, convergence = 5.6998e-07, initial = spin-up, q = 4
+ 
+ Func-count     x          f(x)         Procedure
+    1        1.11459   -0.0951522        initial
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1854, chi = 100, N = 240, convergence = 1.7491e-14, initial = spin-up, q = 4
+set chi to 195
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1854, chi = 195, N = 240, convergence = 8.7532e-14, initial = spin-up, q = 4
+    2        1.18541    -0.273131        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.2292, chi = 100, N = 240, convergence = 3.9328e-15, initial = spin-up, q = 4
+    3        1.22918    -0.212006        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1868, chi = 100, N = 240, convergence = 7.4794e-15, initial = spin-up, q = 4
+set chi to 193
+Did not find record
+stored to database: 
+temperature = 1.1868, chi = 193, N = 240, convergence = 5.7033e-14, initial = spin-up, q = 4
+    4        1.18683    -0.270496        parabolic
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1584, chi = 100, N = 240, convergence = 4.1962e-07, initial = spin-up, q = 4
+set chi to 260
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1584, chi = 260, N = 240, convergence = 9.3718e-07, initial = spin-up, q = 4
+set chi to 406
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1584, chi = 406, N = 240, convergence = 1.2832e-06, initial = spin-up, q = 4
+    5        1.15836     -0.34279        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1416, chi = 100, N = 240, convergence = 0.0035715, initial = spin-up, q = 4
+set chi to 319
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 319, N = 240, convergence = 0.0048498, initial = spin-up, q = 4
+set chi to 680
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 680, N = 240, convergence = 0.0052456, initial = spin-up, q = 4
+    6        1.14164    -0.425785        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1313, chi = 100, N = 240, convergence = 0.0017024, initial = spin-up, q = 4
+set chi to 294
+Did not find record
+stored to database: 
+temperature = 1.1313, chi = 294, N = 240, convergence = 0.0024632, initial = spin-up, q = 4
+set chi to 571
+Did not find record
+stored to database: 
+temperature = 1.1313, chi = 571, N = 240, convergence = 0.0027023, initial = spin-up, q = 4
+    7        1.13131     -0.20727        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.148, chi = 100, N = 240, convergence = 0.00018739, initial = spin-up, q = 4
+set chi to 296
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.148, chi = 296, N = 240, convergence = 0.00031019, initial = spin-up, q = 4
+set chi to 561
+Did not find record
+stored to database: 
+temperature = 1.148, chi = 561, N = 240, convergence = 0.00034944, initial = spin-up, q = 4
+    8        1.14803    -0.391234        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1377, chi = 100, N = 240, convergence = 0.0073532, initial = spin-up, q = 4
+set chi to 322
+Did not find record
+stored to database: 
+temperature = 1.1377, chi = 322, N = 240, convergence = 0.0098301, initial = spin-up, q = 4
+set chi to 707
+Did not find record
+stored to database: 
+temperature = 1.1377, chi = 707, N = 240, convergence = 0.010519, initial = spin-up, q = 4
+    9        1.13769    -0.379241        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1432, chi = 100, N = 240, convergence = 0.0019859, initial = spin-up, q = 4
+set chi to 315
+Did not find record
+stored to database: 
+temperature = 1.1432, chi = 315, N = 240, convergence = 0.0027605, initial = spin-up, q = 4
+set chi to 653
+Did not find record
+stored to database: 
+temperature = 1.1432, chi = 653, N = 240, convergence = 0.0030223, initial = spin-up, q = 4
+   10        1.14321    -0.420902        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1401, chi = 100, N = 240, convergence = 0.0054647, initial = spin-up, q = 4
+set chi to 322
+Did not find record
+stored to database: 
+temperature = 1.1401, chi = 322, N = 240, convergence = 0.00732, initial = spin-up, q = 4
+set chi to 700
+Did not find record
+stored to database: 
+temperature = 1.1401, chi = 700, N = 240, convergence = 0.0078606, initial = spin-up, q = 4
+   11        1.14013    -0.420932        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1417, chi = 100, N = 240, convergence = 0.0035385, initial = spin-up, q = 4
+set chi to 319
+Did not find record
+stored to database: 
+temperature = 1.1417, chi = 319, N = 240, convergence = 0.0048066, initial = spin-up, q = 4
+set chi to 679
+Did not find record
+stored to database: 
+temperature = 1.1417, chi = 679, N = 240, convergence = 0.0051992, initial = spin-up, q = 4
+   12        1.14167    -0.425765        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1415, chi = 100, N = 240, convergence = 0.0037151, initial = spin-up, q = 4
+set chi to 320
+Did not find record
+stored to database: 
+temperature = 1.1415, chi = 320, N = 240, convergence = 0.0050405, initial = spin-up, q = 4
+set chi to 682
+Did not find record
+stored to database: 
+temperature = 1.1415, chi = 682, N = 240, convergence = 0.0054463, initial = spin-up, q = 4
+   13        1.14152     -0.42583        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.141, chi = 100, N = 240, convergence = 0.0043712, initial = spin-up, q = 4
+set chi to 321
+Did not find record
+stored to database: 
+temperature = 1.141, chi = 321, N = 240, convergence = 0.0058993, initial = spin-up, q = 4
+set chi to 690
+Did not find record
+stored to database: 
+temperature = 1.141, chi = 690, N = 240, convergence = 0.0063582, initial = spin-up, q = 4
+   14        1.14099    -0.425234        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1415, chi = 100, N = 240, convergence = 0.0037507, initial = spin-up, q = 4
+set chi to 320
+Did not find record
+stored to database: 
+temperature = 1.1415, chi = 320, N = 240, convergence = 0.005087, initial = spin-up, q = 4
+set chi to 683
+Did not find record
+stored to database: 
+temperature = 1.1415, chi = 683, N = 240, convergence = 0.0054963, initial = spin-up, q = 4
+   15        1.14149    -0.425831        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1415, chi = 100, N = 240, convergence = 0.0037479, initial = spin-up, q = 4
+set chi to 320
+Did not find record
+stored to database: 
+temperature = 1.1415, chi = 320, N = 240, convergence = 0.0050834, initial = spin-up, q = 4
+set chi to 683
+Did not find record
+stored to database: 
+temperature = 1.1415, chi = 683, N = 240, convergence = 0.0054925, initial = spin-up, q = 4
+   16        1.14149    -0.425831        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1415, chi = 100, N = 240, convergence = 0.0037475, initial = spin-up, q = 4
+set chi to 320
+Did not find record
+stored to database: 
+temperature = 1.1415, chi = 320, N = 240, convergence = 0.0050829, initial = spin-up, q = 4
+set chi to 683
+Did not find record
+stored to database: 
+temperature = 1.1415, chi = 683, N = 240, convergence = 0.0054919, initial = spin-up, q = 4
+   17        1.14149    -0.425831        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1415, chi = 100, N = 240, convergence = 0.0037471, initial = spin-up, q = 4
+set chi to 320
+Did not find record
+stored to database: 
+temperature = 1.1415, chi = 320, N = 240, convergence = 0.0050823, initial = spin-up, q = 4
+set chi to 683
+Did not find record
+stored to database: 
+temperature = 1.1415, chi = 683, N = 240, convergence = 0.0054913, initial = spin-up, q = 4
+   18        1.14149    -0.425831        parabolic
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+Found record: 0 iterations remaining.
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1146, chi = 100, N = 260, convergence = 3.2961e-08, initial = spin-up, q = 4
+set chi to 195
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1146, chi = 195, N = 260, convergence = 2.6936e-07, initial = spin-up, q = 4
+ 
+ Func-count     x          f(x)         Procedure
+    1        1.11459   -0.0951522        initial
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1854, chi = 100, N = 260, convergence = 4.8446e-15, initial = spin-up, q = 4
+set chi to 195
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1854, chi = 195, N = 260, convergence = 1.6859e-14, initial = spin-up, q = 4
+    2        1.18541    -0.273131        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.2292, chi = 100, N = 260, convergence = 4.9526e-15, initial = spin-up, q = 4
+    3        1.22918    -0.212006        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1868, chi = 100, N = 260, convergence = 4.4929e-15, initial = spin-up, q = 4
+set chi to 193
+Did not find record
+stored to database: 
+temperature = 1.1868, chi = 193, N = 260, convergence = 1.3698e-14, initial = spin-up, q = 4
+    4        1.18683    -0.270496        parabolic
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1584, chi = 100, N = 260, convergence = 1.0694e-07, initial = spin-up, q = 4
+set chi to 260
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1584, chi = 260, N = 260, convergence = 2.5793e-07, initial = spin-up, q = 4
+set chi to 406
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1584, chi = 406, N = 260, convergence = 3.7164e-07, initial = spin-up, q = 4
+    5        1.15836     -0.34279        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1416, chi = 100, N = 260, convergence = 0.0026838, initial = spin-up, q = 4
+set chi to 321
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 321, N = 260, convergence = 0.003729, initial = spin-up, q = 4
+set chi to 693
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 693, N = 260, convergence = 0.0040812, initial = spin-up, q = 4
+    6        1.14164    -0.431117        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1313, chi = 100, N = 260, convergence = 0.0013852, initial = spin-up, q = 4
+set chi to 296
+Did not find record
+stored to database: 
+temperature = 1.1313, chi = 296, N = 260, convergence = 0.0020729, initial = spin-up, q = 4
+set chi to 582
+Did not find record
+stored to database: 
+temperature = 1.1313, chi = 582, N = 260, convergence = 0.0022981, initial = spin-up, q = 4
+    7        1.13131    -0.208103        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.148, chi = 100, N = 260, convergence = 9.2065e-05, initial = spin-up, q = 4
+set chi to 296
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.148, chi = 296, N = 260, convergence = 0.00015935, initial = spin-up, q = 4
+set chi to 563
+Did not find record
+stored to database: 
+temperature = 1.148, chi = 563, N = 260, convergence = 0.0001916, initial = spin-up, q = 4
+    8        1.14803    -0.391376        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1377, chi = 100, N = 260, convergence = 0.0067412, initial = spin-up, q = 4
+set chi to 325
+Did not find record
+stored to database: 
+temperature = 1.1377, chi = 325, N = 260, convergence = 0.0091602, initial = spin-up, q = 4
+set chi to 730
+Did not find record
+stored to database: 
+temperature = 1.1377, chi = 730, N = 260, convergence = 0.0098646, initial = spin-up, q = 4
+    9        1.13769    -0.391783        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1428, chi = 100, N = 260, convergence = 0.0015944, initial = spin-up, q = 4
+set chi to 317
+Did not find record
+stored to database: 
+temperature = 1.1428, chi = 317, N = 260, convergence = 0.0022643, initial = spin-up, q = 4
+set chi to 669
+Did not find record
+stored to database: 
+temperature = 1.1428, chi = 669, N = 260, convergence = 0.0025008, initial = spin-up, q = 4
+   10        1.14285    -0.425623        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1414, chi = 100, N = 260, convergence = 0.0029061, initial = spin-up, q = 4
+set chi to 322
+Did not find record
+stored to database: 
+temperature = 1.1414, chi = 322, N = 260, convergence = 0.0040274, initial = spin-up, q = 4
+set chi to 698
+Did not find record
+stored to database: 
+temperature = 1.1414, chi = 698, N = 260, convergence = 0.0044005, initial = spin-up, q = 4
+   11        1.14144    -0.431627        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.14, chi = 100, N = 260, convergence = 0.0046561, initial = spin-up, q = 4
+set chi to 325
+Did not find record
+stored to database: 
+temperature = 1.14, chi = 325, N = 260, convergence = 0.0063645, initial = spin-up, q = 4
+set chi to 721
+Did not find record
+stored to database: 
+temperature = 1.14, chi = 721, N = 260, convergence = 0.0068845, initial = spin-up, q = 4
+   12        1.14001    -0.429333        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.141, chi = 100, N = 260, convergence = 0.0033618, initial = spin-up, q = 4
+set chi to 323
+Did not find record
+stored to database: 
+temperature = 1.141, chi = 323, N = 260, convergence = 0.0046368, initial = spin-up, q = 4
+set chi to 705
+Did not find record
+stored to database: 
+temperature = 1.141, chi = 705, N = 260, convergence = 0.0050524, initial = spin-up, q = 4
+   13        1.14104    -0.432119        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1409, chi = 100, N = 260, convergence = 0.0034834, initial = spin-up, q = 4
+set chi to 323
+Did not find record
+stored to database: 
+temperature = 1.1409, chi = 323, N = 260, convergence = 0.0047989, initial = spin-up, q = 4
+set chi to 707
+Did not find record
+stored to database: 
+temperature = 1.1409, chi = 707, N = 260, convergence = 0.0052232, initial = spin-up, q = 4
+   14        1.14094    -0.432126        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.141, chi = 100, N = 260, convergence = 0.0034409, initial = spin-up, q = 4
+set chi to 323
+Did not find record
+stored to database: 
+temperature = 1.141, chi = 323, N = 260, convergence = 0.0047422, initial = spin-up, q = 4
+set chi to 706
+Did not find record
+stored to database: 
+temperature = 1.141, chi = 706, N = 260, convergence = 0.0051656, initial = spin-up, q = 4
+   15        1.14098     -0.43213        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.141, chi = 100, N = 260, convergence = 0.0034395, initial = spin-up, q = 4
+set chi to 323
+Did not find record
+stored to database: 
+temperature = 1.141, chi = 323, N = 260, convergence = 0.0047404, initial = spin-up, q = 4
+set chi to 706
+Did not find record
+stored to database: 
+temperature = 1.141, chi = 706, N = 260, convergence = 0.0051636, initial = spin-up, q = 4
+   16        1.14098     -0.43213        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.141, chi = 100, N = 260, convergence = 0.0034399, initial = spin-up, q = 4
+set chi to 323
+Did not find record
+stored to database: 
+temperature = 1.141, chi = 323, N = 260, convergence = 0.004741, initial = spin-up, q = 4
+set chi to 706
+Did not find record
+stored to database: 
+temperature = 1.141, chi = 706, N = 260, convergence = 0.0051642, initial = spin-up, q = 4
+   17        1.14098     -0.43213        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.141, chi = 100, N = 260, convergence = 0.0034403, initial = spin-up, q = 4
+set chi to 323
+Did not find record
+stored to database: 
+temperature = 1.141, chi = 323, N = 260, convergence = 0.0047415, initial = spin-up, q = 4
+set chi to 706
+Did not find record
+stored to database: 
+temperature = 1.141, chi = 706, N = 260, convergence = 0.0051648, initial = spin-up, q = 4
+   18        1.14098     -0.43213        parabolic
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+Found record: 0 iterations remaining.
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1146, chi = 100, N = 280, convergence = 9.2077e-09, initial = spin-up, q = 4
+set chi to 195
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1146, chi = 195, N = 280, convergence = 1.3024e-07, initial = spin-up, q = 4
+ 
+ Func-count     x          f(x)         Procedure
+    1        1.11459   -0.0951522        initial
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1854, chi = 100, N = 280, convergence = 5.1255e-15, initial = spin-up, q = 4
+set chi to 195
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1854, chi = 195, N = 280, convergence = 8.7225e-15, initial = spin-up, q = 4
+    2        1.18541    -0.273131        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.2292, chi = 100, N = 280, convergence = 3.4578e-15, initial = spin-up, q = 4
+    3        1.22918    -0.212006        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1868, chi = 100, N = 280, convergence = 4.7546e-15, initial = spin-up, q = 4
+set chi to 193
+Did not find record
+stored to database: 
+temperature = 1.1868, chi = 193, N = 280, convergence = 1.16e-14, initial = spin-up, q = 4
+    4        1.18683    -0.270496        parabolic
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1584, chi = 100, N = 280, convergence = 2.6981e-08, initial = spin-up, q = 4
+set chi to 260
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1584, chi = 260, N = 280, convergence = 7.6487e-07, initial = spin-up, q = 4
+set chi to 406
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1584, chi = 406, N = 280, convergence = 1.059e-07, initial = spin-up, q = 4
+    5        1.15836     -0.34279        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1416, chi = 100, N = 280, convergence = 0.001988, initial = spin-up, q = 4
+set chi to 323
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 323, N = 280, convergence = 0.0028298, initial = spin-up, q = 4
+set chi to 705
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 705, N = 280, convergence = 0.0031354, initial = spin-up, q = 4
+    6        1.14164    -0.434965        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1313, chi = 100, N = 280, convergence = 0.0011269, initial = spin-up, q = 4
+set chi to 297
+Did not find record
+stored to database: 
+temperature = 1.1313, chi = 297, N = 280, convergence = 0.0017578, initial = spin-up, q = 4
+set chi to 592
+Did not find record
+stored to database: 
+temperature = 1.1313, chi = 592, N = 280, convergence = 0.0019616, initial = spin-up, q = 4
+    7        1.13131    -0.208747        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.148, chi = 100, N = 280, convergence = 4.4631e-05, initial = spin-up, q = 4
+set chi to 296
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.148, chi = 296, N = 280, convergence = 8.0862e-05, initial = spin-up, q = 4
+set chi to 564
+Did not find record
+stored to database: 
+temperature = 1.148, chi = 564, N = 280, convergence = 0.00010019, initial = spin-up, q = 4
+    8        1.14803    -0.391441        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1377, chi = 100, N = 280, convergence = 0.0061626, initial = spin-up, q = 4
+set chi to 328
+Did not find record
+stored to database: 
+temperature = 1.1377, chi = 328, N = 280, convergence = 0.0085219, initial = spin-up, q = 4
+set chi to 751
+Did not find record
+stored to database: 
+temperature = 1.1377, chi = 751, N = 280, convergence = 0.0092297, initial = spin-up, q = 4
+    9        1.13769    -0.403459        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1425, chi = 100, N = 280, convergence = 0.0013372, initial = spin-up, q = 4
+set chi to 320
+Did not find record
+stored to database: 
+temperature = 1.1425, chi = 320, N = 280, convergence = 0.0019365, initial = spin-up, q = 4
+set chi to 685
+Did not find record
+stored to database: 
+temperature = 1.1425, chi = 685, N = 280, convergence = 0.002159, initial = spin-up, q = 4
+   10        1.14245    -0.430286        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1411, chi = 100, N = 280, convergence = 0.0025805, initial = spin-up, q = 4
+set chi to 324
+Did not find record
+stored to database: 
+temperature = 1.1411, chi = 324, N = 280, convergence = 0.0036349, initial = spin-up, q = 4
+set chi to 717
+Did not find record
+stored to database: 
+temperature = 1.1411, chi = 717, N = 280, convergence = 0.0040064, initial = spin-up, q = 4
+   11        1.14105    -0.437209        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1398, chi = 100, N = 280, convergence = 0.0041251, initial = spin-up, q = 4
+set chi to 327
+Did not find record
+stored to database: 
+temperature = 1.1398, chi = 327, N = 280, convergence = 0.0057358, initial = spin-up, q = 4
+set chi to 740
+Did not find record
+stored to database: 
+temperature = 1.1398, chi = 740, N = 280, convergence = 0.0062532, initial = spin-up, q = 4
+   12        1.13977    -0.435979        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1406, chi = 100, N = 280, convergence = 0.0030959, initial = spin-up, q = 4
+set chi to 326
+Did not find record
+stored to database: 
+temperature = 1.1406, chi = 326, N = 280, convergence = 0.0043458, initial = spin-up, q = 4
+set chi to 728
+Did not find record
+stored to database: 
+temperature = 1.1406, chi = 728, N = 280, convergence = 0.0047564, initial = spin-up, q = 4
+   13         1.1406    -0.437923        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1406, chi = 100, N = 280, convergence = 0.0031337, initial = spin-up, q = 4
+set chi to 326
+Did not find record
+stored to database: 
+temperature = 1.1406, chi = 326, N = 280, convergence = 0.0043977, initial = spin-up, q = 4
+set chi to 728
+Did not find record
+stored to database: 
+temperature = 1.1406, chi = 728, N = 280, convergence = 0.0048108, initial = spin-up, q = 4
+   14        1.14057    -0.437933        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1405, chi = 100, N = 280, convergence = 0.0031818, initial = spin-up, q = 4
+set chi to 326
+Did not find record
+stored to database: 
+temperature = 1.1405, chi = 326, N = 280, convergence = 0.0044616, initial = spin-up, q = 4
+set chi to 729
+Did not find record
+stored to database: 
+temperature = 1.1405, chi = 729, N = 280, convergence = 0.0048809, initial = spin-up, q = 4
+   15        1.14053    -0.437936        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1405, chi = 100, N = 280, convergence = 0.0031766, initial = spin-up, q = 4
+set chi to 326
+Did not find record
+stored to database: 
+temperature = 1.1405, chi = 326, N = 280, convergence = 0.0044538, initial = spin-up, q = 4
+set chi to 729
+Did not find record
+stored to database: 
+temperature = 1.1405, chi = 729, N = 280, convergence = 0.0048736, initial = spin-up, q = 4
+   16        1.14053    -0.437936        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1405, chi = 100, N = 280, convergence = 0.0031756, initial = spin-up, q = 4
+set chi to 326
+Did not find record
+stored to database: 
+temperature = 1.1405, chi = 326, N = 280, convergence = 0.0044512, initial = spin-up, q = 4
+set chi to 729
+Did not find record
+stored to database: 
+temperature = 1.1405, chi = 729, N = 280, convergence = 0.0048694, initial = spin-up, q = 4
+   17        1.14053    -0.437936        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1405, chi = 100, N = 280, convergence = 0.0031752, initial = spin-up, q = 4
+set chi to 326
+Did not find record
+stored to database: 
+temperature = 1.1405, chi = 326, N = 280, convergence = 0.0044504, initial = spin-up, q = 4
+set chi to 729
+Did not find record
+stored to database: 
+temperature = 1.1405, chi = 729, N = 280, convergence = 0.0048691, initial = spin-up, q = 4
+   18        1.14053    -0.437936        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1405, chi = 100, N = 280, convergence = 0.003176, initial = spin-up, q = 4
+set chi to 326
+Did not find record
+stored to database: 
+temperature = 1.1405, chi = 326, N = 280, convergence = 0.0044516, initial = spin-up, q = 4
+set chi to 729
+Did not find record
+stored to database: 
+temperature = 1.1405, chi = 729, N = 280, convergence = 0.0048701, initial = spin-up, q = 4
+   19        1.14053    -0.437936        parabolic
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+Found record: 0 iterations remaining.
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1146, chi = 100, N = 300, convergence = 2.5598e-09, initial = spin-up, q = 4
+set chi to 195
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1146, chi = 195, N = 300, convergence = 6.3544e-08, initial = spin-up, q = 4
+ 
+ Func-count     x          f(x)         Procedure
+    1        1.11459   -0.0951522        initial
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1854, chi = 100, N = 300, convergence = 7.0315e-15, initial = spin-up, q = 4
+set chi to 195
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1854, chi = 195, N = 300, convergence = 5.2141e-15, initial = spin-up, q = 4
+    2        1.18541    -0.273131        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.2292, chi = 100, N = 300, convergence = 4.776e-15, initial = spin-up, q = 4
+    3        1.22918    -0.212006        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1868, chi = 100, N = 300, convergence = 3.4327e-15, initial = spin-up, q = 4
+set chi to 193
+Did not find record
+stored to database: 
+temperature = 1.1868, chi = 193, N = 300, convergence = 9.9054e-14, initial = spin-up, q = 4
+    4        1.18683    -0.270496        parabolic
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1584, chi = 100, N = 300, convergence = 6.7513e-09, initial = spin-up, q = 4
+set chi to 260
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1584, chi = 260, N = 300, convergence = 6.784e-07, initial = spin-up, q = 4
+set chi to 406
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1584, chi = 406, N = 300, convergence = 2.9766e-08, initial = spin-up, q = 4
+    5        1.15836     -0.34279        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1416, chi = 100, N = 300, convergence = 0.0014542, initial = spin-up, q = 4
+set chi to 324
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 324, N = 300, convergence = 0.0021221, initial = spin-up, q = 4
+set chi to 714
+Did not find record
+stored to database: 
+temperature = 1.1416, chi = 714, N = 300, convergence = 0.0023773, initial = spin-up, q = 4
+    6        1.14164    -0.437699        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1313, chi = 100, N = 300, convergence = 0.00091775, initial = spin-up, q = 4
+set chi to 298
+Did not find record
+stored to database: 
+temperature = 1.1313, chi = 298, N = 300, convergence = 0.0015259, initial = spin-up, q = 4
+set chi to 602
+Did not find record
+stored to database: 
+temperature = 1.1313, chi = 602, N = 300, convergence = 0.0016741, initial = spin-up, q = 4
+    7        1.13131    -0.209245        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.148, chi = 100, N = 300, convergence = 2.1407e-05, initial = spin-up, q = 4
+set chi to 296
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.148, chi = 296, N = 300, convergence = 4.0478e-05, initial = spin-up, q = 4
+set chi to 564
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.148, chi = 564, N = 300, convergence = 5.1097e-05, initial = spin-up, q = 4
+    8        1.14803     -0.39147        golden
+set chi to 100
+Found record: 20 iterations remaining.
+stored to database: 
+temperature = 1.1377, chi = 100, N = 300, convergence = 0.0056255, initial = spin-up, q = 4
+set chi to 330
+Did not find record
+stored to database: 
+temperature = 1.1377, chi = 330, N = 300, convergence = 0.007907, initial = spin-up, q = 4
+set chi to 770
+Did not find record
+stored to database: 
+temperature = 1.1377, chi = 770, N = 300, convergence = 0.0086123, initial = spin-up, q = 4
+    9        1.13769     -0.41429        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.142, chi = 100, N = 300, convergence = 0.0012012, initial = spin-up, q = 4
+set chi to 322
+Did not find record
+stored to database: 
+temperature = 1.142, chi = 322, N = 300, convergence = 0.0017854, initial = spin-up, q = 4
+set chi to 703
+Did not find record
+stored to database: 
+temperature = 1.142, chi = 703, N = 300, convergence = 0.0019905, initial = spin-up, q = 4
+   10        1.14199    -0.435326        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1407, chi = 100, N = 300, convergence = 0.0023431, initial = spin-up, q = 4
+set chi to 327
+Did not find record
+stored to database: 
+temperature = 1.1407, chi = 327, N = 300, convergence = 0.0033819, initial = spin-up, q = 4
+set chi to 738
+Did not find record
+stored to database: 
+temperature = 1.1407, chi = 738, N = 300, convergence = 0.0037088, initial = spin-up, q = 4
+   11        1.14068    -0.442461        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1395, chi = 100, N = 300, convergence = 0.0036982, initial = spin-up, q = 4
+set chi to 330
+Did not find record
+stored to database: 
+temperature = 1.1395, chi = 330, N = 300, convergence = 0.005224, initial = spin-up, q = 4
+set chi to 758
+Did not find record
+stored to database: 
+temperature = 1.1395, chi = 758, N = 300, convergence = 0.0057282, initial = spin-up, q = 4
+   12        1.13954    -0.441924        golden
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1402, chi = 100, N = 300, convergence = 0.002883, initial = spin-up, q = 4
+set chi to 328
+Did not find record
+stored to database: 
+temperature = 1.1402, chi = 328, N = 300, convergence = 0.0040966, initial = spin-up, q = 4
+set chi to 747
+Did not find record
+stored to database: 
+temperature = 1.1402, chi = 747, N = 300, convergence = 0.0045126, initial = spin-up, q = 4
+   13         1.1402    -0.443313        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1402, chi = 100, N = 300, convergence = 0.0029099, initial = spin-up, q = 4
+set chi to 328
+Did not find record
+stored to database: 
+temperature = 1.1402, chi = 328, N = 300, convergence = 0.0041334, initial = spin-up, q = 4
+set chi to 747
+Did not find record
+stored to database: 
+temperature = 1.1402, chi = 747, N = 300, convergence = 0.0045521, initial = spin-up, q = 4
+   14        1.14018    -0.443319        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1401, chi = 100, N = 300, convergence = 0.0029519, initial = spin-up, q = 4
+set chi to 328
+Did not find record
+stored to database: 
+temperature = 1.1401, chi = 328, N = 300, convergence = 0.0041911, initial = spin-up, q = 4
+set chi to 748
+Did not find record
+stored to database: 
+temperature = 1.1401, chi = 748, N = 300, convergence = 0.0046149, initial = spin-up, q = 4
+   15        1.14014    -0.443322        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1401, chi = 100, N = 300, convergence = 0.0029467, initial = spin-up, q = 4
+set chi to 328
+Did not find record
+stored to database: 
+temperature = 1.1401, chi = 328, N = 300, convergence = 0.0041839, initial = spin-up, q = 4
+set chi to 748
+Did not find record
+stored to database: 
+temperature = 1.1401, chi = 748, N = 300, convergence = 0.0046071, initial = spin-up, q = 4
+   16        1.14014    -0.443322        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1401, chi = 100, N = 300, convergence = 0.0029463, initial = spin-up, q = 4
+set chi to 328
+Did not find record
+stored to database: 
+temperature = 1.1401, chi = 328, N = 300, convergence = 0.0041833, initial = spin-up, q = 4
+set chi to 748
+Did not find record
+stored to database: 
+temperature = 1.1401, chi = 748, N = 300, convergence = 0.0046065, initial = spin-up, q = 4
+   17        1.14014    -0.443322        parabolic
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 1.1401, chi = 100, N = 300, convergence = 0.0029459, initial = spin-up, q = 4
+set chi to 328
+Did not find record
+stored to database: 
+temperature = 1.1401, chi = 328, N = 300, convergence = 0.0041827, initial = spin-up, q = 4
+set chi to 748
+Did not find record
