@@ -1,7 +1,7 @@
 function benchmark_matrix_multiplication
   rng(1)
   maxNumCompThreads(1)
-  sizes = [20 50 100 300 500 700 900 1200 1500 1800 2100 2600 3100];
+  sizes = [20 40 60 80 100 120 140 160 180 200 220 240 260 280 300 400 500 700 900 1200 1500 1800 2100 2600];
   timeits_matrix_mult = zeros(1, numel(sizes));
   timeits_svd = zeros(1, numel(sizes));
 
