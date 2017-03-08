@@ -1,19 +1,13 @@
-function benchmark_parallelisation
+function benchmark_matrix_multiplication
   rng(1)
-
-  matrix_size = 200;
-  repeats = 100000;
-  A = rand(matrix_size);
-  B = rand(matrix_size);
-
-  profile on
-  do_multiplication(A, B, repeats);
-  profile off
-  profsave(profile('info'), 'matrix_multiplication_workstation')
-end
-
-function do_multiplication(A, B, repeats)
-  for i = 1:repeats
-    A * B;
+  sizes = [20 50 100 200 500 800 1000 1250 1500 2000 3000];
+  timeits = zeros(1, numel(sizes));
+  for i = 1:numel(sizes)
+    A = rand(sizes(i));
+    B = rand(sizes(i));
+    f = @() A * B;
+    timeits(i) = timeit(f);
   end
+
+  markerplot(sizes, timeits, '--', 'loglog')
 end

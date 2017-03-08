@@ -1,22 +1,13 @@
 function benchmark_matrix_operations
   rng(1)
-  matrix_size = 200;
-  vector_size = 10000;
+  matrix_size = 2000;
+  vector_size = 100000;
   repeats = 100000;
   A = rand(matrix_size);
   B = rand(matrix_size);
   a = rand(vector_size, 1);
   b = rand(vector_size, 1);
 
-  profile on
-  display('starting with multiplication')
-  multiplication(A, B, repeats);
-  display('starting with svd')
-  singular_value_decomposition(A, repeats/20);
-  display('starting with vector addition')
-  vector_addition(a, b, repeats * 20);
-  profile off
-  profsave(profile('info'), 'matrix_operations_workstation')
 end
 
 function multiplication(A, B, repeats)

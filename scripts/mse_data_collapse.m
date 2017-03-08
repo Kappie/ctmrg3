@@ -40,9 +40,9 @@ function mse = mean_squared_error_from_interpolation(x_values_observation, y_val
   %
   % else
   interpolated_y_values = interp1(x_values_estimation, y_values_estimation, x_values_observation, 'pchip');
-  % errors = (y_values_observation - interpolated_y_values);
+  errors = (y_values_observation - interpolated_y_values);
   % why is relative error better?
-  errors = (y_values_observation - interpolated_y_values) ./ y_values_observation;
+  % errors = (y_values_observation - interpolated_y_values) ./ y_values_observation;
   % end
 
   mse = mean(errors .^ 2);
