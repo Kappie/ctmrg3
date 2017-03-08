@@ -3,6 +3,7 @@ classdef DataCollapseN
     q;
     N_values;
     temperatures;
+    truncation_errors;
     chi_max = 100;
     scaling_quantities;
     initial_T_crit = Constants.T_crit;

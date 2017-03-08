@@ -10,6 +10,8 @@ function obj = find_best_collapse(obj)
 
   options = optimset('PlotFcns', @optimplotfval, 'TolX', 1e-8);
   initial = [obj.initial_T_crit, obj.initial_beta, obj.initial_nu];
-  [x, fval, exitflag, output] = fminsearch(@f_min, initial, options);
+  lower_bounds = [2.269 0.1 0.998];
+  upper_bounds = [2.270 0.15 1.003];
+  [x, fval, exitflag, output] = fminsearchbnd(@f_min, initial, lower_bounds, upper_bounds, options);
   obj.results = struct('T_crit', x(1), 'beta', x(2), 'nu', x(3), 'mse', fval);
 end
