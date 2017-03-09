@@ -3,7 +3,7 @@ function main
 
   % plot_timeit_results
   % benchmark_matrix_operations
-  benchmark_matrix_multiplication
+  % benchmark_matrix_multiplication
   % test_data_collapse_N
   % fit_T_crit_n
   % custom_fit_test
