@@ -1,23 +1,15 @@
-classdef DataCollapseN
+classdef DataCollapseN < DataCollapse
   properties
-    q;
     N_values;
-    temperatures;
-    truncation_errors;
-    chi_max = 100;
-    scaling_quantities;
-    initial_T_crit = Constants.T_crit;
-    initial_beta = 1/8;
-    initial_nu = 1;
-    results;
+    truncation_error = 1e-6;
   end
 
   methods
-    function obj = DataCollapseN(q, N_values, temperatures)
-      obj.q = q;
+    function obj = DataCollapseN(q, N_values, temperatures, truncation_error)
+      obj = obj@DataCollapse(q, temperatures);
       obj.N_values = N_values;
-      obj.temperatures = temperatures;
-      obj = obj.calculate_scaling_quantities();
+      obj.truncation_error = truncation_error;
+      obj = obj.post_initialize();
     end
   end
 end

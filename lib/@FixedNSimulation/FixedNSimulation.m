@@ -1,6 +1,7 @@
 classdef FixedNSimulation < Simulation
   properties
     convergences = [];
+    truncation_errors = [];
   end
   methods
     function obj = FixedNSimulation(temperatures, chi_values, N_values, q)

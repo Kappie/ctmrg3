@@ -8,8 +8,8 @@ function sanity_test
   sim.LOAD_FROM_DB = false; sim.SAVE_TO_DB = false;
 
   sim = sim.run();
-  sim.compute(OrderParameter)
-  Constants.order_parameter(temperature)
+  order_parameter = sim.compute('order_parameter');
+  order_parameter_exact = Constants.order_parameter(temperature);
 
-  IsNear(sim.compute(OrderParameter), Constants.order_parameter(temperature), 1e-12)
+  IsNear(order_parameter, order_parameter_exact, 1e-12)
 end

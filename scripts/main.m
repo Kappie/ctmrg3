@@ -1,10 +1,14 @@
 function main
   rehash;
 
+  % find_sufficient_chi
+  % plot_truncation_error_vs_n
+  % update_truncation_errors
+  % test_fixed_truncation_error
   % plot_timeit_results
   % benchmark_matrix_operations
   % benchmark_matrix_multiplication
-  % test_data_collapse_N
+  test_data_collapse_N
   % fit_T_crit_n
   % custom_fit_test
   % test_free_energy

@@ -1,4 +1,4 @@
-function plot(obj, varargin)
+function plot(obj, T_crit, beta, nu)
   if ~exist('T_crit', 'var')
     T_crit = obj.results.T_crit;
   end
@@ -20,5 +20,8 @@ function plot(obj, varargin)
   end
   hold off
 
+  xlabel('$tN^{1/\nu}$')
+  ylabel('$N^{\beta/\nu}$m(t, N)')
+  title(['$T_c = ' num2str(T_crit) ', \beta = ' num2str(beta) ', \nu = ' num2str(nu) '.$'])
   make_legend(obj.N_values, 'N')
 end
