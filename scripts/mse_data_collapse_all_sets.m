@@ -24,6 +24,10 @@ function [mse] = mse_in_overlapping_region(x_obs, y_obs, x_query, y_query)
   left_bound = x_obs(1);
   right_bound = x_obs(end);
   indices_within_bounds = x_query >= left_bound & x_query <= right_bound;
+  if all(indices_within_bounds == false)
+    mse = Inf;
+    return
+  end
   x_query = x_query(indices_within_bounds);
   y_query = y_query(indices_within_bounds);
   mse = mean_squared_error_from_interpolation(x_obs, y_obs, x_query, y_query);

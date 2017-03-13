@@ -3,6 +3,7 @@ classdef (Abstract) DataCollapse
     q;
     temperatures;
     scaling_quantities;
+    N_values;
 
     simulation;
     initial_T_crit = Constants.T_crit;

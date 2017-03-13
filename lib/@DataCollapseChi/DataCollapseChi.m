@@ -2,6 +2,7 @@ classdef DataCollapseChi < DataCollapse
   properties
     chi_values;
     tolerance = 1e-7;
+    initial_kappa = 1.9;
   end
 
   methods

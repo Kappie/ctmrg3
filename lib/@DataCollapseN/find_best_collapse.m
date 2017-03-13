@@ -1,14 +1,13 @@
 function obj = find_best_collapse(obj)
-  width = 0.05;
-  include_N = obj.N_values > 160;
-  include_T = abs(obj.temperatures - Constants.T_crit) < width;
+  [temperatures, N_values, scaling_quantities] = obj.values_to_include()
 
   function mse = f_min(inputs)
     T_crit = inputs(1);
     beta = inputs(2);
     nu = inputs(3);
 
-    [x_values, scaling_function_values, N_values] = obj.collapse(T_crit, beta, nu, include_T, include_N);
+    [x_values, scaling_function_values] = obj.collapse(temperatures, N_values, ...
+      scaling_quantities, T_crit, beta, nu);
     mse = obj.error_of_collapse(x_values, scaling_function_values, N_values);
   end
 

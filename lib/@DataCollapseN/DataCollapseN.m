@@ -1,6 +1,5 @@
 classdef DataCollapseN < DataCollapse
   properties
-    N_values;
     truncation_error = 1e-6;
   end
 
