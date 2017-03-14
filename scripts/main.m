@@ -4,8 +4,8 @@ function main
   % plot_free_energy
   % plot_trunc_error_vs_n
   % plot_magnetization
-  test_data_collapse_N
-  % test_data_collapse_chi
+  % test_data_collapse_N
+  test_data_collapse_chi
   % find_sufficient_chi
   % plot_truncation_error_vs_n
   % update_truncation_errors

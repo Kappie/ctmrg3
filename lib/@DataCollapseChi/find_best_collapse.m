@@ -1,5 +1,5 @@
 function obj = find_best_collapse(obj)
-  [temperatures, chi_values, scaling_quantities] = obj.values_to_include();
+  [temperatures, chi_values, scaling_quantities] = obj.values_to_include()
 
   function mse = f_min(inputs)
     T_crit = inputs(1);
