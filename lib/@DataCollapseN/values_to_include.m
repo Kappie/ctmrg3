@@ -2,7 +2,7 @@ function [temperatures, N_values, scaling_quantities] = values_to_include(obj)
   width = 1;
   N_min = 0;
   include_N = obj.N_values > 0;
-  include_T = abs(obj.temperatures - Constants.T_crit) < width;
+  include_T = abs(obj.temperatures - Constants.T_crit_guess(obj.q)) < width;
 
   temperatures = obj.temperatures(include_T)
   N_values = obj.N_values(include_N);

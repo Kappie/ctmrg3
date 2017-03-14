@@ -17,6 +17,7 @@ classdef (Abstract) Simulation
     initial_condition = 'spin-up';
     significant_digits = 13;
     lattices;
+    truncation_errors;
   end
 
   methods

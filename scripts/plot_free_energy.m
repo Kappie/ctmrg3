@@ -1,23 +1,31 @@
 function plot_free_energy
-  width = 0.1; number_of_points = 5;
-  temperatures = Util.linspace_around_T_crit(width, number_of_points);
-  chi_values = [4, 8];
-  tolerances = [1e-7];
+  temperature = Constants.T_crit - 0.1;
+  N_values = [10:10:500 700:200:1900];
+  chi_values = [20];
+  q = 2;
 
-  sim = FixedToleranceSimulation(temperatures, chi_values, tolerances);
-  sim = sim.run();
-  free_energies = sim.compute(FreeEnergy);
+  sim = FixedNSimulation(temperature, chi_values, N_values, q).run();
+  free_energies = sim.compute('free_energy');
+  order_parameters = sim.compute('order_parameter');
+  convergences = sim.convergences;
+  sim.initial_condition = 'symmetric';
+  sim = sim.run()
+  free_energies_symmetric = sim.compute('free_energy');
+  convergences_symmetric = sim.convergences;
+  order_parameters_symmetric = sim.compute('order_parameter')
 
-  exact_free_energies = Constants.free_energy_per_sites(temperatures);
-  diffs = free_energies - exact_free_energies;
+  diffs = free_energies - free_energies_symmetric;
 
-  % markerplot(temperatures, [free_energies exact_free_energies]);
-  markerplot(temperatures, diffs, '--', 'semilogy');
-  make_legend(chi_values, '\chi');
+  figure
+  hold on
+  markerplot(N_values, -diffs, '--', 'semilogy')
+  markerplot(N_values, order_parameters, '--', 'semilogy')
+  markerplot(N_values, order_parameters_symmetric, '--', 'semilogy')
+  set(gca, 'YScale', 'log')
+  legend({'$f_{\mathrm{spin-up}} - f_{\mathrm{symm.}}$', '$m_{\mathrm{spin-up}}$', ...
+    '$m_{\mathrm{symm}}$'})
+  hold off
+  xlabel('$N$')
+  title(['Ising model at $T_c + 0.1, \chi = ' num2str(chi_values(1)) '$.'])
 
-end
-
-function f = free_energy_serina(temperature, a, T)
-  largest_eig = Util.largest_eigenvalues_transfer_matrix(a, T, 1);
-  f = -temperature * log(largest_eig);
 end

@@ -5,9 +5,10 @@ function obj = find_or_calculate_environment_for_every_combination(obj, values1,
     for i2 = 1:numel(values2)
       for i3 = 1:numel(values3)
         obj.tensors(i1, i2, i3) = obj.find_or_calculate_environment(values1(i1), values2(i2), values3(i3));
+        obj.truncation_errors(i1, i2, i3) = obj.tensors(i1, i2, i3).truncation_error;
       end
     end
   end
-
+  obj.truncation_errors = squeeze(obj.truncation_errors);
   sqlite3.close(obj.DATABASE);
 end

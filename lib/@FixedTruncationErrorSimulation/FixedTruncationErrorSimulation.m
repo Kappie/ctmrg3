@@ -1,7 +1,6 @@
 classdef FixedTruncationErrorSimulation < Simulation
   properties
     max_truncation_error;
-    truncation_errors;
     chi_start = 20;
     chi;
   end

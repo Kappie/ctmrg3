@@ -20,5 +20,6 @@ function obj = find_best_collapse(obj)
   upper_bounds = [2.270 0.14 1.006 2.05];
   [x, fval, exitflag, output] = fminsearchbnd(@f_min, initial, lower_bounds, upper_bounds, options);
   obj.results = struct('T_crit', x(1), 'beta', x(2), 'nu', x(3), 'kappa', x(4), 'mse', fval);
-  obj.N_values = obj.chi_values .^ obj.results.kappa;
+  % obj.N_values = obj.chi_values .^ obj.results.kappa;
+  obj.N_values = obj.correlation_lengths();
 end
