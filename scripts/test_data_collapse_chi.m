@@ -1,5 +1,5 @@
 function test_data_collapse_chi
-  chi_values = [4 10 16 24 32 40 50];
+  chi_values = [4 10 16 24 32 40 50 60 70];
   % chi_values = [4, 8];
   q = 4;
   tolerance = 1e-7;
@@ -11,9 +11,12 @@ function test_data_collapse_chi
     RIGHT_BOUND, number_of_points);
   temperatures_super_zoom = linspace(Constants.T_crit_guess(q) - width/100, ...
     RIGHT_BOUND, floor(number_of_points/2));
-  temperatures = [temperatures temperatures_zoom temperatures_super_zoom]
+  temperatures_outer = linspace(Constants.T_crit_guess(q) - 2 * width, Constants.T_crit_guess(q) - width, ...
+    number_of_points);
+  temperatures = sort(unique([temperatures temperatures_zoom temperatures_super_zoom temperatures_outer]))
 
   collapse = DataCollapseChi(q, chi_values, temperatures, tolerance);
+
   collapse.scaling_quantities
   collapse = collapse.find_best_collapse();
   collapse.results
