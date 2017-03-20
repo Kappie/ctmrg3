@@ -26,8 +26,20 @@ function tensor_struct = find_or_calculate_environment(obj, temperature, chi, to
   else
     if query_result.chi == chi && query_result.convergence == tolerance
       [C, T] = Util.deserialize_tensors(query_result);
+      if isempty(query_result.truncation_error)
+        display('Found empty truncation error. Updating...')
+        % Do one additional iteration to recalculate truncation_error.
+        sim = FixedNSimulation(temperature, chi, 1, obj.q);
+        [~, ~, ~, truncation_error] = sim.calculate_environment(...
+          temperature, chi, 1, C, T);
+        query = ['update tensors set truncation_error = ? ' ...
+          'where temperature = ? AND chi = ? AND convergence = ? AND initial = ? AND q = ?'];
+        sqlite3.execute(obj.db_id, query, truncation_error, temperature, ...
+          chi, tolerance, obj.initial_condition, obj.q);
+      else
+        truncation_error = query_result.truncation_error;
+      end
       convergence = query_result.convergence;
-      truncation_error = query_result.truncation_error;
       simulated = false;
     else
       fprintf(['Found a record with higher tolerance to use as initial condition\n' ...

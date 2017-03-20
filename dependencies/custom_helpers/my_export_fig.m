@@ -4,7 +4,10 @@ function my_export_fig(filename, scriptname, save_to_thesis_plots_folder)
   end
 
   full_path = fullfile(Constants.PLOTS_DIR, filename);
-  export_fig(full_path);
+  set(gcf, 'PaperPosition', [0 0 7 5.6]); %Position plot at left hand corner with width 5 and height 5.
+  set(gcf, 'PaperSize', [7 5.6]); %Set the paper to have width 5 and height 5.
+  saveas(gcf, full_path, 'pdf') %Save figure
+  % export_fig(full_path);
 
   [~, name, extension] = fileparts(filename);
 
