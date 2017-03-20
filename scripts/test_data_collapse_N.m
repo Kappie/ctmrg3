@@ -1,9 +1,9 @@
 function test_data_collapse_N
-  q = 2;
-  truncation_error = 1e-6;
-  N_values = [20 80 160 320 480 600 800 1000 1500 2000 2500];
-  % N_values = [20 60 100 140 180];
-  width = 0.1; number_of_points = 20;
+  q = 4;
+  truncation_error = 1e-5;
+  % N_values = [20 80 160 320 480 600 1000 1500];
+  N_values = [20 60 100 120 140 160 180 200];
+  width = 0.1; number_of_points = 10;
   temperatures = linspace(Constants.T_crit_guess(q) - width, ...
     Constants.T_crit_guess(q) + width, number_of_points);
   temperatures_zoom = linspace(Constants.T_crit_guess(q) - width/10, ...
@@ -15,6 +15,8 @@ function test_data_collapse_N
 
 
   temperatures = sort(unique([temperatures temperatures_zoom temperatures_super_zoom temperatures_outer]));
+
+  temperatures = sort([temperatures temperatures_zoom temperatures_super_zoom])
 
   collapse = DataCollapseN(q, N_values, temperatures, truncation_error)
   N_min = 600;
