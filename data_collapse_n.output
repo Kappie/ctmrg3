@@ -1,0 +1,2237 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+Did not find record
+stored to database: 
+temperature = 2.0692, chi = 20, N = 20, convergence = 0.00054689, initial = spin-up, q = 2truncation error = 2.1494e-10.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.0692, chi = 20, N = 80, convergence = 2.6887e-11, initial = spin-up, q = 2truncation error = 7.3399e-10.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.0692, chi = 20, N = 160, convergence = 4.4237e-16, initial = spin-up, q = 2truncation error = 7.3399e-10.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.0692, chi = 20, N = 320, convergence = 6.8835e-16, initial = spin-up, q = 2truncation error = 7.3399e-10.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.0692, chi = 20, N = 480, convergence = 5.2321e-16, initial = spin-up, q = 2truncation error = 7.3399e-10.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.0692, chi = 20, N = 600, convergence = 2.489e-16, initial = spin-up, q = 2truncation error = 7.3399e-10.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.0692, chi = 20, N = 1000, convergence = 2.9407e-16, initial = spin-up, q = 2truncation error = 7.3399e-10.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.0692, chi = 20, N = 1500, convergence = 3.9162e-16, initial = spin-up, q = 2truncation error = 7.3399e-10.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.0692, chi = 20, N = 2000, convergence = 2.0054e-16, initial = spin-up, q = 2truncation error = 7.3399e-10.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.0692, chi = 20, N = 2500, convergence = 2.5402e-16, initial = spin-up, q = 2truncation error = 7.3399e-10.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.0692, chi = 20, N = 3000, convergence = 5.1843e-16, initial = spin-up, q = 2truncation error = 7.3399e-10.
+Did not find record
+stored to database: 
+temperature = 2.083, chi = 20, N = 20, convergence = 0.00072519, initial = spin-up, q = 2truncation error = 2.963e-10.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.083, chi = 20, N = 80, convergence = 1.4354e-10, initial = spin-up, q = 2truncation error = 1.1551e-09.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.083, chi = 20, N = 160, convergence = 4.832e-16, initial = spin-up, q = 2truncation error = 1.1551e-09.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.083, chi = 20, N = 320, convergence = 4.5061e-16, initial = spin-up, q = 2truncation error = 1.1551e-09.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.083, chi = 20, N = 480, convergence = 9.481e-17, initial = spin-up, q = 2truncation error = 1.1551e-09.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.083, chi = 20, N = 600, convergence = 1.7189e-16, initial = spin-up, q = 2truncation error = 1.1551e-09.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.083, chi = 20, N = 1000, convergence = 1.5038e-16, initial = spin-up, q = 2truncation error = 1.1551e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.083, chi = 20, N = 1500, convergence = 1.1531e-16, initial = spin-up, q = 2truncation error = 1.1551e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.083, chi = 20, N = 2000, convergence = 2.2561e-16, initial = spin-up, q = 2truncation error = 1.1551e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.083, chi = 20, N = 2500, convergence = 1.2057e-16, initial = spin-up, q = 2truncation error = 1.1551e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.083, chi = 20, N = 3000, convergence = 7.3668e-17, initial = spin-up, q = 2truncation error = 1.1551e-09.
+Did not find record
+stored to database: 
+temperature = 2.0968, chi = 20, N = 20, convergence = 0.00095747, initial = spin-up, q = 2truncation error = 3.8628e-10.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.0968, chi = 20, N = 80, convergence = 7.4234e-10, initial = spin-up, q = 2truncation error = 1.8374e-09.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.0968, chi = 20, N = 160, convergence = 4.8201e-16, initial = spin-up, q = 2truncation error = 1.8374e-09.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.0968, chi = 20, N = 320, convergence = 1.6584e-16, initial = spin-up, q = 2truncation error = 1.8374e-09.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.0968, chi = 20, N = 480, convergence = 6.6699e-17, initial = spin-up, q = 2truncation error = 1.8374e-09.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.0968, chi = 20, N = 600, convergence = 3.7144e-16, initial = spin-up, q = 2truncation error = 1.8374e-09.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.0968, chi = 20, N = 1000, convergence = 1.0534e-16, initial = spin-up, q = 2truncation error = 1.8374e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.0968, chi = 20, N = 1500, convergence = 2.129e-16, initial = spin-up, q = 2truncation error = 1.8374e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.0968, chi = 20, N = 2000, convergence = 5.8078e-16, initial = spin-up, q = 2truncation error = 1.8374e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.0968, chi = 20, N = 2500, convergence = 3.9338e-16, initial = spin-up, q = 2truncation error = 1.8374e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.0968, chi = 20, N = 3000, convergence = 1.0559e-16, initial = spin-up, q = 2truncation error = 1.8374e-09.
+Did not find record
+stored to database: 
+temperature = 2.1106, chi = 20, N = 20, convergence = 0.0012554, initial = spin-up, q = 2truncation error = 4.8094e-10.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.1106, chi = 20, N = 80, convergence = 3.7093e-09, initial = spin-up, q = 2truncation error = 2.9599e-09.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.1106, chi = 20, N = 160, convergence = 5.6239e-16, initial = spin-up, q = 2truncation error = 2.96e-09.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.1106, chi = 20, N = 320, convergence = 1.6815e-16, initial = spin-up, q = 2truncation error = 2.96e-09.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.1106, chi = 20, N = 480, convergence = 1.5011e-16, initial = spin-up, q = 2truncation error = 2.96e-09.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.1106, chi = 20, N = 600, convergence = 5.7844e-16, initial = spin-up, q = 2truncation error = 2.96e-09.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.1106, chi = 20, N = 1000, convergence = 1.5267e-16, initial = spin-up, q = 2truncation error = 2.96e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1106, chi = 20, N = 1500, convergence = 1.2587e-16, initial = spin-up, q = 2truncation error = 2.96e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1106, chi = 20, N = 2000, convergence = 3.893e-16, initial = spin-up, q = 2truncation error = 2.96e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1106, chi = 20, N = 2500, convergence = 2.8886e-16, initial = spin-up, q = 2truncation error = 2.96e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1106, chi = 20, N = 3000, convergence = 2.1309e-16, initial = spin-up, q = 2truncation error = 2.96e-09.
+Did not find record
+stored to database: 
+temperature = 2.1244, chi = 20, N = 20, convergence = 0.0016325, initial = spin-up, q = 2truncation error = 5.9766e-10.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.1244, chi = 20, N = 80, convergence = 1.7854e-08, initial = spin-up, q = 2truncation error = 4.8392e-09.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.1244, chi = 20, N = 160, convergence = 5.7674e-16, initial = spin-up, q = 2truncation error = 4.84e-09.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.1244, chi = 20, N = 320, convergence = 6.7854e-16, initial = spin-up, q = 2truncation error = 4.84e-09.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.1244, chi = 20, N = 480, convergence = 1.5277e-16, initial = spin-up, q = 2truncation error = 4.84e-09.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.1244, chi = 20, N = 600, convergence = 1.1174e-16, initial = spin-up, q = 2truncation error = 4.84e-09.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.1244, chi = 20, N = 1000, convergence = 5.629e-16, initial = spin-up, q = 2truncation error = 4.84e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1244, chi = 20, N = 1500, convergence = 2.6202e-16, initial = spin-up, q = 2truncation error = 4.84e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1244, chi = 20, N = 2000, convergence = 3.5123e-16, initial = spin-up, q = 2truncation error = 4.84e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1244, chi = 20, N = 2500, convergence = 6.8892e-16, initial = spin-up, q = 2truncation error = 4.84e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1244, chi = 20, N = 3000, convergence = 7.0957e-16, initial = spin-up, q = 2truncation error = 4.84e-09.
+Did not find record
+stored to database: 
+temperature = 2.1382, chi = 20, N = 20, convergence = 0.0021046, initial = spin-up, q = 2truncation error = 7.4052e-10.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.1382, chi = 20, N = 80, convergence = 8.2389e-08, initial = spin-up, q = 2truncation error = 8.0514e-09.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.1382, chi = 20, N = 160, convergence = 5.4179e-15, initial = spin-up, q = 2truncation error = 8.0566e-09.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.1382, chi = 20, N = 320, convergence = 4.6045e-16, initial = spin-up, q = 2truncation error = 8.0566e-09.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.1382, chi = 20, N = 480, convergence = 2.2679e-16, initial = spin-up, q = 2truncation error = 8.0566e-09.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.1382, chi = 20, N = 600, convergence = 4.2417e-16, initial = spin-up, q = 2truncation error = 8.0566e-09.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.1382, chi = 20, N = 1000, convergence = 3.9436e-16, initial = spin-up, q = 2truncation error = 8.0566e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1382, chi = 20, N = 1500, convergence = 9.462e-16, initial = spin-up, q = 2truncation error = 8.0566e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1382, chi = 20, N = 2000, convergence = 2.1134e-16, initial = spin-up, q = 2truncation error = 8.0566e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1382, chi = 20, N = 2500, convergence = 6.4282e-16, initial = spin-up, q = 2truncation error = 8.0566e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1382, chi = 20, N = 3000, convergence = 3.279e-16, initial = spin-up, q = 2truncation error = 8.0566e-09.
+Did not find record
+stored to database: 
+temperature = 2.1519, chi = 20, N = 20, convergence = 0.0026882, initial = spin-up, q = 2truncation error = 9.1365e-10.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.1519, chi = 20, N = 80, convergence = 3.6235e-07, initial = spin-up, q = 2truncation error = 1.3673e-08.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.1519, chi = 20, N = 160, convergence = 1.6334e-13, initial = spin-up, q = 2truncation error = 1.3703e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.1519, chi = 20, N = 320, convergence = 3.1106e-16, initial = spin-up, q = 2truncation error = 1.3703e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.1519, chi = 20, N = 480, convergence = 2.4981e-16, initial = spin-up, q = 2truncation error = 1.3703e-08.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.1519, chi = 20, N = 600, convergence = 2.6898e-16, initial = spin-up, q = 2truncation error = 1.3703e-08.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.1519, chi = 20, N = 1000, convergence = 4.1963e-16, initial = spin-up, q = 2truncation error = 1.3703e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1519, chi = 20, N = 1500, convergence = 4.5501e-16, initial = spin-up, q = 2truncation error = 1.3703e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1519, chi = 20, N = 2000, convergence = 3.2275e-16, initial = spin-up, q = 2truncation error = 1.3703e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1519, chi = 20, N = 2500, convergence = 3.8287e-16, initial = spin-up, q = 2truncation error = 1.3703e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1519, chi = 20, N = 3000, convergence = 1.8724e-16, initial = spin-up, q = 2truncation error = 1.3703e-08.
+Did not find record
+stored to database: 
+temperature = 2.1657, chi = 20, N = 20, convergence = 0.0033998, initial = spin-up, q = 2truncation error = 1.1208e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.1657, chi = 20, N = 80, convergence = 1.5063e-06, initial = spin-up, q = 2truncation error = 2.3767e-08.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.1657, chi = 20, N = 160, convergence = 4.5762e-12, initial = spin-up, q = 2truncation error = 2.3932e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.1657, chi = 20, N = 320, convergence = 1.5813e-16, initial = spin-up, q = 2truncation error = 2.3932e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.1657, chi = 20, N = 480, convergence = 2.7635e-16, initial = spin-up, q = 2truncation error = 2.3932e-08.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.1657, chi = 20, N = 600, convergence = 3.6597e-16, initial = spin-up, q = 2truncation error = 2.3932e-08.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.1657, chi = 20, N = 1000, convergence = 6.2945e-16, initial = spin-up, q = 2truncation error = 2.3932e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1657, chi = 20, N = 1500, convergence = 3.5459e-16, initial = spin-up, q = 2truncation error = 2.3932e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1657, chi = 20, N = 2000, convergence = 2.152e-16, initial = spin-up, q = 2truncation error = 2.3932e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1657, chi = 20, N = 2500, convergence = 9.2431e-16, initial = spin-up, q = 2truncation error = 2.3932e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1657, chi = 20, N = 3000, convergence = 3.7765e-16, initial = spin-up, q = 2truncation error = 2.3932e-08.
+Did not find record
+stored to database: 
+temperature = 2.1795, chi = 20, N = 20, convergence = 0.0042545, initial = spin-up, q = 2truncation error = 1.3647e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.1795, chi = 20, N = 80, convergence = 5.8598e-06, initial = spin-up, q = 2truncation error = 4.236e-08.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.1795, chi = 20, N = 160, convergence = 1.197e-10, initial = spin-up, q = 2truncation error = 4.3207e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.1795, chi = 20, N = 320, convergence = 4.6253e-16, initial = spin-up, q = 2truncation error = 4.3207e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.1795, chi = 20, N = 480, convergence = 3.3331e-16, initial = spin-up, q = 2truncation error = 4.3207e-08.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.1795, chi = 20, N = 600, convergence = 5.5779e-16, initial = spin-up, q = 2truncation error = 4.3207e-08.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.1795, chi = 20, N = 1000, convergence = 1.7036e-16, initial = spin-up, q = 2truncation error = 4.3207e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1795, chi = 20, N = 1500, convergence = 4.1475e-16, initial = spin-up, q = 2truncation error = 4.3207e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1795, chi = 20, N = 2000, convergence = 3.8226e-16, initial = spin-up, q = 2truncation error = 4.3207e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1795, chi = 20, N = 2500, convergence = 3.9733e-16, initial = spin-up, q = 2truncation error = 4.3207e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1795, chi = 20, N = 3000, convergence = 5.9338e-16, initial = spin-up, q = 2truncation error = 4.3207e-08.
+Did not find record
+stored to database: 
+temperature = 2.1933, chi = 20, N = 20, convergence = 0.0052633, initial = spin-up, q = 2truncation error = 1.6467e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.1933, chi = 20, N = 80, convergence = 2.1132e-05, initial = spin-up, q = 2truncation error = 7.7351e-08.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.1933, chi = 20, N = 160, convergence = 2.8816e-09, initial = spin-up, q = 2truncation error = 8.1417e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.1933, chi = 20, N = 320, convergence = 4.7754e-16, initial = spin-up, q = 2truncation error = 8.1418e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.1933, chi = 20, N = 480, convergence = 4.2747e-16, initial = spin-up, q = 2truncation error = 8.1418e-08.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.1933, chi = 20, N = 600, convergence = 8.4424e-16, initial = spin-up, q = 2truncation error = 8.1418e-08.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.1933, chi = 20, N = 1000, convergence = 2.3229e-16, initial = spin-up, q = 2truncation error = 8.1418e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1933, chi = 20, N = 1500, convergence = 8.4806e-16, initial = spin-up, q = 2truncation error = 8.1418e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1933, chi = 20, N = 2000, convergence = 5.9027e-16, initial = spin-up, q = 2truncation error = 8.1418e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1933, chi = 20, N = 2500, convergence = 6.5911e-16, initial = spin-up, q = 2truncation error = 8.1418e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1933, chi = 20, N = 3000, convergence = 6.1583e-16, initial = spin-up, q = 2truncation error = 8.1418e-08.
+Did not find record
+stored to database: 
+temperature = 2.2071, chi = 20, N = 20, convergence = 0.0064308, initial = spin-up, q = 2truncation error = 1.9654e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.2071, chi = 20, N = 80, convergence = 7.0305e-05, initial = spin-up, q = 2truncation error = 1.4408e-07.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.2071, chi = 20, N = 160, convergence = 6.2507e-08, initial = spin-up, q = 2truncation error = 1.6245e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.2071, chi = 20, N = 320, convergence = 9.7958e-15, initial = spin-up, q = 2truncation error = 1.6248e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.2071, chi = 20, N = 480, convergence = 2.4595e-16, initial = spin-up, q = 2truncation error = 1.6248e-07.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.2071, chi = 20, N = 600, convergence = 6.6142e-16, initial = spin-up, q = 2truncation error = 1.6248e-07.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.2071, chi = 20, N = 1000, convergence = 4.739e-16, initial = spin-up, q = 2truncation error = 1.6248e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2071, chi = 20, N = 1500, convergence = 3.8324e-16, initial = spin-up, q = 2truncation error = 1.6248e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2071, chi = 20, N = 2000, convergence = 3.9343e-16, initial = spin-up, q = 2truncation error = 1.6248e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2071, chi = 20, N = 2500, convergence = 4.3837e-16, initial = spin-up, q = 2truncation error = 1.6248e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2071, chi = 20, N = 3000, convergence = 2.6034e-16, initial = spin-up, q = 2truncation error = 1.6248e-07.
+Did not find record
+stored to database: 
+temperature = 2.2209, chi = 20, N = 20, convergence = 0.0077515, initial = spin-up, q = 2truncation error = 2.3163e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.2209, chi = 20, N = 80, convergence = 0.00021514, initial = spin-up, q = 2truncation error = 2.7058e-07.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.2209, chi = 20, N = 160, convergence = 1.1708e-06, initial = spin-up, q = 2truncation error = 3.508e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.2209, chi = 20, N = 320, convergence = 6.8204e-12, initial = spin-up, q = 2truncation error = 3.5163e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.2209, chi = 20, N = 480, convergence = 1.5242e-15, initial = spin-up, q = 2truncation error = 3.5163e-07.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.2209, chi = 20, N = 600, convergence = 8.0692e-16, initial = spin-up, q = 2truncation error = 3.5163e-07.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.2209, chi = 20, N = 1000, convergence = 7.8382e-16, initial = spin-up, q = 2truncation error = 3.5163e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2209, chi = 20, N = 1500, convergence = 8.0936e-16, initial = spin-up, q = 2truncation error = 3.5163e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2209, chi = 20, N = 2000, convergence = 5.4703e-16, initial = spin-up, q = 2truncation error = 3.5163e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2209, chi = 20, N = 2500, convergence = 6.0222e-16, initial = spin-up, q = 2truncation error = 3.5163e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2209, chi = 20, N = 3000, convergence = 6.8229e-16, initial = spin-up, q = 2truncation error = 3.5163e-07.
+Did not find record
+stored to database: 
+temperature = 2.2347, chi = 20, N = 20, convergence = 0.009206, initial = spin-up, q = 2truncation error = 2.6911e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.2347, chi = 20, N = 80, convergence = 0.00061466, initial = spin-up, q = 2truncation error = 4.8791e-07.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.2347, chi = 20, N = 160, convergence = 1.7375e-05, initial = spin-up, q = 2truncation error = 8.4157e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.2347, chi = 20, N = 320, convergence = 4.036e-09, initial = spin-up, q = 2truncation error = 8.6236e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.2347, chi = 20, N = 480, convergence = 6.1865e-13, initial = spin-up, q = 2truncation error = 8.6237e-07.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.2347, chi = 20, N = 600, convergence = 1.4684e-15, initial = spin-up, q = 2truncation error = 8.6237e-07.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.2347, chi = 20, N = 1000, convergence = 2.5056e-16, initial = spin-up, q = 2truncation error = 8.6237e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2347, chi = 20, N = 1500, convergence = 6.4261e-16, initial = spin-up, q = 2truncation error = 8.6237e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2347, chi = 20, N = 2000, convergence = 8.1337e-16, initial = spin-up, q = 2truncation error = 8.6237e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2347, chi = 20, N = 2500, convergence = 9.9302e-16, initial = spin-up, q = 2truncation error = 8.6237e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2347, chi = 20, N = 3000, convergence = 8.8102e-16, initial = spin-up, q = 2truncation error = 8.6237e-07.
+Did not find record
+stored to database: 
+temperature = 2.2485, chi = 20, N = 20, convergence = 0.010757, initial = spin-up, q = 2truncation error = 3.0776e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.2485, chi = 20, N = 80, convergence = 0.0014289, initial = spin-up, q = 2truncation error = 8.0634e-07.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.2485, chi = 20, N = 160, convergence = 0.00018637, initial = spin-up, q = 2truncation error = 2.2067e-06.
+set chi to 40
+Did not find record
+stored to database: 
+temperature = 2.2485, chi = 40, N = 160, convergence = 0.00021729, initial = spin-up, q = 2truncation error = 4.557e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.2485, chi = 40, N = 320, convergence = 3.6453e-06, initial = spin-up, q = 2truncation error = 7.3032e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.2485, chi = 40, N = 480, convergence = 3.4883e-08, initial = spin-up, q = 2truncation error = 7.4258e-08.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.2485, chi = 40, N = 600, convergence = 8.8882e-10, initial = spin-up, q = 2truncation error = 7.4273e-08.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.2485, chi = 40, N = 1000, convergence = 3.9241e-15, initial = spin-up, q = 2truncation error = 7.4274e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2485, chi = 40, N = 1500, convergence = 1.3179e-15, initial = spin-up, q = 2truncation error = 7.4274e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2485, chi = 40, N = 2000, convergence = 1.0292e-15, initial = spin-up, q = 2truncation error = 7.4274e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2485, chi = 40, N = 2500, convergence = 1.012e-15, initial = spin-up, q = 2truncation error = 7.4274e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2485, chi = 40, N = 3000, convergence = 1.7561e-15, initial = spin-up, q = 2truncation error = 7.4274e-08.
+Did not find record
+stored to database: 
+temperature = 2.2623, chi = 20, N = 20, convergence = 0.012349, initial = spin-up, q = 2truncation error = 3.4597e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.2623, chi = 20, N = 80, convergence = 0.0029784, initial = spin-up, q = 2truncation error = 1.2334e-06.
+set chi to 40
+Did not find record
+stored to database: 
+temperature = 2.2623, chi = 40, N = 80, convergence = 0.0031319, initial = spin-up, q = 2truncation error = 1.4633e-08.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.2623, chi = 40, N = 160, convergence = 0.0012267, initial = spin-up, q = 2truncation error = 1.3175e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.2623, chi = 40, N = 320, convergence = 0.00029461, initial = spin-up, q = 2truncation error = 4.9729e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.2623, chi = 40, N = 480, convergence = 7.45e-05, initial = spin-up, q = 2truncation error = 7.2103e-07.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.2623, chi = 40, N = 600, convergence = 2.587e-05, initial = spin-up, q = 2truncation error = 7.9592e-07.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.2623, chi = 40, N = 1000, convergence = 5.4934e-07, initial = spin-up, q = 2truncation error = 8.459e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2623, chi = 40, N = 1500, convergence = 3.0513e-09, initial = spin-up, q = 2truncation error = 8.4723e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2623, chi = 40, N = 2000, convergence = 1.5498e-11, initial = spin-up, q = 2truncation error = 8.4724e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2623, chi = 40, N = 2500, convergence = 7.8039e-14, initial = spin-up, q = 2truncation error = 8.4724e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2623, chi = 40, N = 3000, convergence = 7.317e-15, initial = spin-up, q = 2truncation error = 8.4724e-07.
+Did not find record
+stored to database: 
+temperature = 2.2761, chi = 20, N = 20, convergence = 0.013904, initial = spin-up, q = 2truncation error = 3.8188e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.2761, chi = 20, N = 80, convergence = 0.0048047, initial = spin-up, q = 2truncation error = 1.6469e-06.
+set chi to 40
+Did not find record
+stored to database: 
+temperature = 2.2761, chi = 40, N = 80, convergence = 0.0049983, initial = spin-up, q = 2truncation error = 2.0299e-08.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.2761, chi = 40, N = 160, convergence = 0.0030472, initial = spin-up, q = 2truncation error = 2.3318e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.2761, chi = 40, N = 320, convergence = 0.0014775, initial = spin-up, q = 2truncation error = 1.263e-06.
+set chi to 60
+Did not find record
+stored to database: 
+temperature = 2.2761, chi = 60, N = 320, convergence = 0.0015229, initial = spin-up, q = 2truncation error = 1.6602e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.2761, chi = 60, N = 480, convergence = 0.00063035, initial = spin-up, q = 2truncation error = 3.7248e-07.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.2761, chi = 60, N = 600, convergence = 0.00028248, initial = spin-up, q = 2truncation error = 4.9713e-07.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.2761, chi = 60, N = 1000, convergence = 1.1733e-05, initial = spin-up, q = 2truncation error = 6.527e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2761, chi = 60, N = 1500, convergence = 1.5167e-07, initial = spin-up, q = 2truncation error = 7.0578e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2761, chi = 60, N = 2000, convergence = 1.059e-09, initial = spin-up, q = 2truncation error = 7.0599e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2761, chi = 60, N = 2500, convergence = 6.9449e-12, initial = spin-up, q = 2truncation error = 7.0599e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2761, chi = 60, N = 3000, convergence = 4.9199e-14, initial = spin-up, q = 2truncation error = 7.0599e-07.
+Did not find record
+stored to database: 
+temperature = 2.2899, chi = 20, N = 20, convergence = 0.015328, initial = spin-up, q = 2truncation error = 4.1356e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.2899, chi = 20, N = 80, convergence = 0.0053618, initial = spin-up, q = 2truncation error = 1.8048e-06.
+set chi to 40
+Did not find record
+stored to database: 
+temperature = 2.2899, chi = 40, N = 80, convergence = 0.0055591, initial = spin-up, q = 2truncation error = 2.2601e-08.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.2899, chi = 40, N = 160, convergence = 0.001634, initial = spin-up, q = 2truncation error = 1.9858e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.2899, chi = 40, N = 320, convergence = 4.5461e-05, initial = spin-up, q = 2truncation error = 4.5168e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.2899, chi = 40, N = 480, convergence = 6.2512e-07, initial = spin-up, q = 2truncation error = 4.7234e-07.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.2899, chi = 40, N = 600, convergence = 2.0166e-08, initial = spin-up, q = 2truncation error = 4.7276e-07.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.2899, chi = 40, N = 1000, convergence = 1.3151e-13, initial = spin-up, q = 2truncation error = 4.7278e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2899, chi = 40, N = 1500, convergence = 2.1707e-15, initial = spin-up, q = 2truncation error = 4.7278e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2899, chi = 40, N = 2000, convergence = 2.6457e-15, initial = spin-up, q = 2truncation error = 4.7278e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2899, chi = 40, N = 2500, convergence = 3.5125e-15, initial = spin-up, q = 2truncation error = 4.7278e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2899, chi = 40, N = 3000, convergence = 1.3887e-15, initial = spin-up, q = 2truncation error = 4.7278e-07.
+Did not find record
+stored to database: 
+temperature = 2.3037, chi = 20, N = 20, convergence = 0.016518, initial = spin-up, q = 2truncation error = 4.3917e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.3037, chi = 20, N = 80, convergence = 0.0038871, initial = spin-up, q = 2truncation error = 1.6165e-06.
+set chi to 40
+Did not find record
+stored to database: 
+temperature = 2.3037, chi = 40, N = 80, convergence = 0.0040468, initial = spin-up, q = 2truncation error = 2.0234e-08.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.3037, chi = 40, N = 160, convergence = 0.00027476, initial = spin-up, q = 2truncation error = 1.0189e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.3037, chi = 40, N = 320, convergence = 6.4609e-07, initial = spin-up, q = 2truncation error = 1.3404e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.3037, chi = 40, N = 480, convergence = 1.8491e-10, initial = spin-up, q = 2truncation error = 1.3428e-07.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.3037, chi = 40, N = 600, convergence = 4.1808e-13, initial = spin-up, q = 2truncation error = 1.3428e-07.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.3037, chi = 40, N = 1000, convergence = 6.2271e-16, initial = spin-up, q = 2truncation error = 1.3428e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3037, chi = 40, N = 1500, convergence = 1.1729e-15, initial = spin-up, q = 2truncation error = 1.3428e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3037, chi = 40, N = 2000, convergence = 2.0012e-15, initial = spin-up, q = 2truncation error = 1.3428e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3037, chi = 40, N = 2500, convergence = 1.6045e-15, initial = spin-up, q = 2truncation error = 1.3428e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3037, chi = 40, N = 3000, convergence = 1.4816e-15, initial = spin-up, q = 2truncation error = 1.3428e-07.
+Did not find record
+stored to database: 
+temperature = 2.3175, chi = 20, N = 20, convergence = 0.017376, initial = spin-up, q = 2truncation error = 4.5721e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.3175, chi = 20, N = 80, convergence = 0.0019706, initial = spin-up, q = 2truncation error = 1.2416e-06.
+set chi to 40
+Did not find record
+stored to database: 
+temperature = 2.3175, chi = 40, N = 80, convergence = 0.0020818, initial = spin-up, q = 2truncation error = 1.515e-08.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.3175, chi = 40, N = 160, convergence = 3.1045e-05, initial = spin-up, q = 2truncation error = 4.4754e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.3175, chi = 40, N = 320, convergence = 1.19e-09, initial = spin-up, q = 2truncation error = 4.8498e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.3175, chi = 40, N = 480, convergence = 2.1011e-14, initial = spin-up, q = 2truncation error = 4.8498e-08.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.3175, chi = 40, N = 600, convergence = 7.0676e-16, initial = spin-up, q = 2truncation error = 4.8498e-08.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.3175, chi = 40, N = 1000, convergence = 1.2278e-15, initial = spin-up, q = 2truncation error = 4.8498e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3175, chi = 40, N = 1500, convergence = 1.7562e-15, initial = spin-up, q = 2truncation error = 4.8498e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3175, chi = 40, N = 2000, convergence = 8.8368e-16, initial = spin-up, q = 2truncation error = 4.8498e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3175, chi = 40, N = 2500, convergence = 1.3954e-15, initial = spin-up, q = 2truncation error = 4.8498e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3175, chi = 40, N = 3000, convergence = 1.1637e-15, initial = spin-up, q = 2truncation error = 4.8498e-08.
+Did not find record
+stored to database: 
+temperature = 2.3313, chi = 20, N = 20, convergence = 0.017821, initial = spin-up, q = 2truncation error = 4.6668e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.3313, chi = 20, N = 80, convergence = 0.00079988, initial = spin-up, q = 2truncation error = 8.7074e-07.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.3313, chi = 20, N = 160, convergence = 1.5983e-06, initial = spin-up, q = 2truncation error = 1.16e-06.
+set chi to 40
+Did not find record
+stored to database: 
+temperature = 2.3313, chi = 40, N = 160, convergence = 2.9139e-06, initial = spin-up, q = 2truncation error = 2.0352e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.3313, chi = 40, N = 320, convergence = 3.8358e-12, initial = spin-up, q = 2truncation error = 2.0534e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.3313, chi = 40, N = 480, convergence = 1.4594e-15, initial = spin-up, q = 2truncation error = 2.0534e-08.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.3313, chi = 40, N = 600, convergence = 1.7829e-15, initial = spin-up, q = 2truncation error = 2.0534e-08.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.3313, chi = 40, N = 1000, convergence = 1.6255e-15, initial = spin-up, q = 2truncation error = 2.0534e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3313, chi = 40, N = 1500, convergence = 1.7662e-15, initial = spin-up, q = 2truncation error = 2.0534e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3313, chi = 40, N = 2000, convergence = 8.2505e-16, initial = spin-up, q = 2truncation error = 2.0534e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3313, chi = 40, N = 2500, convergence = 7.3391e-16, initial = spin-up, q = 2truncation error = 2.0534e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3313, chi = 40, N = 3000, convergence = 1.5194e-15, initial = spin-up, q = 2truncation error = 2.0534e-08.
+Did not find record
+stored to database: 
+temperature = 2.345, chi = 20, N = 20, convergence = 0.017808, initial = spin-up, q = 2truncation error = 4.6719e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.345, chi = 20, N = 80, convergence = 0.00028563, initial = spin-up, q = 2truncation error = 5.8447e-07.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.345, chi = 20, N = 160, convergence = 1.0507e-07, initial = spin-up, q = 2truncation error = 6.7408e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.345, chi = 20, N = 320, convergence = 3.123e-15, initial = spin-up, q = 2truncation error = 6.7416e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.345, chi = 20, N = 480, convergence = 1.7459e-15, initial = spin-up, q = 2truncation error = 6.7416e-07.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.345, chi = 20, N = 600, convergence = 8.7571e-16, initial = spin-up, q = 2truncation error = 6.7416e-07.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.345, chi = 20, N = 1000, convergence = 4.9223e-16, initial = spin-up, q = 2truncation error = 6.7416e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.345, chi = 20, N = 1500, convergence = 1.6657e-15, initial = spin-up, q = 2truncation error = 6.7416e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.345, chi = 20, N = 2000, convergence = 1.508e-15, initial = spin-up, q = 2truncation error = 6.7416e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.345, chi = 20, N = 2500, convergence = 1.1644e-15, initial = spin-up, q = 2truncation error = 6.7416e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.345, chi = 20, N = 3000, convergence = 9.6028e-16, initial = spin-up, q = 2truncation error = 6.7416e-07.
+Did not find record
+stored to database: 
+temperature = 2.3588, chi = 20, N = 20, convergence = 0.017338, initial = spin-up, q = 2truncation error = 4.5901e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.3588, chi = 20, N = 80, convergence = 9.4123e-05, initial = spin-up, q = 2truncation error = 3.8615e-07.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.3588, chi = 20, N = 160, convergence = 6.4719e-09, initial = spin-up, q = 2truncation error = 4.1241e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.3588, chi = 20, N = 320, convergence = 9.5171e-16, initial = spin-up, q = 2truncation error = 4.1241e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.3588, chi = 20, N = 480, convergence = 8.8612e-16, initial = spin-up, q = 2truncation error = 4.1241e-07.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.3588, chi = 20, N = 600, convergence = 6.9833e-16, initial = spin-up, q = 2truncation error = 4.1241e-07.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.3588, chi = 20, N = 1000, convergence = 1.1356e-15, initial = spin-up, q = 2truncation error = 4.1241e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3588, chi = 20, N = 1500, convergence = 1.0816e-15, initial = spin-up, q = 2truncation error = 4.1241e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3588, chi = 20, N = 2000, convergence = 4.7607e-16, initial = spin-up, q = 2truncation error = 4.1241e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3588, chi = 20, N = 2500, convergence = 3.927e-16, initial = spin-up, q = 2truncation error = 4.1241e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3588, chi = 20, N = 3000, convergence = 7.584e-16, initial = spin-up, q = 2truncation error = 4.1241e-07.
+Did not find record
+stored to database: 
+temperature = 2.3726, chi = 20, N = 20, convergence = 0.016454, initial = spin-up, q = 2truncation error = 4.4295e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.3726, chi = 20, N = 80, convergence = 2.9327e-05, initial = spin-up, q = 2truncation error = 2.5532e-07.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.3726, chi = 20, N = 160, convergence = 3.8378e-10, initial = spin-up, q = 2truncation error = 2.6258e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.3726, chi = 20, N = 320, convergence = 7.1167e-16, initial = spin-up, q = 2truncation error = 2.6258e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.3726, chi = 20, N = 480, convergence = 1.0303e-15, initial = spin-up, q = 2truncation error = 2.6258e-07.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.3726, chi = 20, N = 600, convergence = 7.5179e-16, initial = spin-up, q = 2truncation error = 2.6258e-07.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.3726, chi = 20, N = 1000, convergence = 8.8807e-16, initial = spin-up, q = 2truncation error = 2.6258e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3726, chi = 20, N = 1500, convergence = 1.4406e-15, initial = spin-up, q = 2truncation error = 2.6258e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3726, chi = 20, N = 2000, convergence = 9.0845e-16, initial = spin-up, q = 2truncation error = 2.6258e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3726, chi = 20, N = 2500, convergence = 1.0708e-15, initial = spin-up, q = 2truncation error = 2.6258e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3726, chi = 20, N = 3000, convergence = 5.8807e-16, initial = spin-up, q = 2truncation error = 2.6258e-07.
+Did not find record
+stored to database: 
+temperature = 2.3864, chi = 20, N = 20, convergence = 0.015241, initial = spin-up, q = 2truncation error = 4.2029e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.3864, chi = 20, N = 80, convergence = 8.7708e-06, initial = spin-up, q = 2truncation error = 1.7065e-07.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.3864, chi = 20, N = 160, convergence = 2.2253e-11, initial = spin-up, q = 2truncation error = 1.7256e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.3864, chi = 20, N = 320, convergence = 6.0634e-16, initial = spin-up, q = 2truncation error = 1.7256e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.3864, chi = 20, N = 480, convergence = 2.8585e-16, initial = spin-up, q = 2truncation error = 1.7256e-07.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.3864, chi = 20, N = 600, convergence = 2.871e-16, initial = spin-up, q = 2truncation error = 1.7256e-07.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.3864, chi = 20, N = 1000, convergence = 9.322e-16, initial = spin-up, q = 2truncation error = 1.7256e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3864, chi = 20, N = 1500, convergence = 9.5052e-16, initial = spin-up, q = 2truncation error = 1.7256e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3864, chi = 20, N = 2000, convergence = 2.7495e-16, initial = spin-up, q = 2truncation error = 1.7256e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3864, chi = 20, N = 2500, convergence = 6.348e-16, initial = spin-up, q = 2truncation error = 1.7256e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3864, chi = 20, N = 3000, convergence = 1.0042e-15, initial = spin-up, q = 2truncation error = 1.7256e-07.
+Did not find record
+stored to database: 
+temperature = 2.4002, chi = 20, N = 20, convergence = 0.013802, initial = spin-up, q = 2truncation error = 3.9258e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.4002, chi = 20, N = 80, convergence = 2.546e-06, initial = spin-up, q = 2truncation error = 1.1589e-07.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.4002, chi = 20, N = 160, convergence = 1.2741e-12, initial = spin-up, q = 2truncation error = 1.1637e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.4002, chi = 20, N = 320, convergence = 9.6863e-16, initial = spin-up, q = 2truncation error = 1.1637e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.4002, chi = 20, N = 480, convergence = 9.2743e-16, initial = spin-up, q = 2truncation error = 1.1637e-07.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.4002, chi = 20, N = 600, convergence = 5.292e-16, initial = spin-up, q = 2truncation error = 1.1637e-07.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.4002, chi = 20, N = 1000, convergence = 6.1491e-16, initial = spin-up, q = 2truncation error = 1.1637e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4002, chi = 20, N = 1500, convergence = 5.5506e-16, initial = spin-up, q = 2truncation error = 1.1637e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4002, chi = 20, N = 2000, convergence = 5.0085e-16, initial = spin-up, q = 2truncation error = 1.1637e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4002, chi = 20, N = 2500, convergence = 1.3806e-15, initial = spin-up, q = 2truncation error = 1.1637e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4002, chi = 20, N = 3000, convergence = 5.9376e-16, initial = spin-up, q = 2truncation error = 1.1637e-07.
+Did not find record
+stored to database: 
+temperature = 2.414, chi = 20, N = 20, convergence = 0.012246, initial = spin-up, q = 2truncation error = 3.6146e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.414, chi = 20, N = 80, convergence = 7.2356e-07, initial = spin-up, q = 2truncation error = 8.0072e-08.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.414, chi = 20, N = 160, convergence = 7.192e-14, initial = spin-up, q = 2truncation error = 8.019e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.414, chi = 20, N = 320, convergence = 6.8787e-16, initial = spin-up, q = 2truncation error = 8.019e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.414, chi = 20, N = 480, convergence = 6.9823e-16, initial = spin-up, q = 2truncation error = 8.019e-08.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.414, chi = 20, N = 600, convergence = 8.119e-16, initial = spin-up, q = 2truncation error = 8.019e-08.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.414, chi = 20, N = 1000, convergence = 6.7313e-16, initial = spin-up, q = 2truncation error = 8.019e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.414, chi = 20, N = 1500, convergence = 6.033e-16, initial = spin-up, q = 2truncation error = 8.019e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.414, chi = 20, N = 2000, convergence = 4.005e-16, initial = spin-up, q = 2truncation error = 8.019e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.414, chi = 20, N = 2500, convergence = 7.2013e-16, initial = spin-up, q = 2truncation error = 8.019e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.414, chi = 20, N = 3000, convergence = 4.3411e-16, initial = spin-up, q = 2truncation error = 8.019e-08.
+Did not find record
+stored to database: 
+temperature = 2.4278, chi = 20, N = 20, convergence = 0.01067, initial = spin-up, q = 2truncation error = 3.2852e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.4278, chi = 20, N = 80, convergence = 2.0261e-07, initial = spin-up, q = 2truncation error = 5.6256e-08.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.4278, chi = 20, N = 160, convergence = 4.6606e-15, initial = spin-up, q = 2truncation error = 5.6285e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.4278, chi = 20, N = 320, convergence = 8.2676e-16, initial = spin-up, q = 2truncation error = 5.6285e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.4278, chi = 20, N = 480, convergence = 7.8984e-16, initial = spin-up, q = 2truncation error = 5.6285e-08.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.4278, chi = 20, N = 600, convergence = 5.9192e-16, initial = spin-up, q = 2truncation error = 5.6285e-08.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.4278, chi = 20, N = 1000, convergence = 4.4317e-16, initial = spin-up, q = 2truncation error = 5.6285e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4278, chi = 20, N = 1500, convergence = 7.1883e-16, initial = spin-up, q = 2truncation error = 5.6285e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4278, chi = 20, N = 2000, convergence = 2.9371e-16, initial = spin-up, q = 2truncation error = 5.6285e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4278, chi = 20, N = 2500, convergence = 3.2179e-16, initial = spin-up, q = 2truncation error = 5.6285e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4278, chi = 20, N = 3000, convergence = 9.0525e-16, initial = spin-up, q = 2truncation error = 5.6285e-08.
+Did not find record
+stored to database: 
+temperature = 2.4416, chi = 20, N = 20, convergence = 0.0091507, initial = spin-up, q = 2truncation error = 2.9515e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.4416, chi = 20, N = 80, convergence = 5.6167e-08, initial = spin-up, q = 2truncation error = 4.0131e-08.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.4416, chi = 20, N = 160, convergence = 5.8699e-16, initial = spin-up, q = 2truncation error = 4.0138e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.4416, chi = 20, N = 320, convergence = 6.1832e-16, initial = spin-up, q = 2truncation error = 4.0138e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.4416, chi = 20, N = 480, convergence = 2.8157e-16, initial = spin-up, q = 2truncation error = 4.0138e-08.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.4416, chi = 20, N = 600, convergence = 1.1289e-15, initial = spin-up, q = 2truncation error = 4.0138e-08.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.4416, chi = 20, N = 1000, convergence = 7.5157e-16, initial = spin-up, q = 2truncation error = 4.0138e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4416, chi = 20, N = 1500, convergence = 6.0013e-16, initial = spin-up, q = 2truncation error = 4.0138e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4416, chi = 20, N = 2000, convergence = 7.7767e-16, initial = spin-up, q = 2truncation error = 4.0138e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4416, chi = 20, N = 2500, convergence = 5.8173e-16, initial = spin-up, q = 2truncation error = 4.0138e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4416, chi = 20, N = 3000, convergence = 6.361e-16, initial = spin-up, q = 2truncation error = 4.0138e-08.
+Did not find record
+stored to database: 
+temperature = 2.4554, chi = 20, N = 20, convergence = 0.0077421, initial = spin-up, q = 2truncation error = 2.625e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.4554, chi = 20, N = 80, convergence = 1.5467e-08, initial = spin-up, q = 2truncation error = 2.9022e-08.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.4554, chi = 20, N = 160, convergence = 9.9988e-16, initial = spin-up, q = 2truncation error = 2.9024e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.4554, chi = 20, N = 320, convergence = 5.4652e-16, initial = spin-up, q = 2truncation error = 2.9024e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.4554, chi = 20, N = 480, convergence = 7.5322e-16, initial = spin-up, q = 2truncation error = 2.9024e-08.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.4554, chi = 20, N = 600, convergence = 5.6397e-16, initial = spin-up, q = 2truncation error = 2.9024e-08.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.4554, chi = 20, N = 1000, convergence = 4.9673e-16, initial = spin-up, q = 2truncation error = 2.9024e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4554, chi = 20, N = 1500, convergence = 6.9056e-16, initial = spin-up, q = 2truncation error = 2.9024e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4554, chi = 20, N = 2000, convergence = 6.5526e-16, initial = spin-up, q = 2truncation error = 2.9024e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4554, chi = 20, N = 2500, convergence = 1.0153e-15, initial = spin-up, q = 2truncation error = 2.9024e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4554, chi = 20, N = 3000, convergence = 8.3091e-16, initial = spin-up, q = 2truncation error = 2.9024e-08.
+Did not find record
+stored to database: 
+temperature = 2.4692, chi = 20, N = 20, convergence = 0.0064755, initial = spin-up, q = 2truncation error = 2.3143e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.4692, chi = 20, N = 80, convergence = 4.2415e-09, initial = spin-up, q = 2truncation error = 2.1246e-08.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.4692, chi = 20, N = 160, convergence = 3.6313e-16, initial = spin-up, q = 2truncation error = 2.1247e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.4692, chi = 20, N = 320, convergence = 1.3618e-16, initial = spin-up, q = 2truncation error = 2.1247e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.4692, chi = 20, N = 480, convergence = 8.8837e-16, initial = spin-up, q = 2truncation error = 2.1247e-08.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.4692, chi = 20, N = 600, convergence = 8.1329e-16, initial = spin-up, q = 2truncation error = 2.1247e-08.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.4692, chi = 20, N = 1000, convergence = 6.325e-16, initial = spin-up, q = 2truncation error = 2.1247e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4692, chi = 20, N = 1500, convergence = 5.7276e-16, initial = spin-up, q = 2truncation error = 2.1247e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4692, chi = 20, N = 2000, convergence = 4.6407e-16, initial = spin-up, q = 2truncation error = 2.1247e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4692, chi = 20, N = 2500, convergence = 4.545e-16, initial = spin-up, q = 2truncation error = 2.1247e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4692, chi = 20, N = 3000, convergence = 4.5027e-16, initial = spin-up, q = 2truncation error = 2.1247e-08.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+set chi to 40
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+set chi to 40
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+set chi to 40
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+set chi to 60
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+set chi to 40
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+set chi to 40
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+set chi to 40
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+set chi to 40
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Did not find record
+stored to database: 
+temperature = 2.1136, chi = 20, N = 20, convergence = 0.0013318, initial = spin-up, q = 2truncation error = 5.0483e-10.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.1136, chi = 20, N = 80, convergence = 5.277e-09, initial = spin-up, q = 2truncation error = 3.297e-09.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.1136, chi = 20, N = 160, convergence = 1.8542e-16, initial = spin-up, q = 2truncation error = 3.2972e-09.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.1136, chi = 20, N = 320, convergence = 4.3833e-16, initial = spin-up, q = 2truncation error = 3.2972e-09.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.1136, chi = 20, N = 480, convergence = 2.8252e-16, initial = spin-up, q = 2truncation error = 3.2972e-09.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.1136, chi = 20, N = 600, convergence = 2.7842e-16, initial = spin-up, q = 2truncation error = 3.2972e-09.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.1136, chi = 20, N = 1000, convergence = 4.0916e-16, initial = spin-up, q = 2truncation error = 3.2972e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1136, chi = 20, N = 1500, convergence = 3.3055e-16, initial = spin-up, q = 2truncation error = 3.2972e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1136, chi = 20, N = 2000, convergence = 2.3608e-16, initial = spin-up, q = 2truncation error = 3.2972e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1136, chi = 20, N = 2500, convergence = 2.8635e-16, initial = spin-up, q = 2truncation error = 3.2972e-09.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1136, chi = 20, N = 3000, convergence = 5.2678e-16, initial = spin-up, q = 2truncation error = 3.2972e-09.
+Did not find record
+stored to database: 
+temperature = 2.1581, chi = 20, N = 20, convergence = 0.0029877, initial = spin-up, q = 2truncation error = 1.0013e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.1581, chi = 20, N = 80, convergence = 6.8767e-07, initial = spin-up, q = 2truncation error = 1.7429e-08.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.1581, chi = 20, N = 160, convergence = 7.2272e-13, initial = spin-up, q = 2truncation error = 1.7493e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.1581, chi = 20, N = 320, convergence = 3.6744e-16, initial = spin-up, q = 2truncation error = 1.7493e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.1581, chi = 20, N = 480, convergence = 2.4695e-16, initial = spin-up, q = 2truncation error = 1.7493e-08.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.1581, chi = 20, N = 600, convergence = 3.0175e-16, initial = spin-up, q = 2truncation error = 1.7493e-08.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.1581, chi = 20, N = 1000, convergence = 5.245e-16, initial = spin-up, q = 2truncation error = 1.7493e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1581, chi = 20, N = 1500, convergence = 1.9829e-16, initial = spin-up, q = 2truncation error = 1.7493e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1581, chi = 20, N = 2000, convergence = 3.5646e-16, initial = spin-up, q = 2truncation error = 1.7493e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1581, chi = 20, N = 2500, convergence = 6.0427e-16, initial = spin-up, q = 2truncation error = 1.7493e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.1581, chi = 20, N = 3000, convergence = 4.4544e-16, initial = spin-up, q = 2truncation error = 1.7493e-08.
+Did not find record
+stored to database: 
+temperature = 2.2025, chi = 20, N = 20, convergence = 0.0060241, initial = spin-up, q = 2truncation error = 1.8553e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.2025, chi = 20, N = 80, convergence = 4.753e-05, initial = spin-up, q = 2truncation error = 1.169e-07.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.2025, chi = 20, N = 160, convergence = 2.272e-08, initial = spin-up, q = 2truncation error = 1.2807e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.2025, chi = 20, N = 320, convergence = 1.3909e-15, initial = spin-up, q = 2truncation error = 1.2808e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.2025, chi = 20, N = 480, convergence = 5.6059e-16, initial = spin-up, q = 2truncation error = 1.2808e-07.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.2025, chi = 20, N = 600, convergence = 7.0292e-16, initial = spin-up, q = 2truncation error = 1.2808e-07.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.2025, chi = 20, N = 1000, convergence = 5.3844e-16, initial = spin-up, q = 2truncation error = 1.2808e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2025, chi = 20, N = 1500, convergence = 1.3093e-15, initial = spin-up, q = 2truncation error = 1.2808e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2025, chi = 20, N = 2000, convergence = 3.9869e-16, initial = spin-up, q = 2truncation error = 1.2808e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2025, chi = 20, N = 2500, convergence = 6.2748e-16, initial = spin-up, q = 2truncation error = 1.2808e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2025, chi = 20, N = 3000, convergence = 4.0674e-16, initial = spin-up, q = 2truncation error = 1.2808e-07.
+Did not find record
+stored to database: 
+temperature = 2.247, chi = 20, N = 20, convergence = 0.010582, initial = spin-up, q = 2truncation error = 3.0345e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.247, chi = 20, N = 80, convergence = 0.0013014, initial = spin-up, q = 2truncation error = 7.653e-07.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.247, chi = 20, N = 160, convergence = 0.00014495, initial = spin-up, q = 2truncation error = 1.9848e-06.
+set chi to 40
+Did not find record
+stored to database: 
+temperature = 2.247, chi = 40, N = 160, convergence = 0.0001742, initial = spin-up, q = 2truncation error = 3.9949e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.247, chi = 40, N = 320, convergence = 2.0693e-06, initial = spin-up, q = 2truncation error = 6.0434e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.247, chi = 40, N = 480, convergence = 1.3353e-08, initial = spin-up, q = 2truncation error = 6.1073e-08.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.247, chi = 40, N = 600, convergence = 2.5577e-10, initial = spin-up, q = 2truncation error = 6.1078e-08.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.247, chi = 40, N = 1000, convergence = 1.5685e-15, initial = spin-up, q = 2truncation error = 6.1078e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.247, chi = 40, N = 1500, convergence = 1.2739e-15, initial = spin-up, q = 2truncation error = 6.1078e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.247, chi = 40, N = 2000, convergence = 1.3105e-15, initial = spin-up, q = 2truncation error = 6.1078e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.247, chi = 40, N = 2500, convergence = 2.0221e-15, initial = spin-up, q = 2truncation error = 6.1078e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.247, chi = 40, N = 3000, convergence = 2.2662e-15, initial = spin-up, q = 2truncation error = 6.1078e-08.
+Did not find record
+stored to database: 
+temperature = 2.2914, chi = 20, N = 20, convergence = 0.015474, initial = spin-up, q = 2truncation error = 4.1674e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.2914, chi = 20, N = 80, convergence = 0.0052844, initial = spin-up, q = 2truncation error = 1.7997e-06.
+set chi to 40
+Did not find record
+stored to database: 
+temperature = 2.2914, chi = 40, N = 80, convergence = 0.0054792, initial = spin-up, q = 2truncation error = 2.2559e-08.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.2914, chi = 40, N = 160, convergence = 0.0013932, initial = spin-up, q = 2truncation error = 1.8763e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.2914, chi = 40, N = 320, convergence = 2.6909e-05, initial = spin-up, q = 2truncation error = 3.8846e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.2914, chi = 40, N = 480, convergence = 2.5191e-07, initial = spin-up, q = 2truncation error = 4.0015e-07.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.2914, chi = 40, N = 600, convergence = 6.1147e-09, initial = spin-up, q = 2truncation error = 4.0031e-07.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.2914, chi = 40, N = 1000, convergence = 1.6372e-14, initial = spin-up, q = 2truncation error = 4.0031e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2914, chi = 40, N = 1500, convergence = 2.8002e-15, initial = spin-up, q = 2truncation error = 4.0031e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2914, chi = 40, N = 2000, convergence = 3.612e-15, initial = spin-up, q = 2truncation error = 4.0031e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2914, chi = 40, N = 2500, convergence = 3.3086e-15, initial = spin-up, q = 2truncation error = 4.0031e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.2914, chi = 40, N = 3000, convergence = 2.1003e-15, initial = spin-up, q = 2truncation error = 4.0031e-07.
+Did not find record
+stored to database: 
+temperature = 2.3359, chi = 20, N = 20, convergence = 0.017869, initial = spin-up, q = 2truncation error = 4.6784e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.3359, chi = 20, N = 80, convergence = 0.00057384, initial = spin-up, q = 2truncation error = 7.6481e-07.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.3359, chi = 20, N = 160, convergence = 6.5135e-07, initial = spin-up, q = 2truncation error = 9.6166e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.3359, chi = 20, N = 320, convergence = 1.4479e-13, initial = spin-up, q = 2truncation error = 9.6219e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.3359, chi = 20, N = 480, convergence = 1.0666e-15, initial = spin-up, q = 2truncation error = 9.6219e-07.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.3359, chi = 20, N = 600, convergence = 9.9096e-16, initial = spin-up, q = 2truncation error = 9.6219e-07.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.3359, chi = 20, N = 1000, convergence = 1.0161e-15, initial = spin-up, q = 2truncation error = 9.6219e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3359, chi = 20, N = 1500, convergence = 8.2725e-16, initial = spin-up, q = 2truncation error = 9.6219e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3359, chi = 20, N = 2000, convergence = 6.7893e-16, initial = spin-up, q = 2truncation error = 9.6219e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3359, chi = 20, N = 2500, convergence = 1.0046e-15, initial = spin-up, q = 2truncation error = 9.6219e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3359, chi = 20, N = 3000, convergence = 8.7842e-16, initial = spin-up, q = 2truncation error = 9.6219e-07.
+Did not find record
+stored to database: 
+temperature = 2.3803, chi = 20, N = 20, convergence = 0.015815, initial = spin-up, q = 2truncation error = 4.3108e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.3803, chi = 20, N = 80, convergence = 1.5062e-05, initial = spin-up, q = 2truncation error = 2.0376e-07.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.3803, chi = 20, N = 160, convergence = 7.905e-11, initial = spin-up, q = 2truncation error = 2.0723e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.3803, chi = 20, N = 320, convergence = 5.4503e-16, initial = spin-up, q = 2truncation error = 2.0723e-07.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.3803, chi = 20, N = 480, convergence = 6.4662e-16, initial = spin-up, q = 2truncation error = 2.0723e-07.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.3803, chi = 20, N = 600, convergence = 6.3876e-16, initial = spin-up, q = 2truncation error = 2.0723e-07.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.3803, chi = 20, N = 1000, convergence = 3.67e-16, initial = spin-up, q = 2truncation error = 2.0723e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3803, chi = 20, N = 1500, convergence = 1.1419e-15, initial = spin-up, q = 2truncation error = 2.0723e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3803, chi = 20, N = 2000, convergence = 1.8064e-15, initial = spin-up, q = 2truncation error = 2.0723e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3803, chi = 20, N = 2500, convergence = 6.9958e-16, initial = spin-up, q = 2truncation error = 2.0723e-07.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.3803, chi = 20, N = 3000, convergence = 8.9452e-16, initial = spin-up, q = 2truncation error = 2.0723e-07.
+Did not find record
+stored to database: 
+temperature = 2.4247, chi = 20, N = 20, convergence = 0.011018, initial = spin-up, q = 2truncation error = 3.3592e-09.
+Found record: 60 iterations remaining.
+stored to database: 
+temperature = 2.4247, chi = 20, N = 80, convergence = 2.6913e-07, initial = spin-up, q = 2truncation error = 6.0763e-08.
+Found record: 80 iterations remaining.
+stored to database: 
+temperature = 2.4247, chi = 20, N = 160, convergence = 7.5825e-15, initial = spin-up, q = 2truncation error = 6.0803e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.4247, chi = 20, N = 320, convergence = 2.2817e-16, initial = spin-up, q = 2truncation error = 6.0803e-08.
+Found record: 160 iterations remaining.
+stored to database: 
+temperature = 2.4247, chi = 20, N = 480, convergence = 1.2571e-15, initial = spin-up, q = 2truncation error = 6.0803e-08.
+Found record: 120 iterations remaining.
+stored to database: 
+temperature = 2.4247, chi = 20, N = 600, convergence = 2.8092e-16, initial = spin-up, q = 2truncation error = 6.0803e-08.
+Found record: 400 iterations remaining.
+stored to database: 
+temperature = 2.4247, chi = 20, N = 1000, convergence = 9.0151e-16, initial = spin-up, q = 2truncation error = 6.0803e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4247, chi = 20, N = 1500, convergence = 6.0737e-16, initial = spin-up, q = 2truncation error = 6.0803e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4247, chi = 20, N = 2000, convergence = 6.0417e-16, initial = spin-up, q = 2truncation error = 6.0803e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4247, chi = 20, N = 2500, convergence = 6.0043e-16, initial = spin-up, q = 2truncation error = 6.0803e-08.
+Found record: 500 iterations remaining.
+stored to database: 
+temperature = 2.4247, chi = 20, N = 3000, convergence = 3.0309e-16, initial = spin-up, q = 2truncation error = 6.0803e-08.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+Found record: 0 iterations remaining.
+
+collapse = 
+
+  DataCollapseN with properties:
+
+      truncation_error: 1.000000000000000e-06
+                     q: 2
+          temperatures: [1x70 double]
+    scaling_quantities: [70x11 double]
+              N_values: [20 80 160 320 480 600 1000 1500 2000 2500 3000]
+            simulation: [1x1 FixedTruncationErrorSimulation]
+        initial_T_crit: 2.269185314213022
+          initial_beta: 0.125000000000000
+            initial_nu: 1
+               results: []
+
+
+temperatures =
+
+  Columns 1 through 3
+
+   2.069185314213022   2.082978417661298   2.096771521109574
+
+  Columns 4 through 6
+
+   2.110564624557850   2.124357728006125   2.138150831454401
+
+  Columns 7 through 9
+
+   2.151943934902677   2.165737038350953   2.179530141799229
+
+  Columns 10 through 12
+
+   2.193323245247505   2.207116348695781   2.220909452144057
+
+  Columns 13 through 15
+
+   2.234702555592333   2.248495659040608   2.262288762488884
+
+  Columns 16 through 18
+
+   2.276081865937160   2.289874969385436   2.303668072833712
+
+  Columns 19 through 21
+
+   2.317461176281987   2.331254279730263   2.345047383178539
+
+  Columns 22 through 24
+
+   2.358840486626815   2.372633590075091   2.386426693523367
+
+  Columns 25 through 27
+
+   2.400219796971643   2.414012900419919   2.427806003868195
+
+  Columns 28 through 30
+
+   2.441599107316470   2.455392210764746   2.469185314213022
+
+  Columns 31 through 33
+
+   2.069185314213022   2.082978417661298   2.096771521109574
+
+  Columns 34 through 36
+
+   2.110564624557850   2.124357728006125   2.138150831454401
+
+  Columns 37 through 39
+
+   2.151943934902677   2.165737038350953   2.179530141799229
+
+  Columns 40 through 42
+
+   2.193323245247505   2.207116348695781   2.220909452144057
+
+  Columns 43 through 45
+
+   2.234702555592333   2.248495659040608   2.262288762488884
+
+  Columns 46 through 48
+
+   2.276081865937160   2.289874969385436   2.303668072833712
+
+  Columns 49 through 51
+
+   2.317461176281987   2.331254279730263   2.345047383178539
+
+  Columns 52 through 54
+
+   2.358840486626815   2.372633590075091   2.386426693523367
+
+  Columns 55 through 57
+
+   2.400219796971643   2.414012900419919   2.427806003868195
+
+  Columns 58 through 60
+
+   2.441599107316470   2.455392210764746   2.469185314213022
+
+  Columns 61 through 63
+
+   2.069185314213022   2.113629758657466   2.158074203101911
+
+  Columns 64 through 66
+
+   2.202518647546355   2.246963091990800   2.291407536435244
+
+  Columns 67 through 69
+
+   2.335851980879689   2.380296425324133   2.424740869768578
+
+  Column 70
+
+   2.469185314213022
+
+
+temperatures =
+
+  Columns 1 through 3
+
+   2.069185314213022   2.082978417661298   2.096771521109574
+
+  Columns 4 through 6
+
+   2.110564624557850   2.124357728006125   2.138150831454401
+
+  Columns 7 through 9
+
+   2.151943934902677   2.165737038350953   2.179530141799229
+
+  Columns 10 through 12
+
+   2.193323245247505   2.207116348695781   2.220909452144057
+
+  Columns 13 through 15
+
+   2.234702555592333   2.248495659040608   2.262288762488884
+
+  Columns 16 through 18
+
+   2.276081865937160   2.289874969385436   2.303668072833712
+
+  Columns 19 through 21
+
+   2.317461176281987   2.331254279730263   2.345047383178539
+
+  Columns 22 through 24
+
+   2.358840486626815   2.372633590075091   2.386426693523367
+
+  Columns 25 through 27
+
+   2.400219796971643   2.414012900419919   2.427806003868195
+
+  Columns 28 through 30
+
+   2.441599107316470   2.455392210764746   2.469185314213022
+
+  Columns 31 through 33
+
+   2.069185314213022   2.082978417661298   2.096771521109574
+
+  Columns 34 through 36
+
+   2.110564624557850   2.124357728006125   2.138150831454401
+
+  Columns 37 through 39
+
+   2.151943934902677   2.165737038350953   2.179530141799229
+
+  Columns 40 through 42
+
+   2.193323245247505   2.207116348695781   2.220909452144057
+
+  Columns 43 through 45
+
+   2.234702555592333   2.248495659040608   2.262288762488884
+
+  Columns 46 through 48
+
+   2.276081865937160   2.289874969385436   2.303668072833712
+
+  Columns 49 through 51
+
+   2.317461176281987   2.331254279730263   2.345047383178539
+
+  Columns 52 through 54
+
+   2.358840486626815   2.372633590075091   2.386426693523367
+
+  Columns 55 through 57
+
+   2.400219796971643   2.414012900419919   2.427806003868195
+
+  Columns 58 through 60
+
+   2.441599107316470   2.455392210764746   2.469185314213022
+
+  Columns 61 through 63
+
+   2.069185314213022   2.113629758657466   2.158074203101911
+
+  Columns 64 through 66
+
+   2.202518647546355   2.246963091990800   2.291407536435244
+
+  Columns 67 through 69
+
+   2.335851980879689   2.380296425324133   2.424740869768578
+
+  Column 70
+
+   2.469185314213022
+
+
+N_values =
+
+  Columns 1 through 6
+
+          20          80         160         320         480         600
+
+  Columns 7 through 11
+
+        1000        1500        2000        2500        3000
+
+
+scaling_quantities =
+
+  Columns 1 through 3
+
+   0.884344894681256   0.884332720758630   0.884332720758625
+   0.877722712364954   0.877700512260615   0.877700512260577
+   0.870557685583078   0.870517262797960   0.870517262797665
+   0.862771781445061   0.862698260167884   0.862698260165584
+   0.854270452404047   0.854136819148118   0.854136819130342
+   0.844938674013006   0.844695802950885   0.844695802814457
+   0.834636251042908   0.834194564744191   0.834194563701337
+   0.823192521293839   0.822387951965558   0.822387944002994
+   0.810400857887647   0.808930732498180   0.808930671545717
+   0.796013826925416   0.793313300710511   0.793312830750739
+   0.779740544249972   0.774735959448131   0.774732286929922
+   0.761248686504434   0.751839993312919   0.751810674366584
+   0.740174587728708   0.722083508365505   0.721842002353792
+   0.716145501282347   0.680274006382600   0.678206619287613
+   0.688817683082005   0.615841166624954   0.598303394697960
+   0.657931506554947   0.512965958434523   0.408889672452071
+   0.623379650755600   0.369643097930274   0.151456106143115
+   0.585276979761858   0.223773704797039   0.035918333292744
+   0.544013585100793   0.118099205108614   0.007430141843033
+   0.500270002777243   0.057645641256646   0.001481082275969
+   0.454979883084111   0.027048225561340   0.000294288753736
+   0.409240444359888   0.012458737754787   0.000058368715818
+   0.364189024051141   0.005691170516723   0.000011659723987
+   0.320875865799249   0.002592216095145   0.000002350730856
+   0.280162807747044   0.001180931783353   0.000000478817213
+   0.242665921226640   0.000539102534610   0.000000098586117
+   0.208744429647041   0.000246896668471   0.000000020523660
+   0.178525914684717   0.000113521163430   0.000000004320536
+   0.151952505001969   0.000052427777997   0.000000000919772
+   0.128833683384993   0.000024327656953   0.000000000198003
+   0.884344894681256   0.884332720758630   0.884332720758625
+   0.877722712364954   0.877700512260615   0.877700512260577
+   0.870557685583078   0.870517262797960   0.870517262797665
+   0.862771781445061   0.862698260167884   0.862698260165584
+   0.854270452404047   0.854136819148118   0.854136819130342
+   0.844938674013006   0.844695802950885   0.844695802814457
+   0.834636251042908   0.834194564744191   0.834194563701337
+   0.823192521293839   0.822387951965558   0.822387944002994
+   0.810400857887647   0.808930732498180   0.808930671545717
+   0.796013826925416   0.793313300710511   0.793312830750739
+   0.779740544249972   0.774735959448131   0.774732286929922
+   0.761248686504434   0.751839993312919   0.751810674366584
+   0.740174587728708   0.722083508365505   0.721842002353792
+   0.716145501282347   0.680274006382600   0.678206619287613
+   0.688817683082005   0.615841166624954   0.598303394697960
+   0.657931506554947   0.512965958434523   0.408889672452071
+   0.623379650755600   0.369643097930274   0.151456106143115
+   0.585276979761858   0.223773704797039   0.035918333292744
+   0.544013585100793   0.118099205108614   0.007430141843033
+   0.500270002777243   0.057645641256646   0.001481082275969
+   0.454979883084111   0.027048225561340   0.000294288753736
+   0.409240444359888   0.012458737754787   0.000058368715818
+   0.364189024051141   0.005691170516723   0.000011659723987
+   0.320875865799249   0.002592216095145   0.000002350730856
+   0.280162807747044   0.001180931783353   0.000000478817213
+   0.242665921226640   0.000539102534610   0.000000098586117
+   0.208744429647041   0.000246896668471   0.000000020523660
+   0.178525914684717   0.000113521163430   0.000000004320536
+   0.151952505001969   0.000052427777997   0.000000000919772
+   0.128833683384993   0.000024327656953   0.000000000198003
+   0.884344894681256   0.884332720758630   0.884332720758625
+   0.860948123074171   0.860864158337209   0.860864158333583
+   0.829702441291560   0.829126007126582   0.829126004552873
+   0.785394283903236   0.781325077466735   0.781323230363129
+   0.718972510004279   0.685781394257186   0.684155325574559
+   0.619316749439534   0.352558760864268   0.130906129251682
+   0.485293219863355   0.044929858397720   0.000866971726038
+   0.339851121429126   0.003677188525125   0.000004783849588
+   0.215963757067879   0.000293591805431   0.000000029059985
+   0.128833683384993   0.000024327656953   0.000000000198003
+
+  Columns 4 through 6
+
+   0.884332720758626   0.884332720758625   0.884332720758625
+   0.877700512260577   0.877700512260577   0.877700512260577
+   0.870517262797665   0.870517262797665   0.870517262797665
+   0.862698260165584   0.862698260165584   0.862698260165584
+   0.854136819130342   0.854136819130342   0.854136819130342
+   0.844695802814458   0.844695802814457   0.844695802814457
+   0.834194563701337   0.834194563701337   0.834194563701336
+   0.822387944002988   0.822387944002988   0.822387944002988
+   0.808930671545461   0.808930671545461   0.808930671545461
+   0.793312830738622   0.793312830738623   0.793312830738623
+   0.774732286349913   0.774732286349915   0.774732286349915
+   0.751810645831290   0.751810645831221   0.751810645831221
+   0.721840517229527   0.721840517113267   0.721840517113252
+   0.678122229679726   0.678122020550879   0.678122019859156
+   0.592577386615318   0.592001159035779   0.591938982045848
+   0.248239925360073   0.132321470915440   0.077154215938991
+   0.014943093317245   0.001227237766804   0.000183569680281
+   0.000573015254383   0.000008378781678   0.000000349999163
+   0.000021053699264   0.000000057249869   0.000000000680612
+   0.000000779463723   0.000000000402573   0.000000000001335
+   0.000000030296440   0.000000000003263   0.000000000000135
+   0.000000001166646   0.000000000000041   0.000000000000043
+   0.000000000045973   0.000000000000030   0.000000000000026
+   0.000000000001831   0.000000000000021   0.000000000000022
+   0.000000000000058   0.000000000000002   0.000000000000016
+   0.000000000000024   0.000000000000037   0.000000000000028
+   0.000000000000009   0.000000000000004   0.000000000000011
+   0.000000000000022   0.000000000000019   0.000000000000024
+   0.000000000000002   0.000000000000003   0.000000000000002
+   0.000000000000002   0.000000000000003   0.000000000000003
+   0.884332720758626   0.884332720758625   0.884332720758625
+   0.877700512260577   0.877700512260577   0.877700512260577
+   0.870517262797665   0.870517262797665   0.870517262797665
+   0.862698260165584   0.862698260165584   0.862698260165584
+   0.854136819130342   0.854136819130342   0.854136819130342
+   0.844695802814458   0.844695802814457   0.844695802814457
+   0.834194563701337   0.834194563701337   0.834194563701336
+   0.822387944002988   0.822387944002988   0.822387944002988
+   0.808930671545461   0.808930671545461   0.808930671545461
+   0.793312830738622   0.793312830738623   0.793312830738623
+   0.774732286349913   0.774732286349915   0.774732286349915
+   0.751810645831290   0.751810645831221   0.751810645831221
+   0.721840517229527   0.721840517113267   0.721840517113252
+   0.678122229679726   0.678122020550879   0.678122019859156
+   0.592577386615318   0.592001159035779   0.591938982045848
+   0.248239925360073   0.132321470915440   0.077154215938991
+   0.014943093317245   0.001227237766804   0.000183569680281
+   0.000573015254383   0.000008378781678   0.000000349999163
+   0.000021053699264   0.000000057249869   0.000000000680612
+   0.000000779463723   0.000000000402573   0.000000000001335
+   0.000000030296440   0.000000000003263   0.000000000000135
+   0.000000001166646   0.000000000000041   0.000000000000043
+   0.000000000045973   0.000000000000030   0.000000000000026
+   0.000000000001831   0.000000000000021   0.000000000000022
+   0.000000000000058   0.000000000000002   0.000000000000016
+   0.000000000000024   0.000000000000037   0.000000000000028
+   0.000000000000009   0.000000000000004   0.000000000000011
+   0.000000000000022   0.000000000000019   0.000000000000024
+   0.000000000000002   0.000000000000003   0.000000000000002
+   0.000000000000002   0.000000000000003   0.000000000000003
+   0.884332720758626   0.884332720758625   0.884332720758625
+   0.860864158333583   0.860864158333583   0.860864158333582
+   0.829126004552873   0.829126004552873   0.829126004552873
+   0.781323230203700   0.781323230203700   0.781323230203700
+   0.684101948577253   0.684101860104544   0.684101859905274
+   0.010471246300864   0.000707046188360   0.000091637788592
+   0.000000268797096   0.000000000082547   0.000000000000123
+   0.000000000007728   0.000000000000022   0.000000000000005
+   0.000000000000019   0.000000000000005   0.000000000000003
+   0.000000000000002   0.000000000000003   0.000000000000003
+
+  Columns 7 through 9
+
+   0.884332720758625   0.884332720758625   0.884332720758625
+   0.877700512260577   0.877700512260577   0.877700512260577
+   0.870517262797665   0.870517262797665   0.870517262797665
+   0.862698260165584   0.862698260165584   0.862698260165584
+   0.854136819130342   0.854136819130342   0.854136819130343
+   0.844695802814458   0.844695802814456   0.844695802814457
+   0.834194563701337   0.834194563701337   0.834194563701337
+   0.822387944002988   0.822387944002988   0.822387944002988
+   0.808930671545461   0.808930671545461   0.808930671545461
+   0.793312830738622   0.793312830738622   0.793312830738623
+   0.774732286349915   0.774732286349915   0.774732286349916
+   0.751810645831221   0.751810645831221   0.751810645831221
+   0.721840517113256   0.721840517113259   0.721840517113256
+   0.678122019847894   0.678122019847895   0.678122019847894
+   0.591921870412318   0.591921735988138   0.591921735515142
+   0.010554224824089   0.000771491406961   0.000054707369198
+   0.000000318176027   0.000000000111064   0.000000000000354
+   0.000000000008854   0.000000000000267   0.000000000000203
+   0.000000000000299   0.000000000000299   0.000000000000305
+   0.000000000000055   0.000000000000072   0.000000000000069
+   0.000000000000088   0.000000000000135   0.000000000000094
+   0.000000000000034   0.000000000000043   0.000000000000042
+   0.000000000000023   0.000000000000024   0.000000000000025
+   0.000000000000015   0.000000000000020   0.000000000000019
+   0.000000000000010   0.000000000000000   0.000000000000005
+   0.000000000000027   0.000000000000028   0.000000000000022
+   0.000000000000014   0.000000000000015   0.000000000000001
+   0.000000000000022   0.000000000000023   0.000000000000020
+   0.000000000000001   0.000000000000003   0.000000000000002
+   0.000000000000003   0.000000000000004   0.000000000000004
+   0.884332720758625   0.884332720758625   0.884332720758625
+   0.877700512260577   0.877700512260577   0.877700512260577
+   0.870517262797665   0.870517262797665   0.870517262797665
+   0.862698260165584   0.862698260165584   0.862698260165584
+   0.854136819130342   0.854136819130342   0.854136819130343
+   0.844695802814458   0.844695802814456   0.844695802814457
+   0.834194563701337   0.834194563701337   0.834194563701337
+   0.822387944002988   0.822387944002988   0.822387944002988
+   0.808930671545461   0.808930671545461   0.808930671545461
+   0.793312830738622   0.793312830738622   0.793312830738623
+   0.774732286349915   0.774732286349915   0.774732286349916
+   0.751810645831221   0.751810645831221   0.751810645831221
+   0.721840517113256   0.721840517113259   0.721840517113256
+   0.678122019847894   0.678122019847895   0.678122019847894
+   0.591921870412318   0.591921735988138   0.591921735515142
+   0.010554224824089   0.000771491406961   0.000054707369198
+   0.000000318176027   0.000000000111064   0.000000000000354
+   0.000000000008854   0.000000000000267   0.000000000000203
+   0.000000000000299   0.000000000000299   0.000000000000305
+   0.000000000000055   0.000000000000072   0.000000000000069
+   0.000000000000088   0.000000000000135   0.000000000000094
+   0.000000000000034   0.000000000000043   0.000000000000042
+   0.000000000000023   0.000000000000024   0.000000000000025
+   0.000000000000015   0.000000000000020   0.000000000000019
+   0.000000000000010   0.000000000000000   0.000000000000005
+   0.000000000000027   0.000000000000028   0.000000000000022
+   0.000000000000014   0.000000000000015   0.000000000000001
+   0.000000000000022   0.000000000000023   0.000000000000020
+   0.000000000000001   0.000000000000003   0.000000000000002
+   0.000000000000003   0.000000000000004   0.000000000000004
+   0.884332720758625   0.884332720758625   0.884332720758625
+   0.860864158333583   0.860864158333583   0.860864158333583
+   0.829126004552873   0.829126004552873   0.829126004552872
+   0.781323230203700   0.781323230203700   0.781323230203701
+   0.684101859902849   0.684101859902858   0.684101859902857
+   0.000000099044801   0.000000000018974   0.000000000000392
+   0.000000000000056   0.000000000000012   0.000000000000037
+   0.000000000000001   0.000000000000001   0.000000000000004
+   0.000000000000002   0.000000000000018   0.000000000000001
+   0.000000000000003   0.000000000000004   0.000000000000004
+
+  Columns 10 through 11
+
+   0.884332720758626   0.884332720758626
+   0.877700512260577   0.877700512260577
+   0.870517262797665   0.870517262797665
+   0.862698260165584   0.862698260165584
+   0.854136819130342   0.854136819130342
+   0.844695802814458   0.844695802814457
+   0.834194563701337   0.834194563701337
+   0.822387944002988   0.822387944002988
+   0.808930671545461   0.808930671545461
+   0.793312830738623   0.793312830738623
+   0.774732286349915   0.774732286349915
+   0.751810645831222   0.751810645831221
+   0.721840517113257   0.721840517113257
+   0.678122019847889   0.678122019847893
+   0.591921735512845   0.591921735512942
+   0.000003857378679   0.000000271706468
+   0.000000000000404   0.000000000000404
+   0.000000000000218   0.000000000000241
+   0.000000000000311   0.000000000000445
+   0.000000000000054   0.000000000000073
+   0.000000000000133   0.000000000000158
+   0.000000000000057   0.000000000000046
+   0.000000000000024   0.000000000000026
+   0.000000000000009   0.000000000000017
+   0.000000000000011   0.000000000000011
+   0.000000000000029   0.000000000000019
+   0.000000000000001   0.000000000000018
+   0.000000000000022   0.000000000000024
+   0.000000000000000   0.000000000000001
+   0.000000000000005   0.000000000000005
+   0.884332720758626   0.884332720758626
+   0.877700512260577   0.877700512260577
+   0.870517262797665   0.870517262797665
+   0.862698260165584   0.862698260165584
+   0.854136819130342   0.854136819130342
+   0.844695802814458   0.844695802814457
+   0.834194563701337   0.834194563701337
+   0.822387944002988   0.822387944002988
+   0.808930671545461   0.808930671545461
+   0.793312830738623   0.793312830738623
+   0.774732286349915   0.774732286349915
+   0.751810645831222   0.751810645831221
+   0.721840517113257   0.721840517113257
+   0.678122019847889   0.678122019847893
+   0.591921735512845   0.591921735512942
+   0.000003857378679   0.000000271706468
+   0.000000000000404   0.000000000000404
+   0.000000000000218   0.000000000000241
+   0.000000000000311   0.000000000000445
+   0.000000000000054   0.000000000000073
+   0.000000000000133   0.000000000000158
+   0.000000000000057   0.000000000000046
+   0.000000000000024   0.000000000000026
+   0.000000000000009   0.000000000000017
+   0.000000000000011   0.000000000000011
+   0.000000000000029   0.000000000000019
+   0.000000000000001   0.000000000000018
+   0.000000000000022   0.000000000000024
+   0.000000000000000   0.000000000000001
+   0.000000000000005   0.000000000000005
+   0.884332720758626   0.884332720758626
+   0.860864158333583   0.860864158333583
+   0.829126004552873   0.829126004552872
+   0.781323230203702   0.781323230203700
+   0.684101859902849   0.684101859902849
+   0.000000000000386   0.000000000000401
+   0.000000000000006   0.000000000000075
+   0.000000000000008   0.000000000000001
+   0.000000000000015   0.000000000000010
+   0.000000000000005   0.000000000000005
+
+{Error using griddedInterpolant
+The grid vectors are not strictly monotonic increasing.
+
+Error in interp1 (line 186)
+        F = griddedInterpolant(X,V,method);
+
+Error in mean_squared_error_from_interpolation (line 2)
+  y_interpolated = interp1(x_obs, y_obs, x_query, 'pchip');
+
+Error in mse_data_collapse_all_sets>mse_in_overlapping_region (line 33)
+  mse = mean_squared_error_from_interpolation(x_obs, y_obs, x_query, y_query);
+
+Error in mse_data_collapse_all_sets (line 17)
+      total_mse = total_mse + ...
+
+Error in DataCollapse/error_of_collapse (line 9)
+  mse = mse_data_collapse_all_sets(x_values_map, scaling_function_values_map,
+  N_values);
+
+Error in DataCollapseN/find_best_collapse/f_min (line 11)
+    mse = obj.error_of_collapse(x_values, scaling_function_values, N_values);
+
+Error in fminsearchbnd>intrafun (line 259)
+fval = feval(params.fun,reshape(xtrans,params.xsize),params.args{:});
+
+Error in fminsearch (line 190)
+fv(:,1) = funfcn(x,varargin{:});
+
+Error in fminsearchbnd (line 229)
+[xu,fval,exitflag,output] = fminsearch(@intrafun,x0u,options,params);
+
+Error in DataCollapseN/find_best_collapse (line 18)
+  [x, fval, exitflag, output] = fminsearchbnd(@f_min, initial, lower_bounds,
+  upper_bounds, options);
+
+Error in test_data_collapse_N (line 13)
+  collapse = collapse.find_best_collapse();
+
+Error in main (line 4)
+  % test_data_collapse_N
+} 
+>> 
