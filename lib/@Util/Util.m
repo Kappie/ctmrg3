@@ -94,6 +94,11 @@ classdef Util
       T = getArrayFromByteStream(record.t);
     end
 
+    function [bytes_C, bytes_T] = serialize_tensors(C, T)
+      bytes_C = getByteStreamFromArray(C);
+      bytes_T = getByteStreamFromArray(T);
+    end
+
     function Ts = linspace_around_T_crit(width, number_of_points)
       Ts = linspace_around(Constants.T_crit, width, number_of_points);
     end

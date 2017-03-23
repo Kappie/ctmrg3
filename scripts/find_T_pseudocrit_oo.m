@@ -1,6 +1,6 @@
 function find_T_pseudocrit_oo
   q = 2;
-  N_values = 20:20:500;
+  N_values = 20:20:680;
   TolX = 1e-6;
 
   sim = FindTCritFixedN(q, TolX, N_values);
@@ -9,12 +9,15 @@ function find_T_pseudocrit_oo
   sim.T_pseudocrits
   sim.truncation_errors
 
+  % [T_crit, mse, ~] = fit_power_law(N_values, sim.T_pseudocrits, 0.2, 1e-13)
+
   % markerplot(N_values, sim.T_pseudocrits, '--');
 
   model_name = 'power2';
-  fit_options = fitoptions(model_name, 'Lower', [0 -10 2.25], ...
-    'Upper', [Inf 0 2.28], 'Startpoint', [1 -1 Constants.T_crit], 'Exclude', N_values < 200);
+  fit_options = fitoptions(model_name, 'Lower', [0 -1.004 2.269], ...
+    'Upper', [10 -0.996 2.270], 'Startpoint', [1 -1 Constants.T_crit], 'Exclude', N_values < 300);
   [fit_obj, goodness] = fit(N_values', sim.T_pseudocrits', model_name, fit_options)
+  plot(fit_obj, N_values, sim.T_pseudocrits)
   markerplot(N_values, sim.T_pseudocrits - fit_obj.c, 'None')
   hold on
   values_to_plot = linspace(N_values(1), N_values(end));

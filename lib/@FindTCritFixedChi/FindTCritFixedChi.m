@@ -3,6 +3,8 @@ classdef FindTCritFixedChi < FindTCrit
     DATABASE = fullfile(Constants.DB_DIR, 't_pseudocrits.db');
     chi_values;
     tolerance = 1e-7;
+    length_scales = [];
+    method = 'energy gap';
   end
 
   methods

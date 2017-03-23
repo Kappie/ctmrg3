@@ -7,6 +7,8 @@ create table t_pseudocrits (
   entropy numeric,
   q numeric,
   method string,
+  c blob,
+  t blob,
   UNIQUE(t_pseudocrit, chi, tolerance, tol_x, q, method) ON CONFLICT IGNORE
 );
 
