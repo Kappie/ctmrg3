@@ -4,7 +4,7 @@ classdef FindTCritFixedChi < FindTCrit
     chi_values;
     tolerance = 1e-7;
     length_scales = [];
-    method = 'energy gap';
+    method = 'entropy';
   end
 
   methods

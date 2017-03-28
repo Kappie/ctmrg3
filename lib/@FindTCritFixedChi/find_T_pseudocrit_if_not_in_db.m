@@ -1,7 +1,8 @@
 function [T_pseudocrit, tensors] = find_T_pseudocrit_if_not_in_db(obj, q, chi)
   if obj.LOAD_FROM_DB
     query = ['select * from t_pseudocrits where ' ...
-      'q = ? AND tol_x = ? AND chi = ? AND tolerance = ? AND method = ?'];
+      'q = ? AND tol_x <= ? AND chi = ? AND tolerance = ? AND method = ?' ...
+      'order by tol_x asc limit 1'];
     query_result = sqlite3.execute(obj.db_id, query, q, obj.TolX, chi, obj.tolerance, obj.method);
   else
     query_result = [];

@@ -4,7 +4,7 @@ function [T_crit, mse, exitflag] = fit_power_law(length_scales, T_pseudocrits, s
   function mse = f_minimize(T_crit)
     t_pseudocrits = abs(T_pseudocrits - T_crit);
     [slope, intercept, mse] = logfit(1./length_scales, t_pseudocrits, ...
-      'loglog', 'skipBegin', 4, 'skipEnd', 0);
+      'loglog', 'skipBegin', 3, 'skipEnd', 0);
   end
 
   options = optimset('Display', 'iter', 'TolX', TolX);
