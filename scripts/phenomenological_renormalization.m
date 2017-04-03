@@ -1,7 +1,7 @@
 function phenomenological_renormalization
   q = 5;
-  temperatures = 0.87:0.005:0.98;
-  N_values = [20 40 60];
+  temperatures = 0.87:0.005:1.03;
+  N_values = [20 40 60 100 140];
   max_truncation_error = 1e-5;
 
   sim = FixedTruncationErrorSimulation(temperatures, N_values, max_truncation_error, q);
