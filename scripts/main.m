@@ -1,9 +1,12 @@
 function main
   rehash;
 
+
+  phenomenological_renormalization
+  % long_range_order_q6
   % plot_entropy_vs_T
   % find_T_pseudocrit_oo
-  find_T_pseudocrit_chi
+  % find_T_pseudocrit_chi
   % fit_magnetization
   % plot_free_energy
   % plot_trunc_error_vs_n

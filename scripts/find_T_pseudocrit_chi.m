@@ -1,10 +1,10 @@
 function find_T_pseudocrit_chi
-  q = 6;
+  q = 5;
   % q = 2 values energy gap
   % chi_values = [10 12 14 20 30 33 38 43 49 56];
   % q = 2 values entropy
   % chi_values = [10:2:32 33 38 40 43 49 50 56];
-  chi_values = 10:10:80;
+  chi_values = [20:5:80 90]
   % q = 4 values entropy
   % chi_values = [10:2:34 40 46 53 59 67 75 82 96 105];
   % q = 4 values energy gap
@@ -14,19 +14,20 @@ function find_T_pseudocrit_chi
 
   % Parameters for power law fitting
   TolXFit = 1e-14;
-  search_width = 1e-3;
+  search_width = 1e-1;
+  T_crit_guess = 0.95;
   % Fit power law of the form
   % T_pseudocrit(L) = a*L^{-lambda} + T_c
-  chi_min = 22;
-  a_bounds = [0.01 1000]; a_initial = 1;
-  lambda_bounds = [-1.1 -0.9]; lambda_initial = -0.95;
-  T_crit_bounds = [2.2 2.3]; T_crit_initial = 2.269;
+  chi_min = 40;
+  % a_bounds = [0.01 1000]; a_initial = 1;
+  % lambda_bounds = [-1.1 -0.9]; lambda_initial = -0.95;
+  % T_crit_bounds = [2.2 2.3]; T_crit_initial = 2.269;
   % lower = [a_bounds(1) lambda_bounds(1) T_crit_bounds(1)];
   % upper = [a_bounds(2) lambda_bounds(2) T_crit_bounds(2)];
   % initial = [a_initial lambda_initial T_crit_initial];
-  lower = [lambda_bounds(1) log(a_bounds(1))];
-  upper = [lambda_bounds(2) log(a_bounds(2))];
-  initial = [lambda_initial log(a_initial)];
+  % lower = [lambda_bounds(1) log(a_bounds(1))];
+  % upper = [lambda_bounds(2) log(a_bounds(2))];
+  % initial = [lambda_initial log(a_initial)];
   exclude = chi_values < chi_min;
 
   sim = FindTCritFixedChi(q, TolX, chi_values);
@@ -38,8 +39,10 @@ function find_T_pseudocrit_chi
 
   % [T_crit, mse, ~] = fit_power_law(sim.length_scales, sim.T_pseudocrits, search_width, TolXFit)
   % fit_power_law2(sim.length_scales, sim.T_pseudocrits, lower, upper, initial, exclude)
-  [T_crit, error] = fit_power_law3(sim.length_scales, sim.T_pseudocrits, ....
-    lower, upper, initial, exclude, search_width, TolXFit)
+  % [T_crit, error] = fit_power_law3(sim.length_scales, sim.T_pseudocrits, ....
+  %   exclude, search_width, TolXFit)
+  [T_crit, error, ~] = fit_kosterlitz_transition(sim.T_pseudocrits, ...
+    sim.length_scales, T_crit_guess, search_width, TolXFit)
 
   % title(['Ising model. $T^{*}$ by maximum entropy. $T_c = ' num2str(T_crit, 6) '$.'])
   % ylabel('$\log(T^{*}(\chi) - T_c)$')
@@ -79,7 +82,7 @@ function fit_power_law2(length_scales, T_pseudocrits, lower, upper, initial, exc
   plot(fit_obj, length_scales, T_pseudocrits)
 end
 
-function [T_crit, error_of_fit] = fit_power_law3(length_scales, T_pseudocrits, lower, upper, initial, exclude, search_width, TolX)
+function [T_crit, error_of_fit] = fit_power_law3(length_scales, T_pseudocrits, exclude, search_width, TolX)
   % Find T_crit that best fits linear relation
   % log(T_pseudocrits - T_crit) = log(a) - lambda*log(length_scales)
   minimize_options = optimset('Display', 'iter', 'TolX', TolX);

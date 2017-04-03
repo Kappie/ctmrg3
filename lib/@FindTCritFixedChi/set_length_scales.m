@@ -8,8 +8,8 @@ function obj = set_length_scales(obj)
       tensors = obj.tensors(q_index, chi_index);
       C = tensors.C;
       T = tensors.T;
-      obj.length_scales(q_index, chi_index) = lattice.ctm_length_scale(C, T);
-      % obj.length_scales(q_index, chi_index) = lattice.correlation_length(C, T);
+      % obj.length_scales(q_index, chi_index) = lattice.ctm_length_scale(C, T);
+      obj.length_scales(q_index, chi_index) = lattice.correlation_length(C, T);
       % obj.length_scales(q_index, chi_index) = -log(lattice.entropy(C, T));
       % obj.length_scales(q_index, chi_index) = lattice.entropy(C, T);
   end

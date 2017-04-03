@@ -3,13 +3,13 @@ function test_data_collapse_chi
   % chi_values = [90 100 110 120 130 140];
   chi_values = [4 10 16 24 32 40 50 60];
   % chi_values = [16, 40, 60];
-  q = 2;
+  q = 4;
   tolerance = 1e-7;
   width = 0.1; number_of_points = 10;
   % RIGHT_BOUND = 1.13515;
   RIGHT_BOUND = Constants.T_crit_guess(q);
-  chi_min = 32;
-  fit_width = width/500;
+  chi_min = 20;
+  fit_width = width/100;
 
   % temperatures = linspace(Constants.T_crit_guess(q) - width, ...
   %   RIGHT_BOUND, number_of_points);
