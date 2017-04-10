@@ -1,8 +1,7 @@
 function main
   rehash;
 
-
-
+  % test_fitting
   % plot_rescaled_entropy
   % plot_corner_energy_gap
   % phenomenological_renormalization

@@ -1,5 +1,6 @@
 function [T_crit, error_of_fit, exitflag] = fit_kosterlitz_transition2(T_pseudocrits, length_scales, exclude, search_width, TolX)
-  minimize_options = optimset('Display', 'iter', 'TolX', TolX);
+  % minimize_options = optimset('Display', 'iter', 'TolX', TolX, 'TolFun', TolX);
+  minimize_options = optimset('TolX', TolX, 'TolFun', TolX);
   T_crit_guess = T_pseudocrits(end);
   ORDER_LINEAR_FUNCTION = 1;
   sigma = 1/2;
@@ -16,15 +17,22 @@ function [T_crit, error_of_fit, exitflag] = fit_kosterlitz_transition2(T_pseudoc
 
   [T_crit, error_of_fit, exitflag] = fminsearchbnd(@f_minimize, ...
     T_crit_guess, T_crit_guess - search_width, T_crit_guess, minimize_options);
+
   reduced_temperatures = (T_pseudocrits - T_crit).^(-sigma);
-  [p] = polyfit(reduced_temperatures(~exclude), log(length_scales_to_fit), ORDER_LINEAR_FUNCTION)
+  [p, S] = polyfit(reduced_temperatures(~exclude), log(length_scales_to_fit), ORDER_LINEAR_FUNCTION);
   slope = p(1); intercept = p(2);
 
-  x = linspace(reduced_temperatures(end), reduced_temperatures(1))
-  y = polyval(p, x);
+  % temperatures_to_plot = linspace(reduced_temperatures(1), reduced_temperatures(end));
+  temperatures_to_plot = linspace(T_pseudocrits(1), T_pseudocrits(end));
+  reduced_temperatures_to_plot = (temperatures_to_plot - T_crit).^(-sigma);
+  length_scales_best_fit = exp(polyval(p, reduced_temperatures_to_plot));
   figure
   hold on
-  markerplot(reduced_temperatures, log(length_scales), '--')
-  plot(x, y, 'Color', 'black')
+  % markerplot(T_pseudocrits, exp(intercept)*exp(slope.*reduced_temperatures), 'None')
+  markerplot(T_pseudocrits, length_scales, '--')
+  plot(temperatures_to_plot, length_scales_best_fit)
+  % markerplot(T_pseudocrits, length_scales, )
+  % markerplot(exp(intercept)*exp(slope.*reduced_temperatures), length_scales, 'None')
+  % plot(exp(intercept)*exp(slope*temperatures_to_plot), length_scales_best_fit, 'Color', 'black')
   hold off
 end

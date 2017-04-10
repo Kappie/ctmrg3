@@ -17,10 +17,10 @@ function phenomenological_renormalization
   sim.chi_start = 100;
   sim = sim.run();
   % corr_lengths = sim.compute('correlation_length');
-  % corr_lengths = 1 ./ sim.compute('corner_energy_gap');
-  entropies = sim.compute('entropy')
+  corr_lengths = 1 ./ sim.compute('corner_energy_gap');
+  % entropies = sim.compute('entropy')
 
-  markerplot(temperatures, entropies ./ log(N_values), '--')
+  markerplot(temperatures, corr_lengths ./ N_values, '--')
 
   make_legend(N_values, 'N')
   xlabel('$T$')

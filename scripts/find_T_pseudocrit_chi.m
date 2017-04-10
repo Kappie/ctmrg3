@@ -18,7 +18,7 @@ function find_T_pseudocrit_chi
   T_crit_guess = 0.95;
   % Fit power law of the form
   % T_pseudocrit(L) = a*L^{-lambda} + T_c
-  chi_min = 40;
+  chi_min = 50;
   % a_bounds = [0.01 1000]; a_initial = 1;
   % lambda_bounds = [-1.1 -0.9]; lambda_initial = -0.95;
   % T_crit_bounds = [2.2 2.3]; T_crit_initial = 2.269;
@@ -36,6 +36,8 @@ function find_T_pseudocrit_chi
   % markerplot(chi_values, sim.T_pseudocrits, '--')
 
 
+  sim.T_pseudocrits
+  sim.length_scales
 
   % [T_crit, mse, ~] = fit_power_law(sim.length_scales, sim.T_pseudocrits, search_width, TolXFit)
   % fit_power_law2(sim.length_scales, sim.T_pseudocrits, lower, upper, initial, exclude)
@@ -50,6 +52,8 @@ function find_T_pseudocrit_chi
   % hold off
   % set(gca, 'XScale', 'log')
   % set(gca, 'YScale', 'log')
+  xlabel('$(T^{*} - T_c)^{-1/2}$')
+  ylabel('$\log(\epsilon_2 - \epsilon_1)$')
 end
 
 function fit_power_law2(length_scales, T_pseudocrits, lower, upper, initial, exclude)
@@ -60,39 +64,4 @@ function fit_power_law2(length_scales, T_pseudocrits, lower, upper, initial, exc
     'Upper', upper, 'Startpoint', initial, 'Exclude', exclude);
   [fit_obj, goodness] = fit(length_scales', T_pseudocrits', model_name, fit_options)
   plot(fit_obj, length_scales, T_pseudocrits)
-end
-
-function [T_crit, error_of_fit] = fit_power_law3(length_scales, T_pseudocrits, exclude, search_width, TolX)
-  % Find T_crit that best fits linear relation
-  % log(T_pseudocrits - T_crit) = log(a) - lambda*log(length_scales)
-  minimize_options = optimset('Display', 'iter', 'TolX', TolX);
-  T_crit_guess = T_pseudocrits(end);
-  ORDER_LINEAR_FUNCTION = 1;
-
-  length_scales_to_fit = length_scales(~exclude);
-  T_pseudocrits_to_fit = T_pseudocrits(~exclude);
-
-  function error_of_fit = f_minimize(T_crit)
-    y = log(T_pseudocrits_to_fit - T_crit);
-    x = log(length_scales_to_fit);
-    [p, S] = polyfit(x, y, ORDER_LINEAR_FUNCTION);
-    error_of_fit = S.normr;
-  end
-
-  % [T_crit, error_of_fit, exitflag] = fminbnd(@f_minimize, ...
-  %   T_crit_guess - search_width, T_crit_guess, minimize_options);
-  [T_crit, error_of_fit, exitflag] = fminsearchbnd(@f_minimize, ...
-    T_crit_guess, T_crit_guess - search_width, T_crit_guess, minimize_options);
-  [p] = polyfit(log(length_scales), log(T_pseudocrits - T_crit), ORDER_LINEAR_FUNCTION)
-  slope = p(1); intercept = p(2);
-
-  x = linspace(log(length_scales(1)), log(length_scales(end)));
-  y = polyval(p, x);
-  figure
-  hold on
-  markerplot(log(length_scales(exclude)), log(T_pseudocrits(exclude) - T_crit), 'None')
-  markerplot(log(length_scales_to_fit), log(T_pseudocrits_to_fit - T_crit), 'None')
-  plot(x, y, 'Color', 'black')
-  hold off
-
 end
