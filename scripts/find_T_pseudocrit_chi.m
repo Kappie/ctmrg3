@@ -13,7 +13,7 @@ function find_T_pseudocrit_chi
   method = 'entropy';
 
   % Parameters for power law fitting
-  TolXFit = 1e-14;
+  TolXFit = 1e-8;
   search_width = 1e-1;
   T_crit_guess = 0.95;
   % Fit power law of the form
@@ -33,39 +33,19 @@ function find_T_pseudocrit_chi
   sim = FindTCritFixedChi(q, TolX, chi_values);
   sim.method = method;
   sim = sim.run();
-  sim.T_pseudocrits
-  sim.length_scales
+  % markerplot(chi_values, sim.T_pseudocrits, '--')
+
 
 
   % [T_crit, mse, ~] = fit_power_law(sim.length_scales, sim.T_pseudocrits, search_width, TolXFit)
   % fit_power_law2(sim.length_scales, sim.T_pseudocrits, lower, upper, initial, exclude)
   % [T_crit, error] = fit_power_law3(sim.length_scales, sim.T_pseudocrits, ....
   %   exclude, search_width, TolXFit)
-  [T_crit, error, ~] = fit_kosterlitz_transition(sim.T_pseudocrits, ...
-    sim.length_scales, T_crit_guess, search_width, TolXFit)
+  % [T_crit, error, ~] = fit_kosterlitz_transition(sim.T_pseudocrits, ...
+  %   sim.length_scales, T_crit_guess, search_width, TolXFit, exclude)
+  [T_crit, error, ~] = fit_kosterlitz_transition2(sim.T_pseudocrits, ...
+    sim.length_scales, exclude, search_width, TolXFit)
 
-  % title(['Ising model. $T^{*}$ by maximum entropy. $T_c = ' num2str(T_crit, 6) '$.'])
-  % ylabel('$\log(T^{*}(\chi) - T_c)$')
-  % % xlabel('$\log(\xi(\chi))$')
-  % % xlabel('$\log(-\log(S(\chi, T^{*})))$')
-  % xlabel('$1 / \log(C_1/C_2)$')
-
-  % markerplot(sim.length_scales, sim.T_pseudocrits - T_crit, '--')
-
-  % markerplot(chi_values, sim.length_scales, '--', 'loglog');
-  % sim.T_pseudocrits
-
-  % logfit(exp(sim.length_scales), sim.T_pseudocrits - Constants.T_crit, 'loglog')
-
-  % markerplot(sim.length_scales, sim.T_pseudocrits - Constants.T_crit, '--', 'loglog')
-  % model_name = 'power2';
-  % fit_options = fitoptions(model_name, 'Lower', [0 -2 2.2], ...
-  %   'Upper', [Inf 0 2.3], 'Startpoint', [1 -1 Constants.T_crit_guess(q)], 'Exclude', chi_values < 20);
-  % [fit_obj, goodness] = fit(sim.length_scales', sim.T_pseudocrits', model_name, fit_options)
-  % plot(fit_obj, sim.length_scales, sim.T_pseudocrits)
-  % markerplot(sim.length_scales, sim.T_pseudocrits, 'None')
-  % hold on
-  % values_to_plot = linspace(sim.length_scales(1), sim.length_scales(end));
   % plot(values_to_plot, fit_obj.a.*values_to_plot.^fit_obj.b)
   % hold off
   % set(gca, 'XScale', 'log')

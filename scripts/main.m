@@ -3,6 +3,7 @@ function main
 
 
 
+  % plot_rescaled_entropy
   % plot_corner_energy_gap
   % phenomenological_renormalization
   % long_range_order_q6
