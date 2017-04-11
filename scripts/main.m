@@ -1,12 +1,12 @@
 function main
   rehash;
 
-  long_range_order_q6_finite_N
+  % long_range_order_q6_finite_N
   % test_fitting
   % plot_rescaled_entropy
   % plot_corner_energy_gap
   % phenomenological_renormalization
-  % long_range_order_q6
+  long_range_order_q6
   % plot_entropy_vs_T
   % find_T_pseudocrit_oo
   % find_T_pseudocrit_chi
