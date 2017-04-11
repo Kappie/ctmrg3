@@ -1,23 +1,21 @@
 function find_T_pseudocrit_oo
   q = 5;
-  N_values = 10:5:100;
+  N_values = 10:5:120;
   TolX = 1e-6;
   TolXFit = 1e-10;
-  N_min = 60;
+  N_min = 35;
   exclude = N_values < N_min;
   search_width = 1e-1;
 
   sim = FindTCritFixedN(q, TolX, N_values);
-  sim.max_truncation_error = 1e-6;
+  sim.max_truncation_error = 1e-5;
   sim.chi_start = 200;
   sim = sim.run();
   sim.T_pseudocrits
   sim.truncation_errors
 
   % [T_crit, mse] = fit_power_law3(N_values, sim.T_pseudocrits, exclude, search_width, TolXFit)
-  % title('power law fit')
   % [T_crit, mse, ~] = fit_kosterlitz_transition2(sim.T_pseudocrits, N_values, exclude, search_width, TolXFit)
-  % title('kosterlitz-thouless fit')
 
   % markerplot(N_values, sim.T_pseudocrits, '--');
 
