@@ -18,7 +18,7 @@ function find_T_pseudocrit_chi
   T_crit_guess = 0.95;
   % Fit power law of the form
   % T_pseudocrit(L) = a*L^{-lambda} + T_c
-  chi_min = 50;
+  chi_min = 0;
   % a_bounds = [0.01 1000]; a_initial = 1;
   % lambda_bounds = [-1.1 -0.9]; lambda_initial = -0.95;
   % T_crit_bounds = [2.2 2.3]; T_crit_initial = 2.269;
@@ -47,13 +47,16 @@ function find_T_pseudocrit_chi
   %   sim.length_scales, T_crit_guess, search_width, TolXFit, exclude)
   [T_crit, error, ~] = fit_kosterlitz_transition2(sim.T_pseudocrits, ...
     sim.length_scales, exclude, search_width, TolXFit)
+  title('kosterlitz')
+  [T_crit, mse] = fit_power_law3(sim.length_scales, sim.T_pseudocrits, exclude, search_width, TolXFit)
+  title('power law')
 
   % plot(values_to_plot, fit_obj.a.*values_to_plot.^fit_obj.b)
   % hold off
   % set(gca, 'XScale', 'log')
   % set(gca, 'YScale', 'log')
-  xlabel('$(T^{*} - T_c)^{-1/2}$')
-  ylabel('$\log(\epsilon_2 - \epsilon_1)$')
+  % xlabel('$(T^{*} - T_c)^{-1/2}$')
+  % ylabel('$\log(\epsilon_2 - \epsilon_1)$')
 end
 
 function fit_power_law2(length_scales, T_pseudocrits, lower, upper, initial, exclude)

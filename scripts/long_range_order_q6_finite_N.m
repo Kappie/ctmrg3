@@ -1,8 +1,8 @@
-function long_range_order_q6
+function long_range_order_q6_finite_N
   q = 6;
   % In between two kosterlitz points: correlation length should grow as power law in system size
-  number_of_points = 25;
-  left_bound = 0.65; right_bound = 0.95;
+  number_of_points = 33;
+  left_bound = 0.65; right_bound = 1.05;
   temperatures = linspace(left_bound, right_bound, number_of_points);
   % temperatures = [0.8];
   % temperatures = [0.4];
@@ -13,18 +13,25 @@ function long_range_order_q6
   order_parameters = sim.compute('order_parameter');
   entropies = sim.compute('entropy');
 
-  figure
-  markerplot(N_values, entropies, '--', 'loglog')
-  make_legend(temperatures, 'T')
-
-  slopes = zeros(1, numel(temperatures))
+  slopes = zeros(1, numel(temperatures));
+  mses = zeros(1, numel(temperatures));
   for t = 1:numel(temperatures)
-    [slope, intercept] = logfit(N_values, entropies(t, :, :), 'logx', 'skipBegin', 9)
+    % figure
+    % [slope, intercept, mse] = logfit(N_values, entropies(t, :, :), 'logx', 'skipBegin', 7)
+    [slope, intercept, mse] = logfit(N_values, order_parameters(t, :, :), 'loglog', 'skipBegin', 7)
+    title(['$T = ' num2str(temperatures(t)) '$'])
     slopes(t) = slope;
+    mses(t) = mse;
   end
 
+  mse_limit = 1e-9;
+  indices_to_plot = mses < mse_limit;
+  mses
   figure
-  markerplot(temperatures, 6.*slopes, '--')
+  markerplot(temperatures(indices_to_plot), slopes(indices_to_plot), '--')
+  hline(-0.125, '--')
+  figure
+  markerplot(temperatures, mses, '--', 'semilogy')
   % title('Varying exponent for $M(T, N) \propto N^{a(T)}$ in $q = 6$ clock model.')
   % xlabel('$T$')
   % ylabel('$a(T)$')

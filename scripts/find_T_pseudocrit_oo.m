@@ -3,7 +3,7 @@ function find_T_pseudocrit_oo
   N_values = 10:5:120;
   TolX = 1e-6;
   TolXFit = 1e-10;
-  N_min = 35;
+  N_min = 40;
   exclude = N_values < N_min;
   search_width = 1e-1;
 
@@ -14,8 +14,14 @@ function find_T_pseudocrit_oo
   sim.T_pseudocrits
   sim.truncation_errors
 
-  % [T_crit, mse] = fit_power_law3(N_values, sim.T_pseudocrits, exclude, search_width, TolXFit)
-  % [T_crit, mse, ~] = fit_kosterlitz_transition2(sim.T_pseudocrits, N_values, exclude, search_width, TolXFit)
+  [T_crit, mse] = fit_power_law3(N_values, sim.T_pseudocrits, exclude, search_width, TolXFit)
+  xlabel('$N$')
+  ylabel('$T^{*}(N)$')
+  title(['Fit to $T^{*}(N)$ for second order transition for $q = ' num2str(q) '$ clock model.'])
+  [T_crit, mse, ~] = fit_kosterlitz_transition2(sim.T_pseudocrits, N_values, exclude, search_width, TolXFit)
+  xlabel('$N$')
+  ylabel('$T^{*}(N)$')
+  title(['Fit to $T^{*}(N)$ for BKT-transition for $q = ' num2str(q) '$ clock model.'])
 
   % markerplot(N_values, sim.T_pseudocrits, '--');
 

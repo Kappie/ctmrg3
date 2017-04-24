@@ -19,10 +19,20 @@ function [total_mse] = mse_data_collapse_all_sets(x_values, y_values, L_values)
   total_mse = 0;
 
   for L = L_values
+    mse_L = 0;
     for L_prime = L_values(L_values ~= L)
-      total_mse = total_mse + ...
+      mse_L = mse_L + ...
         mse_in_overlapping_region(x_values(L), y_values(L), x_values(L_prime), y_values(L_prime));
     end
+    % If a set has no data points that fall within two data points of any other set,
+    % the collapse cannot be assessed and we return a mean squared error of infinity.
+    % (This should never happen if the values of the exponents and T_crit are anywhere
+    % near the actual values.)
+    if mse_L == 0
+      total_mse = Inf;
+      break
+    end
+    total_mse = total_mse + mse_L;
   end
 end
 
@@ -30,12 +40,8 @@ function [mse] = mse_in_overlapping_region(x_obs, y_obs, x_query, y_query)
   left_bound = x_obs(1);
   right_bound = x_obs(end);
   indices_within_bounds = x_query >= left_bound & x_query <= right_bound;
-  % If a set has no data points that fall within two data points of the other set,
-  % they cannot be compared and we return a mean squared error of infinity.
-  % (This should never happen if the values of the exponents and T_crit are anywhere
-  % near the actual values.)
   if all(indices_within_bounds == false)
-    mse = Inf;
+    mse = 0;
     return
   end
   x_query = x_query(indices_within_bounds);

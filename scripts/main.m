@@ -1,12 +1,19 @@
 function main
   rehash;
 
+
+  % test_data_collapse_chi
+  plot_entropy_at_T_crit
+  % data_collapse_nishino_optimize
+  % crossover_between_chi_and_N
+  % calculate_beta_finite_N
+  % plot_order_param
   % long_range_order_q6_finite_N
+  % long_range_order_q6
   % test_fitting
   % plot_rescaled_entropy
   % plot_corner_energy_gap
   % phenomenological_renormalization
-  long_range_order_q6
   % plot_entropy_vs_T
   % find_T_pseudocrit_oo
   % find_T_pseudocrit_chi
@@ -15,7 +22,6 @@ function main
   % plot_trunc_error_vs_n
   % plot_magnetization
   % test_data_collapse_N
-  % test_data_collapse_chi
   % find_sufficient_chi
   % plot_truncation_error_vs_n
   % update_truncation_errors
@@ -36,7 +42,6 @@ function main
   % test_boundary_conditions
   % test_parfor
   % profile_ctm
-  % plot_entropy_at_T_crit
   % profile on
   % find_T_crit
   % profile viewer
@@ -48,7 +53,6 @@ function main
   % plot_m_vs_chi
   % plot_correlation_length_vs_chi
   % plot_correlation_length
-  % crossover_between_chi_and_N
   % data_collapse_nishino
 
   % data_collapse_free_energy

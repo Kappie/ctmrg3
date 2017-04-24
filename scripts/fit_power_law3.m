@@ -30,9 +30,9 @@ function [T_crit, error_of_fit] = fit_power_law3(length_scales, T_pseudocrits, e
   hold on
   % markerplot(log(length_scales(exclude)), log(T_pseudocrits(exclude) - T_crit), 'None')
   % markerplot(log(length_scales_to_fit), log(T_pseudocrits_to_fit - T_crit), 'None')
-  markerplot(length_scales, T_pseudocrits, '--')
+  markerplot(length_scales, T_pseudocrits, 'None')
   plot(length_scales_to_plot, T_pseudocrits_best_fit, 'Color', 'black')
   hold off
-  title(['Power law fit. $T_c = ' num2str(T_crit) '$.'])
+  % title(['Power law fit. $T_c = ' num2str(T_crit) '$.'])
 
 end
