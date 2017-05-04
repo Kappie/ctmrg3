@@ -2,12 +2,15 @@ function main
   rehash;
 
 
+  find_T_pseudocrit_oo
+  % find_T_pseudocrit_chi
+  % plot_order_param
+  % tolerance_vs_order_param
   % test_data_collapse_chi
-  plot_entropy_at_T_crit
+  % plot_entropy_at_T_crit
   % data_collapse_nishino_optimize
   % crossover_between_chi_and_N
   % calculate_beta_finite_N
-  % plot_order_param
   % long_range_order_q6_finite_N
   % long_range_order_q6
   % test_fitting
@@ -15,8 +18,6 @@ function main
   % plot_corner_energy_gap
   % phenomenological_renormalization
   % plot_entropy_vs_T
-  % find_T_pseudocrit_oo
-  % find_T_pseudocrit_chi
   % fit_magnetization
   % plot_free_energy
   % plot_trunc_error_vs_n

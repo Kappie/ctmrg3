@@ -1,15 +1,16 @@
 function find_T_pseudocrit_oo
-  q = 5;
-  N_values = 10:5:120;
+  q = 2;
+  % N_values = 10:5:120;
+  N_values = 700:60:1000;
   TolX = 1e-6;
   TolXFit = 1e-10;
-  N_min = 40;
+  N_min = 350;
   exclude = N_values < N_min;
-  search_width = 1e-1;
+  search_width = 1e-2;
 
   sim = FindTCritFixedN(q, TolX, N_values);
   sim.max_truncation_error = 1e-5;
-  sim.chi_start = 200;
+  sim.chi_start = 100;
   sim = sim.run();
   sim.T_pseudocrits
   sim.truncation_errors
@@ -18,10 +19,10 @@ function find_T_pseudocrit_oo
   xlabel('$N$')
   ylabel('$T^{*}(N)$')
   title(['Fit to $T^{*}(N)$ for second order transition for $q = ' num2str(q) '$ clock model.'])
-  [T_crit, mse, ~] = fit_kosterlitz_transition2(sim.T_pseudocrits, N_values, exclude, search_width, TolXFit)
-  xlabel('$N$')
-  ylabel('$T^{*}(N)$')
-  title(['Fit to $T^{*}(N)$ for BKT-transition for $q = ' num2str(q) '$ clock model.'])
+  % [T_crit, mse, ~] = fit_kosterlitz_transition2(sim.T_pseudocrits, N_values, exclude, search_width, TolXFit)
+  % xlabel('$N$')
+  % ylabel('$T^{*}(N)$')
+  % title(['Fit to $T^{*}(N)$ for BKT-transition for $q = ' num2str(q) '$ clock model.'])
 
   % markerplot(N_values, sim.T_pseudocrits, '--');
 
