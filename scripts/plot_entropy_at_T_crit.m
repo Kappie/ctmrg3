@@ -3,7 +3,7 @@ function plot_entropy_at_T_crit
   temperature = Constants.T_crit_guess(q);
   chi_values = 8:2:70;
   % chi_values = [22 32 38 46 54 64]
-  N_values = 50:50:1000;
+  N_values = 50:50:2000;
   % chi_values = [24, 28, 33, 38, 43, 49, 56, 64, 72];
   tolerances = [1e-5 1e-6 1e-7 1e-8 1e-9];
   max_truncation_error = 1e-6;
