@@ -1,0 +1,363 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+Did not find record for:
+chi = 60, temperature = 0.99098, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.99098, chi = 60, N = 592, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00057186.
+ 
+ Func-count     x          f(x)         Procedure
+    1       0.990983     -0.40759        initial
+Did not find record for:
+chi = 60, temperature = 1.109, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 1.109, chi = 60, N = 86, convergence = 1e-07, initial = spin-up, q = 6truncation error = 2.0486e-05.
+    2        1.10902    -0.234486        golden
+Did not find record for:
+chi = 60, temperature = 0.91803, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.91803, chi = 60, N = 2430, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0014269.
+    3       0.918034    -0.421099        golden
+Did not find record for:
+chi = 60, temperature = 0.94071, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94071, chi = 60, N = 5228, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0016312.
+    4       0.940708    -0.474895        parabolic
+Did not find record for:
+chi = 60, temperature = 0.95269, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.95269, chi = 60, N = 4015, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0016419.
+    5       0.952689    -0.527363        parabolic
+Did not find record for:
+chi = 60, temperature = 0.96732, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.96732, chi = 60, N = 1236, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0011306.
+    6       0.967316    -0.475997        golden
+Did not find record for:
+chi = 60, temperature = 0.95408, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.95408, chi = 60, N = 3367, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.001591.
+    7       0.954081    -0.522351        parabolic
+Did not find record for:
+chi = 60, temperature = 0.94811, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94811, chi = 60, N = 10806, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0018071.
+    8       0.948112    -0.543665        golden
+Did not find record for:
+chi = 60, temperature = 0.94528, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94528, chi = 60, N = 21139, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0018243.
+    9       0.945284    -0.531567        golden
+Did not find record for:
+chi = 60, temperature = 0.94872, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94872, chi = 60, N = 8783, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0017855.
+   10       0.948718    -0.541532        parabolic
+Did not find record for:
+chi = 60, temperature = 0.94764, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94764, chi = 60, N = 13247, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0018238.
+   11        0.94764    -0.545318        parabolic
+Did not find record for:
+chi = 60, temperature = 0.94674, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94674, chi = 60, N = 24487, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0018554.
+   12        0.94674    -0.548427        golden
+Did not find record for:
+chi = 60, temperature = 0.94618, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94618, chi = 60, N = 62463, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0018738.
+   13       0.946184    -0.550084        golden
+Did not find record for:
+chi = 60, temperature = 0.94584, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94584, chi = 60, N = 44321, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0018608.
+   14        0.94584    -0.544319        golden
+Did not find record for:
+chi = 60, temperature = 0.9464, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.9464, chi = 60, N = 38498, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0018672.
+   15       0.946396    -0.549559        golden
+Did not find record for:
+chi = 60, temperature = 0.94605, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94605, chi = 60, N = 76732, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0018741.
+   16       0.946053    -0.549333        golden
+Did not find record for:
+chi = 60, temperature = 0.94624, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94624, chi = 60, N = 53873, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0018723.
+   17       0.946238    -0.549996        parabolic
+Did not find record for:
+chi = 60, temperature = 0.94613, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94613, chi = 60, N = 71890, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0018749.
+   18       0.946134    -0.550061        golden
+Did not find record for:
+chi = 60, temperature = 0.94617, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94617, chi = 60, N = 64939, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0018742.
+   19        0.94617    -0.550092        parabolic
+Did not find record for:
+chi = 60, temperature = 0.94617, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94617, chi = 60, N = 65621, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0018743.
+   20       0.946167    -0.550093        parabolic
+Did not find record for:
+chi = 60, temperature = 0.94616, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94616, chi = 60, N = 66171, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0018743.
+   21       0.946164    -0.550093        parabolic
+Did not find record for:
+chi = 60, temperature = 0.94616, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94616, chi = 60, N = 66082, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0018743.
+   22       0.946164    -0.550093        parabolic
+Did not find record for:
+chi = 60, temperature = 0.94616, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94616, chi = 60, N = 66016, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0018743.
+   23       0.946165    -0.550093        parabolic
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+Did not find record for:
+chi = 70, temperature = 0.99098, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.99098, chi = 70, N = 514, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00043277.
+ 
+ Func-count     x          f(x)         Procedure
+    1       0.990983    -0.407761        initial
+Did not find record for:
+chi = 70, temperature = 1.109, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 1.109, chi = 70, N = 88, convergence = 1e-07, initial = spin-up, q = 6truncation error = 1.0228e-05.
+    2        1.10902    -0.234486        golden
+Did not find record for:
+chi = 70, temperature = 0.91803, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.91803, chi = 70, N = 2874, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0012468.
+    3       0.918034    -0.435478        golden
+Did not find record for:
+chi = 70, temperature = 0.92116, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.92116, chi = 70, N = 2911, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0012582.
+    4       0.921163    -0.438087        parabolic
+Did not find record for:
+chi = 70, temperature = 0.94358, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94358, chi = 70, N = 58829, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0015458.
+    5       0.943579    -0.541287        parabolic
+Did not find record for:
+chi = 70, temperature = 0.96169, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.96169, chi = 70, N = 1903, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0011028.
+    6       0.961686    -0.496955        golden
+Did not find record for:
+chi = 70, temperature = 0.9456, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.9456, chi = 70, N = 15306, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0015343.
+    7       0.945598    -0.558023        parabolic
+Did not find record for:
+chi = 70, temperature = 0.9508, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.9508, chi = 70, N = 4503, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0013721.
+    8       0.950798    -0.538082        parabolic
+Did not find record for:
+chi = 70, temperature = 0.94758, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94758, chi = 70, N = 8038, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0014729.
+    9       0.947584    -0.550466        golden
+Did not find record for:
+chi = 70, temperature = 0.94596, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94596, chi = 70, N = 13072, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0015231.
+   10       0.945961    -0.556651        parabolic
+Did not find record for:
+chi = 70, temperature = 0.94483, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94483, chi = 70, N = 24479, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0015577.
+   11       0.944827    -0.560911        golden
+Did not find record for:
+chi = 70, temperature = 0.94435, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94435, chi = 70, N = 42009, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.001572.
+   12        0.94435    -0.562643        golden
+Did not find record for:
+chi = 70, temperature = 0.94406, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94406, chi = 70, N = 82486, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00158.
+   13       0.944056    -0.563469        golden
+Did not find record for:
+chi = 70, temperature = 0.94387, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94387, chi = 70, N = 70901, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0015596.
+   14       0.943874    -0.547302        golden
+Did not find record for:
+chi = 70, temperature = 0.94417, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94417, chi = 70, N = 59825, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0015772.
+   15       0.944168    -0.563237        golden
+Did not find record for:
+chi = 70, temperature = 0.94399, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94399, chi = 70, N = 80473, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0015651.
+   16       0.943986    -0.549925        golden
+Did not find record for:
+chi = 70, temperature = 0.9441, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.9441, chi = 70, N = 72020, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.001579.
+   17       0.944099     -0.56341        golden
+Did not find record for:
+chi = 70, temperature = 0.94401, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94401, chi = 70, N = 97936, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0015808.
+   18       0.944009    -0.563423        parabolic
+Did not find record for:
+chi = 70, temperature = 0.94405, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94405, chi = 70, N = 83719, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0015801.
+   19       0.944051    -0.563471        parabolic
+Did not find record for:
+chi = 70, temperature = 0.94405, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94405, chi = 70, N = 85031, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0015802.
+   20       0.944047    -0.563472        parabolic
+Did not find record for:
+chi = 70, temperature = 0.94403, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94403, chi = 70, N = 89451, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0015805.
+   21       0.944033    -0.563467        golden
+Did not find record for:
+chi = 70, temperature = 0.94404, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94404, chi = 70, N = 85713, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0015803.
+   22       0.944045    -0.563472        parabolic
+Did not find record for:
+chi = 70, temperature = 0.94404, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94404, chi = 70, N = 85579, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0015803.
+   23       0.944045    -0.563472        parabolic
+Did not find record for:
+chi = 70, temperature = 0.94405, tolerance = 1e-07, q = 6.
+stored to database: 
+temperature = 0.94405, chi = 70, N = 85479, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0015803.
+   24       0.944045    -0.563472        parabolic
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+
+obj = 
+
+  FindTCritFixedChi with properties:
+
+              DATABASE: '/home/geert/ctmrg/lib/@Constants/../../db/t_pseud...'
+            chi_values: [60 70]
+             tolerance: 1.000000000000000e-07
+         length_scales: [0 0]
+                method: 'entropy'
+                 db_id: 140363582623008
+          LOAD_FROM_DB: 1
+            SAVE_TO_DB: 1
+              q_values: 6
+                  TolX: 1.000000000000000e-06
+     initial_condition: 'spin-up'
+    significant_digits: 13
+         T_crit_bounds: [3x1 containers.Map]
+               tensors: [1x2 struct]
+         T_pseudocrits: [0.946164210085406 0.944044954392616]
+
+
+ans =
+
+   0.946164210085406   0.944044954392616
+
+
+ans =
+
+  38.064008174347705  42.289757726736156
+
+ 
+ Iteration   Func-count     min f(x)         Procedure
+     0            1              NaN         
+     1            2       2.2835e-14         initial simplex
+     2            4      5.40258e-15         reflect
+     3            7      5.40258e-15         shrink
+     4           10      5.40258e-15         shrink
+     5           12      5.40258e-15         contract outside
+     6           15      5.40258e-15         shrink
+     7           18      5.40258e-15         shrink
+     8           21      5.40258e-15         shrink
+     9           24      5.40258e-15         shrink
+    10           27      5.40258e-15         shrink
+    11           30      5.40258e-15         shrink
+    12           33      5.40258e-15         shrink
+    13           36      5.40258e-15         shrink
+    14           39      5.40258e-15         shrink
+    15           41      5.40258e-15         contract outside
+    16           44      5.40258e-15         shrink
+    17           46      5.40258e-15         contract outside
+    18           49      5.40258e-15         shrink
+    19           51      5.40258e-15         contract inside
+    20           54      5.40258e-15         shrink
+    21           56      4.44089e-15         reflect
+    22           59      4.44089e-15         shrink
+    23           62      4.44089e-15         shrink
+    24           65      4.44089e-15         shrink
+    25           68      4.44089e-15         shrink
+    26           70      4.44089e-15         contract inside
+    27           73      4.44089e-15         shrink
+    28           75      4.44089e-15         contract outside
+    29           78      4.44089e-15         shrink
+    30           80      4.44089e-15         contract inside
+    31           82      4.44089e-15         contract outside
+    32           85      4.44089e-15         shrink
+    33           87      4.44089e-15         contract inside
+    34           89      4.44089e-15         contract inside
+    35           92      4.44089e-15         shrink
+    36           94      4.44089e-15         contract outside
+    37           97      4.44089e-15         shrink
+    38           99      4.44089e-15         contract outside
+    39          101      4.44089e-15         contract inside
+    40          104      4.44089e-15         shrink
+    41          107      4.44089e-15         shrink
+    42          110      4.44089e-15         shrink
+    43          113      4.44089e-15         shrink
+    44          116      4.44089e-15         shrink
+    45          119      4.44089e-15         shrink
+    46          122      4.44089e-15         shrink
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-14 
+ and F(X) satisfies the convergence criteria using OPTIONS.TolFun of 1.000000e-04 
+
+
+p =
+
+   1.0e+02 *
+
+  -0.555144439763195   1.958782145103386
+
+
+T_crit =
+
+   0.944038798586348
+
+
+error =
+
+     4.440892098500626e-15
+
+>> 

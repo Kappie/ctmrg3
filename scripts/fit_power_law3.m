@@ -1,4 +1,4 @@
-function [T_crit, error_of_fit] = fit_power_law3(length_scales, T_pseudocrits, exclude, search_width, TolX)
+function [T_crit, slope, error_of_fit] = fit_power_law3(length_scales, T_pseudocrits, exclude, search_width, TolX)
   % Find T_crit that best fits linear relation
   % log(T_pseudocrits - T_crit) = log(a) - lambda*log(length_scales)
   % minimize_options = optimset('Display', 'iter', 'TolX', TolX);
@@ -33,6 +33,9 @@ function [T_crit, error_of_fit] = fit_power_law3(length_scales, T_pseudocrits, e
   markerplot(length_scales, T_pseudocrits, 'None')
   plot(length_scales_to_plot, T_pseudocrits_best_fit, 'Color', 'black')
   hold off
+
+  figure
+  [slope, intercept] = logfit(length_scales, T_pseudocrits - T_crit, 'loglog')
   % title(['Power law fit. $T_c = ' num2str(T_crit) '$.'])
 
 end

@@ -4,6 +4,27 @@
                    R2015a (8.5.0.197613) 64-bit (glnxa64)
                              February 12, 2015
 
+[Warning: Directory permission denied: /media/fourTB/_DATA/simsetup/_backup] 
+[Warning: Directory permission denied: /media/fourTB/_DATA/simsetup] 
+[Warning: Directory permission denied:
+/home/sangwoo/ownCloud/Philippe/tn/ipeps/initfiles] 
+[Warning: Directory permission denied:
+/home/sangwoo/ownCloud/Philippe/tn/ipeps/oldcodes] 
+[Warning: Directory permission denied:
+/home/sangwoo/ownCloud/Philippe/tn/ipeps/evaltools] 
+[Warning: Directory permission denied: /home/sangwoo/ownCloud/Philippe/tn/ipeps] 
+[Warning: Directory permission denied:
+/home/sangwoo/ownCloud/Philippe/tn/minclude/models] 
+[Warning: Directory permission denied:
+/home/sangwoo/ownCloud/Philippe/tn/minclude/lmsvd] 
+[Warning: Directory permission denied:
+/home/sangwoo/ownCloud/Philippe/tn/minclude/SymTensorNewCode] 
+[Warning: Directory permission denied:
+/home/sangwoo/ownCloud/Philippe/tn/minclude] 
+[Warning: Directory permission denied:
+/home/sangwoo/ownCloud/Philippe/tn/minclude/PROPACK] 
+[Warning: Directory permission denied:
+/home/sangwoo/ownCloud/Philippe/proj/su3honeycomb] 
  
 To get started, type one of these: helpwin, helpdesk, or demo.
 For product information, visit www.mathworks.com.
@@ -12,1160 +33,1095 @@ For product information, visit www.mathworks.com.
 	Academic License
 
 
-temperatures =
+used_chi =
 
-  Columns 1 through 3
+   105
 
-   1.034592657106511   1.056814879328733   1.079037101550955
 
-  Columns 4 through 6
+used_N =
 
-   1.101259323773178   1.123481545995400   1.124592657106511
+    20
 
-  Columns 7 through 9
-
-   1.126814879328733   1.129037101550955   1.131259323773178
-
-  Columns 10 through 12
-
-   1.133481545995400   1.133592657106511   1.134092657106511
-
-  Columns 13 through 15
-
-   1.134592657106511   1.135092657106511   1.135592657106511
-
-  Columns 16 through 18
-
-   1.135703768217622   1.137925990439844   1.140148212662067
-
-  Columns 19 through 21
-
-   1.142370434884289   1.144592657106511   1.145703768217622
-
-  Columns 22 through 24
-
-   1.167925990439844   1.190148212662067   1.212370434884289
-
-  Column 25
-
-   1.234592657106511
-
-Found record: 0 iterations remaining.
+Did not find record for:
+chi = 9, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 9, N = 1012, convergence = 1e-05, initial = spin-up, q = 2truncation error = 0.00041187.
+Found a record with higher tolerance to use as initial condition
+chi = 9, convergence = 1e-05, N = 1012
+I did an additional 442 steps.
+stored to database: 
+temperature = 2.2692, chi = 9, N = 1454, convergence = 1e-06, initial = spin-up, q = 2truncation error = 0.00041384.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 11, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 11, N = 1625, convergence = 1e-05, initial = spin-up, q = 2truncation error = 0.00026454.
+Found a record with higher tolerance to use as initial condition
+chi = 11, convergence = 1e-05, N = 1625
+I did an additional 847 steps.
+stored to database: 
+temperature = 2.2692, chi = 11, N = 2472, convergence = 1e-06, initial = spin-up, q = 2truncation error = 0.00026652.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 13, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 13, N = 2086, convergence = 1e-05, initial = spin-up, q = 2truncation error = 0.00020557.
+Found a record with higher tolerance to use as initial condition
+chi = 13, convergence = 1e-05, N = 2086
+I did an additional 1127 steps.
+stored to database: 
+temperature = 2.2692, chi = 13, N = 3213, convergence = 1e-06, initial = spin-up, q = 2truncation error = 0.00020754.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 15, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 15, N = 3058, convergence = 1e-05, initial = spin-up, q = 2truncation error = 0.00014923.
+Found a record with higher tolerance to use as initial condition
+chi = 15, convergence = 1e-05, N = 3058
+I did an additional 1885 steps.
+stored to database: 
+temperature = 2.2692, chi = 15, N = 4943, convergence = 1e-06, initial = spin-up, q = 2truncation error = 0.00015138.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 17, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 17, N = 3233, convergence = 1e-05, initial = spin-up, q = 2truncation error = 0.00013117.
+Found a record with higher tolerance to use as initial condition
+chi = 17, convergence = 1e-05, N = 3233
+I did an additional 1945 steps.
+stored to database: 
+temperature = 2.2692, chi = 17, N = 5178, convergence = 1e-06, initial = spin-up, q = 2truncation error = 0.00013312.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 19, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 19, N = 3978, convergence = 1e-05, initial = spin-up, q = 2truncation error = 0.00010778.
+Found a record with higher tolerance to use as initial condition
+chi = 19, convergence = 1e-05, N = 3978
+I did an additional 2537 steps.
+stored to database: 
+temperature = 2.2692, chi = 19, N = 6515, convergence = 1e-06, initial = spin-up, q = 2truncation error = 0.00010977.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 21, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 21, N = 4535, convergence = 1e-05, initial = spin-up, q = 2truncation error = 9.1483e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 21, convergence = 1e-05, N = 4535
+I did an additional 2944 steps.
+stored to database: 
+temperature = 2.2692, chi = 21, N = 7479, convergence = 1e-06, initial = spin-up, q = 2truncation error = 9.3417e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 23, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 23, N = 5308, convergence = 1e-05, initial = spin-up, q = 2truncation error = 7.8456e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 23, convergence = 1e-05, N = 5308
+I did an additional 3751 steps.
+stored to database: 
+temperature = 2.2692, chi = 23, N = 9059, convergence = 1e-06, initial = spin-up, q = 2truncation error = 8.0421e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 25, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 25, N = 5741, convergence = 1e-05, initial = spin-up, q = 2truncation error = 6.9341e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 25, convergence = 1e-05, N = 5741
+I did an additional 4068 steps.
+stored to database: 
+temperature = 2.2692, chi = 25, N = 9809, convergence = 1e-06, initial = spin-up, q = 2truncation error = 7.1204e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 27, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 27, N = 7130, convergence = 1e-05, initial = spin-up, q = 2truncation error = 5.6706e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 27, convergence = 1e-05, N = 7130
+I did an additional 5690 steps.
+stored to database: 
+temperature = 2.2692, chi = 27, N = 12820, convergence = 1e-06, initial = spin-up, q = 2truncation error = 5.8614e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 29, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 29, N = 7459, convergence = 1e-05, initial = spin-up, q = 2truncation error = 5.1655e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 29, convergence = 1e-05, N = 7459
+I did an additional 5931 steps.
+stored to database: 
+temperature = 2.2692, chi = 29, N = 13390, convergence = 1e-06, initial = spin-up, q = 2truncation error = 5.3487e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 31, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 31, N = 8284, convergence = 1e-05, initial = spin-up, q = 2truncation error = 4.566e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 31, convergence = 1e-05, N = 8284
+I did an additional 6930 steps.
+stored to database: 
+temperature = 2.2692, chi = 31, N = 15214, convergence = 1e-06, initial = spin-up, q = 2truncation error = 4.7499e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 33, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 33, N = 9212, convergence = 1e-05, initial = spin-up, q = 2truncation error = 4.1705e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 33, convergence = 1e-05, N = 9212
+I did an additional 9033 steps.
+stored to database: 
+temperature = 2.2692, chi = 33, N = 18245, convergence = 1e-06, initial = spin-up, q = 2truncation error = 4.2289e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 35, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 35, N = 9599, convergence = 1e-05, initial = spin-up, q = 2truncation error = 3.8803e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 35, convergence = 1e-05, N = 9599
+I did an additional 8243 steps.
+stored to database: 
+temperature = 2.2692, chi = 35, N = 17842, convergence = 1e-06, initial = spin-up, q = 2truncation error = 4.0628e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 37, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 37, N = 10579, convergence = 1e-05, initial = spin-up, q = 2truncation error = 3.4605e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 37, convergence = 1e-05, N = 10579
+I did an additional 9617 steps.
+stored to database: 
+temperature = 2.2692, chi = 37, N = 20196, convergence = 1e-06, initial = spin-up, q = 2truncation error = 3.6441e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 39, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 39, N = 11455, convergence = 1e-05, initial = spin-up, q = 2truncation error = 3.1771e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 39, convergence = 1e-05, N = 11455
+I did an additional 10836 steps.
+stored to database: 
+temperature = 2.2692, chi = 39, N = 22291, convergence = 1e-06, initial = spin-up, q = 2truncation error = 3.3628e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 41, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 41, N = 11806, convergence = 1e-05, initial = spin-up, q = 2truncation error = 2.9941e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 41, convergence = 1e-05, N = 11806
+I did an additional 11156 steps.
+stored to database: 
+temperature = 2.2692, chi = 41, N = 22962, convergence = 1e-06, initial = spin-up, q = 2truncation error = 3.1754e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 43, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 43, N = 12542, convergence = 1e-05, initial = spin-up, q = 2truncation error = 2.7488e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 43, convergence = 1e-05, N = 12542
+I did an additional 12158 steps.
+stored to database: 
+temperature = 2.2692, chi = 43, N = 24700, convergence = 1e-06, initial = spin-up, q = 2truncation error = 2.9286e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 45, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 45, N = 13691, convergence = 1e-05, initial = spin-up, q = 2truncation error = 2.4766e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 45, convergence = 1e-05, N = 13691
+I did an additional 13785 steps.
+stored to database: 
+temperature = 2.2692, chi = 45, N = 27476, convergence = 1e-06, initial = spin-up, q = 2truncation error = 2.6547e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 47, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 47, N = 14750, convergence = 1e-05, initial = spin-up, q = 2truncation error = 2.2902e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 47, convergence = 1e-05, N = 14750
+I did an additional 15603 steps.
+stored to database: 
+temperature = 2.2692, chi = 47, N = 30353, convergence = 1e-06, initial = spin-up, q = 2truncation error = 2.472e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 49, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 49, N = 14931, convergence = 1e-05, initial = spin-up, q = 2truncation error = 2.2057e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 49, convergence = 1e-05, N = 14931
+I did an additional 15639 steps.
+stored to database: 
+temperature = 2.2692, chi = 49, N = 30570, convergence = 1e-06, initial = spin-up, q = 2truncation error = 2.3811e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 51, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 51, N = 15667, convergence = 1e-05, initial = spin-up, q = 2truncation error = 2.0549e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 51, convergence = 1e-05, N = 15667
+I did an additional 16864 steps.
+stored to database: 
+temperature = 2.2692, chi = 51, N = 32531, convergence = 1e-06, initial = spin-up, q = 2truncation error = 2.23e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 53, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 53, N = 16876, convergence = 1e-05, initial = spin-up, q = 2truncation error = 1.9044e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 53, convergence = 1e-05, N = 16876
+I did an additional 18482 steps.
+stored to database: 
+temperature = 2.2692, chi = 53, N = 35358, convergence = 1e-06, initial = spin-up, q = 2truncation error = 2.0807e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 55, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 55, N = 18203, convergence = 1e-05, initial = spin-up, q = 2truncation error = 1.7564e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 55, convergence = 1e-05, N = 18203
+I did an additional 21079 steps.
+stored to database: 
+temperature = 2.2692, chi = 55, N = 39282, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.937e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 57, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 57, N = 18104, convergence = 1e-05, initial = spin-up, q = 2truncation error = 1.7111e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 57, convergence = 1e-05, N = 18104
+I did an additional 20866 steps.
+stored to database: 
+temperature = 2.2692, chi = 57, N = 38970, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.8855e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 59, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 59, N = 18711, convergence = 1e-05, initial = spin-up, q = 2truncation error = 1.6236e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 59, convergence = 1e-05, N = 18711
+I did an additional 21792 steps.
+stored to database: 
+temperature = 2.2692, chi = 59, N = 40503, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.7971e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 61, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 61, N = 19526, convergence = 1e-05, initial = spin-up, q = 2truncation error = 1.5259e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 61, convergence = 1e-05, N = 19526
+I did an additional 23131 steps.
+stored to database: 
+temperature = 2.2692, chi = 61, N = 42657, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.698e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 63, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 63, N = 20690, convergence = 1e-05, initial = spin-up, q = 2truncation error = 1.4234e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 63, convergence = 1e-05, N = 20690
+I did an additional 25256 steps.
+stored to database: 
+temperature = 2.2692, chi = 63, N = 45946, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.5963e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 65, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 65, N = 21530, convergence = 1e-05, initial = spin-up, q = 2truncation error = 1.3185e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 65, convergence = 1e-05, N = 21530
+I did an additional 28426 steps.
+stored to database: 
+temperature = 2.2692, chi = 65, N = 49956, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.4948e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 67, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 67, N = 21705, convergence = 1e-05, initial = spin-up, q = 2truncation error = 1.3047e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 67, convergence = 1e-05, N = 21705
+I did an additional 27781 steps.
+stored to database: 
+temperature = 2.2692, chi = 67, N = 49486, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.4737e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 69, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 69, N = 22206, convergence = 1e-05, initial = spin-up, q = 2truncation error = 1.2477e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 69, convergence = 1e-05, N = 22206
+I did an additional 28765 steps.
+stored to database: 
+temperature = 2.2692, chi = 69, N = 50971, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.4156e-05.
+Found empty truncation error. Updating...
+Found empty truncation error. Updating...
+Did not find record for:
+chi = 71, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 71, N = 22893, convergence = 1e-05, initial = spin-up, q = 2truncation error = 1.1892e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 71, convergence = 1e-05, N = 22893
+I did an additional 29876 steps.
+stored to database: 
+temperature = 2.2692, chi = 71, N = 52769, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.3556e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 71, convergence = 1e-06, N = 52769
+I did an additional 32663 steps.
+stored to database: 
+temperature = 2.2692, chi = 71, N = 85432, convergence = 1e-07, initial = spin-up, q = 2truncation error = 1.3747e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 71, convergence = 1e-07, N = 85432
+I did an additional 33007 steps.
+stored to database: 
+temperature = 2.2692, chi = 71, N = 118439, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.3766e-05.
+Did not find record for:
+chi = 72, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 72, N = 23360, convergence = 1e-05, initial = spin-up, q = 2truncation error = 1.1469e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 72, convergence = 1e-05, N = 23360
+I did an additional 31059 steps.
+stored to database: 
+temperature = 2.2692, chi = 72, N = 54419, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.3126e-05.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 72, convergence = 1e-07, N = 90444
+I did an additional 32438 steps.
+stored to database: 
+temperature = 2.2692, chi = 72, N = 122882, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.3336e-05.
+Did not find record for:
+chi = 73, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 73, N = 23884, convergence = 1e-05, initial = spin-up, q = 2truncation error = 1.1047e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 73, convergence = 1e-05, N = 23884
+I did an additional 32486 steps.
+stored to database: 
+temperature = 2.2692, chi = 73, N = 56370, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.2698e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 73, convergence = 1e-06, N = 56370
+I did an additional 35770 steps.
+stored to database: 
+temperature = 2.2692, chi = 73, N = 92140, convergence = 1e-07, initial = spin-up, q = 2truncation error = 1.2889e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 73, convergence = 1e-07, N = 92140
+I did an additional 36176 steps.
+stored to database: 
+temperature = 2.2692, chi = 73, N = 128316, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.2909e-05.
+Did not find record for:
+chi = 74, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 74, N = 24367, convergence = 1e-05, initial = spin-up, q = 2truncation error = 1.0819e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 74, convergence = 1e-05, N = 24367
+I did an additional 32792 steps.
+stored to database: 
+temperature = 2.2692, chi = 74, N = 57159, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.2456e-05.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 74, convergence = 1e-07, N = 95153
+I did an additional 34192 steps.
+stored to database: 
+temperature = 2.2692, chi = 74, N = 129345, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.2664e-05.
+Did not find record for:
+chi = 75, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 75, N = 25071, convergence = 1e-05, initial = spin-up, q = 2truncation error = 1.047e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 75, convergence = 1e-05, N = 25071
+I did an additional 34365 steps.
+stored to database: 
+temperature = 2.2692, chi = 75, N = 59436, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.2112e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 75, convergence = 1e-06, N = 59436
+I did an additional 37620 steps.
+stored to database: 
+temperature = 2.2692, chi = 75, N = 97056, convergence = 1e-07, initial = spin-up, q = 2truncation error = 1.23e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 75, convergence = 1e-07, N = 97056
+I did an additional 38054 steps.
+stored to database: 
+temperature = 2.2692, chi = 75, N = 135110, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.2319e-05.
+Did not find record for:
+chi = 76, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 76, N = 24565, convergence = 1e-05, initial = spin-up, q = 2truncation error = 1.0326e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 76, convergence = 1e-05, N = 24565
+I did an additional 34640 steps.
+stored to database: 
+temperature = 2.2692, chi = 76, N = 59205, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.1999e-05.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 76, convergence = 1e-07, N = 98629
+I did an additional 35485 steps.
+stored to database: 
+temperature = 2.2692, chi = 76, N = 134114, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.2203e-05.
+Did not find record for:
+chi = 77, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 77, N = 25159, convergence = 1e-05, initial = spin-up, q = 2truncation error = 1.0287e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 77, convergence = 1e-05, N = 25159
+I did an additional 39274 steps.
+stored to database: 
+temperature = 2.2692, chi = 77, N = 64433, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.1464e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 77, convergence = 1e-06, N = 64433
+I did an additional 41878 steps.
+stored to database: 
+temperature = 2.2692, chi = 77, N = 106311, convergence = 1e-07, initial = spin-up, q = 2truncation error = 1.1656e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 77, convergence = 1e-07, N = 106311
+I did an additional 42438 steps.
+stored to database: 
+temperature = 2.2692, chi = 77, N = 148749, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.1675e-05.
+Did not find record for:
+chi = 78, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 78, N = 25983, convergence = 1e-05, initial = spin-up, q = 2truncation error = 9.7363e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 78, convergence = 1e-05, N = 25983
+I did an additional 37690 steps.
+stored to database: 
+temperature = 2.2692, chi = 78, N = 63673, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.1359e-05.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 78, convergence = 1e-07, N = 108261
+I did an additional 40154 steps.
+stored to database: 
+temperature = 2.2692, chi = 78, N = 148415, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.157e-05.
+Did not find record for:
+chi = 79, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 79, N = 26046, convergence = 1e-05, initial = spin-up, q = 2truncation error = 9.6232e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 79, convergence = 1e-05, N = 26046
+I did an additional 38893 steps.
+stored to database: 
+temperature = 2.2692, chi = 79, N = 64939, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.1084e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 79, convergence = 1e-06, N = 64939
+I did an additional 43190 steps.
+stored to database: 
+temperature = 2.2692, chi = 79, N = 108129, convergence = 1e-07, initial = spin-up, q = 2truncation error = 1.1274e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 79, convergence = 1e-07, N = 108129
+I did an additional 43803 steps.
+stored to database: 
+temperature = 2.2692, chi = 79, N = 151932, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.1294e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 0.00046369, N = 1000
+I did an additional 25297 steps.
+stored to database: 
+temperature = 2.2692, chi = 80, N = 26297, convergence = 1e-05, initial = spin-up, q = 2truncation error = 9.4653e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 1e-05, N = 26297
+I did an additional 38227 steps.
+stored to database: 
+temperature = 2.2692, chi = 80, N = 64524, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.1069e-05.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 1e-07, N = 109966
+I did an additional 40904 steps.
+stored to database: 
+temperature = 2.2692, chi = 80, N = 150870, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.1279e-05.
+Did not find record for:
+chi = 81, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 81, N = 26558, convergence = 1e-05, initial = spin-up, q = 2truncation error = 9.2911e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 81, convergence = 1e-05, N = 26558
+I did an additional 38595 steps.
+stored to database: 
+temperature = 2.2692, chi = 81, N = 65153, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.0885e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 81, convergence = 1e-06, N = 65153
+I did an additional 43293 steps.
+stored to database: 
+temperature = 2.2692, chi = 81, N = 108446, convergence = 1e-07, initial = spin-up, q = 2truncation error = 1.1075e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 81, convergence = 1e-07, N = 108446
+I did an additional 43910 steps.
+stored to database: 
+temperature = 2.2692, chi = 81, N = 152356, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.1094e-05.
+Did not find record for:
+chi = 82, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 82, N = 26928, convergence = 1e-05, initial = spin-up, q = 2truncation error = 9.0485e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 82, convergence = 1e-05, N = 26928
+I did an additional 39712 steps.
+stored to database: 
+temperature = 2.2692, chi = 82, N = 66640, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.0644e-05.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 82, convergence = 1e-07, N = 114107
+I did an additional 42714 steps.
+stored to database: 
+temperature = 2.2692, chi = 82, N = 156821, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.0854e-05.
+Did not find record for:
+chi = 83, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 83, N = 27316, convergence = 1e-05, initial = spin-up, q = 2truncation error = 8.8425e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 83, convergence = 1e-05, N = 27316
+I did an additional 40231 steps.
+stored to database: 
+temperature = 2.2692, chi = 83, N = 67547, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.0424e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 83, convergence = 1e-06, N = 67547
+I did an additional 45270 steps.
+stored to database: 
+temperature = 2.2692, chi = 83, N = 112817, convergence = 1e-07, initial = spin-up, q = 2truncation error = 1.0613e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 83, convergence = 1e-07, N = 112817
+I did an additional 45944 steps.
+stored to database: 
+temperature = 2.2692, chi = 83, N = 158761, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.0633e-05.
+Did not find record for:
+chi = 84, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 84, N = 27592, convergence = 1e-05, initial = spin-up, q = 2truncation error = 8.7136e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 84, convergence = 1e-05, N = 27592
+I did an additional 40688 steps.
+stored to database: 
+temperature = 2.2692, chi = 84, N = 68280, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.0294e-05.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 84, convergence = 1e-07, N = 116859
+I did an additional 43685 steps.
+stored to database: 
+temperature = 2.2692, chi = 84, N = 160544, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.0502e-05.
+Did not find record for:
+chi = 85, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 85, N = 28088, convergence = 1e-05, initial = spin-up, q = 2truncation error = 8.5252e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 85, convergence = 1e-05, N = 28088
+I did an additional 41317 steps.
+stored to database: 
+temperature = 2.2692, chi = 85, N = 69405, convergence = 1e-06, initial = spin-up, q = 2truncation error = 1.0097e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 85, convergence = 1e-06, N = 69405
+I did an additional 46246 steps.
+stored to database: 
+temperature = 2.2692, chi = 85, N = 115651, convergence = 1e-07, initial = spin-up, q = 2truncation error = 1.0284e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 85, convergence = 1e-07, N = 115651
+I did an additional 46897 steps.
+stored to database: 
+temperature = 2.2692, chi = 85, N = 162548, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.0303e-05.
+Did not find record for:
+chi = 86, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 86, N = 28427, convergence = 1e-05, initial = spin-up, q = 2truncation error = 8.3201e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 86, convergence = 1e-05, N = 28427
+I did an additional 42348 steps.
+stored to database: 
+temperature = 2.2692, chi = 86, N = 70775, convergence = 1e-06, initial = spin-up, q = 2truncation error = 9.8903e-06.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 86, convergence = 1e-07, N = 121170
+I did an additional 45286 steps.
+stored to database: 
+temperature = 2.2692, chi = 86, N = 166456, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.0097e-05.
+Did not find record for:
+chi = 87, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 87, N = 28849, convergence = 1e-05, initial = spin-up, q = 2truncation error = 8.0376e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 87, convergence = 1e-05, N = 28849
+I did an additional 44498 steps.
+stored to database: 
+temperature = 2.2692, chi = 87, N = 73347, convergence = 1e-06, initial = spin-up, q = 2truncation error = 9.6114e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 87, convergence = 1e-06, N = 73347
+I did an additional 50464 steps.
+stored to database: 
+temperature = 2.2692, chi = 87, N = 123811, convergence = 1e-07, initial = spin-up, q = 2truncation error = 9.8017e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 87, convergence = 1e-07, N = 123811
+I did an additional 51266 steps.
+stored to database: 
+temperature = 2.2692, chi = 87, N = 175077, convergence = 1e-08, initial = spin-up, q = 2truncation error = 9.8212e-06.
+Did not find record for:
+chi = 88, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 88, N = 29493, convergence = 1e-05, initial = spin-up, q = 2truncation error = 7.7661e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 88, convergence = 1e-05, N = 29493
+I did an additional 46878 steps.
+stored to database: 
+temperature = 2.2692, chi = 88, N = 76371, convergence = 1e-06, initial = spin-up, q = 2truncation error = 9.35e-06.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 88, convergence = 1e-07, N = 133083
+I did an additional 51028 steps.
+stored to database: 
+temperature = 2.2692, chi = 88, N = 184111, convergence = 1e-08, initial = spin-up, q = 2truncation error = 9.5631e-06.
+Did not find record for:
+chi = 89, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 89, N = 30096, convergence = 1e-05, initial = spin-up, q = 2truncation error = 7.5347e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 89, convergence = 1e-05, N = 30096
+I did an additional 49137 steps.
+stored to database: 
+temperature = 2.2692, chi = 89, N = 79233, convergence = 1e-06, initial = spin-up, q = 2truncation error = 9.127e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 89, convergence = 1e-06, N = 79233
+I did an additional 56106 steps.
+stored to database: 
+temperature = 2.2692, chi = 89, N = 135339, convergence = 1e-07, initial = spin-up, q = 2truncation error = 9.3226e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 89, convergence = 1e-07, N = 135339
+I did an additional 57024 steps.
+stored to database: 
+temperature = 2.2692, chi = 89, N = 192363, convergence = 1e-08, initial = spin-up, q = 2truncation error = 9.3427e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 0.00046853, N = 1000
+I did an additional 29281 steps.
+stored to database: 
+temperature = 2.2692, chi = 90, N = 30281, convergence = 1e-05, initial = spin-up, q = 2truncation error = 7.4894e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 1e-05, N = 30281
+I did an additional 50488 steps.
+stored to database: 
+temperature = 2.2692, chi = 90, N = 80769, convergence = 1e-06, initial = spin-up, q = 2truncation error = 8.9526e-06.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 1e-07, N = 142429
+I did an additional 54620 steps.
+stored to database: 
+temperature = 2.2692, chi = 90, N = 197049, convergence = 1e-08, initial = spin-up, q = 2truncation error = 9.1738e-06.
+Did not find record for:
+chi = 91, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 91, N = 30275, convergence = 1e-05, initial = spin-up, q = 2truncation error = 7.4729e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 91, convergence = 1e-05, N = 30275
+I did an additional 49504 steps.
+stored to database: 
+temperature = 2.2692, chi = 91, N = 79779, convergence = 1e-06, initial = spin-up, q = 2truncation error = 8.9276e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 91, convergence = 1e-06, N = 79779
+I did an additional 61919 steps.
+stored to database: 
+temperature = 2.2692, chi = 91, N = 141698, convergence = 1e-07, initial = spin-up, q = 2truncation error = 9.0441e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 91, convergence = 1e-07, N = 141698
+I did an additional 58756 steps.
+stored to database: 
+temperature = 2.2692, chi = 91, N = 200454, convergence = 1e-08, initial = spin-up, q = 2truncation error = 9.0642e-06.
+Did not find record for:
+chi = 92, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 92, N = 30052, convergence = 1e-05, initial = spin-up, q = 2truncation error = 7.4617e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 92, convergence = 1e-05, N = 30052
+I did an additional 51046 steps.
+stored to database: 
+temperature = 2.2692, chi = 92, N = 81098, convergence = 1e-06, initial = spin-up, q = 2truncation error = 8.7948e-06.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 92, convergence = 1e-07, N = 142300
+I did an additional 55040 steps.
+stored to database: 
+temperature = 2.2692, chi = 92, N = 197340, convergence = 1e-08, initial = spin-up, q = 2truncation error = 9.0094e-06.
+Did not find record for:
+chi = 93, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 93, N = 30739, convergence = 1e-05, initial = spin-up, q = 2truncation error = 7.2311e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 93, convergence = 1e-05, N = 30739
+I did an additional 49725 steps.
+stored to database: 
+temperature = 2.2692, chi = 93, N = 80464, convergence = 1e-06, initial = spin-up, q = 2truncation error = 8.7865e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 93, convergence = 1e-06, N = 80464
+I did an additional 57036 steps.
+stored to database: 
+temperature = 2.2692, chi = 93, N = 137500, convergence = 1e-07, initial = spin-up, q = 2truncation error = 8.9784e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 93, convergence = 1e-07, N = 137500
+I did an additional 58020 steps.
+stored to database: 
+temperature = 2.2692, chi = 93, N = 195520, convergence = 1e-08, initial = spin-up, q = 2truncation error = 8.9981e-06.
+Did not find record for:
+chi = 94, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 94, N = 30907, convergence = 1e-05, initial = spin-up, q = 2truncation error = 7.1557e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 94, convergence = 1e-05, N = 30907
+I did an additional 49815 steps.
+stored to database: 
+temperature = 2.2692, chi = 94, N = 80722, convergence = 1e-06, initial = spin-up, q = 2truncation error = 8.6998e-06.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 94, convergence = 1e-07, N = 154801
+I did an additional 55620 steps.
+stored to database: 
+temperature = 2.2692, chi = 94, N = 210421, convergence = 1e-08, initial = spin-up, q = 2truncation error = 8.8144e-06.
+Did not find record for:
+chi = 95, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 95, N = 31186, convergence = 1e-05, initial = spin-up, q = 2truncation error = 7.052e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 95, convergence = 1e-05, N = 31186
+I did an additional 50484 steps.
+stored to database: 
+temperature = 2.2692, chi = 95, N = 81670, convergence = 1e-06, initial = spin-up, q = 2truncation error = 8.5984e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 95, convergence = 1e-06, N = 81670
+I did an additional 57949 steps.
+stored to database: 
+temperature = 2.2692, chi = 95, N = 139619, convergence = 1e-07, initial = spin-up, q = 2truncation error = 8.7892e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 95, convergence = 1e-07, N = 139619
+I did an additional 58974 steps.
+stored to database: 
+temperature = 2.2692, chi = 95, N = 198593, convergence = 1e-08, initial = spin-up, q = 2truncation error = 8.8088e-06.
+Did not find record for:
+chi = 96, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 96, N = 31458, convergence = 1e-05, initial = spin-up, q = 2truncation error = 6.9326e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 96, convergence = 1e-05, N = 31458
+I did an additional 50909 steps.
+stored to database: 
+temperature = 2.2692, chi = 96, N = 82367, convergence = 1e-06, initial = spin-up, q = 2truncation error = 8.4702e-06.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 96, convergence = 1e-07, N = 144373
+I did an additional 55687 steps.
+stored to database: 
+temperature = 2.2692, chi = 96, N = 200060, convergence = 1e-08, initial = spin-up, q = 2truncation error = 8.6793e-06.
+Did not find record for:
+chi = 97, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 97, N = 31787, convergence = 1e-05, initial = spin-up, q = 2truncation error = 6.7681e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 97, convergence = 1e-05, N = 31787
+I did an additional 52043 steps.
+stored to database: 
+temperature = 2.2692, chi = 97, N = 83830, convergence = 1e-06, initial = spin-up, q = 2truncation error = 8.3015e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 97, convergence = 1e-06, N = 83830
+I did an additional 59790 steps.
+stored to database: 
+temperature = 2.2692, chi = 97, N = 143620, convergence = 1e-07, initial = spin-up, q = 2truncation error = 8.4914e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 97, convergence = 1e-07, N = 143620
+I did an additional 60850 steps.
+stored to database: 
+temperature = 2.2692, chi = 97, N = 204470, convergence = 1e-08, initial = spin-up, q = 2truncation error = 8.5109e-06.
+Did not find record for:
+chi = 98, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 98, N = 32101, convergence = 1e-05, initial = spin-up, q = 2truncation error = 6.6261e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 98, convergence = 1e-05, N = 32101
+I did an additional 53520 steps.
+stored to database: 
+temperature = 2.2692, chi = 98, N = 85621, convergence = 1e-06, initial = spin-up, q = 2truncation error = 8.1275e-06.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 98, convergence = 1e-07, N = 150977
+I did an additional 58691 steps.
+stored to database: 
+temperature = 2.2692, chi = 98, N = 209668, convergence = 1e-08, initial = spin-up, q = 2truncation error = 8.3373e-06.
+Did not find record for:
+chi = 99, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 99, N = 32207, convergence = 1e-05, initial = spin-up, q = 2truncation error = 6.4513e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 99, convergence = 1e-05, N = 32207
+I did an additional 55619 steps.
+stored to database: 
+temperature = 2.2692, chi = 99, N = 87826, convergence = 1e-06, initial = spin-up, q = 2truncation error = 7.9008e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 99, convergence = 1e-06, N = 87826
+I did an additional 64756 steps.
+stored to database: 
+temperature = 2.2692, chi = 99, N = 152582, convergence = 1e-07, initial = spin-up, q = 2truncation error = 8.0922e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 99, convergence = 1e-07, N = 152582
+I did an additional 66084 steps.
+stored to database: 
+temperature = 2.2692, chi = 99, N = 218666, convergence = 1e-08, initial = spin-up, q = 2truncation error = 8.112e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 1.1542e-05, N = 29600
+I did an additional 2998 steps.
+stored to database: 
+temperature = 2.2692, chi = 100, N = 32598, convergence = 1e-05, initial = spin-up, q = 2truncation error = 6.3606e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 1e-05, N = 32598
+I did an additional 54849 steps.
+stored to database: 
+temperature = 2.2692, chi = 100, N = 87447, convergence = 1e-06, initial = spin-up, q = 2truncation error = 7.8911e-06.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 1e-07, N = 154210
+I did an additional 60331 steps.
+stored to database: 
+temperature = 2.2692, chi = 100, N = 214541, convergence = 1e-08, initial = spin-up, q = 2truncation error = 8.095e-06.
+Did not find record for:
+chi = 101, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 101, N = 32890, convergence = 1e-05, initial = spin-up, q = 2truncation error = 6.3386e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 101, convergence = 1e-05, N = 32890
+I did an additional 57525 steps.
+stored to database: 
+temperature = 2.2692, chi = 101, N = 90415, convergence = 1e-06, initial = spin-up, q = 2truncation error = 7.6706e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 101, convergence = 1e-06, N = 90415
+I did an additional 66322 steps.
+stored to database: 
+temperature = 2.2692, chi = 101, N = 156737, convergence = 1e-07, initial = spin-up, q = 2truncation error = 7.8608e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 101, convergence = 1e-07, N = 156737
+I did an additional 67651 steps.
+stored to database: 
+temperature = 2.2692, chi = 101, N = 224388, convergence = 1e-08, initial = spin-up, q = 2truncation error = 7.8803e-06.
+Did not find record for:
+chi = 102, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 102, N = 33055, convergence = 1e-05, initial = spin-up, q = 2truncation error = 6.3104e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 102, convergence = 1e-05, N = 33055
+I did an additional 60742 steps.
+stored to database: 
+temperature = 2.2692, chi = 102, N = 93797, convergence = 1e-06, initial = spin-up, q = 2truncation error = 7.4804e-06.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 102, convergence = 1e-07, N = 167814
+I did an additional 66160 steps.
+stored to database: 
+temperature = 2.2692, chi = 102, N = 233974, convergence = 1e-08, initial = spin-up, q = 2truncation error = 7.6929e-06.
+Did not find record for:
+chi = 103, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 103, N = 33496, convergence = 1e-05, initial = spin-up, q = 2truncation error = 6.1807e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 103, convergence = 1e-05, N = 33496
+I did an additional 62106 steps.
+stored to database: 
+temperature = 2.2692, chi = 103, N = 95602, convergence = 1e-06, initial = spin-up, q = 2truncation error = 7.3516e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 103, convergence = 1e-06, N = 95602
+I did an additional 71399 steps.
+stored to database: 
+temperature = 2.2692, chi = 103, N = 167001, convergence = 1e-07, initial = spin-up, q = 2truncation error = 7.5442e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 103, convergence = 1e-07, N = 167001
+I did an additional 72912 steps.
+stored to database: 
+temperature = 2.2692, chi = 103, N = 239913, convergence = 1e-08, initial = spin-up, q = 2truncation error = 7.5641e-06.
+Did not find record for:
+chi = 104, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 104, N = 33904, convergence = 1e-05, initial = spin-up, q = 2truncation error = 5.9641e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 104, convergence = 1e-05, N = 33904
+I did an additional 62810 steps.
+stored to database: 
+temperature = 2.2692, chi = 104, N = 96714, convergence = 1e-06, initial = spin-up, q = 2truncation error = 7.2867e-06.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 104, convergence = 1e-07, N = 172768
+I did an additional 68405 steps.
+stored to database: 
+temperature = 2.2692, chi = 104, N = 241173, convergence = 1e-08, initial = spin-up, q = 2truncation error = 7.498e-06.
+Did not find record for:
+chi = 105, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 105, N = 34394, convergence = 1e-05, initial = spin-up, q = 2truncation error = 5.7815e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 105, convergence = 1e-05, N = 34394
+I did an additional 65783 steps.
+stored to database: 
+temperature = 2.2692, chi = 105, N = 100177, convergence = 1e-06, initial = spin-up, q = 2truncation error = 7.114e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 105, convergence = 1e-06, N = 100177
+I did an additional 75562 steps.
+stored to database: 
+temperature = 2.2692, chi = 105, N = 175739, convergence = 1e-07, initial = spin-up, q = 2truncation error = 7.309e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 105, convergence = 1e-07, N = 175739
+I did an additional 77223 steps.
+stored to database: 
+temperature = 2.2692, chi = 105, N = 252962, convergence = 1e-08, initial = spin-up, q = 2truncation error = 7.3291e-06.
+Did not find record for:
+chi = 106, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 106, N = 35085, convergence = 1e-05, initial = spin-up, q = 2truncation error = 5.6023e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 106, convergence = 1e-05, N = 35085
+I did an additional 63425 steps.
+stored to database: 
+temperature = 2.2692, chi = 106, N = 98510, convergence = 1e-06, initial = spin-up, q = 2truncation error = 7.0925e-06.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 106, convergence = 1e-07, N = 178335
+I did an additional 71798 steps.
+stored to database: 
+temperature = 2.2692, chi = 106, N = 250133, convergence = 1e-08, initial = spin-up, q = 2truncation error = 7.3051e-06.
+Did not find record for:
+chi = 107, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 107, N = 35154, convergence = 1e-05, initial = spin-up, q = 2truncation error = 5.5216e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 107, convergence = 1e-05, N = 35154
+I did an additional 63887 steps.
+stored to database: 
+temperature = 2.2692, chi = 107, N = 99041, convergence = 1e-06, initial = spin-up, q = 2truncation error = 7.0077e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 107, convergence = 1e-06, N = 99041
+I did an additional 75574 steps.
+stored to database: 
+temperature = 2.2692, chi = 107, N = 174615, convergence = 1e-07, initial = spin-up, q = 2truncation error = 7.2001e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 107, convergence = 1e-07, N = 174615
+I did an additional 77255 steps.
+stored to database: 
+temperature = 2.2692, chi = 107, N = 251870, convergence = 1e-08, initial = spin-up, q = 2truncation error = 7.22e-06.
+Did not find record for:
+chi = 108, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 108, N = 35341, convergence = 1e-05, initial = spin-up, q = 2truncation error = 5.497e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 108, convergence = 1e-05, N = 35341
+I did an additional 63915 steps.
+stored to database: 
+temperature = 2.2692, chi = 108, N = 99256, convergence = 1e-06, initial = spin-up, q = 2truncation error = 6.9762e-06.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 108, convergence = 1e-07, N = 179934
+I did an additional 72696 steps.
+stored to database: 
+temperature = 2.2692, chi = 108, N = 252630, convergence = 1e-08, initial = spin-up, q = 2truncation error = 7.1863e-06.
+Did not find record for:
+chi = 109, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 109, N = 35518, convergence = 1e-05, initial = spin-up, q = 2truncation error = 5.4286e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 109, convergence = 1e-05, N = 35518
+I did an additional 64186 steps.
+stored to database: 
+temperature = 2.2692, chi = 109, N = 99704, convergence = 1e-06, initial = spin-up, q = 2truncation error = 6.8988e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 109, convergence = 1e-06, N = 99704
+I did an additional 81816 steps.
+stored to database: 
+temperature = 2.2692, chi = 109, N = 181520, convergence = 1e-07, initial = spin-up, q = 2truncation error = 7.0261e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 109, convergence = 1e-07, N = 181520
+I did an additional 79336 steps.
+stored to database: 
+temperature = 2.2692, chi = 109, N = 260856, convergence = 1e-08, initial = spin-up, q = 2truncation error = 7.046e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 110, convergence = 0.00047538, N = 1000
+I did an additional 34802 steps.
+stored to database: 
+temperature = 2.2692, chi = 110, N = 35802, convergence = 1e-05, initial = spin-up, q = 2truncation error = 5.3344e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 110, convergence = 1e-05, N = 35802
+I did an additional 65228 steps.
+stored to database: 
+temperature = 2.2692, chi = 110, N = 101030, convergence = 1e-06, initial = spin-up, q = 2truncation error = 6.8071e-06.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 110, convergence = 1e-07, N = 183610
+I did an additional 74242 steps.
+stored to database: 
+temperature = 2.2692, chi = 110, N = 257852, convergence = 1e-08, initial = spin-up, q = 2truncation error = 7.0187e-06.
+Did not find record for:
+chi = 111, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 111, N = 35983, convergence = 1e-05, initial = spin-up, q = 2truncation error = 5.2797e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 111, convergence = 1e-05, N = 35983
+I did an additional 67260 steps.
+stored to database: 
+temperature = 2.2692, chi = 111, N = 103243, convergence = 1e-06, initial = spin-up, q = 2truncation error = 6.6796e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 111, convergence = 1e-06, N = 103243
+I did an additional 78661 steps.
+stored to database: 
+temperature = 2.2692, chi = 111, N = 181904, convergence = 1e-07, initial = spin-up, q = 2truncation error = 6.87e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 111, convergence = 1e-07, N = 181904
+I did an additional 80456 steps.
+stored to database: 
+temperature = 2.2692, chi = 111, N = 262360, convergence = 1e-08, initial = spin-up, q = 2truncation error = 6.8897e-06.
+Did not find record for:
+chi = 112, temperature = 2.2692, tolerance = 1e-05, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 112, N = 36260, convergence = 1e-05, initial = spin-up, q = 2truncation error = 5.202e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 112, convergence = 1e-05, N = 36260
+I did an additional 66081 steps.
+stored to database: 
+temperature = 2.2692, chi = 112, N = 102341, convergence = 1e-06, initial = spin-up, q = 2truncation error = 6.6644e-06.
+Found empty truncation error. Updating...
+Found a record with higher tolerance to use as initial condition
+chi = 112, convergence = 1e-07, N = 185887
+I did an additional 75089 steps.
+stored to database: 
+temperature = 2.2692, chi = 112, N = 260976, convergence = 1e-08, initial = spin-up, q = 2truncation error = 6.8742e-06.
 set chi to 40
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.0346, chi = 40, N = 120, convergence = 5.4657e-13, initial = spin-up, q = 4truncation error = 6.7602e-07.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.0346, chi = 40, N = 160, convergence = 3.0833e-14, initial = spin-up, q = 4truncation error = 6.7602e-07.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.0346, chi = 40, N = 200, convergence = 3.4454e-15, initial = spin-up, q = 4truncation error = 6.7602e-07.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.0568, chi = 40, N = 120, convergence = 2.8454e-12, initial = spin-up, q = 4truncation error = 2.0414e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.0568, chi = 40, N = 160, convergence = 1.3882e-13, initial = spin-up, q = 4truncation error = 2.0414e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.0568, chi = 40, N = 200, convergence = 7.3048e-15, initial = spin-up, q = 4truncation error = 2.0414e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.079, chi = 40, N = 120, convergence = 3.2442e-10, initial = spin-up, q = 4truncation error = 6.8968e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.079, chi = 40, N = 160, convergence = 1.1705e-12, initial = spin-up, q = 4truncation error = 6.8968e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.079, chi = 40, N = 200, convergence = 4.3841e-14, initial = spin-up, q = 4truncation error = 6.8968e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
 set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1013, chi = 60, N = 120, convergence = 1.7676e-06, initial = spin-up, q = 4truncation error = 6.4738e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1013, chi = 60, N = 160, convergence = 2.5301e-08, initial = spin-up, q = 4truncation error = 6.4764e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1013, chi = 60, N = 200, convergence = 3.364e-10, initial = spin-up, q = 4truncation error = 6.4764e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
 set chi to 80
-Found record: 0 iterations remaining.
-set chi to 100
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 120
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1235, chi = 120, N = 120, convergence = 0.0014666, initial = spin-up, q = 4truncation error = 6.9266e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1235, chi = 120, N = 160, convergence = 0.00045389, initial = spin-up, q = 4truncation error = 8.4925e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1235, chi = 120, N = 200, convergence = 0.00013351, initial = spin-up, q = 4truncation error = 9.1255e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 80
-Found record: 0 iterations remaining.
-set chi to 100
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 120
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1246, chi = 120, N = 120, convergence = 0.001903, initial = spin-up, q = 4truncation error = 7.9513e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1246, chi = 120, N = 160, convergence = 0.00066513, initial = spin-up, q = 4truncation error = 1.0146e-05.
-set chi to 140
-Did not find record
-stored to database: 
-temperature = 1.1246, chi = 140, N = 160, convergence = 0.00071028, initial = spin-up, q = 4truncation error = 6.4692e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1246, chi = 140, N = 200, convergence = 0.0002496, initial = spin-up, q = 4truncation error = 7.15e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 80
-Found record: 0 iterations remaining.
-set chi to 100
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 120
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1268, chi = 120, N = 120, convergence = 0.0029015, initial = spin-up, q = 4truncation error = 1.0745e-05.
-set chi to 140
-Did not find record
-stored to database: 
-temperature = 1.1268, chi = 140, N = 120, convergence = 0.0030407, initial = spin-up, q = 4truncation error = 6.8287e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1268, chi = 140, N = 160, convergence = 0.0014216, initial = spin-up, q = 4truncation error = 9.5596e-06.
-Found record: 0 iterations remaining.
-set chi to 160
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1268, chi = 160, N = 200, convergence = 0.00062929, initial = spin-up, q = 4truncation error = 7.3355e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 80
-Found record: 0 iterations remaining.
-set chi to 100
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 120
-Found record: 0 iterations remaining.
-set chi to 140
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.129, chi = 140, N = 120, convergence = 0.004653, initial = spin-up, q = 4truncation error = 9.2137e-06.
-Found record: 0 iterations remaining.
-set chi to 160
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.129, chi = 160, N = 160, convergence = 0.0026211, initial = spin-up, q = 4truncation error = 8.9909e-06.
-Found record: 0 iterations remaining.
-set chi to 180
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.129, chi = 180, N = 200, convergence = 0.0015043, initial = spin-up, q = 4truncation error = 7.7381e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 80
-Found record: 0 iterations remaining.
-set chi to 100
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 120
-Found record: 0 iterations remaining.
-set chi to 140
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1313, chi = 140, N = 120, convergence = 0.0068141, initial = spin-up, q = 4truncation error = 1.2203e-05.
-set chi to 160
-Did not find record
-stored to database: 
-temperature = 1.1313, chi = 160, N = 120, convergence = 0.0069516, initial = spin-up, q = 4truncation error = 7.5188e-06.
-Found record: 0 iterations remaining.
-set chi to 180
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1313, chi = 180, N = 160, convergence = 0.0046515, initial = spin-up, q = 4truncation error = 8.9454e-06.
-Found record: 0 iterations remaining.
-set chi to 200
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1313, chi = 200, N = 200, convergence = 0.0032032, initial = spin-up, q = 4truncation error = 9.1749e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 80
-Found record: 0 iterations remaining.
-set chi to 100
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 120
-Found record: 0 iterations remaining.
-set chi to 140
-Found record: 0 iterations remaining.
-set chi to 160
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1335, chi = 160, N = 120, convergence = 0.0096128, initial = spin-up, q = 4truncation error = 9.6359e-06.
-Found record: 0 iterations remaining.
-set chi to 180
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1335, chi = 180, N = 160, convergence = 0.0073471, initial = spin-up, q = 4truncation error = 1.2656e-05.
-set chi to 200
-Did not find record
-stored to database: 
-temperature = 1.1335, chi = 200, N = 160, convergence = 0.0074586, initial = spin-up, q = 4truncation error = 8.8438e-06.
-Found record: 0 iterations remaining.
-set chi to 220
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1335, chi = 220, N = 200, convergence = 0.0059571, initial = spin-up, q = 4truncation error = 1.0176e-05.
-set chi to 240
-Did not find record
-stored to database: 
-temperature = 1.1335, chi = 240, N = 200, convergence = 0.0060765, initial = spin-up, q = 4truncation error = 7.9794e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 80
-Found record: 0 iterations remaining.
-set chi to 100
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 120
-Found record: 0 iterations remaining.
-set chi to 140
-Found record: 0 iterations remaining.
-set chi to 160
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1336, chi = 160, N = 120, convergence = 0.009753, initial = spin-up, q = 4truncation error = 9.7483e-06.
-Found record: 0 iterations remaining.
-set chi to 180
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1336, chi = 180, N = 160, convergence = 0.0074832, initial = spin-up, q = 4truncation error = 1.2805e-05.
-set chi to 200
-Did not find record
-stored to database: 
-temperature = 1.1336, chi = 200, N = 160, convergence = 0.0076096, initial = spin-up, q = 4truncation error = 8.9812e-06.
-Found record: 0 iterations remaining.
-set chi to 220
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1336, chi = 220, N = 200, convergence = 0.0061143, initial = spin-up, q = 4truncation error = 1.0371e-05.
-set chi to 240
-Did not find record
-stored to database: 
-temperature = 1.1336, chi = 240, N = 200, convergence = 0.0062356, initial = spin-up, q = 4truncation error = 8.1417e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 80
-Found record: 0 iterations remaining.
-set chi to 100
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 120
-Found record: 0 iterations remaining.
-set chi to 140
-Found record: 0 iterations remaining.
-set chi to 160
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1341, chi = 160, N = 120, convergence = 0.010387, initial = spin-up, q = 4truncation error = 1.0259e-05.
-set chi to 180
-Did not find record
-stored to database: 
-temperature = 1.1341, chi = 180, N = 120, convergence = 0.010592, initial = spin-up, q = 4truncation error = 7.1607e-06.
-Found record: 0 iterations remaining.
-set chi to 200
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1341, chi = 200, N = 160, convergence = 0.0082961, initial = spin-up, q = 4truncation error = 9.6076e-06.
-Found record: 0 iterations remaining.
-set chi to 220
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1341, chi = 220, N = 200, convergence = 0.0068347, initial = spin-up, q = 4truncation error = 1.1263e-05.
-set chi to 240
-Did not find record
-stored to database: 
-temperature = 1.1341, chi = 240, N = 200, convergence = 0.0069641, initial = spin-up, q = 4truncation error = 8.8888e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 80
-Found record: 0 iterations remaining.
-set chi to 100
-Found record: 0 iterations remaining.
-set chi to 120
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 140
-Found record: 0 iterations remaining.
-set chi to 160
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1346, chi = 160, N = 120, convergence = 0.011021, initial = spin-up, q = 4truncation error = 1.0776e-05.
-set chi to 180
-Did not find record
-stored to database: 
-temperature = 1.1346, chi = 180, N = 120, convergence = 0.011235, initial = spin-up, q = 4truncation error = 7.5316e-06.
-Found record: 0 iterations remaining.
-set chi to 200
-Found record: 0 iterations remaining.
-Found record: 10 iterations remaining.
-stored to database: 
-temperature = 1.1346, chi = 200, N = 160, convergence = 0.0089853, initial = spin-up, q = 4truncation error = 1.0242e-05.
-set chi to 220
-Did not find record
-stored to database: 
-temperature = 1.1346, chi = 220, N = 160, convergence = 0.0091141, initial = spin-up, q = 4truncation error = 7.4628e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1346, chi = 220, N = 200, convergence = 0.0075628, initial = spin-up, q = 4truncation error = 1.2173e-05.
-set chi to 240
-Did not find record
-stored to database: 
-temperature = 1.1346, chi = 240, N = 200, convergence = 0.0076998, initial = spin-up, q = 4truncation error = 9.6558e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 80
-Found record: 0 iterations remaining.
-set chi to 100
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 120
-Found record: 0 iterations remaining.
-set chi to 140
-Found record: 0 iterations remaining.
-set chi to 160
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1351, chi = 160, N = 120, convergence = 0.011647, initial = spin-up, q = 4truncation error = 1.1295e-05.
-set chi to 180
-Did not find record
-stored to database: 
-temperature = 1.1351, chi = 180, N = 120, convergence = 0.01187, initial = spin-up, q = 4truncation error = 7.8996e-06.
-Found record: 0 iterations remaining.
-set chi to 200
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1351, chi = 200, N = 160, convergence = 0.0096631, initial = spin-up, q = 4truncation error = 1.0843e-05.
-set chi to 220
-Did not find record
-stored to database: 
-temperature = 1.1351, chi = 220, N = 160, convergence = 0.0098014, initial = spin-up, q = 4truncation error = 7.9257e-06.
-Found record: 0 iterations remaining.
-set chi to 240
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1351, chi = 240, N = 200, convergence = 0.0084212, initial = spin-up, q = 4truncation error = 1.0428e-05.
-set chi to 260
-Did not find record
-stored to database: 
-temperature = 1.1351, chi = 260, N = 200, convergence = 0.0085104, initial = spin-up, q = 4truncation error = 7.8268e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 80
-Found record: 0 iterations remaining.
-set chi to 100
-Found record: 0 iterations remaining.
-set chi to 120
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 140
-Found record: 0 iterations remaining.
-set chi to 160
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1356, chi = 160, N = 120, convergence = 0.012256, initial = spin-up, q = 4truncation error = 1.1768e-05.
-set chi to 180
-Did not find record
-stored to database: 
-temperature = 1.1356, chi = 180, N = 120, convergence = 0.012491, initial = spin-up, q = 4truncation error = 8.2688e-06.
-Found record: 0 iterations remaining.
-set chi to 200
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1356, chi = 200, N = 160, convergence = 0.010316, initial = spin-up, q = 4truncation error = 1.1457e-05.
-set chi to 220
-Did not find record
-stored to database: 
-temperature = 1.1356, chi = 220, N = 160, convergence = 0.010468, initial = spin-up, q = 4truncation error = 8.3756e-06.
-Found record: 0 iterations remaining.
-set chi to 240
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1356, chi = 240, N = 200, convergence = 0.0090966, initial = spin-up, q = 4truncation error = 1.1005e-05.
-set chi to 260
-Did not find record
-stored to database: 
-temperature = 1.1356, chi = 260, N = 200, convergence = 0.0091987, initial = spin-up, q = 4truncation error = 8.3694e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 80
-Found record: 0 iterations remaining.
-set chi to 100
-Found record: 0 iterations remaining.
-set chi to 120
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 140
-Found record: 0 iterations remaining.
-set chi to 160
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1357, chi = 160, N = 120, convergence = 0.012389, initial = spin-up, q = 4truncation error = 1.1879e-05.
-set chi to 180
-Did not find record
-stored to database: 
-temperature = 1.1357, chi = 180, N = 120, convergence = 0.012627, initial = spin-up, q = 4truncation error = 8.3527e-06.
-Found record: 0 iterations remaining.
-set chi to 200
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1357, chi = 200, N = 160, convergence = 0.010456, initial = spin-up, q = 4truncation error = 1.1592e-05.
-set chi to 220
-Did not find record
-stored to database: 
-temperature = 1.1357, chi = 220, N = 160, convergence = 0.0106, initial = spin-up, q = 4truncation error = 8.478e-06.
-Found record: 0 iterations remaining.
-set chi to 240
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1357, chi = 240, N = 200, convergence = 0.00924, initial = spin-up, q = 4truncation error = 1.1162e-05.
-set chi to 260
-Did not find record
-stored to database: 
-temperature = 1.1357, chi = 260, N = 200, convergence = 0.0093434, initial = spin-up, q = 4truncation error = 8.487e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 80
-Found record: 0 iterations remaining.
-set chi to 100
-Found record: 0 iterations remaining.
-set chi to 120
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 140
-Found record: 0 iterations remaining.
-set chi to 160
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1379, chi = 160, N = 120, convergence = 0.014659, initial = spin-up, q = 4truncation error = 1.3964e-05.
-set chi to 180
-Did not find record
-stored to database: 
-temperature = 1.1379, chi = 180, N = 120, convergence = 0.014927, initial = spin-up, q = 4truncation error = 9.8495e-06.
-Found record: 0 iterations remaining.
-set chi to 200
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1379, chi = 200, N = 160, convergence = 0.012539, initial = spin-up, q = 4truncation error = 1.3806e-05.
-set chi to 220
-Did not find record
-stored to database: 
-temperature = 1.1379, chi = 220, N = 160, convergence = 0.012711, initial = spin-up, q = 4truncation error = 1.026e-05.
-set chi to 240
-Did not find record
-stored to database: 
-temperature = 1.1379, chi = 240, N = 160, convergence = 0.012846, initial = spin-up, q = 4truncation error = 7.8529e-06.
-Found record: 0 iterations remaining.
-set chi to 260
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1379, chi = 260, N = 200, convergence = 0.011073, initial = spin-up, q = 4truncation error = 1.0245e-05.
-set chi to 280
-Did not find record
-stored to database: 
-temperature = 1.1379, chi = 280, N = 200, convergence = 0.011168, initial = spin-up, q = 4truncation error = 8.0498e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 80
-Found record: 0 iterations remaining.
-set chi to 100
-Found record: 0 iterations remaining.
-set chi to 120
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 140
-Found record: 0 iterations remaining.
-set chi to 160
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1401, chi = 160, N = 120, convergence = 0.015698, initial = spin-up, q = 4truncation error = 1.5378e-05.
-set chi to 180
-Did not find record
-stored to database: 
-temperature = 1.1401, chi = 180, N = 120, convergence = 0.015981, initial = spin-up, q = 4truncation error = 1.0928e-05.
-set chi to 200
-Did not find record
-stored to database: 
-temperature = 1.1401, chi = 200, N = 120, convergence = 0.016179, initial = spin-up, q = 4truncation error = 7.3148e-06.
-Found record: 0 iterations remaining.
-set chi to 220
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1401, chi = 220, N = 160, convergence = 0.012659, initial = spin-up, q = 4truncation error = 1.1069e-05.
-set chi to 240
-Did not find record
-stored to database: 
-temperature = 1.1401, chi = 240, N = 160, convergence = 0.012788, initial = spin-up, q = 4truncation error = 8.1137e-06.
-Found record: 0 iterations remaining.
-set chi to 260
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1401, chi = 260, N = 200, convergence = 0.0097556, initial = spin-up, q = 4truncation error = 1.0439e-05.
-set chi to 280
-Did not find record
-stored to database: 
-temperature = 1.1401, chi = 280, N = 200, convergence = 0.0098422, initial = spin-up, q = 4truncation error = 8.2681e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 80
-Found record: 0 iterations remaining.
-set chi to 100
-Found record: 0 iterations remaining.
-set chi to 120
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 140
-Found record: 0 iterations remaining.
-set chi to 160
-Found record: 0 iterations remaining.
-set chi to 180
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1424, chi = 180, N = 120, convergence = 0.015364, initial = spin-up, q = 4truncation error = 1.135e-05.
-set chi to 200
-Did not find record
-stored to database: 
-temperature = 1.1424, chi = 200, N = 120, convergence = 0.015556, initial = spin-up, q = 4truncation error = 7.5703e-06.
-Found record: 0 iterations remaining.
-set chi to 220
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1424, chi = 220, N = 160, convergence = 0.010447, initial = spin-up, q = 4truncation error = 1.0463e-05.
-set chi to 240
-Did not find record
-stored to database: 
-temperature = 1.1424, chi = 240, N = 160, convergence = 0.010524, initial = spin-up, q = 4truncation error = 7.7534e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1424, chi = 240, N = 200, convergence = 0.0064101, initial = spin-up, q = 4truncation error = 1.155e-05.
-set chi to 260
-Did not find record
-stored to database: 
-temperature = 1.1424, chi = 260, N = 200, convergence = 0.0064855, initial = spin-up, q = 4truncation error = 9.1992e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 80
-Found record: 0 iterations remaining.
-set chi to 100
-Found record: 0 iterations remaining.
-set chi to 120
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 140
-Found record: 0 iterations remaining.
-set chi to 160
-Found record: 0 iterations remaining.
-set chi to 180
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1446, chi = 180, N = 120, convergence = 0.013272, initial = spin-up, q = 4truncation error = 1.1052e-05.
-set chi to 200
-Did not find record
-stored to database: 
-temperature = 1.1446, chi = 200, N = 120, convergence = 0.01344, initial = spin-up, q = 4truncation error = 7.3696e-06.
-Found record: 0 iterations remaining.
-set chi to 220
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1446, chi = 220, N = 160, convergence = 0.0072397, initial = spin-up, q = 4truncation error = 9.1967e-06.
-Found record: 0 iterations remaining.
-set chi to 240
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1446, chi = 240, N = 200, convergence = 0.0034273, initial = spin-up, q = 4truncation error = 9.2014e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 80
-Found record: 0 iterations remaining.
-set chi to 100
-Found record: 0 iterations remaining.
-set chi to 120
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 140
-Found record: 0 iterations remaining.
-set chi to 160
-Found record: 0 iterations remaining.
-set chi to 180
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1457, chi = 180, N = 120, convergence = 0.011882, initial = spin-up, q = 4truncation error = 1.0668e-05.
-set chi to 200
-Did not find record
-stored to database: 
-temperature = 1.1457, chi = 200, N = 120, convergence = 0.012035, initial = spin-up, q = 4truncation error = 7.1179e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1457, chi = 200, N = 160, convergence = 0.0056153, initial = spin-up, q = 4truncation error = 1.1752e-05.
-set chi to 220
-Did not find record
-stored to database: 
-temperature = 1.1457, chi = 220, N = 160, convergence = 0.005726, initial = spin-up, q = 4truncation error = 8.3894e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1457, chi = 220, N = 200, convergence = 0.0023351, initial = spin-up, q = 4truncation error = 1.0712e-05.
-set chi to 240
-Did not find record
-stored to database: 
-temperature = 1.1457, chi = 240, N = 200, convergence = 0.0023644, initial = spin-up, q = 4truncation error = 8.0369e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 80
-Found record: 0 iterations remaining.
-set chi to 100
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 120
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1679, chi = 120, N = 120, convergence = 8.2822e-05, initial = spin-up, q = 4truncation error = 7.1209e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1679, chi = 120, N = 160, convergence = 2.3133e-06, initial = spin-up, q = 4truncation error = 7.1704e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1679, chi = 120, N = 200, convergence = 5.5237e-08, initial = spin-up, q = 4truncation error = 7.1721e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-set chi to 80
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1901, chi = 80, N = 120, convergence = 9.6332e-08, initial = spin-up, q = 4truncation error = 8.0356e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1901, chi = 80, N = 160, convergence = 1.6733e-10, initial = spin-up, q = 4truncation error = 8.0356e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.1901, chi = 80, N = 200, convergence = 2.5596e-13, initial = spin-up, q = 4truncation error = 8.0356e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.2124, chi = 60, N = 120, convergence = 8.3616e-11, initial = spin-up, q = 4truncation error = 8.9451e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.2124, chi = 60, N = 160, convergence = 4.4322e-14, initial = spin-up, q = 4truncation error = 8.9451e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.2124, chi = 60, N = 200, convergence = 5.7036e-15, initial = spin-up, q = 4truncation error = 8.9451e-06.
-Found record: 0 iterations remaining.
-set chi to 40
-Found record: 0 iterations remaining.
-set chi to 60
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.2346, chi = 60, N = 120, convergence = 2.0375e-12, initial = spin-up, q = 4truncation error = 3.825e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.2346, chi = 60, N = 160, convergence = 1.5963e-14, initial = spin-up, q = 4truncation error = 3.825e-06.
-Found record: 0 iterations remaining.
-Found record: 20 iterations remaining.
-stored to database: 
-temperature = 1.2346, chi = 60, N = 200, convergence = 3.0982e-15, initial = spin-up, q = 4truncation error = 3.825e-06.
 
-collapse = 
+slope =
 
-  DataCollapseN with properties:
+   0.154760503046644
 
-      truncation_error: 1.000000000000000e-05
-                     q: 4
-          temperatures: [1x25 double]
-    scaling_quantities: [25x8 double]
-              N_values: [20 60 100 120 140 160 180 200]
-            simulation: [1x1 FixedTruncationErrorSimulation]
-        initial_T_crit: 2.269185314213022
-          initial_beta: 0.125000000000000
-            initial_nu: 1
-               results: []
 
+intercept =
 
-temperatures =
+   0.019915005217237
 
-  Columns 1 through 3
 
-   1.034592657106511   1.056814879328733   1.079037101550955
+mse =
 
-  Columns 4 through 6
+     3.069207439783746e-05
 
-   1.101259323773178   1.123481545995400   1.124592657106511
 
-  Columns 7 through 9
+kappa =
 
-   1.126814879328733   1.129037101550955   1.131259323773178
-
-  Columns 10 through 12
-
-   1.133481545995400   1.133592657106511   1.134092657106511
-
-  Columns 13 through 15
-
-   1.134592657106511   1.135092657106511   1.135592657106511
-
-  Columns 16 through 18
-
-   1.135703768217622   1.137925990439844   1.140148212662067
-
-  Columns 19 through 21
-
-   1.142370434884289   1.144592657106511   1.145703768217622
-
-  Columns 22 through 24
-
-   1.167925990439844   1.190148212662067   1.212370434884289
-
-  Column 25
-
-   1.234592657106511
-
-
-temperatures =
-
-  Columns 1 through 3
-
-   1.034592657106511   1.056814879328733   1.079037101550955
-
-  Columns 4 through 6
-
-   1.101259323773178   1.123481545995400   1.124592657106511
-
-  Columns 7 through 9
-
-   1.126814879328733   1.129037101550955   1.131259323773178
-
-  Columns 10 through 12
-
-   1.133481545995400   1.133592657106511   1.134092657106511
-
-  Columns 13 through 15
-
-   1.134592657106511   1.135092657106511   1.135592657106511
-
-  Columns 16 through 18
-
-   1.135703768217622   1.137925990439844   1.140148212662067
-
-  Columns 19 through 21
-
-   1.142370434884289   1.144592657106511   1.145703768217622
-
-  Columns 22 through 24
-
-   1.167925990439844   1.190148212662067   1.212370434884289
-
-  Column 25
-
-   1.234592657106511
-
-
-N_values =
-
-    20    60   100   120   140   160   180   200
-
-
-scaling_quantities =
-
-  Columns 1 through 3
-
-   0.884344899285743   0.884332720778659   0.884332720773248
-   0.860948163856152   0.860864159399102   0.860864158520220
-   0.829702740470900   0.829126144682040   0.829126008001191
-   0.785395753473955   0.781344851517848   0.781323406208660
-   0.718973222177006   0.688331049246776   0.684792707711952
-   0.714860828124954   0.680910389071267   0.676370662942759
-   0.706376131829390   0.664731426698860   0.657312287475932
-   0.697536711288880   0.646546070388081   0.634574783713307
-   0.688333744715258   0.626082426543175   0.607130947613562
-   0.678759813045370   0.603086179892556   0.573830424850159
-   0.678271267426452   0.601865924161911   0.571992300203019
-   0.676061136066012   0.596289372629727   0.563504449654158
-   0.673831860666814   0.590563321240558   0.554656487086906
-   0.671583394149444   0.584711901389884   0.545441667806588
-   0.669315694867321   0.578698507344133   0.535855342206768
-   0.668809146073716   0.577344654772343   0.533674324234640
-   0.658477881079083   0.548767193902476   0.486222598803056
-   0.647764388405357   0.517382473307037   0.432124613679832
-   0.636669281776394   0.483410596362260   0.373408920296014
-   0.625195903300385   0.447277766143296   0.313376154648198
-   0.619319191218448   0.428589445673419   0.284011352755057
-   0.485298795150247   0.112361011927205   0.017165566236612
-   0.339861704274613   0.018756424678319   0.000708640670198
-   0.215973739124281   0.002903787655127   0.000029634118483
-   0.128839691995864   0.000452992876648   0.000001311046728
-
-  Columns 4 through 6
-
-   0.884332720773248   0.884332720773248   0.884332720773248
-   0.860864158520201   0.860864158520201   0.860864158520201
-   0.829126007943644   0.829126007942312   0.829126007942281
-   0.781323251267893   0.781323236387122   0.781323234896745
-   0.684392817052687   0.684226621111456   0.684156139722385
-   0.675787287464107   0.675525891609972   0.675405512035042
-   0.656084936565900   0.655447987283018   0.655110147456218
-   0.632071386396126   0.630561438628661   0.629632418312191
-   0.602195576818889   0.598769922342016   0.596341432846134
-   0.564594507350196   0.557325331087622   0.551467640022514
-   0.562477734847200   0.554946455110264   0.548842217897430
-   0.552640860653860   0.543843274516323   0.536524603661059
-   0.542310030917924   0.532074478354356   0.523354512142271
-   0.531464832191872   0.519620001377882   0.509307129609501
-   0.520096730779738   0.506468668446003   0.494365206076060
-   0.517499251333831   0.503451132281022   0.490922991222209
-   0.460236728887951   0.436145278490977   0.413362755460597
-   0.394340576271558   0.358527220583088   0.324408770406121
-   0.324132059407774   0.278360180186664   0.236437990464255
-   0.255595786162610   0.204824488241951   0.161558145251866
-   0.223736812781512   0.172705788946471   0.131005145183852
-   0.006410545496943   0.002365987267122   0.000867656871428
-   0.000134929413006   0.000025604846508   0.000004852834619
-   0.000002969587837   0.000000297363774   0.000000029771350
-   0.000000070287312   0.000000003767476   0.000000000201914
-
-  Columns 7 through 8
-
-   0.884332720773249   0.884332720773248
-   0.860864158520201   0.860864158520201
-   0.829126007942279   0.829126007942278
-   0.781323234742252   0.781323234725804
-   0.684125777743667   0.684112530429683
-   0.675350333752017   0.675324471402375
-   0.654927938024054   0.654829084162591
-   0.629049991896977   0.628683398820363
-   0.594587577093078   0.593305180370381
-   0.546648548519242   0.542610400345137
-   0.543790727992729   0.539532665139579
-   0.530310789283869   0.524937172380978
-   0.515777399426274   0.509066718967616
-   0.500132550368430   0.491858282719540
-   0.483391275340802   0.473296344852547
-   0.479519328025990   0.468987631142377
-   0.391519597117610   0.370484620864139
-   0.291913578660102   0.261241056314832
-   0.198736221936919   0.165379112940239
-   0.125711161451972   0.096746556048437
-   0.098000612161012   0.072505285594186
-   0.000317076625585   0.000115652525609
-   0.000000919323955   0.000000174127557
-   0.000000002980458   0.000000000298344
-   0.000000000010797   0.000000000000551
-
-
-ans = 
-
-    T_crit: 1.199949390280112
-      beta: 0.100000004967758
-        nu: 1.091445961278660
-       mse: 29.618508624379448
-
-
-ans =
-
-    40    40    40    40    40    40    40    40
-    40    40    40    40    40    40    40    40
-    40    40    40    40    40    40    40    40
-    40    60    60    60    60    60    60    60
-    60   100   120   120   120   120   120   120
-    60   100   120   120   120   140   140   140
-    60   100   120   140   140   140   160   160
-    60   100   140   140   160   160   180   180
-    60   100   140   160   180   180   200   200
-    60   100   160   160   180   200   220   240
-    60   100   160   160   180   200   220   240
-    60   100   160   180   200   200   220   240
-    60   120   160   180   200   220   220   240
-    60   100   160   180   200   220   240   260
-    60   120   160   180   200   220   240   260
-    60   120   160   180   200   220   240   260
-    60   120   160   180   200   240   260   280
-    60   120   160   200   220   240   260   280
-    60   120   180   200   220   240   240   260
-    60   120   180   200   220   220   240   240
-    60   120   180   200   200   220   220   240
-    60   100   120   120   120   120   120   120
-    60    80    80    80    80    80    80    80
-    60    60    60    60    60    60    60    60
-    60    60    60    60    60    60    60    60
-
-
-ans =
-
-   1.0e-05 *
-
-  Columns 1 through 3
-
-   0.050602780261569   0.067601499575539   0.067601746337732
-   0.123310328140826   0.204114769210913   0.204141711606034
-   0.287282601755944   0.687285604118588   0.689676884285789
-   0.595913500270247   0.582834625823398   0.645680316007466
-   0.147890941662122   0.488941253937616   0.563118709801690
-   0.152146604539786   0.530287818199121   0.641098743020198
-   0.160361697830246   0.619976062959104   0.831382887127131
-   0.169283495531031   0.713777887932047   0.663966925586783
-   0.178357944563787   0.812407852141374   0.836095161093827
-   0.187503913827961   0.916666276654191   0.624580089626484
-   0.187963355057578   0.921993306207254   0.630804456275773
-   0.190032773739478   0.946054462567163   0.659038879233165
-   0.236219636334079   0.470709399160073   0.687549548583900
-   0.195172615479838   0.994500414330295   0.716058195869268
-   0.197182856912352   0.495617837592125   0.742105868592316
-   0.197629769782941   0.498334443321694   0.748277084191616
-   0.206507727370408   0.551983097952140   0.866487173820694
-   0.215064795641163   0.602400825932025   0.957539400313388
-   0.223536058079131   0.646902381517996   0.705575867675207
-   0.231882291806300   0.682930674450655   0.713934541736919
-   0.235990054409065   0.697063376106556   0.705706466809913
-   0.298567721141135   0.967475947316149   0.693762051445464
-   0.300644414222433   0.735859188650169   0.803403086904755
-   0.248095099543686   0.892441726924633   0.894511990641599
-   0.171376732646204   0.382442374687594   0.382503741342818
-
-  Columns 4 through 6
-
-   0.067601746343291   0.067601746344516   0.067601746344803
-   0.204141712675852   0.204141712692934   0.204141712695504
-   0.689678892538118   0.689678944646736   0.689678945997769
-   0.647379910843529   0.647609862008302   0.647638564360817
-   0.692661790326206   0.787924605914262   0.849254589015742
-   0.795132951097331   0.927368491846708   0.646920252513612
-   0.682871688487800   0.827423661400957   0.955964697475174
-   0.921368789315730   0.744710166952778   0.899092962460904
-   0.751880827859219   0.706579344822055   0.894541334741003
-   0.963589377880623   0.954535974292759   0.884381188032208
-   0.974831037337215   0.966687985463727   0.898119441393680
-   0.716073221602394   0.711911028568427   0.960758740397419
-   0.753155926338871   0.753759447051993   0.746280488025240
-   0.789958549378564   0.793029853291460   0.792570059076200
-   0.826879782848653   0.833833415267760   0.837560723022939
-   0.835273459135658   0.842807733322595   0.847802077729274
-   0.984950501892161   0.995815933753806   0.785289320840085
-   0.731478575077194   0.801562380731105   0.811369571453218
-   0.757029433748940   0.794214628493425   0.775341789958396
-   0.736957738491218   0.724687619466140   0.919665559984573
-   0.711792683807725   0.958442975091693   0.838941375339859
-   0.712090228715727   0.716235410595226   0.717040210870316
-   0.803557066353237   0.803564353692050   0.803564675524526
-   0.894512493044565   0.894512498838728   0.894512498868116
-   0.382503740763661   0.382503740629181   0.382503740618344
-
-  Columns 7 through 8
-
-   0.067601746344870   0.067601746344886
-   0.204141712696060   0.204141712696172
-   0.689678946038600   0.689678946041089
-   0.647641999958000   0.647642401727962
-   0.888742173597970   0.912549553041518
-   0.687666110107357   0.714995453948650
-   0.681702486646746   0.733550711414086
-   0.692882058601281   0.773811168692809
-   0.780116729660606   0.917489679890931
-   0.826315702611889   0.797941796498973
-   0.840641853255103   0.814165668920952
-   0.906134971038717   0.888880393311054
-   0.972673797611636   0.965584283603284
-   0.820485936361546   0.782677701302761
-   0.862102643607279   0.836935062358176
-   0.873602186811304   0.848697847869666
-   0.795952647084483   0.804983895345953
-   0.832274378702260   0.826811303115560
-   0.972359436235360   0.919921809169512
-   0.810432033646477   0.920138876791482
-   0.970368871455389   0.803692680306745
-   0.717182053661296   0.717205554704399
-   0.803564689063421   0.803564689613455
-   0.894512498865737   0.894512498865364
-   0.382503740617512   0.382503740617465
+   1.857126036559731
 
 >> 
