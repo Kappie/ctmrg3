@@ -2,12 +2,12 @@ function main
   rehash;
 
 
-  find_T_pseudocrit_oo
+  % find_T_pseudocrit_oo
   % find_T_pseudocrit_chi
   % plot_order_param
   % tolerance_vs_order_param
   % test_data_collapse_chi
-  % plot_entropy_at_T_crit
+  plot_entropy_at_T_crit
   % data_collapse_nishino_optimize
   % crossover_between_chi_and_N
   % calculate_beta_finite_N

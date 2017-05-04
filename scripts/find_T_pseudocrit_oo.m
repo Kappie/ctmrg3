@@ -1,7 +1,7 @@
 function find_T_pseudocrit_oo
   q = 2;
   % N_values = 10:5:120;
-  N_values = 700:60:1000;
+  N_values = 20:20:680;
   TolX = 1e-6;
   TolXFit = 1e-10;
   N_min = 350;
@@ -9,16 +9,20 @@ function find_T_pseudocrit_oo
   search_width = 1e-2;
 
   sim = FindTCritFixedN(q, TolX, N_values);
-  sim.max_truncation_error = 1e-5;
-  sim.chi_start = 100;
+  sim.max_truncation_error = 1e-6;
+  sim.chi_start = 200;
   sim = sim.run();
-  sim.T_pseudocrits
-  sim.truncation_errors
 
-  [T_crit, mse] = fit_power_law3(N_values, sim.T_pseudocrits, exclude, search_width, TolXFit)
-  xlabel('$N$')
-  ylabel('$T^{*}(N)$')
-  title(['Fit to $T^{*}(N)$ for second order transition for $q = ' num2str(q) '$ clock model.'])
+  entropies = sim.compute('entropy');
+  skipBegin = 5;
+
+  [slope, intercept, mse] = logfit(N_values, entropies, 'logx', 'skipBegin', skipBegin)
+  central_charge = 6*slope
+
+  % [T_crit, mse] = fit_power_law3(N_values, sim.T_pseudocrits, exclude, search_width, TolXFit)
+  % xlabel('$N$')
+  % ylabel('$T^{*}(N)$')
+  % title(['Fit to $T^{*}(N)$ for second order transition for $q = ' num2str(q) '$ clock model.'])
   % [T_crit, mse, ~] = fit_kosterlitz_transition2(sim.T_pseudocrits, N_values, exclude, search_width, TolXFit)
   % xlabel('$N$')
   % ylabel('$T^{*}(N)$')
