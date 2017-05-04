@@ -1,17 +1,17 @@
 function plot_entropy_at_T_crit
   q = 2;
   temperature = Constants.T_crit_guess(q);
-  chi_values = 8:2:70;
+  chi_values = 8:1:70;
   % chi_values = [22 32 38 46 54 64]
   N_values = 50:50:1000;
   % chi_values = [24, 28, 33, 38, 43, 49, 56, 64, 72];
-  tolerances = [1e-5 1e-6 1e-7 1e-8 1e-9];
+  tolerances = [1e-9];
   max_truncation_error = 1e-6;
   skip_begin = 0;
   used_chi = numel(chi_values) - skip_begin
   used_N = numel(N_values) - skip_begin
 
-  sim_chi = FixedToleranceSimulation(temperature, chi_values, tolerance, q).run();
+  sim_chi = FixedToleranceSimulation(temperature, chi_values, tolerances, q).run();
   sim_N = FixedTruncationErrorSimulation(temperature, N_values, max_truncation_error, q).run();
   % [slope, intercept] = logfit(N_values, sim_N.compute('entropy'), 'logx', 'skipBegin', skip_begin)
   entropies = sim_chi.compute('entropy');
