@@ -2,8 +2,8 @@ function main
   rehash;
 
 
-  % find_T_pseudocrit_oo
-  find_T_pseudocrit_chi
+  find_T_pseudocrit_oo
+  % find_T_pseudocrit_chi
   % plot_order_param
   % tolerance_vs_order_param
   % test_data_collapse_chi
