@@ -34,7 +34,7 @@ classdef Constants
       elseif q == 5
         T = 0.944;
       elseif q == 6
-        0.908;
+        T = 0.908;
       else
         error('I do not know that value of q')
       end
