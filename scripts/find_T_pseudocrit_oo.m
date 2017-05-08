@@ -1,6 +1,6 @@
 function find_T_pseudocrit_oo
   q = 6;
-  N_values = 10:5:100;
+  N_values = 85:5:100;
   % N_values = 20:20:680;
   TolX = 1e-6;
   TolXFit = 1e-10;
