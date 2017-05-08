@@ -1,4 +1,4 @@
-function [T_crit, error_of_fit, exitflag] = fit_kosterlitz_transition2(T_pseudocrits, length_scales, exclude, search_width, TolX)
+function [T_crit, error_of_fit, exitflag] = fit_kosterlitz_transition2(T_pseudocrits, length_scales, exclude, T_crit_guess, search_width, TolX)
   % minimize_options = optimset('Display', 'iter', 'TolX', TolX, 'TolFun', TolX);
   minimize_options = optimset('TolX', TolX, 'TolFun', TolX);
   T_crit_guess = T_pseudocrits(end);
@@ -23,6 +23,7 @@ function [T_crit, error_of_fit, exitflag] = fit_kosterlitz_transition2(T_pseudoc
   [p, S] = polyfit(reduced_temperatures(~exclude), log(length_scales_to_fit), ORDER_LINEAR_FUNCTION);
   slope = p(1); intercept = p(2);
 
+  % Plot fit on linear scale
   length_scales_to_plot = linspace(length_scales(1), length_scales(end));
   T_pseudocrits_best_fit = T_crit + slope^(1/sigma).*log(length_scales_to_plot./exp(intercept)).^(-1/sigma);
 
@@ -31,6 +32,24 @@ function [T_crit, error_of_fit, exitflag] = fit_kosterlitz_transition2(T_pseudoc
   markerplot(length_scales, T_pseudocrits, 'None')
   plot(length_scales_to_plot, T_pseudocrits_best_fit, 'Color', 'black')
   hold off
+
+  % Plot fit on scale in which fit becomes linear
+  a = exp(intercept);
+  b = slope;
+
+  figure
+  hold on
+
+  markerplot(linearize_kosterlitz_fit(length_scales, a, b, sigma, T_crit), T_pseudocrits, 'None')
+  % plot(intercept + slope*(T_pseudocrits_best_fit - T_crit).^(-sigma), log(length_scales_to_plot))
+  plot(linearize_kosterlitz_fit(length_scales_to_plot, a, b, sigma, T_crit), T_pseudocrits_best_fit, ...
+    'Color', 'black')
+  % plot(length_scales_to_plot, T_pseudocrits_best_fit)
+  % plot()
+  hold off
+
+
+
 
 
   % temperatures_to_plot = linspace(reduced_temperatures(1), reduced_temperatures(end));
@@ -47,4 +66,9 @@ function [T_crit, error_of_fit, exitflag] = fit_kosterlitz_transition2(T_pseudoc
   % % plot(exp(intercept)*exp(slope*temperatures_to_plot), length_scales_best_fit, 'Color', 'black')
   % hold off
   % title(['Kosterlitz-Thouless fit. $T_c = ' num2str(T_crit) '$.'])
+end
+
+function x_values = linearize_kosterlitz_fit(length_scales, a, b, sigma, T_crit)
+  % x_values = b^(1/sigma)./(log(length_scales/a)) + T_crit;
+  x_values = 1 ./ (log(length_scales./a)).^(1/sigma);
 end
