@@ -1,12 +1,13 @@
 function find_T_pseudocrit_oo
-  q = 5;
-  N_values = 95:5:110;
+  q = 6;
+  N_values = 10:5:100;
   % N_values = 20:20:680;
   TolX = 1e-6;
   TolXFit = 1e-10;
-  N_min = 350;
+  N_min = 70;
   exclude = N_values < N_min;
-  search_width = 1e-2;
+  T_crit_guess = Constants.T_crit_guess(q)
+  search_width = 1e-1;
 
   sim = FindTCritFixedN(q, TolX, N_values);
   sim.max_truncation_error = 1e-6;
@@ -16,14 +17,15 @@ function find_T_pseudocrit_oo
   entropies = sim.compute('entropy');
   skipBegin = 5;
 
-  [slope, intercept, mse] = logfit(N_values, entropies, 'logx', 'skipBegin', skipBegin)
-  central_charge = 6*slope
+  % [slope, intercept, mse] = logfit(N_values, entropies, 'logx', 'skipBegin', skipBegin)
+  % central_charge = 6*slope
 
   % [T_crit, mse] = fit_power_law3(N_values, sim.T_pseudocrits, exclude, search_width, TolXFit)
   % xlabel('$N$')
   % ylabel('$T^{*}(N)$')
   % title(['Fit to $T^{*}(N)$ for second order transition for $q = ' num2str(q) '$ clock model.'])
-  % [T_crit, mse, ~] = fit_kosterlitz_transition2(sim.T_pseudocrits, N_values, exclude, search_width, TolXFit)
+  % [T_crit, mse, ~] = fit_kosterlitz_transition2(sim.T_pseudocrits, N_values, exclude, T_crit_guess, ...
+  %   search_width, TolXFit)
   % xlabel('$N$')
   % ylabel('$T^{*}(N)$')
   % title(['Fit to $T^{*}(N)$ for BKT-transition for $q = ' num2str(q) '$ clock model.'])
