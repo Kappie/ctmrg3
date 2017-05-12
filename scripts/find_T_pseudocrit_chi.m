@@ -4,7 +4,7 @@ function find_T_pseudocrit_chi
   % chi_values = [10 12 14 20 30 33 38 43 49 56];
   % q = 2 values entropy
   % chi_values = [10:2:32 33 38 43 49 56];
-  chi_values = [10:2:60];
+  chi_values = [10:2:50];
   % chi_values = [10:2:32];
   % chi_values = [20:5:80 90]
   % q = 4 values entropy
@@ -16,7 +16,7 @@ function find_T_pseudocrit_chi
 
   % Parameters for power law fitting
   TolXFit = 1e-12;
-  search_width = 1e-2;
+  search_width = 1e-3;
   T_crit_guess = 0.95;
   % Fit power law of the form
   % T_pseudocrit(L) = a*L^{-lambda} + T_c

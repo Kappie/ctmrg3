@@ -1,5 +1,8 @@
 classdef FixedNSimulation < Simulation
   properties
+    MIN_CONVERGENCE = 1e-11;
+    % check every STEP_SIZE steps if MIN_CONVERGENCE is reached.
+    STEP_SIZE = 20;
     convergences = [];
   end
   methods

@@ -19,14 +19,14 @@ function tensor_struct = find_or_calculate_environment(obj, temperature, chi, N)
     display('Did not find record');
     iterations_remaining = N;
     [initial_C, initial_T] = obj.initial_tensors(temperature);
-    [C, T, convergence, truncation_error] = obj.calculate_environment(...
+    [C, T, convergence, truncation_error, finished] = obj.calculate_environment(...
       temperature, chi, iterations_remaining, initial_C, initial_T);
   else
     iterations_remaining = N - query_result.n;
     % display(['Found record: ' num2str(iterations_remaining) ' iterations remaining.'])
     if iterations_remaining > 0
       [initial_C, initial_T] = Util.deserialize_tensors(query_result);
-      [C, T, convergence, truncation_error] = obj.calculate_environment(temperature, chi, iterations_remaining, initial_C, initial_T);
+      [C, T, convergence, truncation_error, finished] = obj.calculate_environment(temperature, chi, iterations_remaining, initial_C, initial_T);
     else
       % 0 iterations remaining, nothing to simulate!
       [C, T] = Util.deserialize_tensors(query_result);
@@ -46,7 +46,7 @@ function tensor_struct = find_or_calculate_environment(obj, temperature, chi, N)
     end
   end
 
-  if iterations_remaining > 0
+  if iterations_remaining > 0 & finished
     obj.save_to_db(temperature, chi, N, convergence, C, T, truncation_error);
   end
 
