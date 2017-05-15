@@ -4,7 +4,7 @@ function find_T_pseudocrit_chi
   % chi_values = [10 12 14 20 30 33 38 43 49 56];
   % q = 2 values entropy
   % chi_values = [10:2:32 33 38 43 49 56];
-  chi_values = [10:2:50];
+  chi_values = [10:1:60];
   % chi_values = [10:2:32];
   % chi_values = [20:5:80 90]
   % q = 4 values entropy
@@ -13,6 +13,7 @@ function find_T_pseudocrit_chi
   % chi_values = [10:2:20 25 34 46 59 75 96];
   TolX = 1e-6;
   method = 'entropy';
+  tolerance = 1e-8;
 
   % Parameters for power law fitting
   TolXFit = 1e-12;
@@ -35,6 +36,7 @@ function find_T_pseudocrit_chi
 
   sim = FindTCritFixedChi(q, TolX, chi_values);
   sim.method = method;
+  sim.tolerance = tolerance;
   sim = sim.run();
   exclude
   % markerplot(chi_values, sim.T_pseudocrits, '--')

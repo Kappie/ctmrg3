@@ -1,4 +1,4 @@
-function [C, T, convergence, truncation_error, finished] = calculate_environment(obj, temperature, chi, N, initial_C, initial_T)
+function [C, T, convergence, truncation_error] = calculate_environment(obj, temperature, chi, N, initial_C, initial_T)
   C = initial_C;
   T = initial_T;
   singular_values = obj.initial_singular_values(chi);
@@ -13,26 +13,9 @@ function [C, T, convergence, truncation_error, finished] = calculate_environment
   % hickups_in_a_row = 0;
   % end addition
 
-  break_next_time = false;
-
   for iteration = 1:N
     singular_values_old = singular_values;
     [C, T, singular_values, truncation_error] = obj.grow_lattice(chi, a, C, T);
-
-    if mod(iteration, obj.STEP_SIZE) == 0
-      if break_next_time
-        finished = false
-        display(['Stopped at iteration ' num2str(iteration) ' because MIN_CONVERGENCE ' ...
-          num2str(obj.MIN_CONVERGENCE) ' was reached.'])
-        break
-      end
-
-      if obj.calculate_convergence(singular_values, singular_values_old, chi) < obj.MIN_CONVERGENCE
-        break_next_time = true;
-      end
-    end
-
-    finished = true;
 
     % Addition to inspect tolerance behaviour
     % if mod(iteration, step_size) == 0
