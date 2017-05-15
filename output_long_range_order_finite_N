@@ -1,0 +1,797 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 160
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 160
+set chi to 180
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 160
+set chi to 180
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 160
+set chi to 180
+set chi to 200
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 160
+set chi to 180
+set chi to 200
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 160
+set chi to 180
+set chi to 200
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 160
+set chi to 180
+set chi to 200
+set chi to 220
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 160
+set chi to 180
+set chi to 200
+set chi to 220
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 160
+set chi to 180
+set chi to 200
+set chi to 220
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 160
+set chi to 180
+set chi to 200
+set chi to 220
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 160
+set chi to 180
+set chi to 200
+set chi to 220
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 160
+set chi to 180
+set chi to 200
+set chi to 220
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 160
+set chi to 180
+set chi to 200
+set chi to 220
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 160
+set chi to 180
+set chi to 200
+set chi to 220
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 160
+set chi to 180
+set chi to 200
+set chi to 220
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 160
+set chi to 180
+set chi to 200
+set chi to 220
+set chi to 240
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 160
+set chi to 180
+set chi to 200
+set chi to 220
+set chi to 240
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 160
+set chi to 180
+set chi to 200
+set chi to 220
+set chi to 240
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 160
+set chi to 180
+set chi to 200
+set chi to 220
+set chi to 240
+set chi to 40
+set chi to 60
+set chi to 80
+set chi to 100
+set chi to 120
+set chi to 140
+set chi to 160
+set chi to 180
+set chi to 200
+set chi to 220
+set chi to 240
+set chi to 40
+set chi to 60
+stored to database: 
+temperature = 0.9125, chi = 60, N = 20, convergence = 0.050787, initial = spin-up, q = 6truncation error = 1.5154e-05.
+set chi to 80
+Did not find record
+stored to database: 
+temperature = 0.9125, chi = 80, N = 20, convergence = 0.052612, initial = spin-up, q = 6truncation error = 4.3551e-06.
+stored to database: 
+temperature = 0.9125, chi = 80, N = 25, convergence = 0.043875, initial = spin-up, q = 6truncation error = 9.8725e-06.
+stored to database: 
+temperature = 0.9125, chi = 80, N = 30, convergence = 0.03766, initial = spin-up, q = 6truncation error = 1.77e-05.
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 0.9125, chi = 100, N = 30, convergence = 0.038823, initial = spin-up, q = 6truncation error = 7.0449e-06.
+stored to database: 
+temperature = 0.9125, chi = 100, N = 35, convergence = 0.034176, initial = spin-up, q = 6truncation error = 1.1531e-05.
+set chi to 120
+Did not find record
+stored to database: 
+temperature = 0.9125, chi = 120, N = 35, convergence = 0.035022, initial = spin-up, q = 6truncation error = 5.7417e-06.
+stored to database: 
+temperature = 0.9125, chi = 120, N = 40, convergence = 0.031411, initial = spin-up, q = 6truncation error = 8.7671e-06.
+stored to database: 
+temperature = 0.9125, chi = 120, N = 45, convergence = 0.028497, initial = spin-up, q = 6truncation error = 1.2393e-05.
+set chi to 140
+Did not find record
+stored to database: 
+temperature = 0.9125, chi = 140, N = 45, convergence = 0.029093, initial = spin-up, q = 6truncation error = 6.9107e-06.
+stored to database: 
+temperature = 0.9125, chi = 140, N = 50, convergence = 0.026691, initial = spin-up, q = 6truncation error = 9.4296e-06.
+stored to database: 
+temperature = 0.9125, chi = 140, N = 55, convergence = 0.024665, initial = spin-up, q = 6truncation error = 1.2294e-05.
+set chi to 160
+Did not find record
+stored to database: 
+temperature = 0.9125, chi = 160, N = 55, convergence = 0.025116, initial = spin-up, q = 6truncation error = 7.5754e-06.
+stored to database: 
+temperature = 0.9125, chi = 160, N = 60, convergence = 0.023387, initial = spin-up, q = 6truncation error = 9.6634e-06.
+stored to database: 
+temperature = 0.9125, chi = 160, N = 65, convergence = 0.021889, initial = spin-up, q = 6truncation error = 1.1968e-05.
+set chi to 180
+Did not find record
+stored to database: 
+temperature = 0.9125, chi = 180, N = 65, convergence = 0.022235, initial = spin-up, q = 6truncation error = 7.902e-06.
+stored to database: 
+temperature = 0.9125, chi = 180, N = 70, convergence = 0.020936, initial = spin-up, q = 6truncation error = 9.6679e-06.
+stored to database: 
+temperature = 0.9125, chi = 180, N = 75, convergence = 0.019788, initial = spin-up, q = 6truncation error = 1.1584e-05.
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.9125, chi = 200, N = 75, convergence = 0.020068, initial = spin-up, q = 6truncation error = 8.0662e-06.
+stored to database: 
+temperature = 0.9125, chi = 200, N = 80, convergence = 0.019034, initial = spin-up, q = 6truncation error = 9.5535e-06.
+stored to database: 
+temperature = 0.9125, chi = 200, N = 85, convergence = 0.018105, initial = spin-up, q = 6truncation error = 1.1141e-05.
+set chi to 220
+Did not find record
+stored to database: 
+temperature = 0.9125, chi = 220, N = 85, convergence = 0.018354, initial = spin-up, q = 6truncation error = 8.0859e-06.
+stored to database: 
+temperature = 0.9125, chi = 220, N = 90, convergence = 0.017513, initial = spin-up, q = 6truncation error = 9.3572e-06.
+stored to database: 
+temperature = 0.9125, chi = 220, N = 95, convergence = 0.016749, initial = spin-up, q = 6truncation error = 1.07e-05.
+set chi to 240
+Did not find record
+stored to database: 
+temperature = 0.9125, chi = 240, N = 95, convergence = 0.016951, initial = spin-up, q = 6truncation error = 7.9332e-06.
+stored to database: 
+temperature = 0.9125, chi = 240, N = 100, convergence = 0.016254, initial = spin-up, q = 6truncation error = 9.0181e-06.
+Did not find record
+stored to database: 
+temperature = 0.925, chi = 20, N = 10, convergence = 0.075354, initial = spin-up, q = 6truncation error = 0.00015423.
+set chi to 40
+Did not find record
+stored to database: 
+temperature = 0.925, chi = 40, N = 10, convergence = 0.086503, initial = spin-up, q = 6truncation error = 6.345e-06.
+stored to database: 
+temperature = 0.925, chi = 40, N = 15, convergence = 0.061315, initial = spin-up, q = 6truncation error = 3.1156e-05.
+set chi to 60
+Did not find record
+stored to database: 
+temperature = 0.925, chi = 60, N = 15, convergence = 0.064917, initial = spin-up, q = 6truncation error = 5.1787e-06.
+stored to database: 
+temperature = 0.925, chi = 60, N = 20, convergence = 0.051231, initial = spin-up, q = 6truncation error = 1.5438e-05.
+set chi to 80
+Did not find record
+stored to database: 
+temperature = 0.925, chi = 80, N = 20, convergence = 0.053093, initial = spin-up, q = 6truncation error = 4.4705e-06.
+stored to database: 
+temperature = 0.925, chi = 80, N = 25, convergence = 0.044286, initial = spin-up, q = 6truncation error = 1.0096e-05.
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 0.925, chi = 100, N = 25, convergence = 0.045435, initial = spin-up, q = 6truncation error = 3.771e-06.
+stored to database: 
+temperature = 0.925, chi = 100, N = 30, convergence = 0.03923, initial = spin-up, q = 6truncation error = 7.1984e-06.
+stored to database: 
+temperature = 0.925, chi = 100, N = 35, convergence = 0.034555, initial = spin-up, q = 6truncation error = 1.1784e-05.
+set chi to 120
+Did not find record
+stored to database: 
+temperature = 0.925, chi = 120, N = 35, convergence = 0.03542, initial = spin-up, q = 6truncation error = 5.8946e-06.
+stored to database: 
+temperature = 0.925, chi = 120, N = 40, convergence = 0.031778, initial = spin-up, q = 6truncation error = 9.0132e-06.
+stored to database: 
+temperature = 0.925, chi = 120, N = 45, convergence = 0.028845, initial = spin-up, q = 6truncation error = 1.2747e-05.
+set chi to 140
+Did not find record
+stored to database: 
+temperature = 0.925, chi = 140, N = 45, convergence = 0.029447, initial = spin-up, q = 6truncation error = 7.1022e-06.
+stored to database: 
+temperature = 0.925, chi = 140, N = 50, convergence = 0.027029, initial = spin-up, q = 6truncation error = 9.6942e-06.
+stored to database: 
+temperature = 0.925, chi = 140, N = 55, convergence = 0.024988, initial = spin-up, q = 6truncation error = 1.2643e-05.
+set chi to 160
+Did not find record
+stored to database: 
+temperature = 0.925, chi = 160, N = 55, convergence = 0.025448, initial = spin-up, q = 6truncation error = 7.7815e-06.
+stored to database: 
+temperature = 0.925, chi = 160, N = 60, convergence = 0.023706, initial = spin-up, q = 6truncation error = 9.9288e-06.
+stored to database: 
+temperature = 0.925, chi = 160, N = 65, convergence = 0.022194, initial = spin-up, q = 6truncation error = 1.2299e-05.
+set chi to 180
+Did not find record
+stored to database: 
+temperature = 0.925, chi = 180, N = 65, convergence = 0.022547, initial = spin-up, q = 6truncation error = 8.1037e-06.
+stored to database: 
+temperature = 0.925, chi = 180, N = 70, convergence = 0.021226, initial = spin-up, q = 6truncation error = 9.9053e-06.
+stored to database: 
+temperature = 0.925, chi = 180, N = 75, convergence = 0.020055, initial = spin-up, q = 6truncation error = 1.1833e-05.
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.925, chi = 200, N = 75, convergence = 0.020364, initial = spin-up, q = 6truncation error = 8.3066e-06.
+stored to database: 
+temperature = 0.925, chi = 200, N = 80, convergence = 0.019321, initial = spin-up, q = 6truncation error = 9.8385e-06.
+stored to database: 
+temperature = 0.925, chi = 200, N = 85, convergence = 0.018384, initial = spin-up, q = 6truncation error = 1.1474e-05.
+set chi to 220
+Did not find record
+stored to database: 
+temperature = 0.925, chi = 220, N = 85, convergence = 0.018636, initial = spin-up, q = 6truncation error = 8.323e-06.
+stored to database: 
+temperature = 0.925, chi = 220, N = 90, convergence = 0.017789, initial = spin-up, q = 6truncation error = 9.6343e-06.
+stored to database: 
+temperature = 0.925, chi = 220, N = 95, convergence = 0.017017, initial = spin-up, q = 6truncation error = 1.1019e-05.
+set chi to 240
+Did not find record
+stored to database: 
+temperature = 0.925, chi = 240, N = 95, convergence = 0.017219, initial = spin-up, q = 6truncation error = 8.1715e-06.
+stored to database: 
+temperature = 0.925, chi = 240, N = 100, convergence = 0.016515, initial = spin-up, q = 6truncation error = 9.2888e-06.
+Did not find record
+stored to database: 
+temperature = 0.9375, chi = 20, N = 10, convergence = 0.075797, initial = spin-up, q = 6truncation error = 0.00015733.
+set chi to 40
+Did not find record
+stored to database: 
+temperature = 0.9375, chi = 40, N = 10, convergence = 0.087084, initial = spin-up, q = 6truncation error = 6.4616e-06.
+stored to database: 
+temperature = 0.9375, chi = 40, N = 15, convergence = 0.061823, initial = spin-up, q = 6truncation error = 3.1759e-05.
+set chi to 60
+Did not find record
+stored to database: 
+temperature = 0.9375, chi = 60, N = 15, convergence = 0.065466, initial = spin-up, q = 6truncation error = 5.2534e-06.
+stored to database: 
+temperature = 0.9375, chi = 60, N = 20, convergence = 0.051737, initial = spin-up, q = 6truncation error = 1.5662e-05.
+set chi to 80
+Did not find record
+stored to database: 
+temperature = 0.9375, chi = 80, N = 20, convergence = 0.053615, initial = spin-up, q = 6truncation error = 4.5618e-06.
+stored to database: 
+temperature = 0.9375, chi = 80, N = 25, convergence = 0.044769, initial = spin-up, q = 6truncation error = 1.03e-05.
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 0.9375, chi = 100, N = 25, convergence = 0.045946, initial = spin-up, q = 6truncation error = 3.8357e-06.
+stored to database: 
+temperature = 0.9375, chi = 100, N = 30, convergence = 0.039708, initial = spin-up, q = 6truncation error = 7.3299e-06.
+stored to database: 
+temperature = 0.9375, chi = 100, N = 35, convergence = 0.035009, initial = spin-up, q = 6truncation error = 1.2005e-05.
+set chi to 120
+Did not find record
+stored to database: 
+temperature = 0.9375, chi = 120, N = 35, convergence = 0.035875, initial = spin-up, q = 6truncation error = 6.0452e-06.
+stored to database: 
+temperature = 0.9375, chi = 120, N = 40, convergence = 0.032222, initial = spin-up, q = 6truncation error = 9.2459e-06.
+stored to database: 
+temperature = 0.9375, chi = 120, N = 45, convergence = 0.029272, initial = spin-up, q = 6truncation error = 1.3078e-05.
+set chi to 140
+Did not find record
+stored to database: 
+temperature = 0.9375, chi = 140, N = 45, convergence = 0.029877, initial = spin-up, q = 6truncation error = 7.2778e-06.
+stored to database: 
+temperature = 0.9375, chi = 140, N = 50, convergence = 0.027445, initial = spin-up, q = 6truncation error = 9.9392e-06.
+stored to database: 
+temperature = 0.9375, chi = 140, N = 55, convergence = 0.025391, initial = spin-up, q = 6truncation error = 1.297e-05.
+set chi to 160
+Did not find record
+stored to database: 
+temperature = 0.9375, chi = 160, N = 55, convergence = 0.025865, initial = spin-up, q = 6truncation error = 7.9604e-06.
+stored to database: 
+temperature = 0.9375, chi = 160, N = 60, convergence = 0.024112, initial = spin-up, q = 6truncation error = 1.0161e-05.
+set chi to 180
+Did not find record
+stored to database: 
+temperature = 0.9375, chi = 180, N = 60, convergence = 0.024463, initial = spin-up, q = 6truncation error = 6.5846e-06.
+stored to database: 
+temperature = 0.9375, chi = 180, N = 65, convergence = 0.022946, initial = spin-up, q = 6truncation error = 8.2505e-06.
+stored to database: 
+temperature = 0.9375, chi = 180, N = 70, convergence = 0.021613, initial = spin-up, q = 6truncation error = 1.0077e-05.
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.9375, chi = 200, N = 70, convergence = 0.021925, initial = spin-up, q = 6truncation error = 7.0496e-06.
+stored to database: 
+temperature = 0.9375, chi = 200, N = 75, convergence = 0.020749, initial = spin-up, q = 6truncation error = 8.506e-06.
+stored to database: 
+temperature = 0.9375, chi = 200, N = 80, convergence = 0.019699, initial = spin-up, q = 6truncation error = 1.0077e-05.
+set chi to 220
+Did not find record
+stored to database: 
+temperature = 0.9375, chi = 220, N = 80, convergence = 0.019949, initial = spin-up, q = 6truncation error = 7.2666e-06.
+stored to database: 
+temperature = 0.9375, chi = 220, N = 85, convergence = 0.019005, initial = spin-up, q = 6truncation error = 8.5291e-06.
+stored to database: 
+temperature = 0.9375, chi = 220, N = 90, convergence = 0.018151, initial = spin-up, q = 6truncation error = 9.874e-06.
+stored to database: 
+temperature = 0.9375, chi = 220, N = 95, convergence = 0.017373, initial = spin-up, q = 6truncation error = 1.1296e-05.
+set chi to 240
+Did not find record
+stored to database: 
+temperature = 0.9375, chi = 240, N = 95, convergence = 0.017582, initial = spin-up, q = 6truncation error = 8.3861e-06.
+stored to database: 
+temperature = 0.9375, chi = 240, N = 100, convergence = 0.016872, initial = spin-up, q = 6truncation error = 9.5371e-06.
+Did not find record
+stored to database: 
+temperature = 0.95, chi = 20, N = 10, convergence = 0.076276, initial = spin-up, q = 6truncation error = 0.00016031.
+set chi to 40
+Did not find record
+stored to database: 
+temperature = 0.95, chi = 40, N = 10, convergence = 0.087692, initial = spin-up, q = 6truncation error = 6.5634e-06.
+stored to database: 
+temperature = 0.95, chi = 40, N = 15, convergence = 0.062381, initial = spin-up, q = 6truncation error = 3.2298e-05.
+set chi to 60
+Did not find record
+stored to database: 
+temperature = 0.95, chi = 60, N = 15, convergence = 0.066068, initial = spin-up, q = 6truncation error = 5.2993e-06.
+stored to database: 
+temperature = 0.95, chi = 60, N = 20, convergence = 0.052293, initial = spin-up, q = 6truncation error = 1.5804e-05.
+set chi to 80
+Did not find record
+stored to database: 
+temperature = 0.95, chi = 80, N = 20, convergence = 0.054187, initial = spin-up, q = 6truncation error = 4.6329e-06.
+stored to database: 
+temperature = 0.95, chi = 80, N = 25, convergence = 0.045308, initial = spin-up, q = 6truncation error = 1.0468e-05.
+set chi to 100
+Did not find record
+stored to database: 
+temperature = 0.95, chi = 100, N = 25, convergence = 0.046506, initial = spin-up, q = 6truncation error = 3.8866e-06.
+stored to database: 
+temperature = 0.95, chi = 100, N = 30, convergence = 0.040244, initial = spin-up, q = 6truncation error = 7.4312e-06.
+stored to database: 
+temperature = 0.95, chi = 100, N = 35, convergence = 0.035525, initial = spin-up, q = 6truncation error = 1.2177e-05.
+set chi to 120
+Did not find record
+stored to database: 
+temperature = 0.95, chi = 120, N = 35, convergence = 0.036393, initial = spin-up, q = 6truncation error = 6.1383e-06.
+stored to database: 
+temperature = 0.95, chi = 120, N = 40, convergence = 0.032727, initial = spin-up, q = 6truncation error = 9.3799e-06.
+stored to database: 
+temperature = 0.95, chi = 120, N = 45, convergence = 0.029764, initial = spin-up, q = 6truncation error = 1.3266e-05.
+set chi to 140
+Did not find record
+stored to database: 
+temperature = 0.95, chi = 140, N = 45, convergence = 0.030364, initial = spin-up, q = 6truncation error = 7.4104e-06.
+stored to database: 
+temperature = 0.95, chi = 140, N = 50, convergence = 0.027918, initial = spin-up, q = 6truncation error = 1.0121e-05.
+set chi to 160
+Did not find record
+stored to database: 
+temperature = 0.95, chi = 160, N = 50, convergence = 0.028403, initial = spin-up, q = 6truncation error = 6.0957e-06.
+stored to database: 
+temperature = 0.95, chi = 160, N = 55, convergence = 0.026344, initial = spin-up, q = 6truncation error = 8.0779e-06.
+stored to database: 
+temperature = 0.95, chi = 160, N = 60, convergence = 0.024579, initial = spin-up, q = 6truncation error = 1.031e-05.
+set chi to 180
+Did not find record
+stored to database: 
+temperature = 0.95, chi = 180, N = 60, convergence = 0.024932, initial = spin-up, q = 6truncation error = 6.6477e-06.
+stored to database: 
+temperature = 0.95, chi = 180, N = 65, convergence = 0.023402, initial = spin-up, q = 6truncation error = 8.3246e-06.
+stored to database: 
+temperature = 0.95, chi = 180, N = 70, convergence = 0.022058, initial = spin-up, q = 6truncation error = 1.0163e-05.
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.95, chi = 200, N = 70, convergence = 0.022375, initial = spin-up, q = 6truncation error = 7.1357e-06.
+stored to database: 
+temperature = 0.95, chi = 200, N = 75, convergence = 0.021189, initial = spin-up, q = 6truncation error = 8.6073e-06.
+stored to database: 
+temperature = 0.95, chi = 200, N = 80, convergence = 0.020152, initial = spin-up, q = 6truncation error = 1.019e-05.
+set chi to 220
+Did not find record
+stored to database: 
+temperature = 0.95, chi = 220, N = 80, convergence = 0.020376, initial = spin-up, q = 6truncation error = 7.3594e-06.
+stored to database: 
+temperature = 0.95, chi = 220, N = 85, convergence = 0.019423, initial = spin-up, q = 6truncation error = 8.6327e-06.
+stored to database: 
+temperature = 0.95, chi = 220, N = 90, convergence = 0.018559, initial = spin-up, q = 6truncation error = 9.9883e-06.
+stored to database: 
+temperature = 0.95, chi = 220, N = 95, convergence = 0.017773, initial = spin-up, q = 6truncation error = 1.142e-05.
+set chi to 240
+Did not find record
+stored to database: 
+temperature = 0.95, chi = 240, N = 95, convergence = 0.017985, initial = spin-up, q = 6truncation error = 8.4899e-06.
+stored to database: 
+temperature = 0.95, chi = 240, N = 100, convergence = 0.017267, initial = spin-up, q = 6truncation error = 9.6527e-06.
+
+slopes =
+
+  Columns 1 through 13
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 14 through 25
+
+     0     0     0     0     0     0     0     0     0     0     0     0
+
+
+slope =
+
+   0.060200634110258
+
+
+intercept =
+
+   0.057224398687944
+
+
+slope =
+
+   0.105019448843534
+
+
+intercept =
+
+   0.004275702766509
+
+
+slope =
+
+   0.139727635087649
+
+
+intercept =
+
+  -0.036066319933194
+
+
+slope =
+
+   0.159588888530211
+
+
+intercept =
+
+  -0.055652608135735
+
+
+slope =
+
+   0.168861170743723
+
+
+intercept =
+
+  -0.061042323041330
+
+
+slope =
+
+   0.172320147725723
+
+
+intercept =
+
+  -0.059474960415392
+
+
+slope =
+
+   0.173040647958023
+
+
+intercept =
+
+  -0.055384282071588
+
+
+slope =
+
+   0.172605651625234
+
+
+intercept =
+
+  -0.050834534265098
+
+
+slope =
+
+   0.171762361491755
+
+
+intercept =
+
+  -0.046639386278299
+
+
+slope =
+
+   0.170840308386368
+
+
+intercept =
+
+  -0.043034018886331
+
+
+slope =
+
+   0.170009485202517
+
+
+intercept =
+
+  -0.040085732385877
+
+
+slope =
+
+   0.169302351372445
+
+
+intercept =
+
+  -0.037687602289504
+
+
+slope =
+
+   0.168740115409837
+
+
+intercept =
+
+  -0.035760023483407
+
+
+slope =
+
+   0.168314300059497
+
+
+intercept =
+
+  -0.034202684407752
+
+
+slope =
+
+   0.168029458275418
+
+
+intercept =
+
+  -0.032955239742920
+
+
+slope =
+
+   0.167865269641756
+
+
+intercept =
+
+  -0.031922683079333
+
+
+slope =
+
+   0.167863181249322
+
+
+intercept =
+
+  -0.031126774913003
+
+
+slope =
+
+   0.168046297278466
+
+
+intercept =
+
+  -0.030550838246269
+
+
+slope =
+
+   0.168498011616298
+
+
+intercept =
+
+  -0.030277669877691
+
+
+slope =
+
+   0.169352604373811
+
+
+intercept =
+
+  -0.030462789524274
+
+
+slope =
+
+   0.170853740769330
+
+
+intercept =
+
+  -0.031428773239268
+
+
+slope =
+
+   0.173458864267270
+
+
+intercept =
+
+  -0.033838949933616
+
+
+slope =
+
+   0.177966321823621
+
+
+intercept =
+
+  -0.038906424617024
+
+
+slope =
+
+   0.185711690251989
+
+
+intercept =
+
+  -0.048726919947723
+
+
+slope =
+
+   0.198624648207641
+
+
+intercept =
+
+  -0.066394896479880
+
+>> 

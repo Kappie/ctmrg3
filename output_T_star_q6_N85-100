@@ -1,0 +1,194 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+[Warning: Directory permission denied: /media/fourTB/_DATA/simsetup/_backup] 
+[Warning: Directory permission denied: /media/fourTB/_DATA/simsetup] 
+[Warning: Directory permission denied:
+/home/sangwoo/ownCloud/Philippe/tn/ipeps/initfiles] 
+[Warning: Directory permission denied:
+/home/sangwoo/ownCloud/Philippe/tn/ipeps/oldcodes] 
+[Warning: Directory permission denied:
+/home/sangwoo/ownCloud/Philippe/tn/ipeps/evaltools] 
+[Warning: Directory permission denied: /home/sangwoo/ownCloud/Philippe/tn/ipeps] 
+[Warning: Directory permission denied:
+/home/sangwoo/ownCloud/Philippe/tn/minclude/models] 
+[Warning: Directory permission denied:
+/home/sangwoo/ownCloud/Philippe/tn/minclude/lmsvd] 
+[Warning: Directory permission denied:
+/home/sangwoo/ownCloud/Philippe/tn/minclude/SymTensorNewCode] 
+[Warning: Directory permission denied:
+/home/sangwoo/ownCloud/Philippe/tn/minclude] 
+[Warning: Directory permission denied:
+/home/sangwoo/ownCloud/Philippe/tn/minclude/PROPACK] 
+[Warning: Directory permission denied:
+/home/sangwoo/ownCloud/Philippe/proj/su3honeycomb] 
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+
+T_crit_guess =
+
+   0.908000000000000
+
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.99098, chi = 200, N = 85, convergence = 0.016153, initial = spin-up, q = 6truncation error = 9.4355e-06.
+set chi to 474
+Did not find record
+stored to database: 
+temperature = 0.99098, chi = 474, N = 85, convergence = 0.01735, initial = spin-up, q = 6truncation error = 3.5408e-07.
+ 
+ Func-count     x          f(x)         Procedure
+    1       0.990983    -0.352489        initial
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 1.109, chi = 200, N = 85, convergence = 4.137e-07, initial = spin-up, q = 6truncation error = 1.2237e-07.
+    2        1.10902    -0.234486        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.91803, chi = 200, N = 85, convergence = 0.018218, initial = spin-up, q = 6truncation error = 1.1292e-05.
+set chi to 489
+Did not find record
+stored to database: 
+temperature = 0.91803, chi = 489, N = 85, convergence = 0.019792, initial = spin-up, q = 6truncation error = 4.0615e-07.
+    3       0.918034    -0.302314        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.99343, chi = 200, N = 85, convergence = 0.015387, initial = spin-up, q = 6truncation error = 9.0885e-06.
+set chi to 471
+Did not find record
+stored to database: 
+temperature = 0.99343, chi = 471, N = 85, convergence = 0.016525, initial = spin-up, q = 6truncation error = 3.4668e-07.
+    4       0.993429    -0.353712        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 1.0376, chi = 200, N = 85, convergence = 0.001415, initial = spin-up, q = 6truncation error = 2.4591e-06.
+set chi to 373
+Did not find record
+stored to database: 
+temperature = 1.0376, chi = 373, N = 85, convergence = 0.0015456, initial = spin-up, q = 6truncation error = 1.9479e-07.
+    5        1.03758     -0.31727        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 1.001, chi = 200, N = 85, convergence = 0.012574, initial = spin-up, q = 6truncation error = 7.9018e-06.
+set chi to 459
+Did not find record
+stored to database: 
+temperature = 1.001, chi = 459, N = 85, convergence = 0.013504, initial = spin-up, q = 6truncation error = 3.2364e-07.
+    6        1.00099    -0.355016        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.99985, chi = 200, N = 85, convergence = 0.013034, initial = spin-up, q = 6truncation error = 8.0909e-06.
+set chi to 461
+Did not find record
+stored to database: 
+temperature = 0.99985, chi = 461, N = 85, convergence = 0.013997, initial = spin-up, q = 6truncation error = 3.2753e-07.
+    7       0.999847    -0.355079        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.99964, chi = 200, N = 85, convergence = 0.013114, initial = spin-up, q = 6truncation error = 8.1238e-06.
+set chi to 461
+Did not find record
+stored to database: 
+temperature = 0.99964, chi = 461, N = 85, convergence = 0.014083, initial = spin-up, q = 6truncation error = 3.2898e-07.
+    8       0.999645     -0.35508        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.99967, chi = 200, N = 85, convergence = 0.013104, initial = spin-up, q = 6truncation error = 8.1197e-06.
+set chi to 461
+Did not find record
+stored to database: 
+temperature = 0.99967, chi = 461, N = 85, convergence = 0.014072, initial = spin-up, q = 6truncation error = 3.2897e-07.
+    9        0.99967     -0.35508        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.99967, chi = 200, N = 85, convergence = 0.013104, initial = spin-up, q = 6truncation error = 8.1198e-06.
+set chi to 461
+Did not find record
+stored to database: 
+temperature = 0.99967, chi = 461, N = 85, convergence = 0.014072, initial = spin-up, q = 6truncation error = 3.2897e-07.
+   10        0.99967     -0.35508        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.99967, chi = 200, N = 85, convergence = 0.013105, initial = spin-up, q = 6truncation error = 8.1198e-06.
+set chi to 461
+Did not find record
+stored to database: 
+temperature = 0.99967, chi = 461, N = 85, convergence = 0.014072, initial = spin-up, q = 6truncation error = 3.2898e-07.
+   11        0.99967     -0.35508        parabolic
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+set chi to 200
+stored to database: 
+temperature = 0.99098, chi = 200, N = 90, convergence = 0.014836, initial = spin-up, q = 6truncation error = 1.062e-05.
+set chi to 484
+Did not find record
+{Error using libsqlite3_
+database is locked: INSERT INTO tensors (temperature, chi, n, convergence, c,
+t, initial, q, truncation_error) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+
+Error in sqlite3.execute (line 25)
+    results = libsqlite3_('execute', ...
+
+Error in Simulation/save_to_db (line 5)
+    sqlite3.execute(obj.db_id,  query, ...
+
+Error in FixedNSimulation/find_or_calculate_environment (line 50)
+    obj.save_to_db(temperature, chi, N, convergence, C, T, truncation_error);
+
+Error in Simulation/find_or_calculate_environment_for_every_combination (line
+7)
+        obj.tensors(i1, i2, i3) =
+        obj.find_or_calculate_environment(values1(i1), values2(i2),
+        values3(i3));
+
+Error in FixedNSimulation/run (line 2)
+  obj =
+  obj.find_or_calculate_environment_for_every_combination(obj.temperatures,
+  obj.chi_values, obj.N_values);
+
+Error in FindTCritFixedN/find_T_pseudocrit/negative_entropy (line 8)
+      sim = FixedNSimulation(temperature, get_chi(), N, q).run();
+
+Error in fminbnd (line 215)
+x= xf; fx = funfcn(x,varargin{:});
+
+Error in FindTCritFixedN/find_T_pseudocrit (line 26)
+  [T_pseudocrit, neg_entropy, EXITFLAG, OUTPUT] = fminbnd(@negative_entropy,
+  ...
+
+Error in FindTCritFixedN/find_T_pseudocrit_if_not_in_db (line 22)
+    [T_pseudocrit, tensors, truncation_error_struct] = obj.find_T_pseudocrit(q,
+    N);
+
+Error in FindTCritFixedN/run (line 6)
+      [T_pseudocrit, tensors, truncation_error] =
+      obj.find_T_pseudocrit_if_not_in_db(obj.q_values(q_index), ...
+
+Error in find_T_pseudocrit_oo (line 15)
+  sim = sim.run();
+
+Error in main (line 5)
+  % find_T_pseudocrit_oo
+} 
+>> 
