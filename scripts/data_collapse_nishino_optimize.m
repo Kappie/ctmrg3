@@ -9,6 +9,7 @@ function data_collapse_nishino_optimize
   % chi_values = [4, 6]
   % chi_values = 4:2:14;
   tolerance = 1e-8;
+  initial_condition_corr_length = 'spin-up';
 
   initial = 0.125;
   lower_bounds = 0.1;
@@ -17,7 +18,7 @@ function data_collapse_nishino_optimize
   sim = FixedNSimulation(temperature, chi_values, N_values, q).run();
 
   order_params = sim.compute('order_parameter');
-  length_scales_chi = get_length_scales_chi(temperature, chi_values, tolerance, q);
+  length_scales_chi = get_length_scales_chi(temperature, chi_values, tolerance, q, initial_condition_corr_length);
 
   find_best_beta(order_params, length_scales_chi, N_values, initial, lower_bounds, upper_bounds);
   make_legend(chi_values, '\chi')
@@ -81,8 +82,10 @@ function plot_collapse(x_values, y_values, length_scales_chi)
   % make_legend(chi_values, '$\chi')
 end
 
-function length_scales = get_length_scales_chi(temperature, chi_values, tolerance, q)
-  sim = FixedToleranceSimulation(temperature, chi_values, tolerance, q).run();
+function length_scales = get_length_scales_chi(temperature, chi_values, tolerance, q, initial_condition)
+  sim = FixedToleranceSimulation(temperature, chi_values, tolerance, q);
+  sim.initial_condition = initial_condition;
+  sim = sim.run();
   % length_scales = 10.^(12.*sim.compute('entropy'))
   length_scales = round(sim.compute('correlation_length'), 8);
 end

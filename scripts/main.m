@@ -2,6 +2,10 @@ function main
   rehash;
 
 
+  % plot_convergence_vs_N
+  % plot_max_truncation_error_vs_chi
+  % data_collapse_varying_correlation_length
+  % compare_correlation_lengths
   % find_T_pseudocrit_oo
   find_T_pseudocrit_chi
   % plot_order_param
