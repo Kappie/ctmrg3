@@ -5,16 +5,18 @@ function plot_entropy_at_T_crit
   % chi_values = [22 32 38 46 54 64]
   N_values = 1050:50:2000;
   % chi_values = [24, 28, 33, 38, 43, 49, 56, 64, 72];
-  tolerances = [1e-9];
+  tolerance = [1e-9];
   max_truncation_error = 1e-6;
   skip_begin = 10;
 
-  exclude_chi_values = [28 40 42];
+  % exclude_chi_values = [28 40 42];
+  exclude_chi_values = [];
+
   chi_values = setdiff(chi_values, exclude_chi_values)
 
 
   sim_chi = FixedToleranceSimulation(temperature, chi_values, tolerance, q)
-  sim_chi.initial_condition = 'symmetric';
+  sim_chi.initial_condition = 'spin-up';
   sim_chi = sim_chi.run();
 
   entropies = sim_chi.compute('entropy')
@@ -25,10 +27,15 @@ function plot_entropy_at_T_crit
   % central_charge = 6 * slope
   % [slope, intercept] = logfit(N_values, sim_N.compute('entropy'), 'logx', 'skipBegin', skip_begin)
   % entropies = sim_chi.compute('entropy');
+
   [slope, intercept, mse] = logfit(corr_lengths, entropies, 'logx', 'skipBegin', skip_begin)
+  % [slope, intercept, mse] = logfit(corr_lengths, entropies, 'logx', 'skipBegin', skip_begin)
+
   % central charge equals 0.5
   % kappa = slope * (6 / 0.5)
   central_charge = 6 * slope
+  slope
+  intercept
   % correlation_lengths = sim_chi.compute('correlation_length');
   % load('correlation_lengths_chi8-112.mat', 'correlation_lengths')
 

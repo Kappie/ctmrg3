@@ -1,6 +1,5 @@
 function obj = find_best_collapse(obj, chi_min, fit_width, initial, lower_bounds, upper_bounds)
   [temperatures, chi_values, scaling_quantities, N_values] = obj.values_to_include(chi_min, fit_width);
-  N_values
 
   function mse = f_min(inputs)
     T_crit = inputs(1);

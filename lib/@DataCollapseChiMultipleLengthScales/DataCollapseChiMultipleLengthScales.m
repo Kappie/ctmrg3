@@ -10,7 +10,6 @@ classdef DataCollapseChiMultipleLengthScales < DataCollapse
       obj.chi_values = chi_values;
       obj.tolerance = tolerance;
       obj = obj.post_initialize();
-      % obj.N_values = obj.simulation.compute('correlation_length');
       obj.N_values = repmat(obj.correlation_lengths(), numel(temperatures), 1);
     end
   end

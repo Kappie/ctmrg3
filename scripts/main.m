@@ -2,16 +2,30 @@ function main
   rehash;
 
 
-  % plot_convergence_vs_N
+
+
+  find_T_pseudocrit_oo
+  % test_data_collapse_N
+  % calculate_beta
+  % calculate_kappa
+  % test_data_collapse_chi
+  % find_T_pseudocrit_chi
+  % plot_entropy_vs_T
+  % plot_spectrum_ctm_finite_N
+  % order_param_test
+  % extrapolate_quantity
+  % plot_quantities_vs_tolerance
   % plot_max_truncation_error_vs_chi
+  % plot_truncation_error_vs_n
+  % plot_convergence_vs_truncation_error
+  % plot_order_param_vs_entropy
+  % plot_entropy_at_T_crit
+  % plot_order_param_N_exact
+  % plot_convergence_vs_N
+  % plot_quantities_vs_truncation_error
   % data_collapse_varying_correlation_length
   % compare_correlation_lengths
-  % find_T_pseudocrit_oo
-  find_T_pseudocrit_chi
-  % plot_order_param
   % tolerance_vs_order_param
-  % test_data_collapse_chi
-  % plot_entropy_at_T_crit
   % data_collapse_nishino_optimize
   % crossover_between_chi_and_N
   % calculate_beta_finite_N
@@ -21,12 +35,10 @@ function main
   % plot_rescaled_entropy
   % plot_corner_energy_gap
   % phenomenological_renormalization
-  % plot_entropy_vs_T
   % fit_magnetization
   % plot_free_energy
   % plot_trunc_error_vs_n
   % plot_magnetization
-  % test_data_collapse_N
   % find_sufficient_chi
   % plot_truncation_error_vs_n
   % update_truncation_errors
