@@ -26,41 +26,69 @@ function plot_convergence_vs_N
   convergences = sim.convergences;
   order_parameters = sim.compute('order_parameter');
   free_energies = sim.compute('free_energy');
-  correlation_lengths = sim.compute('correlation_length');
+  % correlation_lengths = sim.compute('correlation_length');
+  entropies = sim.compute('entropy');
 
-  x_scale = 'log';
+  x_scale = 'linear';
   y_scale = 'log';
 
-  figure
-  plot(N_values, convergences)
-  xlabel('$n$')
-  ylabel('convergence')
-  set(gca, 'XScale', x_scale)
-  set(gca, 'YScale', y_scale)
-  make_legend(chi_values, '\chi')
+  % figure
+  % plot(N_values, convergences)
+  % xlabel('$n$')
+  % ylabel('convergence')
+  % set(gca, 'XScale', x_scale)
+  % set(gca, 'YScale', y_scale)
+  % make_legend(chi_values, '\chi')
+
+  % figure
+  % diffs = relative_diffs_with_smallest_value(order_parameters)
+  % plot(N_values, diffs)
+  % xlabel('$n$')
+  % ylabel('order parameter')
+  % set(gca, 'XScale', x_scale)
+  % set(gca, 'YScale', y_scale)
+  % make_legend(chi_values, '\chi')
+  %
+  % figure
+  % diffs = abs(relative_diffs_with_smallest_value(free_energies))
+  % plot(N_values, diffs)
+  % xlabel('$n$')
+  % ylabel('free energy diff')
+  % set(gca, 'XScale', x_scale)
+  % set(gca, 'YScale', y_scale)
+  % make_legend(chi_values, '\chi')
+
+  % figure
+  % diffs = relative_diffs_with_biggest_value(entropies)
+  % plot(N_values, abs(diffs))
+  % xlabel('$n$')
+  % ylabel('entropy')
+  % set(gca, 'XScale', x_scale)
+  % set(gca, 'YScale', y_scale)
+  % make_legend(chi_values, '\chi')
 
   figure
-  plot(N_values, order_parameters)
-  xlabel('$n$')
-  ylabel('order parameter')
-  set(gca, 'XScale', x_scale)
-  set(gca, 'YScale', y_scale)
-  make_legend(chi_values, '\chi')
-  % legend({'convergence', 'order parameter'})
-  figure
-  plot(N_values, free_energies - Constants.free_energy_per_site(temperature))
-  xlabel('$n$')
-  ylabel('free energy')
-  set(gca, 'XScale', x_scale)
-  set(gca, 'YScale', y_scale)
-  make_legend(chi_values, '\chi')
-
-  figure
-  plot(N_values, correlation_lengths)
+  diffs = relative_diffs_with_biggest_value(correlation_lengths)
+  plot(N_values, abs(diffs))
   xlabel('$n$')
   ylabel('correlation length')
   set(gca, 'XScale', x_scale)
   set(gca, 'YScale', y_scale)
   make_legend(chi_values, '\chi')
+end
 
+function diffs = relative_diffs_with_smallest_value(quantities)
+  [~, indices_min] = min(quantities, [], 2);
+  for i = 1:size(quantities, 1)
+    smallest_values = quantities(i, indices_min(i));
+    diffs(i , :) = (quantities(i, :) - smallest_values) ./ smallest_values;
+  end
+end
+
+function diffs = relative_diffs_with_biggest_value(quantities)
+  [~, indices_max] = max(quantities, [], 2);
+  for i = 1:size(quantities, 1)
+    biggest_values = quantities(i, indices_max(i));
+    diffs(i , :) = (quantities(i, :) - biggest_values) ./ biggest_values;
+  end
 end

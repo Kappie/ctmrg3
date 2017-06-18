@@ -1,37 +1,40 @@
 function test_data_collapse_N
-  q = 4;
-  truncation_error = 1e-5;
-  % N_values = [20 80 160 320 480 600 1000 1500];
-  N_values = [20 60 100 120 140 160 180 200];
+  q = 2;
+  truncation_error = 1e-6;
+  N_values = [160 480 1000 1500];
+  % N_values = [20 60 100 120 140 160 180 200];
   % N_values = [160 600 1000];
-  width = 0.1; number_of_points = 10;
+  width = 0.1; number_of_points = 19;
   temperatures = linspace(Constants.T_crit_guess(q) - width, ...
-    Constants.T_crit_guess(q) + width, number_of_points);
+    Constants.T_crit_guess(q), number_of_points);
   temperatures_zoom = linspace(Constants.T_crit_guess(q) - width/10, ...
-    Constants.T_crit_guess(q) + width/10, number_of_points);
-  temperatures_super_zoom = linspace(Constants.T_crit_guess(q) - width/100, ...
-    Constants.T_crit_guess(q) + width/100, number_of_points);
+    Constants.T_crit_guess(q), 3*number_of_points);
+  % temperatures_super_zoom = linspace(Constants.T_crit_guess(q) - width/100, ...
+  %   Constants.T_crit_guess(q) + width/100, number_of_points);
   % temperatures_super_duper_zoom = linspace(Constants.T_crit_guess(q) - width/100000, ...
   %   Constants.T_crit_guess(q) + width/100000, number_of_points);
   temperatures_super_duper_zoom = [];
 
   temperatures_outer = linspace(Constants.T_crit_guess(q) - 3 * width, ...
-    Constants.T_crit_guess(q) + 3 * width, 2* number_of_points);
+    Constants.T_crit_guess(q), 2*number_of_points);
 
-  temperatures = sort(unique([temperatures temperatures_zoom temperatures_super_zoom ...
-    temperatures_super_duper_zoom temperatures_outer]));
+  temperatures = sort(unique([temperatures temperatures_zoom ...
+    temperatures_outer]));
   % Throw away T_crit itself; it doesn't help when fitting with a length scale for each data point.
   temperatures = temperatures(temperatures ~= Constants.T_crit_guess(q));
 
   collapse = DataCollapseN(q, N_values, temperatures, truncation_error)
-  N_min = 140;
-  fit_width = width/50;
+  N_min = 0;
+  fit_width = width/10;
 
   initial = [Constants.T_crit_guess(q), 0.125, 1];
-  lower_bounds = [1.134 0.12 0.997];
-  upper_bounds = [1.135 0.13 1.006];
-  % lower_bounds = [2.261 0.11 0.99];
-  % upper_bounds = [2.27 0.13 1.01];
+  if q == 2
+    lower_bounds = initial;
+    upper_bounds = initial;
+  elseif q == 4
+    lower_bounds = [1.134 0.12 0.997];
+    upper_bounds = [1.135 0.13 1.006];
+  end
   collapse = collapse.find_best_collapse(N_min, fit_width, initial, lower_bounds, upper_bounds);
   % collapse.truncation_errors
   collapse.results

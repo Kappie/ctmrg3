@@ -1,46 +1,27 @@
 function calculate_kappa
-  width = 0;
-  temperatures = [Constants.T_crit + width];
-  chi_values = 4:1:100;
-  % chi_values = [6, 10, 16, 24, 34, 46, 60];
-  tolerances = [1e-7];
-  beta = 1/8; nu = 1;
+  q = 2;
+  temperature = Constants.T_crit;
+  % symmetric boundary T = 2.6 plateaus
+  % chi_values = [9 11 13 15 18 21 24 28 33 38 43 49];
+  % symmetric boundary T = 2 plateaus
+  % chi_values = [10 14 20 28 38 50]
+  chi_values = 10:1:66;
+  exclude = [13 19 28 29 40 41 42 59];
+  % exclude = [13 19 28 29 37 40 41 42 47 52 53 57 59 65 66];
 
-  sim = FixedToleranceSimulation(temperatures, chi_values, tolerances);
+  chi_values = setdiff(chi_values, exclude);
+
+  initial_condition = 'symmetric';
+  tolerance = 1e-7;
+
+  sim = FixedToleranceSimulation(temperature, chi_values, tolerance, q);
+  sim.initial_condition = initial_condition;
   sim = sim.run();
-  corr_lengths = sim.compute(CorrelationLengthAfun);
 
-  [slope, intercept] = logfit(chi_values, corr_lengths, 'loglog')
-  % markerplot(chi_values, corr_lengths, '--')
-  [chi_values' corr_lengths']
-  xlabel('$\chi$')
-  ylabel('$\xi(\chi)$')
-  % title(['$T = T_c + ' num2str(width) '$'])
-  % legend({'data', ['$\kappa$ = ' num2str(slope)]}, 'Location', 'best')
+  % corr_lengths = sim.compute('correlation_length');
+  free_energies = sim.compute('free_energy');
+  diffs = free_energies - Constants.free_energy_per_site(temperature);
+  entropies = sim.compute('entropy')
 
-
-
-  % xticks(chi_values)
-  % slope; %    1.940045384131416
-  % METHOD 1: calculate by scaling of correlation length at T_crit
-  % number_of_points = 15;
-  % number_of_fits = numel(chi_values) - number_of_points;
-  % kappa_values = zeros(2, number_of_fits);
-  %
-  % for index = 1:number_of_fits
-  %   [slope1, ~] = logfit(chi_values, order_params, 'loglog', 'skipBegin', index, 'skipEnd', numel(chi_values) - (index + number_of_points));
-  %   [slope2, ~] = logfit(chi_values, corr_lengths, 'loglog', 'skipBegin', index, 'skipEnd', numel(chi_values) - (index + number_of_points));
-  %   kappa_values(1, index) = -8*slope1;
-  %   kappa_values(2, index) = slope2;
-  % end
-
-
-  % markerplot(chi_values(1:number_of_fits), kappa_values);
-  % hline(Constants.kappa, '--', '$\kappa_{\mathrm{exact}}$');
-  % % hline(total_slope2, '--', )
-  % % hline(-8*total_slope1, '--', '$\kappa_{m}$')
-  % xlabel('$\chi_{\mathrm{start}}$')
-  % ylabel('$\kappa$')
-  % legend_labels = {'extracted from $m$', 'extracted from $\xi$'}
-  % legend(legend_labels, 'Location', 'best')
+  [slope, intercept] = logfit(chi_values, diffs, 'loglog', 'skipBegin', 0);
 end

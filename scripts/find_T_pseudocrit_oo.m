@@ -1,16 +1,16 @@
 function find_T_pseudocrit_oo
-  q = 6;
-  N_values = 85:5:100;
-  % N_values = 20:20:680;
+  q = 2;
+  % N_values = 85:5:100;
+  N_values = [20:20:680 700:60:2200];
   TolX = 1e-6;
   TolXFit = 1e-10;
-  N_min = 70;
+  N_min = 800;
   exclude = N_values < N_min;
   T_crit_guess = Constants.T_crit_guess(q)
   search_width = 1e-1;
 
   sim = FindTCritFixedN(q, TolX, N_values);
-  sim.max_truncation_error = 1e-6;
+  sim.max_truncation_error = 1e-7;
   sim.chi_start = 200;
   sim = sim.run();
 
@@ -20,7 +20,7 @@ function find_T_pseudocrit_oo
   % [slope, intercept, mse] = logfit(N_values, entropies, 'logx', 'skipBegin', skipBegin)
   % central_charge = 6*slope
 
-  % [T_crit, mse] = fit_power_law3(N_values, sim.T_pseudocrits, exclude, search_width, TolXFit)
+  [T_crit, mse] = fit_power_law3(N_values, sim.T_pseudocrits, exclude, search_width, TolXFit)
   % xlabel('$N$')
   % ylabel('$T^{*}(N)$')
   % title(['Fit to $T^{*}(N)$ for second order transition for $q = ' num2str(q) '$ clock model.'])

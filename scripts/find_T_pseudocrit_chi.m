@@ -5,6 +5,7 @@ function find_T_pseudocrit_chi
   % q = 2 values entropy
   % chi_values = [10:2:32 33 38 43 49 56];
   chi_values = [10:1:60];
+  % chi_values = [11, 13, 15, 18, 21, 24, 28, 33, 38, 43, 49, 56];
   % chi_values = [10:2:32];
   % chi_values = [20:5:80 90]
   % q = 4 values entropy
@@ -38,11 +39,10 @@ function find_T_pseudocrit_chi
   sim.method = method;
   sim.tolerance = tolerance;
   sim = sim.run();
-  exclude
   % markerplot(chi_values, sim.T_pseudocrits, '--')
 
 
-  % sim.T_pseudocrits
+  sim.T_pseudocrits
   % sim.length_scales
 
   % [T_crit, mse, ~] = fit_power_law(sim.length_scales, sim.T_pseudocrits, search_width, TolXFit)
@@ -54,8 +54,11 @@ function find_T_pseudocrit_chi
   % [T_crit, error, ~] = fit_kosterlitz_transition2(sim.T_pseudocrits, ...
   %   sim.length_scales, exclude, search_width, TolXFit)
   % title('kosterlitz')
-  [T_crit, slope, mse] = fit_power_law3(sim.length_scales, sim.T_pseudocrits, exclude, search_width, TolXFit)
+  [T_crit, slope, mse] = fit_power_law3(sim.length_scales, sim.T_pseudocrits, exclude, search_width, TolXFit);
   title('power law')
+
+  nu = 1/slope
+  T_crit
 
   % plot(values_to_plot, fit_obj.a.*values_to_plot.^fit_obj.b)
   % hold off
