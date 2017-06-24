@@ -7,23 +7,24 @@ function plot_quantities_vs_tolerance
   chi_values = [40 80 120];
   % tolerances = [1e-5 1e-6 1e-7 1e-8 1e-9 1e-10 1e-11 1e-12];
   % tolerances = [7e-5 3e-5 1e-5 7e-6 3e-6 1e-6 7e-7 3e-7 1e-7];
-  tolerances = [32 16 8 4 2 1] .* 1e-8;
+  tolerances = [32 16 8 4 2 1] .* 1e-7;
   multiplier = 2;
 
   sim = FixedToleranceSimulation(temperature, chi_values, tolerances, q).run();
   order_parameters = sim.compute('order_parameter');
   free_energies = sim.compute('free_energy');
   entropies = sim.compute('entropy');
-  correlation_lengths = sim.compute('correlation_length');
+  % correlation_lengths = sim.compute('correlation_length');
   truncation_error_structs = sim.compute('truncation_error');
   truncation_errors = arrayfun(@(s) s.truncation_error, truncation_error_structs);
 
-  display('order params')
-  [extrapolations, residues, relative_errors] = extrapolate_quantity(order_parameters, tolerances, multiplier)
+  % display('order params')
+  % [extrapolations, residues, relative_errors] = extrapolate_quantity(order_parameters, tolerances, multiplier)
   display('entropies')
   [extrapolations, residues, relative_errors] = extrapolate_quantity(entropies, tolerances, multiplier)
-  display('correlation_lengths')
-  [extrapolations, residues, relative_errors] = extrapolate_quantity(correlation_lengths, tolerances, multiplier)
+  % display('correlation_lengths')
+  % [extrapolations, residues, relative_errors] = extrapolate_quantity(correlation_lengths, tolerances, multiplier)
+  relative_errors_percentage = relative_errors * 100
 
   % figure
   % % diffs = relative_diffs_with_last_element(order_parameters)
@@ -82,17 +83,17 @@ end
 
 function [extrapolations, residues, relative_errors] = extrapolate_quantity(quantities, tolerances, multiplier)
   stepwise_diffs = absolute_stepwise_differences(quantities);
-  number_of_chi_values = size(quantities, 2);
+  number_of_chi_values = size(quantities, 1);
   tolerances_to_sum = tolerances(end) ./ (multiplier .^ 1:10);
 
-  residues = zeros(1, number_of_chi_values);
+  residues = zeros(number_of_chi_values, 1);
 
   for c = 1:number_of_chi_values
     figure
-    [slope, intercept, mse] = logfit(tolerances(2:end), stepwise_diffs(:, c), 'loglog');
+    [slope, intercept, mse] = logfit(tolerances(2:end), stepwise_diffs(c, :), 'loglog');
     residues(c) = sum(arrayfun( @(epsilon) 10^intercept * epsilon^slope, tolerances_to_sum ) );
   end
 
-  extrapolations = quantities(end, :) + residues;
+  extrapolations = quantities(:, end) + residues;
   relative_errors = residues ./ extrapolations;
 end
