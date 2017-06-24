@@ -1,7 +1,7 @@
 function find_T_pseudocrit_oo
   q = 2;
   % N_values = 85:5:100;
-  N_values = [20:20:680 700:60:2200];
+  N_values = [20:20:680 700:60:2200 2300:200:7900];
   TolX = 1e-6;
   TolXFit = 1e-10;
   N_min = 800;
@@ -10,7 +10,7 @@ function find_T_pseudocrit_oo
   search_width = 1e-1;
 
   sim = FindTCritFixedN(q, TolX, N_values);
-  sim.max_truncation_error = 1e-7;
+  sim.max_truncation_error = 1e-6;
   sim.chi_start = 200;
   sim = sim.run();
 

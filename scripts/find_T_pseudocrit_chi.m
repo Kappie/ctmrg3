@@ -4,8 +4,7 @@ function find_T_pseudocrit_chi
   % chi_values = [10 12 14 20 30 33 38 43 49 56];
   % q = 2 values entropy
   % chi_values = [10:2:32 33 38 43 49 56];
-  % chi_values = [10:1:60];
-  chi_values = [120]
+  chi_values = [10:1:60];
   % q = 4 values entropy
   % chi_values = [10:2:34 40 46 53 59 67 75 82 96 105];
   % q = 4 values energy gap
