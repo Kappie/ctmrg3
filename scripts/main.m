@@ -1,20 +1,17 @@
 function main
   rehash;
 
-
-
-
-  find_T_pseudocrit_oo
+  % plot_quantities_vs_tolerance
+  % find_T_pseudocrit_oo
   % test_data_collapse_N
   % calculate_beta
   % calculate_kappa
   % test_data_collapse_chi
-  % find_T_pseudocrit_chi
+  find_T_pseudocrit_chi
   % plot_entropy_vs_T
   % plot_spectrum_ctm_finite_N
   % order_param_test
   % extrapolate_quantity
-  % plot_quantities_vs_tolerance
   % plot_max_truncation_error_vs_chi
   % plot_truncation_error_vs_n
   % plot_convergence_vs_truncation_error
