@@ -1,21 +1,22 @@
 function find_T_pseudocrit_chi
-  q = 2;
+  q = 5;
   % q = 2 values energy gap
   % chi_values = [10 12 14 20 30 33 38 43 49 56];
   % q = 2 values entropy
   % chi_values = [10:2:32 33 38 43 49 56];
-  chi_values = [10:1:60];
+  % chi_values = [10:1:60];
+  chi_values = [10 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90];
   % q = 4 values entropy
   % chi_values = [10:2:34 40 46 53 59 67 75 82 96 105];
   % q = 4 values energy gap
   % chi_values = [10:2:20 25 34 46 59 75 96];
-  TolX = 1e-8;
+  TolX = 1e-6;
   method = 'entropy';
-  tolerance = 1e-8;
+  tolerance = 1e-7;
 
   % Parameters for power law fitting
   TolXFit = 1e-12;
-  search_width = 1e-3;
+  search_width = 0.1;
   T_crit_guess = 0.95;
   % Fit power law of the form
   % T_pseudocrit(L) = a*L^{-lambda} + T_c
@@ -39,22 +40,13 @@ function find_T_pseudocrit_chi
   % markerplot(chi_values, sim.T_pseudocrits, '--')
 
 
-  sim.T_pseudocrits
-  % sim.length_scales
+  [T_crit, error, ~] = fit_kosterlitz_transition2(sim.T_pseudocrits, ...
+    sim.length_scales, exclude, Constants.T_crit_guess(q), search_width, TolXFit)
+  title('kosterlitz')
+  % [T_crit, slope, mse] = fit_power_law3(sim.length_scales, sim.T_pseudocrits, exclude, search_width, TolXFit);
+  % title('power law')
 
-  % [T_crit, mse, ~] = fit_power_law(sim.length_scales, sim.T_pseudocrits, search_width, TolXFit)
-  % fit_power_law2(sim.length_scales, sim.T_pseudocrits, lower, upper, initial, exclude)
-  % [T_crit, error] = fit_power_law3(sim.length_scales, sim.T_pseudocrits, ....
-  %   exclude, search_width, TolXFit)
-  % [T_crit, error, ~] = fit_kosterlitz_transition(sim.T_pseudocrits, ...
-  %   sim.length_scales, T_crit_guess, search_width, TolXFit, exclude)
-  % [T_crit, error, ~] = fit_kosterlitz_transition2(sim.T_pseudocrits, ...
-  %   sim.length_scales, exclude, search_width, TolXFit)
-  % title('kosterlitz')
-  [T_crit, slope, mse] = fit_power_law3(sim.length_scales, sim.T_pseudocrits, exclude, search_width, TolXFit);
-  title('power law')
-
-  nu = 1/slope
+  % nu = 1/slope
   T_crit
 
   % plot(values_to_plot, fit_obj.a.*values_to_plot.^fit_obj.b)

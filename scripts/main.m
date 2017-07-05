@@ -1,15 +1,16 @@
 function main
   rehash;
 
+  % calculate_beta_finite_N
   % check_chi_values_max_truncation_error
   % plot_max_truncation_error_vs_chi
   % plot_quantities_vs_tolerance
-  find_T_pseudocrit_oo
+  % find_T_pseudocrit_oo
   % test_data_collapse_N
   % calculate_beta
   % calculate_kappa
   % test_data_collapse_chi
-  % find_T_pseudocrit_chi
+  find_T_pseudocrit_chi
   % plot_entropy_vs_T
   % plot_spectrum_ctm_finite_N
   % order_param_test
@@ -26,7 +27,6 @@ function main
   % tolerance_vs_order_param
   % data_collapse_nishino_optimize
   % crossover_between_chi_and_N
-  % calculate_beta_finite_N
   % long_range_order_q6_finite_N
   % long_range_order_q6
   % test_fitting

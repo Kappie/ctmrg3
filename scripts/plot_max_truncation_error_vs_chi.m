@@ -2,11 +2,11 @@ function plot_max_truncation_error_vs_chi
   q = 2;
   temperature = Constants.T_crit_guess(q);
   % N_values = [200 600 1000 2200 8000];
-  N_values = [200 1000 2200 8000];
-  % N_values = [8000];
+  % N_values = [200 1000 2200 8000];
+  N_values = [50 8000];
 
-  chi_difference = 5;
-  chi_values = chi_difference:chi_difference:80;
+  chi_difference = 20;
+  chi_values = chi_difference:chi_difference:280;
   % chi_values = [5, 7, 10, 14, 19, 25, 33, 43, 55, 70, 88, 110, 137, 169, 207];
   % chi_values = [5, 7, 10, 14, 19, 25, 33, 43, 55, 70, 88];
   % correlation_lengths = calculate_correlation_lengths(Constants.T_crit, chi_values, 1e-7, q, 'spin-up');
@@ -53,7 +53,7 @@ function [extrapolations, residues, relative_errors, relative_errors_percentage]
 
   stepwise_diffs = absolute_stepwise_differences(quantities');
   number_of_N_values = size(quantities, 2);
-  chi_values_to_sum = chi_difference:chi_difference:(10*chi_difference);
+  chi_values_to_sum = chi_difference:chi_difference:(30*chi_difference);
   chi_values_to_sum = chi_values_to_sum + chi_values(end)
 
   residues = zeros(1, number_of_N_values);
@@ -61,6 +61,7 @@ function [extrapolations, residues, relative_errors, relative_errors_percentage]
   for n = 1:number_of_N_values
     figure
     [slope, intercept, mse] = logfit(chi_values(2:end), stepwise_diffs(n, :), 'loglog');
+    title(num2str(n))
     residues(n) = sum(arrayfun( @(chi) 10^intercept * chi^slope, chi_values_to_sum ) );
   end
 
