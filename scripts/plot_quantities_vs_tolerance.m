@@ -18,10 +18,10 @@ function plot_quantities_vs_tolerance
   truncation_error_structs = sim.compute('truncation_error');
   truncation_errors = arrayfun(@(s) s.truncation_error, truncation_error_structs);
 
-  % display('order params')
-  % [extrapolations, residues, relative_errors] = extrapolate_quantity(order_parameters, tolerances, multiplier)
-  display('entropies')
-  [extrapolations, residues, relative_errors] = extrapolate_quantity(entropies, tolerances, multiplier)
+  display('order params')
+  [extrapolations, residues, relative_errors] = extrapolate_quantity(order_parameters, tolerances, multiplier)
+  % display('entropies')
+  % [extrapolations, residues, relative_errors] = extrapolate_quantity(entropies, tolerances, multiplier)
   % display('correlation_lengths')
   % [extrapolations, residues, relative_errors] = extrapolate_quantity(correlation_lengths, tolerances, multiplier)
   relative_errors_percentage = relative_errors * 100

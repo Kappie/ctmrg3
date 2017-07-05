@@ -2,9 +2,10 @@ function find_T_pseudocrit_oo
   q = 2;
   % N_values = 85:5:100;
   N_values = [20:20:680 700:60:2200 2300:200:7900];
+  % N_values = [20:20:680 700:60:2200];
   TolX = 1e-6;
   TolXFit = 1e-10;
-  N_min = 800;
+  N_min = 2300;
   exclude = N_values < N_min;
   T_crit_guess = Constants.T_crit_guess(q)
   search_width = 1e-1;

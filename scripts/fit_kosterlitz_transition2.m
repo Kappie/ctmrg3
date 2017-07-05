@@ -4,7 +4,6 @@ function [T_crit, error_of_fit, exitflag] = fit_kosterlitz_transition2(T_pseudoc
   T_crit_guess = T_pseudocrits(end);
   ORDER_LINEAR_FUNCTION = 1;
   sigma = 1/2;
-  % sigma = 1/2;
 
   length_scales_to_fit = length_scales(~exclude);
   T_pseudocrits_to_fit = T_pseudocrits(~exclude);
