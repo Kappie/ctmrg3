@@ -17,7 +17,9 @@ function calculate_beta_finite_N
   figure
   [slope, intersect, mse] = logfit(N_values, sim_N.compute('order_parameter'), 'loglog', ...
     'skipBegin', skipBegin_N)
-  title('$N$')
+  title(['$\beta / \nu = ' num2str(-slope, 4) '$'])
+  xlabel('$n$')
+  ylabel('$M(T = T_c)$')
   % figure
   % [slope, intersect, mse] = logfit(sim_chi.compute('correlation_length'), ...
   % sim_chi.compute('order_parameter'), 'loglog', 'skipBegin', skipBegin_chi)
