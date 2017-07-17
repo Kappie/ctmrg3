@@ -8,7 +8,7 @@ function plot_entropy_at_T_crit
   % chi_values = [24, 28, 33, 38, 43, 49, 56, 64, 72];
   tolerance = [1e-9];
   max_truncation_error = 1e-7;
-  skip_begin = 30;
+  skip_begin = 0;
 
   % exclude_chi_values = [28 40 42];
   exclude_chi_values = [];
@@ -20,21 +20,21 @@ function plot_entropy_at_T_crit
   sim_chi.initial_condition = 'spin-up';
   sim_chi = sim_chi.run();
 
-  % entropies = sim_chi.compute('entropy')
-  % corr_lengths = sim_chi.compute('correlation_length')
-  sim_N = FixedTruncationErrorSimulation(temperature, N_values, max_truncation_error, q).run();
-  entropies = sim_N.compute('entropy');
-  [slope, intercept] = logfit(N_values, entropies, 'logx', 'skipBegin', skip_begin)
-  central_charge = 6 * slope
+  entropies = sim_chi.compute('entropy')
+  corr_lengths = sim_chi.compute('correlation_length')
+  % sim_N = FixedTruncationErrorSimulation(temperature, N_values, max_truncation_error, q).run();
+  % entropies = sim_N.compute('entropy');
+  % [slope, intercept] = logfit(N_values, entropies, 'logx', 'skipBegin', skip_begin)
+  % central_charge = 6 * slope
   % [slope, intercept] = logfit(N_values, sim_N.compute('entropy'), 'logx', 'skipBegin', skip_begin)
   % entropies = sim_chi.compute('entropy');
 
-  % [slope, intercept, mse] = logfit(corr_lengths, entropies, 'logx', 'skipBegin', skip_begin)
+  [slope, intercept, mse] = logfit(corr_lengths, entropies, 'logx', 'skipBegin', skip_begin)
   % [slope, intercept, mse] = logfit(corr_lengths, entropies, 'logx', 'skipBegin', skip_begin)
 
   % central charge equals 0.5
   % kappa = slope * (6 / 0.5)
-  % central_charge = 6 * slope
+  central_charge = 6 * slope
   % slope
   % intercept
   % correlation_lengths = sim_chi.compute('correlation_length');

@@ -5,11 +5,12 @@ function find_T_pseudocrit_chi
   % q = 2 values entropy
   % chi_values = [10:2:32 33 38 43 49 56];
   % chi_values = [10:1:60];
-  chi_values = [10 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90];
+  % chi_values = [10 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90];
   % q = 4 values entropy
   % chi_values = [10:2:34 40 46 53 59 67 75 82 96 105];
   % q = 4 values energy gap
   % chi_values = [10:2:20 25 34 46 59 75 96];
+  chi_values = [25 35 45 55 65 75 90];
   TolX = 1e-6;
   method = 'entropy';
   tolerance = 1e-7;
@@ -17,7 +18,7 @@ function find_T_pseudocrit_chi
   % Parameters for power law fitting
   TolXFit = 1e-12;
   search_width = 0.1;
-  T_crit_guess = 0.95;
+  T_crit_guess = Constants.T_crit_guess(q)
   % Fit power law of the form
   % T_pseudocrit(L) = a*L^{-lambda} + T_c
   chi_min = 0;

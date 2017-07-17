@@ -5,7 +5,9 @@ function [T_pseudocrit, tensors, truncation_error]  = find_T_pseudocrit(obj, q, 
     done = false;
 
     while done == false;
-      sim = FixedNSimulation(temperature, get_chi(), N, q).run();
+      sim = FixedNSimulation(temperature, get_chi(), N, q);
+      sim.initial_condition = obj.initial_condition;
+      sim = sim.run();
       truncation_error_struct = sim.compute('truncation_error');
       truncation_error = truncation_error_struct.truncation_error;
       full_singular_values = truncation_error_struct.full_singular_values;
@@ -21,12 +23,15 @@ function [T_pseudocrit, tensors, truncation_error]  = find_T_pseudocrit(obj, q, 
     neg_entropy = -sim.compute('entropy');
   end
 
-  range = obj.T_crit_bounds(q);
+  % range = obj.T_crit_bounds(q);
+  range = obj.T_crit_range;
   options = optimset('Display', 'iter', 'TolX', obj.TolX);
   [T_pseudocrit, neg_entropy, EXITFLAG, OUTPUT] = fminbnd(@negative_entropy, ...
     range(1), range(2), options);
 
-  sim = FixedNSimulation(T_pseudocrit, get_chi(), N, q).run();
+  sim = FixedNSimulation(T_pseudocrit, get_chi(), N, q);
+  sim.initial_condition = obj.initial_condition;
+  sim = sim.run();
   tensors = struct('C', sim.tensors.C, 'T', sim.tensors.T);
   truncation_error = sim.compute('truncation_error');
 end
