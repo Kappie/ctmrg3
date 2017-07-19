@@ -1,8 +1,8 @@
 function simulations_clock_model
-  q = 6;
+  q = 5;
   % We take a temperature that is in the middle of the massless phase
   % temperature = 0.925;
-  number_of_points = 50; left_bound = 0.6; right_bound = 1.1;
+  number_of_points = 25; left_bound = 0.80; right_bound = 1.05;
   temperatures = linspace(left_bound, right_bound, number_of_points);
   chi_values = 10:10:100;
   tolerances = [8e-7 4e-7 2e-7 1e-7 5e-8 2.5e-8];
