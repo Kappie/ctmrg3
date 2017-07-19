@@ -1,8 +1,8 @@
 function main
   rehash;
 
-  compare_spectra_clock
-  % simulations_clock_model
+  % compare_spectra_clock
+  simulations_clock_model
   % find_T_pseudocrit_oo
   % plot_order_param_vs_entropy
   % calculate_beta_finite_N
