@@ -1,20 +1,25 @@
 function simulations_clock_model
   q = 5;
-  % We take a temperature that is in the middle of the massless phase
-  % temperature = 0.925;
-  number_of_points = 25; left_bound = 0.80; right_bound = 1.05;
+  number_of_points = 10;
+  left_bound_T1 = 0.9; right_bound_T1 = 0.92;
+  left_bound_T2 = 0.93; right_bound_T2 = 0.95;
+  temperatures_zoom_T1 = linspace(left_bound_T1, right_bound_T1, number_of_points);
+  temperatures_zoom_T2 = linspace(left_bound_T2, right_bound_T2, number_of_points);
+  temperatures = [temperatures_zoom_T1 temperatures_zoom_T2];
+  % number_of_points = 25; left_bound = 0.80; right_bound = 1.05;
   % number_of_points = 50; left_bound = 0.6; right_bound = 1.1;
 
-  temperatures = linspace(left_bound, right_bound, number_of_points);
+  % temperatures = linspace(left_bound, right_bound, number_of_points);
   % chi_values = 10:10:120;
   chi_values = 10:10:100;
   % chi_values = 10:10:60;
   % tolerances = [8e-7 4e-7 2e-7 1e-7 5e-8 2.5e-8 1.25e-8];
-  tolerances = [8e-7 4e-7 2e-7 1e-7 5e-8 2.5e-8];
+  % tolerances = [8e-7 4e-7 2e-7 1e-7 5e-8 2.5e-8];
+  tolerances = [8e-7 4e-7 2e-7 1e-7 5e-8];
   % tolerances = [8e-7 4e-7 2e-7 1e-7];
 
   sim = FixedToleranceSimulation(temperatures, chi_values, tolerances, q).run();
-  save('q5_chi10-100_tol25e-9.mat', 'sim')
+  save('q5_chi10-100_tol5e-8_zoom.mat', 'sim')
   % order_params = sim.compute('order_parameter');
   % entropies = sim.compute('entropy');
   % corr_lengths = sim.compute('correlation_length')
