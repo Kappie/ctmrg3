@@ -4,8 +4,8 @@ function main
   % analyze_q5
   % test_save_function
   % compare_spectra_clock
-  simulations_clock_model
-  % find_T_pseudocrit_oo
+  % simulations_clock_model
+  find_T_pseudocrit_oo
   % plot_order_param_vs_entropy
   % calculate_beta_finite_N
   % check_chi_values_max_truncation_error
