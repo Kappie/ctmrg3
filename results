@@ -1,0 +1,128 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+
+T_crit_guess =
+
+   2.269185314213022
+
+Found record in database for q = 2 N = 20 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 40 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 60 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 80 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 100 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 120 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 140 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 160 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 180 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 200 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 220 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 240 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 260 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 280 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 300 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 320 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 340 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 360 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 380 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 400 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 420 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 440 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 460 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 480 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 500 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 520 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 540 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 560 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 580 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 600 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 620 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 640 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 660 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 680 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 700 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 760 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 820 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 880 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 940 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 1000 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 1060 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 1120 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 1180 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 1240 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 1300 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 1360 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 1420 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 1480 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 1540 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 1600 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 1660 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 1720 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 1780 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 1840 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 1900 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 1960 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 2020 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 2080 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 2140 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 2200 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 2300 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 2500 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 2700 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 2900 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 3100 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 3300 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 3500 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 3700 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 3900 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 4100 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 4300 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 4500 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 4700 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 4900 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 5100 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 5300 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 5500 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 5700 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 5900 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 6100 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 6300 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 6500 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 6700 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 6900 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 7100 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 7300 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 7500 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 7700 max_truncation_error = 1e-06
+Found record in database for q = 2 N = 7900 max_truncation_error = 1e-06
+
+slope =
+
+  -0.981131870523187
+
+
+intercept =
+
+   0.470975081929871
+
+
+T_crit =
+
+   2.269182083900304
+
+
+mse =
+
+  -0.981131870523187
+
+>> 

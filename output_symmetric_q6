@@ -1,0 +1,1411 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.49098, chi = 200, N = 10, convergence = 0.073718, initial = symmetric, q = 6truncation error = 1.599e-08.
+ 
+ Func-count     x          f(x)         Procedure
+    1       0.490983    -0.782087        initial
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60902, chi = 200, N = 10, convergence = 0.20002, initial = symmetric, q = 6truncation error = 1.4682e-07.
+    2       0.609017    -0.670286        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.41803, chi = 200, N = 10, convergence = 0.0066608, initial = symmetric, q = 6truncation error = 2.2896e-10.
+    3       0.418034    -0.779541        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.4579, chi = 200, N = 10, convergence = 0.028418, initial = symmetric, q = 6truncation error = 3.0954e-09.
+    4       0.457903    -0.781467        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.49756, chi = 200, N = 10, convergence = 0.08625, initial = symmetric, q = 6truncation error = 2.0768e-08.
+    5       0.497564    -0.781452        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.47767, chi = 200, N = 10, convergence = 0.051614, initial = symmetric, q = 6truncation error = 8.7604e-09.
+    6       0.477668    -0.782319        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.47957, chi = 200, N = 10, convergence = 0.054469, initial = symmetric, q = 6truncation error = 9.5769e-09.
+    7       0.479566    -0.782347        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.48124, chi = 200, N = 10, convergence = 0.057067, initial = symmetric, q = 6truncation error = 1.0351e-08.
+    8       0.481238    -0.782358        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.48188, chi = 200, N = 10, convergence = 0.05808, initial = symmetric, q = 6truncation error = 1.0661e-08.
+    9       0.481876    -0.782359        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.48175, chi = 200, N = 10, convergence = 0.057872, initial = symmetric, q = 6truncation error = 1.0597e-08.
+   10       0.481746    -0.782359        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.48174, chi = 200, N = 10, convergence = 0.057859, initial = symmetric, q = 6truncation error = 1.0593e-08.
+   11       0.481737    -0.782359        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.48174, chi = 200, N = 10, convergence = 0.05786, initial = symmetric, q = 6truncation error = 1.0594e-08.
+   12       0.481738    -0.782359        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.48174, chi = 200, N = 10, convergence = 0.05786, initial = symmetric, q = 6truncation error = 1.0593e-08.
+   13       0.481737    -0.782359        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.48174, chi = 200, N = 10, convergence = 0.057861, initial = symmetric, q = 6truncation error = 1.0594e-08.
+   14       0.481738    -0.782359        parabolic
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+set chi to 200
+stored to database: 
+temperature = 0.49098, chi = 200, N = 15, convergence = 0.014543, initial = symmetric, q = 6truncation error = 4.4165e-08.
+ 
+ Func-count     x          f(x)         Procedure
+    1       0.490983    -0.785588        initial
+set chi to 200
+stored to database: 
+temperature = 0.60902, chi = 200, N = 15, convergence = 0.15005, initial = symmetric, q = 6truncation error = 1.211e-06.
+set chi to 321
+Did not find record
+stored to database: 
+temperature = 0.60902, chi = 321, N = 15, convergence = 0.15309, initial = symmetric, q = 6truncation error = 9.1248e-08.
+    2       0.609017    -0.710881        golden
+set chi to 200
+stored to database: 
+temperature = 0.41803, chi = 200, N = 15, convergence = 0.00032835, initial = symmetric, q = 6truncation error = 3.334e-10.
+    3       0.418034    -0.779553        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.46555, chi = 200, N = 15, convergence = 0.0045169, initial = symmetric, q = 6truncation error = 9.6005e-09.
+    4       0.465548    -0.782529        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.53607, chi = 200, N = 15, convergence = 0.070592, initial = symmetric, q = 6truncation error = 3.4987e-07.
+    5       0.536068    -0.789098        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.57818, chi = 200, N = 15, convergence = 0.139, initial = symmetric, q = 6truncation error = 9.192e-07.
+set chi to 301
+Did not find record
+stored to database: 
+temperature = 0.57818, chi = 301, N = 15, convergence = 0.14129, initial = symmetric, q = 6truncation error = 9.1721e-08.
+    6       0.578176    -0.756707        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.51885, chi = 200, N = 15, convergence = 0.041586, initial = symmetric, q = 6truncation error = 1.8272e-07.
+    7       0.518847    -0.789362        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.52517, chi = 200, N = 15, convergence = 0.051311, initial = symmetric, q = 6truncation error = 2.3564e-07.
+    8       0.525167    -0.789735        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.52633, chi = 200, N = 15, convergence = 0.053236, initial = symmetric, q = 6truncation error = 2.4658e-07.
+    9       0.526334    -0.789756        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.52737, chi = 200, N = 15, convergence = 0.054979, initial = symmetric, q = 6truncation error = 2.5661e-07.
+   10       0.527371    -0.789759        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.5271, chi = 200, N = 15, convergence = 0.054522, initial = symmetric, q = 6truncation error = 2.5397e-07.
+   11       0.527101    -0.789759        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.52709, chi = 200, N = 15, convergence = 0.054506, initial = symmetric, q = 6truncation error = 2.5388e-07.
+   12       0.527092    -0.789759        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.52709, chi = 200, N = 15, convergence = 0.05451, initial = symmetric, q = 6truncation error = 2.539e-07.
+   13       0.527094    -0.789759        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.52709, chi = 200, N = 15, convergence = 0.054509, initial = symmetric, q = 6truncation error = 2.539e-07.
+   14       0.527094    -0.789759        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.52709, chi = 200, N = 15, convergence = 0.054511, initial = symmetric, q = 6truncation error = 2.539e-07.
+   15       0.527094    -0.789759        parabolic
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+set chi to 200
+stored to database: 
+temperature = 0.49098, chi = 200, N = 20, convergence = 0.0028133, initial = symmetric, q = 6truncation error = 5.6963e-08.
+ 
+ Func-count     x          f(x)         Procedure
+    1       0.490983    -0.785781        initial
+set chi to 200
+stored to database: 
+temperature = 0.60902, chi = 200, N = 20, convergence = 0.11933, initial = symmetric, q = 6truncation error = 3.9411e-06.
+set chi to 388
+Did not find record
+stored to database: 
+temperature = 0.60902, chi = 388, N = 20, convergence = 0.12391, initial = symmetric, q = 6truncation error = 1.4513e-07.
+    2       0.609017    -0.741363        golden
+set chi to 200
+stored to database: 
+temperature = 0.41803, chi = 200, N = 20, convergence = 1.659e-05, initial = symmetric, q = 6truncation error = 3.3584e-10.
+    3       0.418034    -0.779553        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.47217, chi = 200, N = 20, convergence = 0.0009033, initial = symmetric, q = 6truncation error = 1.6858e-08.
+    4       0.472168    -0.783239        parabolic
+set chi to 200
+stored to database: 
+temperature = 0.53607, chi = 200, N = 20, convergence = 0.027113, initial = symmetric, q = 6truncation error = 6.8947e-07.
+    5       0.536068     -0.79562        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.56393, chi = 200, N = 20, convergence = 0.070728, initial = symmetric, q = 6truncation error = 1.9024e-06.
+set chi to 332
+Did not find record
+stored to database: 
+temperature = 0.56393, chi = 332, N = 20, convergence = 0.072746, initial = symmetric, q = 6truncation error = 1.2987e-07.
+    6       0.563932    -0.795488        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.54922, chi = 200, N = 20, convergence = 0.044949, initial = symmetric, q = 6truncation error = 1.1833e-06.
+set chi to 303
+Did not find record
+stored to database: 
+temperature = 0.54922, chi = 303, N = 20, convergence = 0.046121, initial = symmetric, q = 6truncation error = 1.1896e-07.
+    7       0.549221     -0.79764        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.54978, chi = 200, N = 20, convergence = 0.045851, initial = symmetric, q = 6truncation error = 1.2078e-06.
+set chi to 304
+Did not find record
+stored to database: 
+temperature = 0.54978, chi = 304, N = 20, convergence = 0.047052, initial = symmetric, q = 6truncation error = 1.1976e-07.
+    8       0.549779    -0.797667        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.55262, chi = 200, N = 20, convergence = 0.050593, initial = symmetric, q = 6truncation error = 1.335e-06.
+set chi to 310
+Did not find record
+stored to database: 
+temperature = 0.55262, chi = 310, N = 20, convergence = 0.051934, initial = symmetric, q = 6truncation error = 1.2213e-07.
+    9       0.552625    -0.797696        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.55694, chi = 200, N = 20, convergence = 0.058117, initial = symmetric, q = 6truncation error = 1.5408e-06.
+set chi to 319
+Did not find record
+stored to database: 
+temperature = 0.55694, chi = 319, N = 20, convergence = 0.059698, initial = symmetric, q = 6truncation error = 1.2491e-07.
+   10       0.556944    -0.797338        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.55165, chi = 200, N = 20, convergence = 0.048946, initial = symmetric, q = 6truncation error = 1.2907e-06.
+set chi to 308
+Did not find record
+stored to database: 
+temperature = 0.55165, chi = 308, N = 20, convergence = 0.050238, initial = symmetric, q = 6truncation error = 1.2131e-07.
+   11        0.55165    -0.797707        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.55163, chi = 200, N = 20, convergence = 0.048911, initial = symmetric, q = 6truncation error = 1.2897e-06.
+set chi to 308
+Did not find record
+stored to database: 
+temperature = 0.55163, chi = 308, N = 20, convergence = 0.050202, initial = symmetric, q = 6truncation error = 1.212e-07.
+   12       0.551629    -0.797707        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.55165, chi = 200, N = 20, convergence = 0.04894, initial = symmetric, q = 6truncation error = 1.2905e-06.
+set chi to 308
+Did not find record
+stored to database: 
+temperature = 0.55165, chi = 308, N = 20, convergence = 0.050233, initial = symmetric, q = 6truncation error = 1.2129e-07.
+   13       0.551647    -0.797707        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.55165, chi = 200, N = 20, convergence = 0.048941, initial = symmetric, q = 6truncation error = 1.2905e-06.
+set chi to 308
+Did not find record
+stored to database: 
+temperature = 0.55165, chi = 308, N = 20, convergence = 0.050233, initial = symmetric, q = 6truncation error = 1.213e-07.
+   14       0.551647    -0.797707        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.55165, chi = 200, N = 20, convergence = 0.04894, initial = symmetric, q = 6truncation error = 1.2905e-06.
+set chi to 308
+Did not find record
+stored to database: 
+temperature = 0.55165, chi = 308, N = 20, convergence = 0.050232, initial = symmetric, q = 6truncation error = 1.2129e-07.
+   15       0.551646    -0.797707        parabolic
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+set chi to 200
+stored to database: 
+temperature = 0.49098, chi = 200, N = 25, convergence = 0.00056323, initial = symmetric, q = 6truncation error = 5.9286e-08.
+ 
+ Func-count     x          f(x)         Procedure
+    1       0.490983    -0.785791        initial
+set chi to 200
+stored to database: 
+temperature = 0.60902, chi = 200, N = 25, convergence = 0.097429, initial = symmetric, q = 6truncation error = 8.4092e-06.
+set chi to 440
+Did not find record
+stored to database: 
+temperature = 0.60902, chi = 440, N = 25, convergence = 0.10293, initial = symmetric, q = 6truncation error = 2.1607e-07.
+    2       0.609017    -0.765788        golden
+set chi to 200
+stored to database: 
+temperature = 0.41803, chi = 200, N = 25, convergence = 6.6124e-07, initial = symmetric, q = 6truncation error = 3.3587e-10.
+    3       0.418034    -0.779553        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.48653, chi = 200, N = 25, convergence = 0.00040501, initial = symmetric, q = 6truncation error = 4.4433e-08.
+    4       0.486534    -0.785102        parabolic
+set chi to 200
+stored to database: 
+temperature = 0.53607, chi = 200, N = 25, convergence = 0.010183, initial = symmetric, q = 6truncation error = 8.9459e-07.
+    5       0.536068    -0.796951        golden
+set chi to 200
+stored to database: 
+temperature = 0.56393, chi = 200, N = 25, convergence = 0.038418, initial = symmetric, q = 6truncation error = 3.1575e-06.
+set chi to 359
+Did not find record
+stored to database: 
+temperature = 0.56393, chi = 359, N = 25, convergence = 0.040019, initial = symmetric, q = 6truncation error = 1.6666e-07.
+    6       0.563932    -0.805145        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.58115, chi = 200, N = 25, convergence = 0.067082, initial = symmetric, q = 6truncation error = 5.2887e-06.
+set chi to 397
+Did not find record
+stored to database: 
+temperature = 0.58115, chi = 397, N = 25, convergence = 0.070331, initial = symmetric, q = 6truncation error = 1.8686e-07.
+    7       0.581153    -0.801311        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.56283, chi = 200, N = 25, convergence = 0.036739, initial = symmetric, q = 6truncation error = 3.0318e-06.
+set chi to 357
+Did not find record
+stored to database: 
+temperature = 0.56283, chi = 357, N = 25, convergence = 0.03824, initial = symmetric, q = 6truncation error = 1.6421e-07.
+    8       0.562829     -0.80501        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.56663, chi = 200, N = 25, convergence = 0.042629, initial = symmetric, q = 6truncation error = 3.4665e-06.
+set chi to 365
+Did not find record
+stored to database: 
+temperature = 0.56663, chi = 365, N = 25, convergence = 0.044504, initial = symmetric, q = 6truncation error = 1.7069e-07.
+    9       0.566633    -0.805328        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.57218, chi = 200, N = 25, convergence = 0.051902, initial = symmetric, q = 6truncation error = 4.1504e-06.
+set chi to 376
+Did not find record
+stored to database: 
+temperature = 0.57218, chi = 376, N = 25, convergence = 0.054226, initial = symmetric, q = 6truncation error = 1.8288e-07.
+   10       0.572179    -0.804907        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.56764, chi = 200, N = 25, convergence = 0.044256, initial = symmetric, q = 6truncation error = 3.5869e-06.
+set chi to 367
+Did not find record
+stored to database: 
+temperature = 0.56764, chi = 367, N = 25, convergence = 0.046215, initial = symmetric, q = 6truncation error = 1.7281e-07.
+   11       0.567635    -0.805337        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.56741, chi = 200, N = 25, convergence = 0.043882, initial = symmetric, q = 6truncation error = 3.5593e-06.
+set chi to 366
+Did not find record
+stored to database: 
+temperature = 0.56741, chi = 366, N = 25, convergence = 0.045819, initial = symmetric, q = 6truncation error = 1.7351e-07.
+   12       0.567406    -0.805338        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.56739, chi = 200, N = 25, convergence = 0.043853, initial = symmetric, q = 6truncation error = 3.5571e-06.
+set chi to 366
+Did not find record
+stored to database: 
+temperature = 0.56739, chi = 366, N = 25, convergence = 0.045788, initial = symmetric, q = 6truncation error = 1.7339e-07.
+   13       0.567388    -0.805338        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.56739, chi = 200, N = 25, convergence = 0.043855, initial = symmetric, q = 6truncation error = 3.5573e-06.
+set chi to 366
+Did not find record
+stored to database: 
+temperature = 0.56739, chi = 366, N = 25, convergence = 0.045791, initial = symmetric, q = 6truncation error = 1.734e-07.
+   14        0.56739    -0.805338        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.56739, chi = 200, N = 25, convergence = 0.043855, initial = symmetric, q = 6truncation error = 3.5573e-06.
+set chi to 366
+Did not find record
+stored to database: 
+temperature = 0.56739, chi = 366, N = 25, convergence = 0.045791, initial = symmetric, q = 6truncation error = 1.734e-07.
+   15       0.567389    -0.805338        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.56739, chi = 200, N = 25, convergence = 0.043856, initial = symmetric, q = 6truncation error = 3.5574e-06.
+set chi to 366
+Did not find record
+stored to database: 
+temperature = 0.56739, chi = 366, N = 25, convergence = 0.045792, initial = symmetric, q = 6truncation error = 1.734e-07.
+   16        0.56739    -0.805338        parabolic
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+set chi to 200
+stored to database: 
+temperature = 0.49098, chi = 200, N = 30, convergence = 0.00011466, initial = symmetric, q = 6truncation error = 5.958e-08.
+ 
+ Func-count     x          f(x)         Procedure
+    1       0.490983    -0.785791        initial
+set chi to 200
+stored to database: 
+temperature = 0.60902, chi = 200, N = 30, convergence = 0.080357, initial = symmetric, q = 6truncation error = 1.4253e-05.
+set chi to 475
+Did not find record
+stored to database: 
+temperature = 0.60902, chi = 475, N = 30, convergence = 0.086264, initial = symmetric, q = 6truncation error = 3.1683e-07.
+    2       0.609017    -0.785798        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.68197, chi = 200, N = 30, convergence = 0.077613, initial = symmetric, q = 6truncation error = 1.7099e-05.
+set chi to 504
+Did not find record
+stored to database: 
+temperature = 0.68197, chi = 504, N = 30, convergence = 0.084397, initial = symmetric, q = 6truncation error = 3.1315e-07.
+    3       0.681966    -0.682335        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.55, chi = 200, N = 30, convergence = 0.0093544, initial = symmetric, q = 6truncation error = 2.1299e-06.
+set chi to 340
+Did not find record
+stored to database: 
+temperature = 0.55, chi = 340, N = 30, convergence = 0.0096678, initial = symmetric, q = 6truncation error = 1.5198e-07.
+    4       0.550004    -0.802849        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.55001, chi = 200, N = 30, convergence = 0.0093555, initial = symmetric, q = 6truncation error = 2.1301e-06.
+set chi to 340
+Did not find record
+stored to database: 
+temperature = 0.55001, chi = 340, N = 30, convergence = 0.009669, initial = symmetric, q = 6truncation error = 1.52e-07.
+    5       0.550006     -0.80285        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.56778, chi = 200, N = 30, convergence = 0.024464, initial = symmetric, q = 6truncation error = 4.8826e-06.
+set chi to 388
+Did not find record
+stored to database: 
+temperature = 0.56778, chi = 388, N = 30, convergence = 0.025809, initial = symmetric, q = 6truncation error = 2.0087e-07.
+    6       0.567781    -0.810352        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.58353, chi = 200, N = 30, convergence = 0.047567, initial = symmetric, q = 6truncation error = 8.4186e-06.
+set chi to 431
+Did not find record
+stored to database: 
+temperature = 0.58353, chi = 431, N = 30, convergence = 0.050701, initial = symmetric, q = 6truncation error = 2.404e-07.
+    7       0.583532    -0.811818        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.5804, chi = 200, N = 30, convergence = 0.042649, initial = symmetric, q = 6truncation error = 7.6639e-06.
+set chi to 423
+Did not find record
+stored to database: 
+temperature = 0.5804, chi = 423, N = 30, convergence = 0.04526, initial = symmetric, q = 6truncation error = 2.2964e-07.
+    8       0.580401    -0.812356        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.57787, chi = 200, N = 30, convergence = 0.038642, initial = symmetric, q = 6truncation error = 7.0769e-06.
+set chi to 417
+Did not find record
+stored to database: 
+temperature = 0.57787, chi = 417, N = 30, convergence = 0.040974, initial = symmetric, q = 6truncation error = 2.1892e-07.
+    9       0.577874    -0.812431        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.57855, chi = 200, N = 30, convergence = 0.03972, initial = symmetric, q = 6truncation error = 7.2328e-06.
+set chi to 418
+Did not find record
+stored to database: 
+temperature = 0.57855, chi = 418, N = 30, convergence = 0.042113, initial = symmetric, q = 6truncation error = 2.2324e-07.
+   10       0.578551     -0.81244        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.5785, chi = 200, N = 30, convergence = 0.039642, initial = symmetric, q = 6truncation error = 7.2211e-06.
+set chi to 418
+Did not find record
+stored to database: 
+temperature = 0.5785, chi = 418, N = 30, convergence = 0.04203, initial = symmetric, q = 6truncation error = 2.2274e-07.
+   11       0.578502     -0.81244        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.57851, chi = 200, N = 30, convergence = 0.039656, initial = symmetric, q = 6truncation error = 7.2232e-06.
+set chi to 418
+Did not find record
+stored to database: 
+temperature = 0.57851, chi = 418, N = 30, convergence = 0.042045, initial = symmetric, q = 6truncation error = 2.2283e-07.
+   12       0.578511     -0.81244        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.57851, chi = 200, N = 30, convergence = 0.039656, initial = symmetric, q = 6truncation error = 7.2231e-06.
+set chi to 418
+Did not find record
+stored to database: 
+temperature = 0.57851, chi = 418, N = 30, convergence = 0.042045, initial = symmetric, q = 6truncation error = 2.2283e-07.
+   13        0.57851     -0.81244        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.57851, chi = 200, N = 30, convergence = 0.039657, initial = symmetric, q = 6truncation error = 7.2233e-06.
+set chi to 418
+Did not find record
+stored to database: 
+temperature = 0.57851, chi = 418, N = 30, convergence = 0.042046, initial = symmetric, q = 6truncation error = 2.2283e-07.
+   14       0.578511     -0.81244        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.57853, chi = 200, N = 30, convergence = 0.039681, initial = symmetric, q = 6truncation error = 7.2268e-06.
+set chi to 418
+Did not find record
+stored to database: 
+temperature = 0.57853, chi = 418, N = 30, convergence = 0.042072, initial = symmetric, q = 6truncation error = 2.2299e-07.
+   15       0.578526     -0.81244        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.57852, chi = 200, N = 30, convergence = 0.039666, initial = symmetric, q = 6truncation error = 7.2246e-06.
+set chi to 418
+Did not find record
+stored to database: 
+temperature = 0.57852, chi = 418, N = 30, convergence = 0.042056, initial = symmetric, q = 6truncation error = 2.2289e-07.
+   16       0.578517     -0.81244        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.57851, chi = 200, N = 30, convergence = 0.039661, initial = symmetric, q = 6truncation error = 7.2238e-06.
+set chi to 418
+Did not find record
+stored to database: 
+temperature = 0.57851, chi = 418, N = 30, convergence = 0.04205, initial = symmetric, q = 6truncation error = 2.2286e-07.
+   17       0.578513     -0.81244        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.57851, chi = 200, N = 30, convergence = 0.039659, initial = symmetric, q = 6truncation error = 7.2235e-06.
+set chi to 418
+Did not find record
+stored to database: 
+temperature = 0.57851, chi = 418, N = 30, convergence = 0.042048, initial = symmetric, q = 6truncation error = 2.2284e-07.
+   18       0.578512     -0.81244        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.57851, chi = 200, N = 30, convergence = 0.039657, initial = symmetric, q = 6truncation error = 7.2237e-06.
+set chi to 418
+Did not find record
+stored to database: 
+temperature = 0.57851, chi = 418, N = 30, convergence = 0.042046, initial = symmetric, q = 6truncation error = 2.2284e-07.
+   19       0.578512     -0.81244        parabolic
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+set chi to 200
+stored to database: 
+temperature = 0.49098, chi = 200, N = 35, convergence = 2.3767e-05, initial = symmetric, q = 6truncation error = 5.9605e-08.
+ 
+ Func-count     x          f(x)         Procedure
+    1       0.490983    -0.785791        initial
+set chi to 200
+stored to database: 
+temperature = 0.60902, chi = 200, N = 35, convergence = 0.066325, initial = symmetric, q = 6truncation error = 2.0836e-05.
+set chi to 501
+Did not find record
+stored to database: 
+temperature = 0.60902, chi = 501, N = 35, convergence = 0.072235, initial = symmetric, q = 6truncation error = 4.3046e-07.
+    2       0.609017    -0.802198        golden
+set chi to 200
+stored to database: 
+temperature = 0.68197, chi = 200, N = 35, convergence = 0.068244, initial = symmetric, q = 6truncation error = 2.642e-05.
+set chi to 543
+Did not find record
+stored to database: 
+temperature = 0.68197, chi = 543, N = 35, convergence = 0.075685, initial = symmetric, q = 6truncation error = 4.2804e-07.
+    3       0.681966    -0.694065        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.55819, chi = 200, N = 35, convergence = 0.0073504, initial = symmetric, q = 6truncation error = 3.5862e-06.
+set chi to 374
+Did not find record
+stored to database: 
+temperature = 0.55819, chi = 374, N = 35, convergence = 0.0076234, initial = symmetric, q = 6truncation error = 1.7527e-07.
+    4       0.558187    -0.807205        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.56966, chi = 200, N = 35, convergence = 0.014974, initial = symmetric, q = 6truncation error = 6.3123e-06.
+set chi to 404
+Did not find record
+stored to database: 
+temperature = 0.56966, chi = 404, N = 35, convergence = 0.01595, initial = symmetric, q = 6truncation error = 2.277e-07.
+    5       0.569664    -0.813313        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.58053, chi = 200, N = 35, convergence = 0.026763, initial = symmetric, q = 6truncation error = 9.8451e-06.
+set chi to 440
+Did not find record
+stored to database: 
+temperature = 0.58053, chi = 440, N = 35, convergence = 0.028786, initial = symmetric, q = 6truncation error = 2.7567e-07.
+    6       0.580528    -0.817998        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.59141, chi = 200, N = 35, convergence = 0.042841, initial = symmetric, q = 6truncation error = 1.3992e-05.
+set chi to 469
+Did not find record
+stored to database: 
+temperature = 0.59141, chi = 469, N = 35, convergence = 0.04639, initial = symmetric, q = 6truncation error = 3.4003e-07.
+    7        0.59141    -0.818376        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.58692, chi = 200, N = 35, convergence = 0.036092, initial = symmetric, q = 6truncation error = 1.2223e-05.
+set chi to 459
+Did not find record
+stored to database: 
+temperature = 0.58692, chi = 459, N = 35, convergence = 0.038838, initial = symmetric, q = 6truncation error = 3.1001e-07.
+    8       0.586923    -0.818999        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.58661, chi = 200, N = 35, convergence = 0.035614, initial = symmetric, q = 6truncation error = 1.2107e-05.
+set chi to 459
+Did not find record
+stored to database: 
+temperature = 0.58661, chi = 459, N = 35, convergence = 0.038324, initial = symmetric, q = 6truncation error = 3.0567e-07.
+    9        0.58661    -0.818997        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.58687, chi = 200, N = 35, convergence = 0.036013, initial = symmetric, q = 6truncation error = 1.2203e-05.
+set chi to 459
+Did not find record
+stored to database: 
+temperature = 0.58687, chi = 459, N = 35, convergence = 0.038752, initial = symmetric, q = 6truncation error = 3.0929e-07.
+   10       0.586871    -0.818999        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.58688, chi = 200, N = 35, convergence = 0.036025, initial = symmetric, q = 6truncation error = 1.2206e-05.
+set chi to 459
+Did not find record
+stored to database: 
+temperature = 0.58688, chi = 459, N = 35, convergence = 0.038765, initial = symmetric, q = 6truncation error = 3.094e-07.
+   11       0.586879    -0.818999        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.58688, chi = 200, N = 35, convergence = 0.036025, initial = symmetric, q = 6truncation error = 1.2207e-05.
+set chi to 459
+Did not find record
+stored to database: 
+temperature = 0.58688, chi = 459, N = 35, convergence = 0.038765, initial = symmetric, q = 6truncation error = 3.094e-07.
+   12       0.586879    -0.818999        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.58688, chi = 200, N = 35, convergence = 0.036024, initial = symmetric, q = 6truncation error = 1.221e-05.
+set chi to 459
+Did not find record
+stored to database: 
+temperature = 0.58688, chi = 459, N = 35, convergence = 0.038764, initial = symmetric, q = 6truncation error = 3.0939e-07.
+   13       0.586879    -0.818999        parabolic
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+set chi to 200
+stored to database: 
+temperature = 0.49098, chi = 200, N = 40, convergence = 4.9561e-06, initial = symmetric, q = 6truncation error = 5.9607e-08.
+ 
+ Func-count     x          f(x)         Procedure
+    1       0.490983    -0.785791        initial
+set chi to 200
+stored to database: 
+temperature = 0.60902, chi = 200, N = 40, convergence = 0.054526, initial = symmetric, q = 6truncation error = 2.7628e-05.
+set chi to 526
+Did not find record
+stored to database: 
+temperature = 0.60902, chi = 526, N = 40, convergence = 0.060165, initial = symmetric, q = 6truncation error = 5.2937e-07.
+    2       0.609017     -0.81548        golden
+set chi to 200
+stored to database: 
+temperature = 0.68197, chi = 200, N = 40, convergence = 0.060869, initial = symmetric, q = 6truncation error = 3.7274e-05.
+set chi to 574
+Did not find record
+stored to database: 
+temperature = 0.68197, chi = 574, N = 40, convergence = 0.068803, initial = symmetric, q = 6truncation error = 5.7083e-07.
+    3       0.681966    -0.704235        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.56352, chi = 200, N = 40, convergence = 0.0053838, initial = symmetric, q = 6truncation error = 5.056e-06.
+set chi to 395
+Did not find record
+stored to database: 
+temperature = 0.56352, chi = 395, N = 40, convergence = 0.0055991, initial = symmetric, q = 6truncation error = 2.0355e-07.
+    4        0.56352    -0.810475        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.61447, chi = 200, N = 40, convergence = 0.059984, initial = symmetric, q = 6truncation error = 3.0488e-05.
+set chi to 538
+Did not find record
+stored to database: 
+temperature = 0.61447, chi = 538, N = 40, convergence = 0.066398, initial = symmetric, q = 6truncation error = 5.4209e-07.
+    5       0.614469    -0.807594        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.58807, chi = 200, N = 40, convergence = 0.025267, initial = symmetric, q = 6truncation error = 1.5404e-05.
+set chi to 475
+Did not find record
+stored to database: 
+temperature = 0.58807, chi = 475, N = 40, convergence = 0.027597, initial = symmetric, q = 6truncation error = 3.7961e-07.
+    6       0.588069    -0.824175        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.58884, chi = 200, N = 40, convergence = 0.026315, initial = symmetric, q = 6truncation error = 1.5834e-05.
+set chi to 477
+Did not find record
+stored to database: 
+temperature = 0.58884, chi = 477, N = 40, convergence = 0.028746, initial = symmetric, q = 6truncation error = 3.8718e-07.
+    7       0.588841    -0.824398        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.5926, chi = 200, N = 40, convergence = 0.031698, initial = symmetric, q = 6truncation error = 1.7977e-05.
+set chi to 487
+Did not find record
+stored to database: 
+temperature = 0.5926, chi = 487, N = 40, convergence = 0.034583, initial = symmetric, q = 6truncation error = 4.2117e-07.
+    8       0.592596     -0.82503        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.59887, chi = 200, N = 40, convergence = 0.040852, initial = symmetric, q = 6truncation error = 2.1725e-05.
+set chi to 500
+Did not find record
+stored to database: 
+temperature = 0.59887, chi = 500, N = 40, convergence = 0.04486, initial = symmetric, q = 6truncation error = 4.8378e-07.
+    9       0.598868    -0.823984        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.59386, chi = 200, N = 40, convergence = 0.033604, initial = symmetric, q = 6truncation error = 1.868e-05.
+set chi to 490
+Did not find record
+stored to database: 
+temperature = 0.59386, chi = 490, N = 40, convergence = 0.036637, initial = symmetric, q = 6truncation error = 4.332e-07.
+   10       0.593865    -0.825049        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.59348, chi = 200, N = 40, convergence = 0.033014, initial = symmetric, q = 6truncation error = 1.8475e-05.
+set chi to 489
+Did not find record
+stored to database: 
+temperature = 0.59348, chi = 489, N = 40, convergence = 0.036006, initial = symmetric, q = 6truncation error = 4.299e-07.
+   11       0.593476    -0.825054        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.59345, chi = 200, N = 40, convergence = 0.032983, initial = symmetric, q = 6truncation error = 1.8462e-05.
+set chi to 489
+Did not find record
+stored to database: 
+temperature = 0.59345, chi = 489, N = 40, convergence = 0.035971, initial = symmetric, q = 6truncation error = 4.295e-07.
+   12       0.593455    -0.825054        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.59346, chi = 200, N = 40, convergence = 0.032987, initial = symmetric, q = 6truncation error = 1.8464e-05.
+set chi to 489
+Did not find record
+stored to database: 
+temperature = 0.59346, chi = 489, N = 40, convergence = 0.035976, initial = symmetric, q = 6truncation error = 4.2955e-07.
+   13       0.593458    -0.825054        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.59346, chi = 200, N = 40, convergence = 0.032987, initial = symmetric, q = 6truncation error = 1.8463e-05.
+set chi to 489
+Did not find record
+stored to database: 
+temperature = 0.59346, chi = 489, N = 40, convergence = 0.035976, initial = symmetric, q = 6truncation error = 4.2955e-07.
+   14       0.593457    -0.825054        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.59346, chi = 200, N = 40, convergence = 0.032986, initial = symmetric, q = 6truncation error = 1.8463e-05.
+set chi to 489
+Did not find record
+stored to database: 
+temperature = 0.59346, chi = 489, N = 40, convergence = 0.035975, initial = symmetric, q = 6truncation error = 4.2953e-07.
+   15       0.593457    -0.825054        parabolic
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+set chi to 200
+stored to database: 
+temperature = 0.49098, chi = 200, N = 45, convergence = 1.0334e-06, initial = symmetric, q = 6truncation error = 5.9607e-08.
+ 
+ Func-count     x          f(x)         Procedure
+    1       0.490983    -0.785791        initial
+set chi to 200
+stored to database: 
+temperature = 0.60902, chi = 200, N = 45, convergence = 0.044429, initial = symmetric, q = 6truncation error = 3.4264e-05.
+set chi to 545
+Did not find record
+stored to database: 
+temperature = 0.60902, chi = 545, N = 45, convergence = 0.049658, initial = symmetric, q = 6truncation error = 6.4011e-07.
+    2       0.609017    -0.826043        golden
+set chi to 200
+stored to database: 
+temperature = 0.68197, chi = 200, N = 45, convergence = 0.054918, initial = symmetric, q = 6truncation error = 4.9393e-05.
+set chi to 598
+Did not find record
+stored to database: 
+temperature = 0.68197, chi = 598, N = 45, convergence = 0.063184, initial = symmetric, q = 6truncation error = 7.5029e-07.
+    3       0.681966    -0.713211        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.56725, chi = 200, N = 45, convergence = 0.0037916, initial = symmetric, q = 6truncation error = 6.4337e-06.
+set chi to 410
+Did not find record
+stored to database: 
+temperature = 0.56725, chi = 410, N = 45, convergence = 0.0039667, initial = symmetric, q = 6truncation error = 2.3319e-07.
+    4        0.56725    -0.812971        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.63688, chi = 200, N = 45, convergence = 0.060541, initial = symmetric, q = 6truncation error = 4.8565e-05.
+set chi to 583
+Did not find record
+stored to database: 
+temperature = 0.63688, chi = 583, N = 45, convergence = 0.069037, initial = symmetric, q = 6truncation error = 7.9668e-07.
+    5       0.636881    -0.777482        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.59306, chi = 200, N = 45, convergence = 0.022442, initial = symmetric, q = 6truncation error = 2.1295e-05.
+set chi to 498
+Did not find record
+stored to database: 
+temperature = 0.59306, chi = 498, N = 45, convergence = 0.024859, initial = symmetric, q = 6truncation error = 5.0008e-07.
+    6       0.593064    -0.829511        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.59575, chi = 200, N = 45, convergence = 0.026055, initial = symmetric, q = 6truncation error = 2.3418e-05.
+set chi to 504
+Did not find record
+stored to database: 
+temperature = 0.59575, chi = 504, N = 45, convergence = 0.028814, initial = symmetric, q = 6truncation error = 5.4031e-07.
+    7        0.59575    -0.830316        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.59825, chi = 200, N = 45, convergence = 0.029597, initial = symmetric, q = 6truncation error = 2.5457e-05.
+set chi to 512
+Did not find record
+stored to database: 
+temperature = 0.59825, chi = 512, N = 45, convergence = 0.032705, initial = symmetric, q = 6truncation error = 5.6318e-07.
+    8       0.598252    -0.830649        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.59906, chi = 200, N = 45, convergence = 0.030759, initial = symmetric, q = 6truncation error = 2.6115e-05.
+set chi to 514
+Did not find record
+stored to database: 
+temperature = 0.59906, chi = 514, N = 45, convergence = 0.033995, initial = symmetric, q = 6truncation error = 5.7309e-07.
+    9       0.599064    -0.830658        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.59881, chi = 200, N = 45, convergence = 0.030329, initial = symmetric, q = 6truncation error = 2.5979e-05.
+set chi to 515
+Did not find record
+stored to database: 
+temperature = 0.59881, chi = 515, N = 45, convergence = 0.033594, initial = symmetric, q = 6truncation error = 5.6145e-07.
+   10       0.598809     -0.83066        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.5988, chi = 200, N = 45, convergence = 0.030316, initial = symmetric, q = 6truncation error = 2.5971e-05.
+set chi to 515
+Did not find record
+stored to database: 
+temperature = 0.5988, chi = 515, N = 45, convergence = 0.03358, initial = symmetric, q = 6truncation error = 5.6124e-07.
+   11         0.5988     -0.83066        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.5988, chi = 200, N = 45, convergence = 0.030317, initial = symmetric, q = 6truncation error = 2.5972e-05.
+set chi to 515
+Did not find record
+stored to database: 
+temperature = 0.5988, chi = 515, N = 45, convergence = 0.033581, initial = symmetric, q = 6truncation error = 5.6126e-07.
+   12       0.598801     -0.83066        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.5988, chi = 200, N = 45, convergence = 0.030381, initial = symmetric, q = 6truncation error = 2.5909e-05.
+set chi to 514
+Did not find record
+stored to database: 
+temperature = 0.5988, chi = 514, N = 45, convergence = 0.033578, initial = symmetric, q = 6truncation error = 5.6655e-07.
+   13       0.598801     -0.83066        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.5988, chi = 200, N = 45, convergence = 0.030384, initial = symmetric, q = 6truncation error = 2.5912e-05.
+set chi to 514
+Did not find record
+stored to database: 
+temperature = 0.5988, chi = 514, N = 45, convergence = 0.033583, initial = symmetric, q = 6truncation error = 5.6662e-07.
+   14       0.598804     -0.83066        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.5988, chi = 200, N = 45, convergence = 0.030382, initial = symmetric, q = 6truncation error = 2.5911e-05.
+set chi to 514
+Did not find record
+stored to database: 
+temperature = 0.5988, chi = 514, N = 45, convergence = 0.03358, initial = symmetric, q = 6truncation error = 5.6659e-07.
+   15       0.598803     -0.83066        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.5988, chi = 200, N = 45, convergence = 0.030381, initial = symmetric, q = 6truncation error = 2.591e-05.
+set chi to 514
+Did not find record
+stored to database: 
+temperature = 0.5988, chi = 514, N = 45, convergence = 0.033579, initial = symmetric, q = 6truncation error = 5.6657e-07.
+   16       0.598802     -0.83066        golden
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+set chi to 200
+stored to database: 
+temperature = 0.49098, chi = 200, N = 50, convergence = 2.0931e-07, initial = symmetric, q = 6truncation error = 5.9607e-08.
+ 
+ Func-count     x          f(x)         Procedure
+    1       0.490983    -0.785791        initial
+set chi to 200
+stored to database: 
+temperature = 0.60902, chi = 200, N = 50, convergence = 0.035868, initial = symmetric, q = 6truncation error = 4.0589e-05.
+set chi to 560
+Did not find record
+stored to database: 
+temperature = 0.60902, chi = 560, N = 50, convergence = 0.040566, initial = symmetric, q = 6truncation error = 7.5285e-07.
+    2       0.609017    -0.834265        golden
+set chi to 200
+stored to database: 
+temperature = 0.68197, chi = 200, N = 50, convergence = 0.05, initial = symmetric, q = 6truncation error = 6.2525e-05.
+set chi to 619
+Did not find record
+stored to database: 
+temperature = 0.68197, chi = 619, N = 50, convergence = 0.058546, initial = symmetric, q = 6truncation error = 9.5746e-07.
+set chi to 961
+Did not find record
+stored to database: 
+temperature = 0.68197, chi = 961, N = 50, convergence = 0.059823, initial = symmetric, q = 6truncation error = 1.3713e-07.
+    3       0.681966    -0.721249        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.57001, chi = 200, N = 50, convergence = 0.0026243, initial = symmetric, q = 6truncation error = 7.6733e-06.
+set chi to 422
+Did not find record
+stored to database: 
+temperature = 0.57001, chi = 422, N = 50, convergence = 0.0027629, initial = symmetric, q = 6truncation error = 2.612e-07.
+    4       0.570009    -0.814926        parabolic
+set chi to 200
+stored to database: 
+temperature = 0.63688, chi = 200, N = 50, convergence = 0.055054, initial = symmetric, q = 6truncation error = 6.1194e-05.
+set chi to 603
+Did not find record
+stored to database: 
+temperature = 0.63688, chi = 603, N = 50, convergence = 0.063657, initial = symmetric, q = 6truncation error = 1.0005e-06.
+set chi to 944
+Did not find record
+stored to database: 
+temperature = 0.63688, chi = 944, N = 50, convergence = 0.064969, initial = symmetric, q = 6truncation error = 1.382e-07.
+    5       0.636881     -0.78842        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.59726, chi = 200, N = 50, convergence = 0.020124, initial = symmetric, q = 6truncation error = 2.7908e-05.
+set chi to 520
+Did not find record
+stored to database: 
+temperature = 0.59726, chi = 520, N = 50, convergence = 0.022588, initial = symmetric, q = 6truncation error = 6.1937e-07.
+    6       0.597255    -0.834449        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60272, chi = 200, N = 50, convergence = 0.027283, initial = symmetric, q = 6truncation error = 3.3922e-05.
+set chi to 541
+Did not find record
+stored to database: 
+temperature = 0.60272, chi = 541, N = 50, convergence = 0.030709, initial = symmetric, q = 6truncation error = 6.8049e-07.
+    7       0.602719    -0.835857        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60296, chi = 200, N = 50, convergence = 0.027614, initial = symmetric, q = 6truncation error = 3.4177e-05.
+set chi to 542
+Did not find record
+stored to database: 
+temperature = 0.60296, chi = 542, N = 50, convergence = 0.031076, initial = symmetric, q = 6truncation error = 6.8238e-07.
+    8       0.602956    -0.835866        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60331, chi = 200, N = 50, convergence = 0.028093, initial = symmetric, q = 6truncation error = 3.4572e-05.
+set chi to 543
+Did not find record
+stored to database: 
+temperature = 0.60331, chi = 543, N = 50, convergence = 0.031621, initial = symmetric, q = 6truncation error = 6.8747e-07.
+    9       0.603305    -0.835869        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60325, chi = 200, N = 50, convergence = 0.028061, initial = symmetric, q = 6truncation error = 3.4457e-05.
+set chi to 542
+Did not find record
+stored to database: 
+temperature = 0.60325, chi = 542, N = 50, convergence = 0.031533, initial = symmetric, q = 6truncation error = 6.9138e-07.
+   10       0.603251     -0.83587        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60325, chi = 200, N = 50, convergence = 0.028018, initial = symmetric, q = 6truncation error = 3.451e-05.
+set chi to 543
+Did not find record
+stored to database: 
+temperature = 0.60325, chi = 543, N = 50, convergence = 0.031536, initial = symmetric, q = 6truncation error = 6.858e-07.
+   11        0.60325     -0.83587        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60314, chi = 200, N = 50, convergence = 0.027863, initial = symmetric, q = 6truncation error = 3.4383e-05.
+set chi to 542
+Did not find record
+stored to database: 
+temperature = 0.60314, chi = 542, N = 50, convergence = 0.031358, initial = symmetric, q = 6truncation error = 6.8793e-07.
+   12       0.603138    -0.835869        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60321, chi = 200, N = 50, convergence = 0.028001, initial = symmetric, q = 6truncation error = 3.4409e-05.
+set chi to 542
+Did not find record
+stored to database: 
+temperature = 0.60321, chi = 542, N = 50, convergence = 0.031466, initial = symmetric, q = 6truncation error = 6.9006e-07.
+   13       0.603207    -0.835869        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60323, chi = 200, N = 50, convergence = 0.028033, initial = symmetric, q = 6truncation error = 3.4435e-05.
+set chi to 542
+Did not find record
+stored to database: 
+temperature = 0.60323, chi = 542, N = 50, convergence = 0.031502, initial = symmetric, q = 6truncation error = 6.9077e-07.
+   14       0.603231     -0.83587        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60324, chi = 200, N = 50, convergence = 0.028047, initial = symmetric, q = 6truncation error = 3.4446e-05.
+set chi to 542
+Did not find record
+stored to database: 
+temperature = 0.60324, chi = 542, N = 50, convergence = 0.031518, initial = symmetric, q = 6truncation error = 6.9108e-07.
+   15       0.603241     -0.83587        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60325, chi = 200, N = 50, convergence = 0.028011, initial = symmetric, q = 6truncation error = 3.4505e-05.
+set chi to 543
+Did not find record
+stored to database: 
+temperature = 0.60325, chi = 543, N = 50, convergence = 0.031529, initial = symmetric, q = 6truncation error = 6.8567e-07.
+   16       0.603246     -0.83587        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60325, chi = 200, N = 50, convergence = 0.028014, initial = symmetric, q = 6truncation error = 3.4508e-05.
+set chi to 543
+Did not find record
+stored to database: 
+temperature = 0.60325, chi = 543, N = 50, convergence = 0.031532, initial = symmetric, q = 6truncation error = 6.8574e-07.
+   17       0.603248     -0.83587        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60325, chi = 200, N = 50, convergence = 0.028059, initial = symmetric, q = 6truncation error = 3.4456e-05.
+set chi to 542
+Did not find record
+stored to database: 
+temperature = 0.60325, chi = 542, N = 50, convergence = 0.031531, initial = symmetric, q = 6truncation error = 6.9134e-07.
+   18        0.60325     -0.83587        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60325, chi = 200, N = 50, convergence = 0.028017, initial = symmetric, q = 6truncation error = 3.451e-05.
+set chi to 543
+Did not find record
+stored to database: 
+temperature = 0.60325, chi = 543, N = 50, convergence = 0.031535, initial = symmetric, q = 6truncation error = 6.8579e-07.
+   19        0.60325     -0.83587        golden
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+set chi to 200
+stored to database: 
+temperature = 0.49098, chi = 200, N = 55, convergence = 3.0904e-08, initial = symmetric, q = 6truncation error = 5.9607e-08.
+ 
+ Func-count     x          f(x)         Procedure
+    1       0.490983    -0.785791        initial
+set chi to 200
+stored to database: 
+temperature = 0.60902, chi = 200, N = 55, convergence = 0.02866, initial = symmetric, q = 6truncation error = 4.6304e-05.
+set chi to 571
+Did not find record
+stored to database: 
+temperature = 0.60902, chi = 571, N = 55, convergence = 0.032791, initial = symmetric, q = 6truncation error = 8.6794e-07.
+    2       0.609017    -0.840525        golden
+set chi to 200
+stored to database: 
+temperature = 0.68197, chi = 200, N = 55, convergence = 0.045862, initial = symmetric, q = 6truncation error = 7.6447e-05.
+set chi to 636
+Did not find record
+stored to database: 
+temperature = 0.68197, chi = 636, N = 55, convergence = 0.054618, initial = symmetric, q = 6truncation error = 1.1976e-06.
+set chi to 1029
+Did not find record
+stored to database: 
+temperature = 0.68197, chi = 1029, N = 55, convergence = 0.055981, initial = symmetric, q = 6truncation error = 1.4957e-07.
+    3       0.681966    -0.728523        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.57215, chi = 200, N = 55, convergence = 0.0018009, initial = symmetric, q = 6truncation error = 8.7763e-06.
+set chi to 433
+Did not find record
+stored to database: 
+temperature = 0.57215, chi = 433, N = 55, convergence = 0.0019105, initial = symmetric, q = 6truncation error = 2.8511e-07.
+    4       0.572151    -0.816505        parabolic
+set chi to 200
+stored to database: 
+temperature = 0.63688, chi = 200, N = 55, convergence = 0.050325, initial = symmetric, q = 6truncation error = 7.4439e-05.
+set chi to 620
+Did not find record
+stored to database: 
+temperature = 0.63688, chi = 620, N = 55, convergence = 0.058985, initial = symmetric, q = 6truncation error = 1.2342e-06.
+set chi to 1008
+Did not find record
+stored to database: 
+temperature = 0.63688, chi = 1008, N = 55, convergence = 0.060371, initial = symmetric, q = 6truncation error = 1.5068e-07.
+    5       0.636881    -0.798482        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60034, chi = 200, N = 55, convergence = 0.017594, initial = symmetric, q = 6truncation error = 3.4537e-05.
+set chi to 541
+Did not find record
+stored to database: 
+temperature = 0.60034, chi = 541, N = 55, convergence = 0.020075, initial = symmetric, q = 6truncation error = 7.2716e-07.
+    6       0.600345    -0.838781        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.61097, chi = 200, N = 55, convergence = 0.031346, initial = symmetric, q = 6truncation error = 4.9301e-05.
+set chi to 579
+Did not find record
+stored to database: 
+temperature = 0.61097, chi = 579, N = 55, convergence = 0.03582, initial = symmetric, q = 6truncation error = 8.8877e-07.
+    7       0.610974    -0.839905        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60675, chi = 200, N = 55, convergence = 0.025659, initial = symmetric, q = 6truncation error = 4.3448e-05.
+set chi to 566
+Did not find record
+stored to database: 
+temperature = 0.60675, chi = 566, N = 55, convergence = 0.029296, initial = symmetric, q = 6truncation error = 8.1841e-07.
+    8       0.606745    -0.840725        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60707, chi = 200, N = 55, convergence = 0.026056, initial = symmetric, q = 6truncation error = 4.361e-05.
+set chi to 565
+Did not find record
+stored to database: 
+temperature = 0.60707, chi = 565, N = 55, convergence = 0.029787, initial = symmetric, q = 6truncation error = 8.368e-07.
+    9       0.607067    -0.840729        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60702, chi = 200, N = 55, convergence = 0.02598, initial = symmetric, q = 6truncation error = 4.3563e-05.
+set chi to 565
+Did not find record
+stored to database: 
+temperature = 0.60702, chi = 565, N = 55, convergence = 0.02972, initial = symmetric, q = 6truncation error = 8.3522e-07.
+   10       0.607024    -0.840729        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60703, chi = 200, N = 55, convergence = 0.025987, initial = symmetric, q = 6truncation error = 4.3566e-05.
+set chi to 565
+Did not find record
+stored to database: 
+temperature = 0.60703, chi = 565, N = 55, convergence = 0.029725, initial = symmetric, q = 6truncation error = 8.3536e-07.
+   11       0.607028    -0.840729        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60703, chi = 200, N = 55, convergence = 0.025979, initial = symmetric, q = 6truncation error = 4.3577e-05.
+set chi to 565
+Did not find record
+stored to database: 
+temperature = 0.60703, chi = 565, N = 55, convergence = 0.029726, initial = symmetric, q = 6truncation error = 8.3537e-07.
+   12       0.607028    -0.840729        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60703, chi = 200, N = 55, convergence = 0.025981, initial = symmetric, q = 6truncation error = 4.3576e-05.
+set chi to 565
+Did not find record
+stored to database: 
+temperature = 0.60703, chi = 565, N = 55, convergence = 0.029728, initial = symmetric, q = 6truncation error = 8.3538e-07.
+   13       0.607028    -0.840729        parabolic
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-06 
+
+set chi to 200
+stored to database: 
+temperature = 0.49098, chi = 200, N = 60, convergence = 6.4695e-09, initial = symmetric, q = 6truncation error = 5.9607e-08.
+ 
+ Func-count     x          f(x)         Procedure
+    1       0.490983    -0.785791        initial
+set chi to 200
+stored to database: 
+temperature = 0.60902, chi = 200, N = 60, convergence = 0.022629, initial = symmetric, q = 6truncation error = 5.13e-05.
+set chi to 580
+Did not find record
+stored to database: 
+temperature = 0.60902, chi = 580, N = 60, convergence = 0.02625, initial = symmetric, q = 6truncation error = 9.7984e-07.
+set chi to 901
+Did not find record
+stored to database: 
+temperature = 0.60902, chi = 901, N = 60, convergence = 0.02688, initial = symmetric, q = 6truncation error = 1.4543e-07.
+    2       0.609017    -0.845192        golden
+set chi to 200
+stored to database: 
+temperature = 0.68197, chi = 200, N = 60, convergence = 0.042329, initial = symmetric, q = 6truncation error = 9.097e-05.
+set chi to 652
+Did not find record
+stored to database: 
+temperature = 0.68197, chi = 652, N = 60, convergence = 0.051241, initial = symmetric, q = 6truncation error = 1.4557e-06.
+set chi to 1097
+Did not find record
+stored to database: 
+temperature = 0.68197, chi = 1097, N = 60, convergence = 0.052705, initial = symmetric, q = 6truncation error = 1.6164e-07.
+    3       0.681966    -0.735169        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.57389, chi = 200, N = 60, convergence = 0.0012363, initial = symmetric, q = 6truncation error = 9.7671e-06.
+set chi to 441
+Did not find record
+stored to database: 
+temperature = 0.57389, chi = 441, N = 60, convergence = 0.0013109, initial = symmetric, q = 6truncation error = 3.0811e-07.
+    4       0.573891    -0.817827        parabolic
+set chi to 200
+stored to database: 
+temperature = 0.63688, chi = 200, N = 60, convergence = 0.046198, initial = symmetric, q = 6truncation error = 8.8001e-05.
+set chi to 634
+Did not find record
+stored to database: 
+temperature = 0.63688, chi = 634, N = 60, convergence = 0.054875, initial = symmetric, q = 6truncation error = 1.5006e-06.
+set chi to 1070
+Did not find record
+stored to database: 
+temperature = 0.63688, chi = 1070, N = 60, convergence = 0.056313, initial = symmetric, q = 6truncation error = 1.6156e-07.
+    5       0.636881    -0.807796        golden
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60302, chi = 200, N = 60, convergence = 0.015511, initial = symmetric, q = 6truncation error = 4.1455e-05.
+set chi to 559
+Did not find record
+stored to database: 
+temperature = 0.60302, chi = 559, N = 60, convergence = 0.017955, initial = symmetric, q = 6truncation error = 8.4757e-07.
+    6       0.603022    -0.842766        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.62176, chi = 200, N = 60, convergence = 0.038007, initial = symmetric, q = 6truncation error = 7.2267e-05.
+set chi to 615
+Did not find record
+stored to database: 
+temperature = 0.62176, chi = 615, N = 60, convergence = 0.044384, initial = symmetric, q = 6truncation error = 1.2616e-06.
+set chi to 1004
+Did not find record
+stored to database: 
+temperature = 0.62176, chi = 1004, N = 60, convergence = 0.045442, initial = symmetric, q = 6truncation error = 1.5422e-07.
+    7       0.621764    -0.837256        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.60971, chi = 200, N = 60, convergence = 0.023563, initial = symmetric, q = 6truncation error = 5.2875e-05.
+set chi to 584
+Did not find record
+stored to database: 
+temperature = 0.60971, chi = 584, N = 60, convergence = 0.027293, initial = symmetric, q = 6truncation error = 9.8546e-07.
+set chi to 909
+Did not find record
+stored to database: 
+temperature = 0.60971, chi = 909, N = 60, convergence = 0.027943, initial = symmetric, q = 6truncation error = 1.4448e-07.
+    8       0.609711    -0.845262        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.61046, chi = 200, N = 60, convergence = 0.024474, initial = symmetric, q = 6truncation error = 5.379e-05.
+set chi to 585
+Did not find record
+stored to database: 
+temperature = 0.61046, chi = 585, N = 60, convergence = 0.028414, initial = symmetric, q = 6truncation error = 1.0127e-06.
+set chi to 915
+Did not find record
+stored to database: 
+temperature = 0.61046, chi = 915, N = 60, convergence = 0.029093, initial = symmetric, q = 6truncation error = 1.4531e-07.
+    9       0.610461    -0.845279        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.61029, chi = 200, N = 60, convergence = 0.02426, initial = symmetric, q = 6truncation error = 5.3502e-05.
+set chi to 585
+Did not find record
+stored to database: 
+temperature = 0.61029, chi = 585, N = 60, convergence = 0.028165, initial = symmetric, q = 6truncation error = 1.0051e-06.
+set chi to 914
+Did not find record
+stored to database: 
+temperature = 0.61029, chi = 914, N = 60, convergence = 0.028837, initial = symmetric, q = 6truncation error = 1.4488e-07.
+   10       0.610294     -0.84528        parabolic
+set chi to 200
+Did not find record
+stored to database: 
+temperature = 0.61029, chi = 200, N = 60, convergence = 0.024253, initial = symmetric, q = 6truncation error = 5.3498e-05.
+set chi to 585
+Did not find record
+stored to database: 
+temperature = 0.61029, chi = 585, N = 60, convergence = 0.028158, initial = symmetric, q = 6truncation error = 1.0049e-06.
+set chi to 914
+Did not find record

@@ -1,0 +1,1226 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+Did not find record for:
+chi = 80, temperature = 2.191, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.191, chi = 80, N = 164, convergence = 1e-08, initial = spin-up, q = 2truncation error = 2.5057e-12.
+ 
+ Func-count     x          f(x)         Procedure
+    1        2.19098   -0.0296892        initial
+Did not find record for:
+chi = 80, temperature = 2.309, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.309, chi = 80, N = 358, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.1134e-09.
+    2        2.30902    -0.179089        golden
+Did not find record for:
+chi = 80, temperature = 2.382, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.382, chi = 80, N = 140, convergence = 1e-08, initial = spin-up, q = 2truncation error = 5.5743e-12.
+    3        2.38197    -0.131566        golden
+Did not find record for:
+chi = 80, temperature = 2.313, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.313, chi = 80, N = 328, convergence = 1e-08, initial = spin-up, q = 2truncation error = 7.4577e-10.
+    4        2.31304    -0.174915        parabolic
+Did not find record for:
+chi = 80, temperature = 2.2639, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2639, chi = 80, N = 1899, convergence = 1e-08, initial = spin-up, q = 2truncation error = 6.0243e-08.
+    5        2.26393    -0.113203        golden
+Did not find record for:
+chi = 80, temperature = 2.2918, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2918, chi = 80, N = 601, convergence = 1e-08, initial = spin-up, q = 2truncation error = 8.884e-09.
+    6         2.2918     -0.20286        golden
+Did not find record for:
+chi = 80, temperature = 2.2812, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2812, chi = 80, N = 1080, convergence = 1e-08, initial = spin-up, q = 2truncation error = 5.5434e-08.
+    7        2.28115    -0.228308        golden
+Did not find record for:
+chi = 80, temperature = 2.2746, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2746, chi = 80, N = 2243, convergence = 1e-08, initial = spin-up, q = 2truncation error = 3.0452e-07.
+    8        2.27458    -0.258958        golden
+Did not find record for:
+chi = 80, temperature = 2.2705, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2705, chi = 80, N = 8149, convergence = 1e-08, initial = spin-up, q = 2truncation error = 2.3164e-06.
+    9        2.27051     -0.31109        golden
+Did not find record for:
+chi = 80, temperature = 2.268, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.268, chi = 80, N = 7112, convergence = 1e-08, initial = spin-up, q = 2truncation error = 8.2136e-07.
+   10          2.268    -0.165639        golden
+Did not find record for:
+chi = 80, temperature = 2.2721, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2721, chi = 80, N = 3985, convergence = 1e-08, initial = spin-up, q = 2truncation error = 8.9796e-07.
+   11        2.27206    -0.282465        golden
+Did not find record for:
+chi = 80, temperature = 2.2696, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2696, chi = 80, N = 27151, convergence = 1e-08, initial = spin-up, q = 2truncation error = 7.2527e-06.
+   12        2.26955    -0.357834        golden
+Did not find record for:
+chi = 80, temperature = 2.269, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.269, chi = 80, N = 27354, convergence = 1e-08, initial = spin-up, q = 2truncation error = 3.9015e-06.
+   13        2.26896    -0.224711        golden
+Did not find record for:
+chi = 80, temperature = 2.2699, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2699, chi = 80, N = 14098, convergence = 1e-08, initial = spin-up, q = 2truncation error = 4.2969e-06.
+   14        2.26992    -0.332779        golden
+Did not find record for:
+chi = 80, temperature = 2.2693, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2693, chi = 80, N = 72955, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.2096e-05.
+   15        2.26932    -0.390606        golden
+Did not find record for:
+chi = 80, temperature = 2.2692, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 80, N = 145259, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.1108e-05.
+   16        2.26918    -0.315926        golden
+Did not find record for:
+chi = 80, temperature = 2.2694, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2694, chi = 80, N = 43615, convergence = 1e-08, initial = spin-up, q = 2truncation error = 9.6854e-06.
+   17        2.26941    -0.374717        golden
+Did not find record for:
+chi = 80, temperature = 2.2693, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2693, chi = 80, N = 133984, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.4241e-05.
+   18        2.26927    -0.404757        golden
+Did not find record for:
+chi = 80, temperature = 2.2692, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 80, N = 325854, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.5965e-05.
+   19        2.26924    -0.416475        golden
+Did not find record for:
+chi = 80, temperature = 2.2692, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 80, N = 767127, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.5451e-05.
+   20        2.26922     -0.40168        golden
+Did not find record for:
+chi = 80, temperature = 2.2692, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 80, N = 239770, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.5528e-05.
+   21        2.26924    -0.413462        parabolic
+Did not find record for:
+chi = 80, temperature = 2.2692, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 80, N = 564118, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.5885e-05.
+   22        2.26923    -0.419828        golden
+Did not find record for:
+chi = 80, temperature = 2.2692, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 80, N = 908208, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.6143e-05.
+   23        2.26922    -0.421086        golden
+Did not find record for:
+chi = 80, temperature = 2.2692, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 80, N = 1077288, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.6091e-05.
+   24        2.26922    -0.417803        golden
+Did not find record for:
+chi = 80, temperature = 2.2692, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 80, N = 756302, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.6063e-05.
+   25        2.26923    -0.420865        parabolic
+Did not find record for:
+chi = 80, temperature = 2.2692, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 80, N = 998738, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.6171e-05.
+   26        2.26922    -0.420977        parabolic
+Did not find record for:
+chi = 80, temperature = 2.2692, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 80, N = 884808, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.6134e-05.
+   27        2.26922    -0.421084        parabolic
+Did not find record for:
+chi = 80, temperature = 2.2692, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 80, N = 899376, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.614e-05.
+   28        2.26922    -0.421086        parabolic
+Did not find record for:
+chi = 80, temperature = 2.2692, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 80, N = 903261, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.6141e-05.
+   29        2.26922    -0.421086        parabolic
+Did not find record for:
+chi = 80, temperature = 2.2692, tolerance = 1e-08, q = 2.
+stored to database: 
+temperature = 2.2692, chi = 80, N = 895530, convergence = 1e-08, initial = spin-up, q = 2truncation error = 1.6138e-05.
+   30        2.26922    -0.421086        parabolic
+ 
+Optimization terminated:
+ the current x satisfies the termination criteria using OPTIONS.TolX of 1.000000e-08 
+
+
+obj = 
+
+  FindTCritFixedChi with properties:
+
+              DATABASE: '/home/geert/ctmrg/lib/@Constants/../../db/t_pseud...'
+            chi_values: 80
+             tolerance: 1.000000000000000e-08
+         length_scales: 0
+                method: 'entropy'
+                 db_id: 139760742167680
+          LOAD_FROM_DB: 1
+            SAVE_TO_DB: 1
+              q_values: 2
+                  TolX: 1.000000000000000e-08
+     initial_condition: 'spin-up'
+    significant_digits: 13
+         T_crit_bounds: [4x1 containers.Map]
+               tensors: [1x1 struct]
+         T_pseudocrits: 2.269224513724439
+
+
+ans =
+
+   2.269224513724439
+
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 190)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 254)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 336)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 336)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 309)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 350)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3/f_minimize (line 15)
+  In fminsearchbnd>intrafun (line 259)
+  In fminsearch (line 365)
+  In fminsearchbnd (line 229)
+  In fit_power_law3 (line 21)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In fit_power_law3 (line 23)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: your data are meaningless, please go collect more points] 
+[> In logfit (line 263)
+  In fit_power_law3 (line 38)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+[Warning: Polynomial is not unique; degree >= number of data points.] 
+[> In polyfit (line 70)
+  In logfit (line 438)
+  In fit_power_law3 (line 38)
+  In find_T_pseudocrit_chi (line 54)
+  In main (line 12)] 
+{Attempted to access tmp(2); index out of bounds because numel(tmp)=1.
+
+Error in logfit (line 467)
+R2 = tmp(2);
+
+Error in fit_power_law3 (line 38)
+  [slope, intercept] = logfit(length_scales, T_pseudocrits - T_crit, 'loglog')
+
+Error in find_T_pseudocrit_chi (line 54)
+  [T_crit, slope, mse] = fit_power_law3(sim.length_scales, sim.T_pseudocrits,
+  exclude, search_width, TolXFit);
+
+Error in main (line 12)
+  % find_T_pseudocrit_chi
+} 
+>> 

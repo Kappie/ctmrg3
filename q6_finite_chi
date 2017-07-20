@@ -1,0 +1,3122 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+Did not find record for:
+chi = 10, temperature = 0.6, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.6, chi = 10, N = 103, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0011699.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 8e-07, N = 103
+I did an additional 5 steps.
+stored to database: 
+temperature = 0.6, chi = 10, N = 108, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0011699.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 4e-07, N = 108
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 10, N = 114, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0011699.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 2e-07, N = 114
+I did an additional 5 steps.
+stored to database: 
+temperature = 0.6, chi = 10, N = 119, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0011699.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 1e-07, N = 119
+I did an additional 5 steps.
+stored to database: 
+temperature = 0.6, chi = 10, N = 124, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0011699.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 5e-08, N = 124
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 10, N = 130, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0011699.
+Did not find record for:
+chi = 20, temperature = 0.6, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.6, chi = 20, N = 186, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00021965.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 8e-07, N = 186
+I did an additional 26 steps.
+stored to database: 
+temperature = 0.6, chi = 20, N = 212, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00021968.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 4e-07, N = 212
+I did an additional 26 steps.
+stored to database: 
+temperature = 0.6, chi = 20, N = 238, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00021969.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 2e-07, N = 238
+I did an additional 25 steps.
+stored to database: 
+temperature = 0.6, chi = 20, N = 263, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0002197.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 1e-07, N = 263
+I did an additional 27 steps.
+stored to database: 
+temperature = 0.6, chi = 20, N = 290, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0002197.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 5e-08, N = 290
+I did an additional 26 steps.
+stored to database: 
+temperature = 0.6, chi = 20, N = 316, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0002197.
+Did not find record for:
+chi = 30, temperature = 0.6, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.6, chi = 30, N = 114, convergence = 8e-07, initial = spin-up, q = 6truncation error = 5.8213e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 8e-07, N = 114
+I did an additional 5 steps.
+stored to database: 
+temperature = 0.6, chi = 30, N = 119, convergence = 4e-07, initial = spin-up, q = 6truncation error = 5.8216e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 4e-07, N = 119
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 30, N = 125, convergence = 2e-07, initial = spin-up, q = 6truncation error = 5.8217e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 2e-07, N = 125
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 30, N = 131, convergence = 1e-07, initial = spin-up, q = 6truncation error = 5.8218e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 1e-07, N = 131
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 30, N = 137, convergence = 5e-08, initial = spin-up, q = 6truncation error = 5.8218e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 5e-08, N = 137
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 30, N = 143, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 5.8218e-05.
+Did not find record for:
+chi = 40, temperature = 0.6, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.6, chi = 40, N = 114, convergence = 8e-07, initial = spin-up, q = 6truncation error = 2.1798e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 8e-07, N = 114
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 40, N = 120, convergence = 4e-07, initial = spin-up, q = 6truncation error = 2.18e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 4e-07, N = 120
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 40, N = 126, convergence = 2e-07, initial = spin-up, q = 6truncation error = 2.18e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 2e-07, N = 126
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 40, N = 132, convergence = 1e-07, initial = spin-up, q = 6truncation error = 2.1801e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 1e-07, N = 132
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 40, N = 138, convergence = 5e-08, initial = spin-up, q = 6truncation error = 2.1801e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 5e-08, N = 138
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 40, N = 144, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 2.1801e-05.
+Did not find record for:
+chi = 50, temperature = 0.6, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.6, chi = 50, N = 117, convergence = 8e-07, initial = spin-up, q = 6truncation error = 1.0335e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 8e-07, N = 117
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 50, N = 123, convergence = 4e-07, initial = spin-up, q = 6truncation error = 1.0336e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 4e-07, N = 123
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 50, N = 129, convergence = 2e-07, initial = spin-up, q = 6truncation error = 1.0337e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 2e-07, N = 129
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 50, N = 135, convergence = 1e-07, initial = spin-up, q = 6truncation error = 1.0337e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 1e-07, N = 135
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 50, N = 141, convergence = 5e-08, initial = spin-up, q = 6truncation error = 1.0337e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 5e-08, N = 141
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 50, N = 147, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 1.0337e-05.
+Did not find record for:
+chi = 60, temperature = 0.6, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.6, chi = 60, N = 123, convergence = 8e-07, initial = spin-up, q = 6truncation error = 5.6798e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 8e-07, N = 123
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 60, N = 129, convergence = 4e-07, initial = spin-up, q = 6truncation error = 5.6804e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 4e-07, N = 129
+I did an additional 7 steps.
+stored to database: 
+temperature = 0.6, chi = 60, N = 136, convergence = 2e-07, initial = spin-up, q = 6truncation error = 5.6807e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 2e-07, N = 136
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 60, N = 142, convergence = 1e-07, initial = spin-up, q = 6truncation error = 5.6809e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 1e-07, N = 142
+I did an additional 7 steps.
+stored to database: 
+temperature = 0.6, chi = 60, N = 149, convergence = 5e-08, initial = spin-up, q = 6truncation error = 5.6809e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 5e-08, N = 149
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 60, N = 155, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 5.681e-06.
+Did not find record for:
+chi = 70, temperature = 0.6, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.6, chi = 70, N = 122, convergence = 8e-07, initial = spin-up, q = 6truncation error = 2.9955e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 8e-07, N = 122
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 70, N = 128, convergence = 4e-07, initial = spin-up, q = 6truncation error = 2.9959e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 4e-07, N = 128
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 70, N = 134, convergence = 2e-07, initial = spin-up, q = 6truncation error = 2.9961e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 2e-07, N = 134
+I did an additional 7 steps.
+stored to database: 
+temperature = 0.6, chi = 70, N = 141, convergence = 1e-07, initial = spin-up, q = 6truncation error = 2.9962e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 1e-07, N = 141
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 70, N = 147, convergence = 5e-08, initial = spin-up, q = 6truncation error = 2.9963e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 5e-08, N = 147
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 70, N = 153, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 2.9963e-06.
+Did not find record for:
+chi = 80, temperature = 0.6, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.6, chi = 80, N = 125, convergence = 8e-07, initial = spin-up, q = 6truncation error = 1.908e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 8e-07, N = 125
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 80, N = 131, convergence = 4e-07, initial = spin-up, q = 6truncation error = 1.9083e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 4e-07, N = 131
+I did an additional 7 steps.
+stored to database: 
+temperature = 0.6, chi = 80, N = 138, convergence = 2e-07, initial = spin-up, q = 6truncation error = 1.9085e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 2e-07, N = 138
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 80, N = 144, convergence = 1e-07, initial = spin-up, q = 6truncation error = 1.9085e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 1e-07, N = 144
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 80, N = 150, convergence = 5e-08, initial = spin-up, q = 6truncation error = 1.9086e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 5e-08, N = 150
+I did an additional 7 steps.
+stored to database: 
+temperature = 0.6, chi = 80, N = 157, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 1.9086e-06.
+Did not find record for:
+chi = 90, temperature = 0.6, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.6, chi = 90, N = 127, convergence = 8e-07, initial = spin-up, q = 6truncation error = 1.2251e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 8e-07, N = 127
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 90, N = 133, convergence = 4e-07, initial = spin-up, q = 6truncation error = 1.2252e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 4e-07, N = 133
+I did an additional 7 steps.
+stored to database: 
+temperature = 0.6, chi = 90, N = 140, convergence = 2e-07, initial = spin-up, q = 6truncation error = 1.2253e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 2e-07, N = 140
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 90, N = 146, convergence = 1e-07, initial = spin-up, q = 6truncation error = 1.2254e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 1e-07, N = 146
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 90, N = 152, convergence = 5e-08, initial = spin-up, q = 6truncation error = 1.2254e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 5e-08, N = 152
+I did an additional 7 steps.
+stored to database: 
+temperature = 0.6, chi = 90, N = 159, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 1.2254e-06.
+Did not find record for:
+chi = 100, temperature = 0.6, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.6, chi = 100, N = 126, convergence = 8e-07, initial = spin-up, q = 6truncation error = 7.831e-07.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 8e-07, N = 126
+I did an additional 7 steps.
+stored to database: 
+temperature = 0.6, chi = 100, N = 133, convergence = 4e-07, initial = spin-up, q = 6truncation error = 7.8325e-07.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 4e-07, N = 133
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 100, N = 139, convergence = 2e-07, initial = spin-up, q = 6truncation error = 7.8332e-07.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 2e-07, N = 139
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 100, N = 145, convergence = 1e-07, initial = spin-up, q = 6truncation error = 7.8335e-07.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 1e-07, N = 145
+I did an additional 7 steps.
+stored to database: 
+temperature = 0.6, chi = 100, N = 152, convergence = 5e-08, initial = spin-up, q = 6truncation error = 7.8337e-07.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 5e-08, N = 152
+I did an additional 6 steps.
+stored to database: 
+temperature = 0.6, chi = 100, N = 158, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 7.8338e-07.
+Did not find record for:
+chi = 10, temperature = 0.6102, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.6102, chi = 10, N = 128, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0015629.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 8e-07, N = 128
+I did an additional 7 steps.
+stored to database: 
+temperature = 0.6102, chi = 10, N = 135, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0015629.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 4e-07, N = 135
+I did an additional 7 steps.
+stored to database: 
+temperature = 0.6102, chi = 10, N = 142, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0015629.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 2e-07, N = 142
+I did an additional 7 steps.
+stored to database: 
+temperature = 0.6102, chi = 10, N = 149, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0015629.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 1e-07, N = 149
+I did an additional 7 steps.
+stored to database: 
+temperature = 0.6102, chi = 10, N = 156, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0015629.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 5e-08, N = 156
+I did an additional 7 steps.
+stored to database: 
+temperature = 0.6102, chi = 10, N = 163, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0015629.
+Did not find record for:
+chi = 20, temperature = 0.6102, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.6102, chi = 20, N = 133, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00034966.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 8e-07, N = 133
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 20, N = 141, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00034967.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 4e-07, N = 141
+I did an additional 7 steps.
+stored to database: 
+temperature = 0.6102, chi = 20, N = 148, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00034967.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 2e-07, N = 148
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 20, N = 156, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00034968.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 1e-07, N = 156
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 20, N = 164, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00034968.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 5e-08, N = 164
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 20, N = 172, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00034968.
+Did not find record for:
+chi = 30, temperature = 0.6102, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.6102, chi = 30, N = 137, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00010017.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 8e-07, N = 137
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 30, N = 145, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00010017.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 4e-07, N = 145
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 30, N = 153, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00010017.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 2e-07, N = 153
+I did an additional 7 steps.
+stored to database: 
+temperature = 0.6102, chi = 30, N = 160, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00010018.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 1e-07, N = 160
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 30, N = 168, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00010018.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 5e-08, N = 168
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 30, N = 176, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00010018.
+Did not find record for:
+chi = 40, temperature = 0.6102, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.6102, chi = 40, N = 145, convergence = 8e-07, initial = spin-up, q = 6truncation error = 4.1847e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 8e-07, N = 145
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 40, N = 153, convergence = 4e-07, initial = spin-up, q = 6truncation error = 4.1849e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 4e-07, N = 153
+I did an additional 7 steps.
+stored to database: 
+temperature = 0.6102, chi = 40, N = 160, convergence = 2e-07, initial = spin-up, q = 6truncation error = 4.185e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 2e-07, N = 160
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 40, N = 168, convergence = 1e-07, initial = spin-up, q = 6truncation error = 4.1851e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 1e-07, N = 168
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 40, N = 176, convergence = 5e-08, initial = spin-up, q = 6truncation error = 4.1851e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 5e-08, N = 176
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 40, N = 184, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 4.1851e-05.
+Did not find record for:
+chi = 50, temperature = 0.6102, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.6102, chi = 50, N = 149, convergence = 8e-07, initial = spin-up, q = 6truncation error = 2.0778e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 8e-07, N = 149
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 50, N = 157, convergence = 4e-07, initial = spin-up, q = 6truncation error = 2.078e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 4e-07, N = 157
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 50, N = 165, convergence = 2e-07, initial = spin-up, q = 6truncation error = 2.0781e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 2e-07, N = 165
+I did an additional 73 steps.
+stored to database: 
+temperature = 0.6102, chi = 50, N = 238, convergence = 1e-07, initial = spin-up, q = 6truncation error = 2.0848e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 1e-07, N = 238
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 50, N = 246, convergence = 5e-08, initial = spin-up, q = 6truncation error = 2.0848e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 5e-08, N = 246
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 50, N = 254, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 2.0848e-05.
+Did not find record for:
+chi = 60, temperature = 0.6102, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.6102, chi = 60, N = 158, convergence = 8e-07, initial = spin-up, q = 6truncation error = 1.2197e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 8e-07, N = 158
+I did an additional 9 steps.
+stored to database: 
+temperature = 0.6102, chi = 60, N = 167, convergence = 4e-07, initial = spin-up, q = 6truncation error = 1.2198e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 4e-07, N = 167
+I did an additional 9 steps.
+stored to database: 
+temperature = 0.6102, chi = 60, N = 176, convergence = 2e-07, initial = spin-up, q = 6truncation error = 1.2198e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 2e-07, N = 176
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 60, N = 184, convergence = 1e-07, initial = spin-up, q = 6truncation error = 1.2199e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 1e-07, N = 184
+I did an additional 9 steps.
+stored to database: 
+temperature = 0.6102, chi = 60, N = 193, convergence = 5e-08, initial = spin-up, q = 6truncation error = 1.2199e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 5e-08, N = 193
+I did an additional 9 steps.
+stored to database: 
+temperature = 0.6102, chi = 60, N = 202, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 1.2199e-05.
+Did not find record for:
+chi = 70, temperature = 0.6102, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.6102, chi = 70, N = 156, convergence = 8e-07, initial = spin-up, q = 6truncation error = 6.7389e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 8e-07, N = 156
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 70, N = 164, convergence = 4e-07, initial = spin-up, q = 6truncation error = 6.7395e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 4e-07, N = 164
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 70, N = 172, convergence = 2e-07, initial = spin-up, q = 6truncation error = 6.7399e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 2e-07, N = 172
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 70, N = 180, convergence = 1e-07, initial = spin-up, q = 6truncation error = 6.7401e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 1e-07, N = 180
+I did an additional 9 steps.
+stored to database: 
+temperature = 0.6102, chi = 70, N = 189, convergence = 5e-08, initial = spin-up, q = 6truncation error = 6.7401e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 5e-08, N = 189
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 70, N = 197, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 6.7402e-06.
+Did not find record for:
+chi = 80, temperature = 0.6102, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.6102, chi = 80, N = 158, convergence = 8e-07, initial = spin-up, q = 6truncation error = 4.4003e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 8e-07, N = 158
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 80, N = 166, convergence = 4e-07, initial = spin-up, q = 6truncation error = 4.4008e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 4e-07, N = 166
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 80, N = 174, convergence = 2e-07, initial = spin-up, q = 6truncation error = 4.4011e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 2e-07, N = 174
+I did an additional 9 steps.
+stored to database: 
+temperature = 0.6102, chi = 80, N = 183, convergence = 1e-07, initial = spin-up, q = 6truncation error = 4.4012e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 1e-07, N = 183
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 80, N = 191, convergence = 5e-08, initial = spin-up, q = 6truncation error = 4.4013e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 5e-08, N = 191
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 80, N = 199, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 4.4013e-06.
+Did not find record for:
+chi = 90, temperature = 0.6102, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.6102, chi = 90, N = 163, convergence = 8e-07, initial = spin-up, q = 6truncation error = 2.9448e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 8e-07, N = 163
+I did an additional 9 steps.
+stored to database: 
+temperature = 0.6102, chi = 90, N = 172, convergence = 4e-07, initial = spin-up, q = 6truncation error = 2.9452e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 4e-07, N = 172
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 90, N = 180, convergence = 2e-07, initial = spin-up, q = 6truncation error = 2.9454e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 2e-07, N = 180
+I did an additional 9 steps.
+stored to database: 
+temperature = 0.6102, chi = 90, N = 189, convergence = 1e-07, initial = spin-up, q = 6truncation error = 2.9455e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 1e-07, N = 189
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 90, N = 197, convergence = 5e-08, initial = spin-up, q = 6truncation error = 2.9456e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 5e-08, N = 197
+I did an additional 9 steps.
+stored to database: 
+temperature = 0.6102, chi = 90, N = 206, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 2.9456e-06.
+Did not find record for:
+chi = 100, temperature = 0.6102, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.6102, chi = 100, N = 161, convergence = 8e-07, initial = spin-up, q = 6truncation error = 1.9586e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 8e-07, N = 161
+I did an additional 9 steps.
+stored to database: 
+temperature = 0.6102, chi = 100, N = 170, convergence = 4e-07, initial = spin-up, q = 6truncation error = 1.9589e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 4e-07, N = 170
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 100, N = 178, convergence = 2e-07, initial = spin-up, q = 6truncation error = 1.959e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 2e-07, N = 178
+I did an additional 9 steps.
+stored to database: 
+temperature = 0.6102, chi = 100, N = 187, convergence = 1e-07, initial = spin-up, q = 6truncation error = 1.9591e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 1e-07, N = 187
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 100, N = 195, convergence = 5e-08, initial = spin-up, q = 6truncation error = 1.9591e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 5e-08, N = 195
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.6102, chi = 100, N = 203, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 1.9592e-06.
+Did not find record for:
+chi = 10, temperature = 0.62041, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.62041, chi = 10, N = 140, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0020605.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 8e-07, N = 140
+I did an additional 9 steps.
+stored to database: 
+temperature = 0.62041, chi = 10, N = 149, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0020606.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 4e-07, N = 149
+I did an additional 9 steps.
+stored to database: 
+temperature = 0.62041, chi = 10, N = 158, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0020606.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 2e-07, N = 158
+I did an additional 9 steps.
+stored to database: 
+temperature = 0.62041, chi = 10, N = 167, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0020606.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 1e-07, N = 167
+I did an additional 8 steps.
+stored to database: 
+temperature = 0.62041, chi = 10, N = 175, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0020606.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 5e-08, N = 175
+I did an additional 9 steps.
+stored to database: 
+temperature = 0.62041, chi = 10, N = 184, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0020606.
+Did not find record for:
+chi = 20, temperature = 0.62041, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.62041, chi = 20, N = 176, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00055077.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 8e-07, N = 176
+I did an additional 10 steps.
+stored to database: 
+temperature = 0.62041, chi = 20, N = 186, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00055078.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 4e-07, N = 186
+I did an additional 9 steps.
+stored to database: 
+temperature = 0.62041, chi = 20, N = 195, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00055079.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 2e-07, N = 195
+I did an additional 10 steps.
+stored to database: 
+temperature = 0.62041, chi = 20, N = 205, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00055079.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 1e-07, N = 205
+I did an additional 10 steps.
+stored to database: 
+temperature = 0.62041, chi = 20, N = 215, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0005508.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 5e-08, N = 215
+I did an additional 9 steps.
+stored to database: 
+temperature = 0.62041, chi = 20, N = 224, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0005508.
+Did not find record for:
+chi = 30, temperature = 0.62041, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.62041, chi = 30, N = 180, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00017296.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 8e-07, N = 180
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 30, N = 191, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00017297.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 4e-07, N = 191
+I did an additional 10 steps.
+stored to database: 
+temperature = 0.62041, chi = 30, N = 201, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00017297.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 2e-07, N = 201
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 30, N = 212, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00017297.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 1e-07, N = 212
+I did an additional 10 steps.
+stored to database: 
+temperature = 0.62041, chi = 30, N = 222, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00017297.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 5e-08, N = 222
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 30, N = 233, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00017297.
+Did not find record for:
+chi = 40, temperature = 0.62041, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.62041, chi = 40, N = 190, convergence = 8e-07, initial = spin-up, q = 6truncation error = 8.0366e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 8e-07, N = 190
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 40, N = 201, convergence = 4e-07, initial = spin-up, q = 6truncation error = 8.0369e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 4e-07, N = 201
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 40, N = 212, convergence = 2e-07, initial = spin-up, q = 6truncation error = 8.0371e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 2e-07, N = 212
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 40, N = 223, convergence = 1e-07, initial = spin-up, q = 6truncation error = 8.0372e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 1e-07, N = 223
+I did an additional 10 steps.
+stored to database: 
+temperature = 0.62041, chi = 40, N = 233, convergence = 5e-08, initial = spin-up, q = 6truncation error = 8.0373e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 5e-08, N = 233
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 40, N = 244, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 8.0373e-05.
+Did not find record for:
+chi = 50, temperature = 0.62041, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.62041, chi = 50, N = 195, convergence = 8e-07, initial = spin-up, q = 6truncation error = 4.1649e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 8e-07, N = 195
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 50, N = 206, convergence = 4e-07, initial = spin-up, q = 6truncation error = 4.1651e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 4e-07, N = 206
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 50, N = 217, convergence = 2e-07, initial = spin-up, q = 6truncation error = 4.1653e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 2e-07, N = 217
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 50, N = 228, convergence = 1e-07, initial = spin-up, q = 6truncation error = 4.1653e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 1e-07, N = 228
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 50, N = 239, convergence = 5e-08, initial = spin-up, q = 6truncation error = 4.1654e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 5e-08, N = 239
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 50, N = 250, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 4.1654e-05.
+Did not find record for:
+chi = 60, temperature = 0.62041, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.62041, chi = 60, N = 218, convergence = 8e-07, initial = spin-up, q = 6truncation error = 2.636e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 8e-07, N = 218
+I did an additional 14 steps.
+stored to database: 
+temperature = 0.62041, chi = 60, N = 232, convergence = 4e-07, initial = spin-up, q = 6truncation error = 2.6363e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 4e-07, N = 232
+I did an additional 14 steps.
+stored to database: 
+temperature = 0.62041, chi = 60, N = 246, convergence = 2e-07, initial = spin-up, q = 6truncation error = 2.6364e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 2e-07, N = 246
+I did an additional 14 steps.
+stored to database: 
+temperature = 0.62041, chi = 60, N = 260, convergence = 1e-07, initial = spin-up, q = 6truncation error = 2.6364e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 1e-07, N = 260
+I did an additional 14 steps.
+stored to database: 
+temperature = 0.62041, chi = 60, N = 274, convergence = 5e-08, initial = spin-up, q = 6truncation error = 2.6365e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 5e-08, N = 274
+I did an additional 14 steps.
+stored to database: 
+temperature = 0.62041, chi = 60, N = 288, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 2.6365e-05.
+Did not find record for:
+chi = 70, temperature = 0.62041, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.62041, chi = 70, N = 207, convergence = 8e-07, initial = spin-up, q = 6truncation error = 1.5297e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 8e-07, N = 207
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 70, N = 218, convergence = 4e-07, initial = spin-up, q = 6truncation error = 1.5298e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 4e-07, N = 218
+I did an additional 12 steps.
+stored to database: 
+temperature = 0.62041, chi = 70, N = 230, convergence = 2e-07, initial = spin-up, q = 6truncation error = 1.5299e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 2e-07, N = 230
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 70, N = 241, convergence = 1e-07, initial = spin-up, q = 6truncation error = 1.5299e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 1e-07, N = 241
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 70, N = 252, convergence = 5e-08, initial = spin-up, q = 6truncation error = 1.5299e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 5e-08, N = 252
+I did an additional 12 steps.
+stored to database: 
+temperature = 0.62041, chi = 70, N = 264, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 1.5299e-05.
+Did not find record for:
+chi = 80, temperature = 0.62041, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.62041, chi = 80, N = 209, convergence = 8e-07, initial = spin-up, q = 6truncation error = 1.0192e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 8e-07, N = 209
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 80, N = 220, convergence = 4e-07, initial = spin-up, q = 6truncation error = 1.0193e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 4e-07, N = 220
+I did an additional 12 steps.
+stored to database: 
+temperature = 0.62041, chi = 80, N = 232, convergence = 2e-07, initial = spin-up, q = 6truncation error = 1.0193e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 2e-07, N = 232
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 80, N = 243, convergence = 1e-07, initial = spin-up, q = 6truncation error = 1.0193e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 1e-07, N = 243
+I did an additional 12 steps.
+stored to database: 
+temperature = 0.62041, chi = 80, N = 255, convergence = 5e-08, initial = spin-up, q = 6truncation error = 1.0194e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 5e-08, N = 255
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 80, N = 266, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 1.0194e-05.
+Did not find record for:
+chi = 90, temperature = 0.62041, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.62041, chi = 90, N = 222, convergence = 8e-07, initial = spin-up, q = 6truncation error = 7.1268e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 8e-07, N = 222
+I did an additional 13 steps.
+stored to database: 
+temperature = 0.62041, chi = 90, N = 235, convergence = 4e-07, initial = spin-up, q = 6truncation error = 7.1279e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 4e-07, N = 235
+I did an additional 12 steps.
+stored to database: 
+temperature = 0.62041, chi = 90, N = 247, convergence = 2e-07, initial = spin-up, q = 6truncation error = 7.1283e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 2e-07, N = 247
+I did an additional 13 steps.
+stored to database: 
+temperature = 0.62041, chi = 90, N = 260, convergence = 1e-07, initial = spin-up, q = 6truncation error = 7.1286e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 1e-07, N = 260
+I did an additional 12 steps.
+stored to database: 
+temperature = 0.62041, chi = 90, N = 272, convergence = 5e-08, initial = spin-up, q = 6truncation error = 7.1287e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 5e-08, N = 272
+I did an additional 13 steps.
+stored to database: 
+temperature = 0.62041, chi = 90, N = 285, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 7.1288e-06.
+Did not find record for:
+chi = 100, temperature = 0.62041, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.62041, chi = 100, N = 218, convergence = 8e-07, initial = spin-up, q = 6truncation error = 4.9536e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 8e-07, N = 218
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 100, N = 229, convergence = 4e-07, initial = spin-up, q = 6truncation error = 4.9541e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 4e-07, N = 229
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 100, N = 240, convergence = 2e-07, initial = spin-up, q = 6truncation error = 4.9544e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 2e-07, N = 240
+I did an additional 12 steps.
+stored to database: 
+temperature = 0.62041, chi = 100, N = 252, convergence = 1e-07, initial = spin-up, q = 6truncation error = 4.9545e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 1e-07, N = 252
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.62041, chi = 100, N = 263, convergence = 5e-08, initial = spin-up, q = 6truncation error = 4.9546e-06.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 5e-08, N = 263
+I did an additional 12 steps.
+stored to database: 
+temperature = 0.62041, chi = 100, N = 275, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 4.9546e-06.
+Did not find record for:
+chi = 10, temperature = 0.63061, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.63061, chi = 10, N = 164, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.002667.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 8e-07, N = 164
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.63061, chi = 10, N = 175, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.002667.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 4e-07, N = 175
+I did an additional 10 steps.
+stored to database: 
+temperature = 0.63061, chi = 10, N = 185, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.002667.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 2e-07, N = 185
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.63061, chi = 10, N = 196, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.002667.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 1e-07, N = 196
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.63061, chi = 10, N = 207, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.002667.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 5e-08, N = 207
+I did an additional 11 steps.
+stored to database: 
+temperature = 0.63061, chi = 10, N = 218, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.002667.
+Did not find record for:
+chi = 20, temperature = 0.63061, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.63061, chi = 20, N = 222, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00079027.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 8e-07, N = 222
+I did an additional 14 steps.
+stored to database: 
+temperature = 0.63061, chi = 20, N = 236, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00079029.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 4e-07, N = 236
+I did an additional 13 steps.
+stored to database: 
+temperature = 0.63061, chi = 20, N = 249, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0007903.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 2e-07, N = 249
+I did an additional 14 steps.
+stored to database: 
+temperature = 0.63061, chi = 20, N = 263, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0007903.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 1e-07, N = 263
+I did an additional 14 steps.
+stored to database: 
+temperature = 0.63061, chi = 20, N = 277, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0007903.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 5e-08, N = 277
+I did an additional 14 steps.
+stored to database: 
+temperature = 0.63061, chi = 20, N = 291, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00079031.
+Did not find record for:
+chi = 30, temperature = 0.63061, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.63061, chi = 30, N = 246, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00029667.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 8e-07, N = 246
+I did an additional 15 steps.
+stored to database: 
+temperature = 0.63061, chi = 30, N = 261, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00029668.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 4e-07, N = 261
+I did an additional 16 steps.
+stored to database: 
+temperature = 0.63061, chi = 30, N = 277, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00029669.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 2e-07, N = 277
+I did an additional 15 steps.
+stored to database: 
+temperature = 0.63061, chi = 30, N = 292, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00029669.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 1e-07, N = 292
+I did an additional 15 steps.
+stored to database: 
+temperature = 0.63061, chi = 30, N = 307, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00029669.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 5e-08, N = 307
+I did an additional 15 steps.
+stored to database: 
+temperature = 0.63061, chi = 30, N = 322, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00029669.
+Did not find record for:
+chi = 40, temperature = 0.63061, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.63061, chi = 40, N = 262, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0001538.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 8e-07, N = 262
+I did an additional 16 steps.
+stored to database: 
+temperature = 0.63061, chi = 40, N = 278, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00015381.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 4e-07, N = 278
+I did an additional 15 steps.
+stored to database: 
+temperature = 0.63061, chi = 40, N = 293, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00015381.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 2e-07, N = 293
+I did an additional 16 steps.
+stored to database: 
+temperature = 0.63061, chi = 40, N = 309, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00015381.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 1e-07, N = 309
+I did an additional 15 steps.
+stored to database: 
+temperature = 0.63061, chi = 40, N = 324, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00015381.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 5e-08, N = 324
+I did an additional 15 steps.
+stored to database: 
+temperature = 0.63061, chi = 40, N = 339, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00015381.
+Did not find record for:
+chi = 50, temperature = 0.63061, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.63061, chi = 50, N = 272, convergence = 8e-07, initial = spin-up, q = 6truncation error = 8.4166e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 8e-07, N = 272
+I did an additional 16 steps.
+stored to database: 
+temperature = 0.63061, chi = 50, N = 288, convergence = 4e-07, initial = spin-up, q = 6truncation error = 8.417e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 4e-07, N = 288
+I did an additional 16 steps.
+stored to database: 
+temperature = 0.63061, chi = 50, N = 304, convergence = 2e-07, initial = spin-up, q = 6truncation error = 8.4173e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 2e-07, N = 304
+I did an additional 16 steps.
+stored to database: 
+temperature = 0.63061, chi = 50, N = 320, convergence = 1e-07, initial = spin-up, q = 6truncation error = 8.4174e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 1e-07, N = 320
+I did an additional 16 steps.
+stored to database: 
+temperature = 0.63061, chi = 50, N = 336, convergence = 5e-08, initial = spin-up, q = 6truncation error = 8.4174e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 5e-08, N = 336
+I did an additional 16 steps.
+stored to database: 
+temperature = 0.63061, chi = 50, N = 352, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 8.4175e-05.
+Did not find record for:
+chi = 60, temperature = 0.63061, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.63061, chi = 60, N = 311, convergence = 8e-07, initial = spin-up, q = 6truncation error = 5.657e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 8e-07, N = 311
+I did an additional 16 steps.
+stored to database: 
+temperature = 0.63061, chi = 60, N = 327, convergence = 4e-07, initial = spin-up, q = 6truncation error = 5.6573e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 4e-07, N = 327
+I did an additional 17 steps.
+stored to database: 
+temperature = 0.63061, chi = 60, N = 344, convergence = 2e-07, initial = spin-up, q = 6truncation error = 5.6575e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 2e-07, N = 344
+I did an additional 16 steps.
+stored to database: 
+temperature = 0.63061, chi = 60, N = 360, convergence = 1e-07, initial = spin-up, q = 6truncation error = 5.6576e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 1e-07, N = 360
+I did an additional 17 steps.
+stored to database: 
+temperature = 0.63061, chi = 60, N = 377, convergence = 5e-08, initial = spin-up, q = 6truncation error = 5.6576e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 5e-08, N = 377
+I did an additional 16 steps.
+stored to database: 
+temperature = 0.63061, chi = 60, N = 393, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 5.6576e-05.
+Did not find record for:
+chi = 70, temperature = 0.63061, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.63061, chi = 70, N = 289, convergence = 8e-07, initial = spin-up, q = 6truncation error = 3.5029e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 8e-07, N = 289
+I did an additional 16 steps.
+stored to database: 
+temperature = 0.63061, chi = 70, N = 305, convergence = 4e-07, initial = spin-up, q = 6truncation error = 3.5031e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 4e-07, N = 305
+I did an additional 17 steps.
+stored to database: 
+temperature = 0.63061, chi = 70, N = 322, convergence = 2e-07, initial = spin-up, q = 6truncation error = 3.5032e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 2e-07, N = 322
+I did an additional 17 steps.
+stored to database: 
+temperature = 0.63061, chi = 70, N = 339, convergence = 1e-07, initial = spin-up, q = 6truncation error = 3.5033e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 1e-07, N = 339
+I did an additional 16 steps.
+stored to database: 
+temperature = 0.63061, chi = 70, N = 355, convergence = 5e-08, initial = spin-up, q = 6truncation error = 3.5033e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 5e-08, N = 355
+I did an additional 17 steps.
+stored to database: 
+temperature = 0.63061, chi = 70, N = 372, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 3.5033e-05.
+Did not find record for:
+chi = 80, temperature = 0.63061, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.63061, chi = 80, N = 291, convergence = 8e-07, initial = spin-up, q = 6truncation error = 2.3874e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 8e-07, N = 291
+I did an additional 16 steps.
+stored to database: 
+temperature = 0.63061, chi = 80, N = 307, convergence = 4e-07, initial = spin-up, q = 6truncation error = 2.3876e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 4e-07, N = 307
+I did an additional 17 steps.
+stored to database: 
+temperature = 0.63061, chi = 80, N = 324, convergence = 2e-07, initial = spin-up, q = 6truncation error = 2.3877e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 2e-07, N = 324
+I did an additional 17 steps.
+stored to database: 
+temperature = 0.63061, chi = 80, N = 341, convergence = 1e-07, initial = spin-up, q = 6truncation error = 2.3877e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 1e-07, N = 341
+I did an additional 16 steps.
+stored to database: 
+temperature = 0.63061, chi = 80, N = 357, convergence = 5e-08, initial = spin-up, q = 6truncation error = 2.3877e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 5e-08, N = 357
+I did an additional 17 steps.
+stored to database: 
+temperature = 0.63061, chi = 80, N = 374, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 2.3877e-05.
+Did not find record for:
+chi = 90, temperature = 0.63061, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.63061, chi = 90, N = 618, convergence = 8e-07, initial = spin-up, q = 6truncation error = 1.7185e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 8e-07, N = 618
+I did an additional 20 steps.
+stored to database: 
+temperature = 0.63061, chi = 90, N = 638, convergence = 4e-07, initial = spin-up, q = 6truncation error = 1.7185e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 4e-07, N = 638
+I did an additional 21 steps.
+stored to database: 
+temperature = 0.63061, chi = 90, N = 659, convergence = 2e-07, initial = spin-up, q = 6truncation error = 1.7185e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 2e-07, N = 659
+I did an additional 22 steps.
+stored to database: 
+temperature = 0.63061, chi = 90, N = 681, convergence = 1e-07, initial = spin-up, q = 6truncation error = 1.7184e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 1e-07, N = 681
+I did an additional 22 steps.
+stored to database: 
+temperature = 0.63061, chi = 90, N = 703, convergence = 5e-08, initial = spin-up, q = 6truncation error = 1.7184e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 5e-08, N = 703
+I did an additional 23 steps.
+stored to database: 
+temperature = 0.63061, chi = 90, N = 726, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 1.7183e-05.
+Did not find record for:
+chi = 100, temperature = 0.63061, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.63061, chi = 100, N = 308, convergence = 8e-07, initial = spin-up, q = 6truncation error = 1.255e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 8e-07, N = 308
+I did an additional 16 steps.
+stored to database: 
+temperature = 0.63061, chi = 100, N = 324, convergence = 4e-07, initial = spin-up, q = 6truncation error = 1.2551e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 4e-07, N = 324
+I did an additional 16 steps.
+stored to database: 
+temperature = 0.63061, chi = 100, N = 340, convergence = 2e-07, initial = spin-up, q = 6truncation error = 1.2552e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 2e-07, N = 340
+I did an additional 17 steps.
+stored to database: 
+temperature = 0.63061, chi = 100, N = 357, convergence = 1e-07, initial = spin-up, q = 6truncation error = 1.2552e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 1e-07, N = 357
+I did an additional 17 steps.
+stored to database: 
+temperature = 0.63061, chi = 100, N = 374, convergence = 5e-08, initial = spin-up, q = 6truncation error = 1.2552e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 5e-08, N = 374
+I did an additional 16 steps.
+stored to database: 
+temperature = 0.63061, chi = 100, N = 390, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 1.2552e-05.
+Did not find record for:
+chi = 10, temperature = 0.64082, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.64082, chi = 10, N = 247, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0033643.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 8e-07, N = 247
+I did an additional 17 steps.
+stored to database: 
+temperature = 0.64082, chi = 10, N = 264, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0033643.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 4e-07, N = 264
+I did an additional 18 steps.
+stored to database: 
+temperature = 0.64082, chi = 10, N = 282, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0033644.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 2e-07, N = 282
+I did an additional 17 steps.
+stored to database: 
+temperature = 0.64082, chi = 10, N = 299, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0033644.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 1e-07, N = 299
+I did an additional 18 steps.
+stored to database: 
+temperature = 0.64082, chi = 10, N = 317, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0033644.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 5e-08, N = 317
+I did an additional 18 steps.
+stored to database: 
+temperature = 0.64082, chi = 10, N = 335, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0033644.
+Did not find record for:
+chi = 20, temperature = 0.64082, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.64082, chi = 20, N = 297, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0011052.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 8e-07, N = 297
+I did an additional 19 steps.
+stored to database: 
+temperature = 0.64082, chi = 20, N = 316, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0011053.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 4e-07, N = 316
+I did an additional 20 steps.
+stored to database: 
+temperature = 0.64082, chi = 20, N = 336, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0011053.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 2e-07, N = 336
+I did an additional 19 steps.
+stored to database: 
+temperature = 0.64082, chi = 20, N = 355, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0011053.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 1e-07, N = 355
+I did an additional 20 steps.
+stored to database: 
+temperature = 0.64082, chi = 20, N = 375, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0011053.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 5e-08, N = 375
+I did an additional 19 steps.
+stored to database: 
+temperature = 0.64082, chi = 20, N = 394, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0011053.
+Did not find record for:
+chi = 30, temperature = 0.64082, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.64082, chi = 30, N = 352, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00049941.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 8e-07, N = 352
+I did an additional 23 steps.
+stored to database: 
+temperature = 0.64082, chi = 30, N = 375, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00049943.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 4e-07, N = 375
+I did an additional 23 steps.
+stored to database: 
+temperature = 0.64082, chi = 30, N = 398, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00049944.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 2e-07, N = 398
+I did an additional 22 steps.
+stored to database: 
+temperature = 0.64082, chi = 30, N = 420, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00049945.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 1e-07, N = 420
+I did an additional 23 steps.
+stored to database: 
+temperature = 0.64082, chi = 30, N = 443, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00049945.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 5e-08, N = 443
+I did an additional 23 steps.
+stored to database: 
+temperature = 0.64082, chi = 30, N = 466, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00049945.
+Did not find record for:
+chi = 40, temperature = 0.64082, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.64082, chi = 40, N = 383, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00029026.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 8e-07, N = 383
+I did an additional 23 steps.
+stored to database: 
+temperature = 0.64082, chi = 40, N = 406, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00029027.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 4e-07, N = 406
+I did an additional 24 steps.
+stored to database: 
+temperature = 0.64082, chi = 40, N = 430, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00029028.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 2e-07, N = 430
+I did an additional 24 steps.
+stored to database: 
+temperature = 0.64082, chi = 40, N = 454, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00029028.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 1e-07, N = 454
+I did an additional 23 steps.
+stored to database: 
+temperature = 0.64082, chi = 40, N = 477, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00029028.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 5e-08, N = 477
+I did an additional 24 steps.
+stored to database: 
+temperature = 0.64082, chi = 40, N = 501, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00029028.
+Did not find record for:
+chi = 50, temperature = 0.64082, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.64082, chi = 50, N = 401, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00017012.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 8e-07, N = 401
+I did an additional 25 steps.
+stored to database: 
+temperature = 0.64082, chi = 50, N = 426, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00017012.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 4e-07, N = 426
+I did an additional 25 steps.
+stored to database: 
+temperature = 0.64082, chi = 50, N = 451, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00017013.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 2e-07, N = 451
+I did an additional 25 steps.
+stored to database: 
+temperature = 0.64082, chi = 50, N = 476, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00017013.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 1e-07, N = 476
+I did an additional 25 steps.
+stored to database: 
+temperature = 0.64082, chi = 50, N = 501, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00017013.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 5e-08, N = 501
+I did an additional 25 steps.
+stored to database: 
+temperature = 0.64082, chi = 50, N = 526, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00017013.
+Did not find record for:
+chi = 60, temperature = 0.64082, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.64082, chi = 60, N = 437, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00011382.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 8e-07, N = 437
+I did an additional 26 steps.
+stored to database: 
+temperature = 0.64082, chi = 60, N = 463, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00011383.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 4e-07, N = 463
+I did an additional 28 steps.
+stored to database: 
+temperature = 0.64082, chi = 60, N = 491, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00011384.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 2e-07, N = 491
+I did an additional 28 steps.
+stored to database: 
+temperature = 0.64082, chi = 60, N = 519, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00011384.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 1e-07, N = 519
+I did an additional 29 steps.
+stored to database: 
+temperature = 0.64082, chi = 60, N = 548, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00011384.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 5e-08, N = 548
+I did an additional 31 steps.
+stored to database: 
+temperature = 0.64082, chi = 60, N = 579, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00011384.
+Did not find record for:
+chi = 70, temperature = 0.64082, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.64082, chi = 70, N = 431, convergence = 8e-07, initial = spin-up, q = 6truncation error = 7.9651e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 8e-07, N = 431
+I did an additional 26 steps.
+stored to database: 
+temperature = 0.64082, chi = 70, N = 457, convergence = 4e-07, initial = spin-up, q = 6truncation error = 7.9656e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 4e-07, N = 457
+I did an additional 26 steps.
+stored to database: 
+temperature = 0.64082, chi = 70, N = 483, convergence = 2e-07, initial = spin-up, q = 6truncation error = 7.9659e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 2e-07, N = 483
+I did an additional 26 steps.
+stored to database: 
+temperature = 0.64082, chi = 70, N = 509, convergence = 1e-07, initial = spin-up, q = 6truncation error = 7.966e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 1e-07, N = 509
+I did an additional 26 steps.
+stored to database: 
+temperature = 0.64082, chi = 70, N = 535, convergence = 5e-08, initial = spin-up, q = 6truncation error = 7.9661e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 5e-08, N = 535
+I did an additional 26 steps.
+stored to database: 
+temperature = 0.64082, chi = 70, N = 561, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 7.9661e-05.
+Did not find record for:
+chi = 80, temperature = 0.64082, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.64082, chi = 80, N = 437, convergence = 8e-07, initial = spin-up, q = 6truncation error = 5.5626e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 8e-07, N = 437
+I did an additional 26 steps.
+stored to database: 
+temperature = 0.64082, chi = 80, N = 463, convergence = 4e-07, initial = spin-up, q = 6truncation error = 5.5629e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 4e-07, N = 463
+I did an additional 26 steps.
+stored to database: 
+temperature = 0.64082, chi = 80, N = 489, convergence = 2e-07, initial = spin-up, q = 6truncation error = 5.5631e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 2e-07, N = 489
+I did an additional 26 steps.
+stored to database: 
+temperature = 0.64082, chi = 80, N = 515, convergence = 1e-07, initial = spin-up, q = 6truncation error = 5.5632e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 1e-07, N = 515
+I did an additional 27 steps.
+stored to database: 
+temperature = 0.64082, chi = 80, N = 542, convergence = 5e-08, initial = spin-up, q = 6truncation error = 5.5633e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 5e-08, N = 542
+I did an additional 26 steps.
+stored to database: 
+temperature = 0.64082, chi = 80, N = 568, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 5.5633e-05.
+Did not find record for:
+chi = 90, temperature = 0.64082, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.64082, chi = 90, N = 461, convergence = 8e-07, initial = spin-up, q = 6truncation error = 4.0776e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 8e-07, N = 461
+I did an additional 28 steps.
+stored to database: 
+temperature = 0.64082, chi = 90, N = 489, convergence = 4e-07, initial = spin-up, q = 6truncation error = 4.078e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 4e-07, N = 489
+I did an additional 27 steps.
+stored to database: 
+temperature = 0.64082, chi = 90, N = 516, convergence = 2e-07, initial = spin-up, q = 6truncation error = 4.0781e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 2e-07, N = 516
+I did an additional 26 steps.
+stored to database: 
+temperature = 0.64082, chi = 90, N = 542, convergence = 1e-07, initial = spin-up, q = 6truncation error = 4.0782e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 1e-07, N = 542
+I did an additional 27 steps.
+stored to database: 
+temperature = 0.64082, chi = 90, N = 569, convergence = 5e-08, initial = spin-up, q = 6truncation error = 4.0782e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 5e-08, N = 569
+I did an additional 27 steps.
+stored to database: 
+temperature = 0.64082, chi = 90, N = 596, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 4.0783e-05.
+Did not find record for:
+chi = 100, temperature = 0.64082, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.64082, chi = 100, N = 504, convergence = 8e-07, initial = spin-up, q = 6truncation error = 3.1898e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 8e-07, N = 504
+I did an additional 34 steps.
+stored to database: 
+temperature = 0.64082, chi = 100, N = 538, convergence = 4e-07, initial = spin-up, q = 6truncation error = 3.1894e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 4e-07, N = 538
+I did an additional 40 steps.
+stored to database: 
+temperature = 0.64082, chi = 100, N = 578, convergence = 2e-07, initial = spin-up, q = 6truncation error = 3.189e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 2e-07, N = 578
+I did an additional 46 steps.
+stored to database: 
+temperature = 0.64082, chi = 100, N = 624, convergence = 1e-07, initial = spin-up, q = 6truncation error = 3.1887e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 1e-07, N = 624
+I did an additional 45 steps.
+stored to database: 
+temperature = 0.64082, chi = 100, N = 669, convergence = 5e-08, initial = spin-up, q = 6truncation error = 3.1886e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 5e-08, N = 669
+I did an additional 44 steps.
+stored to database: 
+temperature = 0.64082, chi = 100, N = 713, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 3.1886e-05.
+Did not find record for:
+chi = 10, temperature = 0.65102, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.65102, chi = 10, N = 317, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0041002.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 8e-07, N = 317
+I did an additional 25 steps.
+stored to database: 
+temperature = 0.65102, chi = 10, N = 342, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0041002.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 4e-07, N = 342
+I did an additional 26 steps.
+stored to database: 
+temperature = 0.65102, chi = 10, N = 368, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0041002.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 2e-07, N = 368
+I did an additional 26 steps.
+stored to database: 
+temperature = 0.65102, chi = 10, N = 394, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0041002.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 1e-07, N = 394
+I did an additional 25 steps.
+stored to database: 
+temperature = 0.65102, chi = 10, N = 419, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0041002.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 5e-08, N = 419
+I did an additional 26 steps.
+stored to database: 
+temperature = 0.65102, chi = 10, N = 445, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0041002.
+Did not find record for:
+chi = 20, temperature = 0.65102, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.65102, chi = 20, N = 406, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0015468.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 8e-07, N = 406
+I did an additional 28 steps.
+stored to database: 
+temperature = 0.65102, chi = 20, N = 434, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0015469.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 4e-07, N = 434
+I did an additional 28 steps.
+stored to database: 
+temperature = 0.65102, chi = 20, N = 462, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0015469.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 2e-07, N = 462
+I did an additional 27 steps.
+stored to database: 
+temperature = 0.65102, chi = 20, N = 489, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0015469.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 1e-07, N = 489
+I did an additional 28 steps.
+stored to database: 
+temperature = 0.65102, chi = 20, N = 517, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0015469.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 5e-08, N = 517
+I did an additional 28 steps.
+stored to database: 
+temperature = 0.65102, chi = 20, N = 545, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0015469.
+Did not find record for:
+chi = 30, temperature = 0.65102, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.65102, chi = 30, N = 519, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00080477.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 8e-07, N = 519
+I did an additional 35 steps.
+stored to database: 
+temperature = 0.65102, chi = 30, N = 554, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0008048.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 4e-07, N = 554
+I did an additional 35 steps.
+stored to database: 
+temperature = 0.65102, chi = 30, N = 589, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00080481.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 2e-07, N = 589
+I did an additional 35 steps.
+stored to database: 
+temperature = 0.65102, chi = 30, N = 624, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00080482.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 1e-07, N = 624
+I did an additional 35 steps.
+stored to database: 
+temperature = 0.65102, chi = 30, N = 659, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00080482.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 5e-08, N = 659
+I did an additional 35 steps.
+stored to database: 
+temperature = 0.65102, chi = 30, N = 694, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00080482.
+Did not find record for:
+chi = 40, temperature = 0.65102, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.65102, chi = 40, N = 631, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0005187.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 8e-07, N = 631
+I did an additional 52 steps.
+stored to database: 
+temperature = 0.65102, chi = 40, N = 683, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00051875.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 4e-07, N = 683
+I did an additional 54 steps.
+stored to database: 
+temperature = 0.65102, chi = 40, N = 737, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00051878.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 2e-07, N = 737
+I did an additional 56 steps.
+stored to database: 
+temperature = 0.65102, chi = 40, N = 793, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00051879.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 1e-07, N = 793
+I did an additional 59 steps.
+stored to database: 
+temperature = 0.65102, chi = 40, N = 852, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0005188.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 5e-08, N = 852
+I did an additional 61 steps.
+stored to database: 
+temperature = 0.65102, chi = 40, N = 913, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0005188.
+Did not find record for:
+chi = 50, temperature = 0.65102, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.65102, chi = 50, N = 631, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00033665.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 8e-07, N = 631
+I did an additional 42 steps.
+stored to database: 
+temperature = 0.65102, chi = 50, N = 673, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00033666.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 4e-07, N = 673
+I did an additional 42 steps.
+stored to database: 
+temperature = 0.65102, chi = 50, N = 715, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00033667.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 2e-07, N = 715
+I did an additional 42 steps.
+stored to database: 
+temperature = 0.65102, chi = 50, N = 757, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00033667.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 1e-07, N = 757
+I did an additional 41 steps.
+stored to database: 
+temperature = 0.65102, chi = 50, N = 798, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00033668.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 5e-08, N = 798
+I did an additional 42 steps.
+stored to database: 
+temperature = 0.65102, chi = 50, N = 840, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00033668.
+Did not find record for:
+chi = 60, temperature = 0.65102, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.65102, chi = 60, N = 682, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00022788.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 8e-07, N = 682
+I did an additional 57 steps.
+stored to database: 
+temperature = 0.65102, chi = 60, N = 739, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0002279.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 4e-07, N = 739
+I did an additional 63 steps.
+stored to database: 
+temperature = 0.65102, chi = 60, N = 802, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00022791.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 2e-07, N = 802
+I did an additional 69 steps.
+stored to database: 
+temperature = 0.65102, chi = 60, N = 871, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00022791.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 1e-07, N = 871
+I did an additional 76 steps.
+stored to database: 
+temperature = 0.65102, chi = 60, N = 947, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00022791.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 5e-08, N = 947
+I did an additional 81 steps.
+stored to database: 
+temperature = 0.65102, chi = 60, N = 1028, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00022791.
+Did not find record for:
+chi = 70, temperature = 0.65102, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.65102, chi = 70, N = 693, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00017515.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 8e-07, N = 693
+I did an additional 45 steps.
+stored to database: 
+temperature = 0.65102, chi = 70, N = 738, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00017516.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 4e-07, N = 738
+I did an additional 45 steps.
+stored to database: 
+temperature = 0.65102, chi = 70, N = 783, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00017516.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 2e-07, N = 783
+I did an additional 45 steps.
+stored to database: 
+temperature = 0.65102, chi = 70, N = 828, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00017516.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 1e-07, N = 828
+I did an additional 44 steps.
+stored to database: 
+temperature = 0.65102, chi = 70, N = 872, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00017517.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 5e-08, N = 872
+I did an additional 45 steps.
+stored to database: 
+temperature = 0.65102, chi = 70, N = 917, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00017517.
+Did not find record for:
+chi = 80, temperature = 0.65102, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.65102, chi = 80, N = 721, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00012963.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 8e-07, N = 721
+I did an additional 47 steps.
+stored to database: 
+temperature = 0.65102, chi = 80, N = 768, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00012964.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 4e-07, N = 768
+I did an additional 46 steps.
+stored to database: 
+temperature = 0.65102, chi = 80, N = 814, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00012964.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 2e-07, N = 814
+I did an additional 47 steps.
+stored to database: 
+temperature = 0.65102, chi = 80, N = 861, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00012964.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 1e-07, N = 861
+I did an additional 46 steps.
+stored to database: 
+temperature = 0.65102, chi = 80, N = 907, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00012964.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 5e-08, N = 907
+I did an additional 46 steps.
+stored to database: 
+temperature = 0.65102, chi = 80, N = 953, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00012964.
+Did not find record for:
+chi = 90, temperature = 0.65102, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.65102, chi = 90, N = 727, convergence = 8e-07, initial = spin-up, q = 6truncation error = 9.7018e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 8e-07, N = 727
+I did an additional 47 steps.
+stored to database: 
+temperature = 0.65102, chi = 90, N = 774, convergence = 4e-07, initial = spin-up, q = 6truncation error = 9.7025e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 4e-07, N = 774
+I did an additional 47 steps.
+stored to database: 
+temperature = 0.65102, chi = 90, N = 821, convergence = 2e-07, initial = spin-up, q = 6truncation error = 9.7029e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 2e-07, N = 821
+I did an additional 48 steps.
+stored to database: 
+temperature = 0.65102, chi = 90, N = 869, convergence = 1e-07, initial = spin-up, q = 6truncation error = 9.7031e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 1e-07, N = 869
+I did an additional 47 steps.
+stored to database: 
+temperature = 0.65102, chi = 90, N = 916, convergence = 5e-08, initial = spin-up, q = 6truncation error = 9.7032e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 5e-08, N = 916
+I did an additional 47 steps.
+stored to database: 
+temperature = 0.65102, chi = 90, N = 963, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 9.7032e-05.
+Did not find record for:
+chi = 100, temperature = 0.65102, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.65102, chi = 100, N = 748, convergence = 8e-07, initial = spin-up, q = 6truncation error = 7.7038e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 8e-07, N = 748
+I did an additional 48 steps.
+stored to database: 
+temperature = 0.65102, chi = 100, N = 796, convergence = 4e-07, initial = spin-up, q = 6truncation error = 7.7044e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 4e-07, N = 796
+I did an additional 49 steps.
+stored to database: 
+temperature = 0.65102, chi = 100, N = 845, convergence = 2e-07, initial = spin-up, q = 6truncation error = 7.7047e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 2e-07, N = 845
+I did an additional 48 steps.
+stored to database: 
+temperature = 0.65102, chi = 100, N = 893, convergence = 1e-07, initial = spin-up, q = 6truncation error = 7.7049e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 1e-07, N = 893
+I did an additional 49 steps.
+stored to database: 
+temperature = 0.65102, chi = 100, N = 942, convergence = 5e-08, initial = spin-up, q = 6truncation error = 7.705e-05.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 5e-08, N = 942
+I did an additional 48 steps.
+stored to database: 
+temperature = 0.65102, chi = 100, N = 990, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 7.705e-05.
+Did not find record for:
+chi = 10, temperature = 0.66122, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.66122, chi = 10, N = 353, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0046848.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 8e-07, N = 353
+I did an additional 35 steps.
+stored to database: 
+temperature = 0.66122, chi = 10, N = 388, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0046848.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 4e-07, N = 388
+I did an additional 35 steps.
+stored to database: 
+temperature = 0.66122, chi = 10, N = 423, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0046848.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 2e-07, N = 423
+I did an additional 36 steps.
+stored to database: 
+temperature = 0.66122, chi = 10, N = 459, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0046849.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 1e-07, N = 459
+I did an additional 35 steps.
+stored to database: 
+temperature = 0.66122, chi = 10, N = 494, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0046849.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 5e-08, N = 494
+I did an additional 36 steps.
+stored to database: 
+temperature = 0.66122, chi = 10, N = 530, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0046849.
+Did not find record for:
+chi = 20, temperature = 0.66122, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.66122, chi = 20, N = 530, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0020302.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 8e-07, N = 530
+I did an additional 38 steps.
+stored to database: 
+temperature = 0.66122, chi = 20, N = 568, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0020303.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 4e-07, N = 568
+I did an additional 37 steps.
+stored to database: 
+temperature = 0.66122, chi = 20, N = 605, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0020303.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 2e-07, N = 605
+I did an additional 38 steps.
+stored to database: 
+temperature = 0.66122, chi = 20, N = 643, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0020304.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 1e-07, N = 643
+I did an additional 37 steps.
+stored to database: 
+temperature = 0.66122, chi = 20, N = 680, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0020304.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 5e-08, N = 680
+I did an additional 37 steps.
+stored to database: 
+temperature = 0.66122, chi = 20, N = 717, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0020304.
+Did not find record for:
+chi = 30, temperature = 0.66122, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.66122, chi = 30, N = 742, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0011908.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 8e-07, N = 742
+I did an additional 53 steps.
+stored to database: 
+temperature = 0.66122, chi = 30, N = 795, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0011909.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 4e-07, N = 795
+I did an additional 52 steps.
+stored to database: 
+temperature = 0.66122, chi = 30, N = 847, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0011909.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 2e-07, N = 847
+I did an additional 53 steps.
+stored to database: 
+temperature = 0.66122, chi = 30, N = 900, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0011909.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 1e-07, N = 900
+I did an additional 53 steps.
+stored to database: 
+temperature = 0.66122, chi = 30, N = 953, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0011909.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 5e-08, N = 953
+I did an additional 52 steps.
+stored to database: 
+temperature = 0.66122, chi = 30, N = 1005, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0011909.
+Did not find record for:
+chi = 40, temperature = 0.66122, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.66122, chi = 40, N = 896, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00082979.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 8e-07, N = 896
+I did an additional 64 steps.
+stored to database: 
+temperature = 0.66122, chi = 40, N = 960, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00082983.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 4e-07, N = 960
+I did an additional 64 steps.
+stored to database: 
+temperature = 0.66122, chi = 40, N = 1024, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00082985.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 2e-07, N = 1024
+I did an additional 64 steps.
+stored to database: 
+temperature = 0.66122, chi = 40, N = 1088, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00082986.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 1e-07, N = 1088
+I did an additional 63 steps.
+stored to database: 
+temperature = 0.66122, chi = 40, N = 1151, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00082987.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 5e-08, N = 1151
+I did an additional 64 steps.
+stored to database: 
+temperature = 0.66122, chi = 40, N = 1215, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00082987.
+Did not find record for:
+chi = 50, temperature = 0.66122, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.66122, chi = 50, N = 1032, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00059229.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 8e-07, N = 1032
+I did an additional 75 steps.
+stored to database: 
+temperature = 0.66122, chi = 50, N = 1107, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00059232.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 4e-07, N = 1107
+I did an additional 75 steps.
+stored to database: 
+temperature = 0.66122, chi = 50, N = 1182, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00059234.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 2e-07, N = 1182
+I did an additional 75 steps.
+stored to database: 
+temperature = 0.66122, chi = 50, N = 1257, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00059234.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 1e-07, N = 1257
+I did an additional 77 steps.
+stored to database: 
+temperature = 0.66122, chi = 50, N = 1334, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00059235.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 5e-08, N = 1334
+I did an additional 77 steps.
+stored to database: 
+temperature = 0.66122, chi = 50, N = 1411, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00059235.
+Did not find record for:
+chi = 60, temperature = 0.66122, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.66122, chi = 60, N = 1144, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00044406.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 8e-07, N = 1144
+I did an additional 82 steps.
+stored to database: 
+temperature = 0.66122, chi = 60, N = 1226, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00044409.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 4e-07, N = 1226
+I did an additional 82 steps.
+stored to database: 
+temperature = 0.66122, chi = 60, N = 1308, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0004441.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 2e-07, N = 1308
+I did an additional 82 steps.
+stored to database: 
+temperature = 0.66122, chi = 60, N = 1390, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00044411.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 1e-07, N = 1390
+I did an additional 82 steps.
+stored to database: 
+temperature = 0.66122, chi = 60, N = 1472, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00044411.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 5e-08, N = 1472
+I did an additional 82 steps.
+stored to database: 
+temperature = 0.66122, chi = 60, N = 1554, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00044411.
+Did not find record for:
+chi = 70, temperature = 0.66122, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.66122, chi = 70, N = 1216, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00034918.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 8e-07, N = 1216
+I did an additional 87 steps.
+stored to database: 
+temperature = 0.66122, chi = 70, N = 1303, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0003492.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 4e-07, N = 1303
+I did an additional 87 steps.
+stored to database: 
+temperature = 0.66122, chi = 70, N = 1390, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00034921.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 2e-07, N = 1390
+I did an additional 87 steps.
+stored to database: 
+temperature = 0.66122, chi = 70, N = 1477, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00034922.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 1e-07, N = 1477
+I did an additional 87 steps.
+stored to database: 
+temperature = 0.66122, chi = 70, N = 1564, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00034922.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 5e-08, N = 1564
+I did an additional 87 steps.
+stored to database: 
+temperature = 0.66122, chi = 70, N = 1651, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00034922.
+Did not find record for:
+chi = 80, temperature = 0.66122, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.66122, chi = 80, N = 1289, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00027731.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 8e-07, N = 1289
+I did an additional 91 steps.
+stored to database: 
+temperature = 0.66122, chi = 80, N = 1380, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00027733.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 4e-07, N = 1380
+I did an additional 91 steps.
+stored to database: 
+temperature = 0.66122, chi = 80, N = 1471, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00027734.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 2e-07, N = 1471
+I did an additional 91 steps.
+stored to database: 
+temperature = 0.66122, chi = 80, N = 1562, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00027734.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 1e-07, N = 1562
+I did an additional 91 steps.
+stored to database: 
+temperature = 0.66122, chi = 80, N = 1653, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00027734.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 5e-08, N = 1653
+I did an additional 92 steps.
+stored to database: 
+temperature = 0.66122, chi = 80, N = 1745, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00027734.
+Did not find record for:
+chi = 90, temperature = 0.66122, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.66122, chi = 90, N = 1336, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00022185.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 8e-07, N = 1336
+I did an additional 95 steps.
+stored to database: 
+temperature = 0.66122, chi = 90, N = 1431, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00022186.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 4e-07, N = 1431
+I did an additional 94 steps.
+stored to database: 
+temperature = 0.66122, chi = 90, N = 1525, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00022187.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 2e-07, N = 1525
+I did an additional 94 steps.
+stored to database: 
+temperature = 0.66122, chi = 90, N = 1619, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00022188.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 1e-07, N = 1619
+I did an additional 95 steps.
+stored to database: 
+temperature = 0.66122, chi = 90, N = 1714, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00022188.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 5e-08, N = 1714
+I did an additional 94 steps.
+stored to database: 
+temperature = 0.66122, chi = 90, N = 1808, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00022188.
+Did not find record for:
+chi = 100, temperature = 0.66122, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.66122, chi = 100, N = 1384, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00018309.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 8e-07, N = 1384
+I did an additional 98 steps.
+stored to database: 
+temperature = 0.66122, chi = 100, N = 1482, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00018311.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 4e-07, N = 1482
+I did an additional 98 steps.
+stored to database: 
+temperature = 0.66122, chi = 100, N = 1580, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00018312.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 2e-07, N = 1580
+I did an additional 98 steps.
+stored to database: 
+temperature = 0.66122, chi = 100, N = 1678, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00018312.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 1e-07, N = 1678
+I did an additional 97 steps.
+stored to database: 
+temperature = 0.66122, chi = 100, N = 1775, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00018312.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 5e-08, N = 1775
+I did an additional 98 steps.
+stored to database: 
+temperature = 0.66122, chi = 100, N = 1873, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00018312.
+Did not find record for:
+chi = 10, temperature = 0.67143, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.67143, chi = 10, N = 450, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.005292.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 8e-07, N = 450
+I did an additional 47 steps.
+stored to database: 
+temperature = 0.67143, chi = 10, N = 497, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.005292.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 4e-07, N = 497
+I did an additional 47 steps.
+stored to database: 
+temperature = 0.67143, chi = 10, N = 544, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0052921.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 2e-07, N = 544
+I did an additional 47 steps.
+stored to database: 
+temperature = 0.67143, chi = 10, N = 591, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0052921.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 1e-07, N = 591
+I did an additional 47 steps.
+stored to database: 
+temperature = 0.67143, chi = 10, N = 638, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0052921.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 5e-08, N = 638
+I did an additional 47 steps.
+stored to database: 
+temperature = 0.67143, chi = 10, N = 685, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0052921.
+Did not find record for:
+chi = 20, temperature = 0.67143, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.67143, chi = 20, N = 629, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0024574.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 8e-07, N = 629
+I did an additional 46 steps.
+stored to database: 
+temperature = 0.67143, chi = 20, N = 675, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0024575.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 4e-07, N = 675
+I did an additional 45 steps.
+stored to database: 
+temperature = 0.67143, chi = 20, N = 720, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0024575.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 2e-07, N = 720
+I did an additional 45 steps.
+stored to database: 
+temperature = 0.67143, chi = 20, N = 765, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0024575.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 1e-07, N = 765
+I did an additional 45 steps.
+stored to database: 
+temperature = 0.67143, chi = 20, N = 810, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0024575.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 5e-08, N = 810
+I did an additional 45 steps.
+stored to database: 
+temperature = 0.67143, chi = 20, N = 855, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0024576.
+Did not find record for:
+chi = 30, temperature = 0.67143, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.67143, chi = 30, N = 969, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0015296.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 8e-07, N = 969
+I did an additional 71 steps.
+stored to database: 
+temperature = 0.67143, chi = 30, N = 1040, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0015297.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 4e-07, N = 1040
+I did an additional 72 steps.
+stored to database: 
+temperature = 0.67143, chi = 30, N = 1112, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0015297.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 2e-07, N = 1112
+I did an additional 71 steps.
+stored to database: 
+temperature = 0.67143, chi = 30, N = 1183, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0015297.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 1e-07, N = 1183
+I did an additional 72 steps.
+stored to database: 
+temperature = 0.67143, chi = 30, N = 1255, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0015297.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 5e-08, N = 1255
+I did an additional 71 steps.
+stored to database: 
+temperature = 0.67143, chi = 30, N = 1326, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0015297.
+Did not find record for:
+chi = 40, temperature = 0.67143, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.67143, chi = 40, N = 1290, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0011349.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 8e-07, N = 1290
+I did an additional 98 steps.
+stored to database: 
+temperature = 0.67143, chi = 40, N = 1388, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0011349.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 4e-07, N = 1388
+I did an additional 97 steps.
+stored to database: 
+temperature = 0.67143, chi = 40, N = 1485, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.001135.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 2e-07, N = 1485
+I did an additional 97 steps.
+stored to database: 
+temperature = 0.67143, chi = 40, N = 1582, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.001135.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 1e-07, N = 1582
+I did an additional 97 steps.
+stored to database: 
+temperature = 0.67143, chi = 40, N = 1679, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.001135.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 5e-08, N = 1679
+I did an additional 97 steps.
+stored to database: 
+temperature = 0.67143, chi = 40, N = 1776, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.001135.
+Did not find record for:
+chi = 50, temperature = 0.67143, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.67143, chi = 50, N = 1492, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00088628.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 8e-07, N = 1492
+I did an additional 113 steps.
+stored to database: 
+temperature = 0.67143, chi = 50, N = 1605, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00088633.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 4e-07, N = 1605
+I did an additional 112 steps.
+stored to database: 
+temperature = 0.67143, chi = 50, N = 1717, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00088636.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 2e-07, N = 1717
+I did an additional 113 steps.
+stored to database: 
+temperature = 0.67143, chi = 50, N = 1830, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00088637.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 1e-07, N = 1830
+I did an additional 112 steps.
+stored to database: 
+temperature = 0.67143, chi = 50, N = 1942, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00088638.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 5e-08, N = 1942
+I did an additional 112 steps.
+stored to database: 
+temperature = 0.67143, chi = 50, N = 2054, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00088638.
+Did not find record for:
+chi = 60, temperature = 0.67143, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.67143, chi = 60, N = 1834, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00070591.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 8e-07, N = 1834
+I did an additional 140 steps.
+stored to database: 
+temperature = 0.67143, chi = 60, N = 1974, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00070596.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 4e-07, N = 1974
+I did an additional 141 steps.
+stored to database: 
+temperature = 0.67143, chi = 60, N = 2115, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00070598.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 2e-07, N = 2115
+I did an additional 140 steps.
+stored to database: 
+temperature = 0.67143, chi = 60, N = 2255, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00070599.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 1e-07, N = 2255
+I did an additional 141 steps.
+stored to database: 
+temperature = 0.67143, chi = 60, N = 2396, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.000706.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 5e-08, N = 2396
+I did an additional 140 steps.
+stored to database: 
+temperature = 0.67143, chi = 60, N = 2536, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.000706.
+Did not find record for:
+chi = 70, temperature = 0.67143, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.67143, chi = 70, N = 2102, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00058464.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 8e-07, N = 2102
+I did an additional 164 steps.
+stored to database: 
+temperature = 0.67143, chi = 70, N = 2266, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00058469.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 4e-07, N = 2266
+I did an additional 165 steps.
+stored to database: 
+temperature = 0.67143, chi = 70, N = 2431, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00058471.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 2e-07, N = 2431
+I did an additional 166 steps.
+stored to database: 
+temperature = 0.67143, chi = 70, N = 2597, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00058472.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 1e-07, N = 2597
+I did an additional 167 steps.
+stored to database: 
+temperature = 0.67143, chi = 70, N = 2764, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00058472.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 5e-08, N = 2764
+I did an additional 169 steps.
+stored to database: 
+temperature = 0.67143, chi = 70, N = 2933, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00058473.
+Did not find record for:
+chi = 80, temperature = 0.67143, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.67143, chi = 80, N = 2313, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00048996.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 8e-07, N = 2313
+I did an additional 180 steps.
+stored to database: 
+temperature = 0.67143, chi = 80, N = 2493, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00049.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 4e-07, N = 2493
+I did an additional 180 steps.
+stored to database: 
+temperature = 0.67143, chi = 80, N = 2673, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00049002.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 2e-07, N = 2673
+I did an additional 180 steps.
+stored to database: 
+temperature = 0.67143, chi = 80, N = 2853, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00049003.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 1e-07, N = 2853
+I did an additional 179 steps.
+stored to database: 
+temperature = 0.67143, chi = 80, N = 3032, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00049003.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 5e-08, N = 3032
+I did an additional 180 steps.
+stored to database: 
+temperature = 0.67143, chi = 80, N = 3212, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00049003.
+Did not find record for:
+chi = 90, temperature = 0.67143, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.67143, chi = 90, N = 2450, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00043175.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 8e-07, N = 2450
+I did an additional 189 steps.
+stored to database: 
+temperature = 0.67143, chi = 90, N = 2639, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00043178.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 4e-07, N = 2639
+I did an additional 189 steps.
+stored to database: 
+temperature = 0.67143, chi = 90, N = 2828, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0004318.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 2e-07, N = 2828
+I did an additional 190 steps.
+stored to database: 
+temperature = 0.67143, chi = 90, N = 3018, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00043181.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 1e-07, N = 3018
+I did an additional 189 steps.
+stored to database: 
+temperature = 0.67143, chi = 90, N = 3207, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00043182.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 5e-08, N = 3207
+I did an additional 189 steps.
+stored to database: 
+temperature = 0.67143, chi = 90, N = 3396, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00043182.
+Did not find record for:
+chi = 100, temperature = 0.67143, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.67143, chi = 100, N = 2656, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00037283.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 8e-07, N = 2656
+I did an additional 206 steps.
+stored to database: 
+temperature = 0.67143, chi = 100, N = 2862, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00037286.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 4e-07, N = 2862
+I did an additional 206 steps.
+stored to database: 
+temperature = 0.67143, chi = 100, N = 3068, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00037288.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 2e-07, N = 3068
+I did an additional 207 steps.
+stored to database: 
+temperature = 0.67143, chi = 100, N = 3275, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00037289.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 1e-07, N = 3275
+I did an additional 206 steps.
+stored to database: 
+temperature = 0.67143, chi = 100, N = 3481, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00037289.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 5e-08, N = 3481
+I did an additional 206 steps.
+stored to database: 
+temperature = 0.67143, chi = 100, N = 3687, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00037289.
+Did not find record for:
+chi = 10, temperature = 0.68163, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.68163, chi = 10, N = 555, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0057794.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 8e-07, N = 555
+I did an additional 58 steps.
+stored to database: 
+temperature = 0.68163, chi = 10, N = 613, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0057794.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 4e-07, N = 613
+I did an additional 59 steps.
+stored to database: 
+temperature = 0.68163, chi = 10, N = 672, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0057794.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 2e-07, N = 672
+I did an additional 58 steps.
+stored to database: 
+temperature = 0.68163, chi = 10, N = 730, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0057795.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 1e-07, N = 730
+I did an additional 58 steps.
+stored to database: 
+temperature = 0.68163, chi = 10, N = 788, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0057795.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 5e-08, N = 788
+I did an additional 59 steps.
+stored to database: 
+temperature = 0.68163, chi = 10, N = 847, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0057795.
+Did not find record for:
+chi = 20, temperature = 0.68163, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.68163, chi = 20, N = 678, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0027712.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 8e-07, N = 678
+I did an additional 49 steps.
+stored to database: 
+temperature = 0.68163, chi = 20, N = 727, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0027713.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 4e-07, N = 727
+I did an additional 49 steps.
+stored to database: 
+temperature = 0.68163, chi = 20, N = 776, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0027713.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 2e-07, N = 776
+I did an additional 49 steps.
+stored to database: 
+temperature = 0.68163, chi = 20, N = 825, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0027713.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 1e-07, N = 825
+I did an additional 49 steps.
+stored to database: 
+temperature = 0.68163, chi = 20, N = 874, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0027713.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 5e-08, N = 874
+I did an additional 49 steps.
+stored to database: 
+temperature = 0.68163, chi = 20, N = 923, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0027713.
+Did not find record for:
+chi = 30, temperature = 0.68163, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.68163, chi = 30, N = 1082, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0018066.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 8e-07, N = 1082
+I did an additional 81 steps.
+stored to database: 
+temperature = 0.68163, chi = 30, N = 1163, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0018066.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 4e-07, N = 1163
+I did an additional 80 steps.
+stored to database: 
+temperature = 0.68163, chi = 30, N = 1243, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0018067.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 2e-07, N = 1243
+I did an additional 81 steps.
+stored to database: 
+temperature = 0.68163, chi = 30, N = 1324, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0018067.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 1e-07, N = 1324
+I did an additional 81 steps.
+stored to database: 
+temperature = 0.68163, chi = 30, N = 1405, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0018067.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 5e-08, N = 1405
+I did an additional 80 steps.
+stored to database: 
+temperature = 0.68163, chi = 30, N = 1485, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0018067.
+Did not find record for:
+chi = 40, temperature = 0.68163, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.68163, chi = 40, N = 1482, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0013695.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 8e-07, N = 1482
+I did an additional 114 steps.
+stored to database: 
+temperature = 0.68163, chi = 40, N = 1596, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0013695.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 4e-07, N = 1596
+I did an additional 113 steps.
+stored to database: 
+temperature = 0.68163, chi = 40, N = 1709, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0013696.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 2e-07, N = 1709
+I did an additional 114 steps.
+stored to database: 
+temperature = 0.68163, chi = 40, N = 1823, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0013696.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 1e-07, N = 1823
+I did an additional 113 steps.
+stored to database: 
+temperature = 0.68163, chi = 40, N = 1936, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0013696.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 5e-08, N = 1936
+I did an additional 114 steps.
+stored to database: 
+temperature = 0.68163, chi = 40, N = 2050, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0013696.
+Did not find record for:
+chi = 50, temperature = 0.68163, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.68163, chi = 50, N = 1838, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0010994.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 8e-07, N = 1838
+I did an additional 143 steps.
+stored to database: 
+temperature = 0.68163, chi = 50, N = 1981, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0010995.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 4e-07, N = 1981
+I did an additional 143 steps.
+stored to database: 
+temperature = 0.68163, chi = 50, N = 2124, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0010995.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 2e-07, N = 2124
+I did an additional 144 steps.
+stored to database: 
+temperature = 0.68163, chi = 50, N = 2268, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0010995.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 1e-07, N = 2268
+I did an additional 143 steps.
+stored to database: 
+temperature = 0.68163, chi = 50, N = 2411, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0010995.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 5e-08, N = 2411
+I did an additional 143 steps.
+stored to database: 
+temperature = 0.68163, chi = 50, N = 2554, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0010995.
+Did not find record for:
+chi = 60, temperature = 0.68163, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.68163, chi = 60, N = 2251, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00092287.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 8e-07, N = 2251
+I did an additional 176 steps.
+stored to database: 
+temperature = 0.68163, chi = 60, N = 2427, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00092293.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 4e-07, N = 2427
+I did an additional 177 steps.
+stored to database: 
+temperature = 0.68163, chi = 60, N = 2604, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00092296.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 2e-07, N = 2604
+I did an additional 176 steps.
+stored to database: 
+temperature = 0.68163, chi = 60, N = 2780, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00092297.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 1e-07, N = 2780
+I did an additional 177 steps.
+stored to database: 
+temperature = 0.68163, chi = 60, N = 2957, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00092298.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 5e-08, N = 2957
+I did an additional 176 steps.
+stored to database: 
+temperature = 0.68163, chi = 60, N = 3133, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00092298.
+Did not find record for:
+chi = 70, temperature = 0.68163, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.68163, chi = 70, N = 2888, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00077381.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 8e-07, N = 2888
+I did an additional 235 steps.
+stored to database: 
+temperature = 0.68163, chi = 70, N = 3123, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00077387.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 4e-07, N = 3123
+I did an additional 235 steps.
+stored to database: 
+temperature = 0.68163, chi = 70, N = 3358, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0007739.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 2e-07, N = 3358
+I did an additional 235 steps.
+stored to database: 
+temperature = 0.68163, chi = 70, N = 3593, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00077392.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 1e-07, N = 3593
+I did an additional 235 steps.
+stored to database: 
+temperature = 0.68163, chi = 70, N = 3828, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00077393.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 5e-08, N = 3828
+I did an additional 235 steps.
+stored to database: 
+temperature = 0.68163, chi = 70, N = 4063, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00077393.
+Did not find record for:
+chi = 80, temperature = 0.68163, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.68163, chi = 80, N = 3384, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00067483.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 8e-07, N = 3384
+I did an additional 270 steps.
+stored to database: 
+temperature = 0.68163, chi = 80, N = 3654, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00067489.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 4e-07, N = 3654
+I did an additional 270 steps.
+stored to database: 
+temperature = 0.68163, chi = 80, N = 3924, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00067492.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 2e-07, N = 3924
+I did an additional 270 steps.
+stored to database: 
+temperature = 0.68163, chi = 80, N = 4194, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00067494.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 1e-07, N = 4194
+I did an additional 270 steps.
+stored to database: 
+temperature = 0.68163, chi = 80, N = 4464, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00067494.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 5e-08, N = 4464
+I did an additional 270 steps.
+stored to database: 
+temperature = 0.68163, chi = 80, N = 4734, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00067495.
+Did not find record for:
+chi = 90, temperature = 0.68163, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.68163, chi = 90, N = 3596, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00060803.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 8e-07, N = 3596
+I did an additional 301 steps.
+stored to database: 
+temperature = 0.68163, chi = 90, N = 3897, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00060809.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 4e-07, N = 3897
+I did an additional 313 steps.
+stored to database: 
+temperature = 0.68163, chi = 90, N = 4210, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00060812.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 2e-07, N = 4210
+I did an additional 342 steps.
+stored to database: 
+temperature = 0.68163, chi = 90, N = 4552, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00060813.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 1e-07, N = 4552
+I did an additional 391 steps.
+stored to database: 
+temperature = 0.68163, chi = 90, N = 4943, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00060814.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 5e-08, N = 4943
+I did an additional 485 steps.
+stored to database: 
+temperature = 0.68163, chi = 90, N = 5428, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00060814.
+Did not find record for:
+chi = 100, temperature = 0.68163, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.68163, chi = 100, N = 4030, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00054966.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 8e-07, N = 4030
+I did an additional 333 steps.
+stored to database: 
+temperature = 0.68163, chi = 100, N = 4363, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00054972.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 4e-07, N = 4363
+I did an additional 333 steps.
+stored to database: 
+temperature = 0.68163, chi = 100, N = 4696, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00054975.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 2e-07, N = 4696
+I did an additional 332 steps.
+stored to database: 
+temperature = 0.68163, chi = 100, N = 5028, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00054976.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 1e-07, N = 5028
+I did an additional 333 steps.
+stored to database: 
+temperature = 0.68163, chi = 100, N = 5361, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00054977.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 5e-08, N = 5361
+I did an additional 333 steps.
+stored to database: 
+temperature = 0.68163, chi = 100, N = 5694, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00054977.
+Did not find record for:
+chi = 10, temperature = 0.69184, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.69184, chi = 10, N = 659, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0061552.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 8e-07, N = 659
+I did an additional 69 steps.
+stored to database: 
+temperature = 0.69184, chi = 10, N = 728, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0061553.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 4e-07, N = 728
+I did an additional 69 steps.
+stored to database: 
+temperature = 0.69184, chi = 10, N = 797, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0061553.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 2e-07, N = 797
+I did an additional 68 steps.
+stored to database: 
+temperature = 0.69184, chi = 10, N = 865, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0061553.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 1e-07, N = 865
+I did an additional 69 steps.
+stored to database: 
+temperature = 0.69184, chi = 10, N = 934, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0061553.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 5e-08, N = 934
+I did an additional 68 steps.
+stored to database: 
+temperature = 0.69184, chi = 10, N = 1002, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0061553.
+Did not find record for:
+chi = 20, temperature = 0.69184, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.69184, chi = 20, N = 689, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0029837.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 8e-07, N = 689
+I did an additional 49 steps.
+stored to database: 
+temperature = 0.69184, chi = 20, N = 738, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0029838.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 4e-07, N = 738
+I did an additional 50 steps.
+stored to database: 
+temperature = 0.69184, chi = 20, N = 788, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0029838.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 2e-07, N = 788
+I did an additional 50 steps.
+stored to database: 
+temperature = 0.69184, chi = 20, N = 838, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0029839.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 1e-07, N = 838
+I did an additional 49 steps.
+stored to database: 
+temperature = 0.69184, chi = 20, N = 887, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0029839.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 5e-08, N = 887
+I did an additional 50 steps.
+stored to database: 
+temperature = 0.69184, chi = 20, N = 937, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0029839.
+Did not find record for:
+chi = 30, temperature = 0.69184, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.69184, chi = 30, N = 1092, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0019861.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 8e-07, N = 1092
+I did an additional 81 steps.
+stored to database: 
+temperature = 0.69184, chi = 30, N = 1173, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0019862.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 4e-07, N = 1173
+I did an additional 81 steps.
+stored to database: 
+temperature = 0.69184, chi = 30, N = 1254, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0019862.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 2e-07, N = 1254
+I did an additional 82 steps.
+stored to database: 
+temperature = 0.69184, chi = 30, N = 1336, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0019862.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 1e-07, N = 1336
+I did an additional 81 steps.
+stored to database: 
+temperature = 0.69184, chi = 30, N = 1417, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0019862.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 5e-08, N = 1417
+I did an additional 81 steps.
+stored to database: 
+temperature = 0.69184, chi = 30, N = 1498, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0019862.
+Did not find record for:
+chi = 40, temperature = 0.69184, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.69184, chi = 40, N = 1523, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0015099.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 8e-07, N = 1523
+I did an additional 117 steps.
+stored to database: 
+temperature = 0.69184, chi = 40, N = 1640, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0015099.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 4e-07, N = 1640
+I did an additional 116 steps.
+stored to database: 
+temperature = 0.69184, chi = 40, N = 1756, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00151.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 2e-07, N = 1756
+I did an additional 117 steps.
+stored to database: 
+temperature = 0.69184, chi = 40, N = 1873, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00151.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 1e-07, N = 1873
+I did an additional 117 steps.
+stored to database: 
+temperature = 0.69184, chi = 40, N = 1990, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00151.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 5e-08, N = 1990
+I did an additional 116 steps.
+stored to database: 
+temperature = 0.69184, chi = 40, N = 2106, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00151.
+Did not find record for:
+chi = 50, temperature = 0.69184, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.69184, chi = 50, N = 1873, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.001224.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 8e-07, N = 1873
+I did an additional 145 steps.
+stored to database: 
+temperature = 0.69184, chi = 50, N = 2018, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.001224.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 4e-07, N = 2018
+I did an additional 145 steps.
+stored to database: 
+temperature = 0.69184, chi = 50, N = 2163, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0012241.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 2e-07, N = 2163
+I did an additional 146 steps.
+stored to database: 
+temperature = 0.69184, chi = 50, N = 2309, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0012241.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 1e-07, N = 2309
+I did an additional 145 steps.
+stored to database: 
+temperature = 0.69184, chi = 50, N = 2454, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0012241.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 5e-08, N = 2454
+I did an additional 145 steps.
+stored to database: 
+temperature = 0.69184, chi = 50, N = 2599, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0012241.
+Did not find record for:
+chi = 60, temperature = 0.69184, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.69184, chi = 60, N = 4012, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0010347.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 8e-07, N = 4012
+I did an additional 1616 steps.
+stored to database: 
+temperature = 0.69184, chi = 60, N = 5628, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0010348.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 4e-07, N = 5628
+I did an additional 1482 steps.
+stored to database: 
+temperature = 0.69184, chi = 60, N = 7110, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0010348.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 2e-07, N = 7110
+I did an additional 1436 steps.
+stored to database: 
+temperature = 0.69184, chi = 60, N = 8546, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0010348.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 1e-07, N = 8546
+I did an additional 1415 steps.
+stored to database: 
+temperature = 0.69184, chi = 60, N = 9961, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0010348.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 5e-08, N = 9961
+I did an additional 1405 steps.
+stored to database: 
+temperature = 0.69184, chi = 60, N = 11366, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0010348.
+Did not find record for:
+chi = 70, temperature = 0.69184, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.69184, chi = 70, N = 2989, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00087747.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 8e-07, N = 2989
+I did an additional 246 steps.
+stored to database: 
+temperature = 0.69184, chi = 70, N = 3235, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00087753.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 4e-07, N = 3235
+I did an additional 245 steps.
+stored to database: 
+temperature = 0.69184, chi = 70, N = 3480, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00087756.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 2e-07, N = 3480
+I did an additional 245 steps.
+stored to database: 
+temperature = 0.69184, chi = 70, N = 3725, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00087758.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 1e-07, N = 3725
+I did an additional 245 steps.
+stored to database: 
+temperature = 0.69184, chi = 70, N = 3970, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00087758.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 5e-08, N = 3970
+I did an additional 245 steps.
+stored to database: 
+temperature = 0.69184, chi = 70, N = 4215, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00087759.
+Did not find record for:
+chi = 80, temperature = 0.69184, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.69184, chi = 80, N = 3517, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00077451.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 8e-07, N = 3517
+I did an additional 291 steps.
+stored to database: 
+temperature = 0.69184, chi = 80, N = 3808, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00077457.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 4e-07, N = 3808
+I did an additional 292 steps.
+stored to database: 
+temperature = 0.69184, chi = 80, N = 4100, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0007746.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 2e-07, N = 4100
+I did an additional 291 steps.
+stored to database: 
+temperature = 0.69184, chi = 80, N = 4391, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00077462.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 1e-07, N = 4391
+I did an additional 292 steps.
+stored to database: 
+temperature = 0.69184, chi = 80, N = 4683, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00077463.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 5e-08, N = 4683
+I did an additional 292 steps.
+stored to database: 
+temperature = 0.69184, chi = 80, N = 4975, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00077463.
+Did not find record for:
+chi = 90, temperature = 0.69184, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.69184, chi = 90, N = 3825, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00070832.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 8e-07, N = 3825
+I did an additional 320 steps.
+stored to database: 
+temperature = 0.69184, chi = 90, N = 4145, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00070838.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 4e-07, N = 4145
+I did an additional 320 steps.
+stored to database: 
+temperature = 0.69184, chi = 90, N = 4465, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00070841.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 2e-07, N = 4465
+I did an additional 321 steps.
+stored to database: 
+temperature = 0.69184, chi = 90, N = 4786, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00070843.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 1e-07, N = 4786
+I did an additional 320 steps.
+stored to database: 
+temperature = 0.69184, chi = 90, N = 5106, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00070843.
+Found a record with higher tolerance to use as initial condition
+chi = 90, convergence = 5e-08, N = 5106
+I did an additional 321 steps.
+stored to database: 
+temperature = 0.69184, chi = 90, N = 5427, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00070844.
+Did not find record for:
+chi = 100, temperature = 0.69184, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.69184, chi = 100, N = 4407, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00064206.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 8e-07, N = 4407
+I did an additional 654 steps.
+stored to database: 
+temperature = 0.69184, chi = 100, N = 5061, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00064213.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 4e-07, N = 5061
+I did an additional 1554 steps.
+stored to database: 
+temperature = 0.69184, chi = 100, N = 6615, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00064217.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 2e-07, N = 6615
+I did an additional 2237 steps.
+stored to database: 
+temperature = 0.69184, chi = 100, N = 8852, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00064217.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 1e-07, N = 8852
+I did an additional 2195 steps.
+stored to database: 
+temperature = 0.69184, chi = 100, N = 11047, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00064218.
+Found a record with higher tolerance to use as initial condition
+chi = 100, convergence = 5e-08, N = 11047
+I did an additional 2157 steps.
+stored to database: 
+temperature = 0.69184, chi = 100, N = 13204, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00064218.
+Did not find record for:
+chi = 10, temperature = 0.70204, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.70204, chi = 10, N = 788, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0064429.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 8e-07, N = 788
+I did an additional 79 steps.
+stored to database: 
+temperature = 0.70204, chi = 10, N = 867, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0064429.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 4e-07, N = 867
+I did an additional 79 steps.
+stored to database: 
+temperature = 0.70204, chi = 10, N = 946, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0064429.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 2e-07, N = 946
+I did an additional 79 steps.
+stored to database: 
+temperature = 0.70204, chi = 10, N = 1025, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0064429.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 1e-07, N = 1025
+I did an additional 79 steps.
+stored to database: 
+temperature = 0.70204, chi = 10, N = 1104, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0064429.
+Found a record with higher tolerance to use as initial condition
+chi = 10, convergence = 5e-08, N = 1104
+I did an additional 79 steps.
+stored to database: 
+temperature = 0.70204, chi = 10, N = 1183, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0064429.
+Did not find record for:
+chi = 20, temperature = 0.70204, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.70204, chi = 20, N = 712, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0030886.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 8e-07, N = 712
+I did an additional 53 steps.
+stored to database: 
+temperature = 0.70204, chi = 20, N = 765, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0030887.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 4e-07, N = 765
+I did an additional 52 steps.
+stored to database: 
+temperature = 0.70204, chi = 20, N = 817, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0030888.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 2e-07, N = 817
+I did an additional 52 steps.
+stored to database: 
+temperature = 0.70204, chi = 20, N = 869, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0030888.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 1e-07, N = 869
+I did an additional 53 steps.
+stored to database: 
+temperature = 0.70204, chi = 20, N = 922, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0030888.
+Found a record with higher tolerance to use as initial condition
+chi = 20, convergence = 5e-08, N = 922
+I did an additional 52 steps.
+stored to database: 
+temperature = 0.70204, chi = 20, N = 974, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0030888.
+Did not find record for:
+chi = 30, temperature = 0.70204, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.70204, chi = 30, N = 1060, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0021025.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 8e-07, N = 1060
+I did an additional 79 steps.
+stored to database: 
+temperature = 0.70204, chi = 30, N = 1139, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0021026.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 4e-07, N = 1139
+I did an additional 78 steps.
+stored to database: 
+temperature = 0.70204, chi = 30, N = 1217, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0021026.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 2e-07, N = 1217
+I did an additional 78 steps.
+stored to database: 
+temperature = 0.70204, chi = 30, N = 1295, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0021027.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 1e-07, N = 1295
+I did an additional 78 steps.
+stored to database: 
+temperature = 0.70204, chi = 30, N = 1373, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0021027.
+Found a record with higher tolerance to use as initial condition
+chi = 30, convergence = 5e-08, N = 1373
+I did an additional 79 steps.
+stored to database: 
+temperature = 0.70204, chi = 30, N = 1452, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0021027.
+Did not find record for:
+chi = 40, temperature = 0.70204, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.70204, chi = 40, N = 1511, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0015897.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 8e-07, N = 1511
+I did an additional 115 steps.
+stored to database: 
+temperature = 0.70204, chi = 40, N = 1626, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0015898.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 4e-07, N = 1626
+I did an additional 116 steps.
+stored to database: 
+temperature = 0.70204, chi = 40, N = 1742, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0015898.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 2e-07, N = 1742
+I did an additional 115 steps.
+stored to database: 
+temperature = 0.70204, chi = 40, N = 1857, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0015898.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 1e-07, N = 1857
+I did an additional 115 steps.
+stored to database: 
+temperature = 0.70204, chi = 40, N = 1972, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0015899.
+Found a record with higher tolerance to use as initial condition
+chi = 40, convergence = 5e-08, N = 1972
+I did an additional 115 steps.
+stored to database: 
+temperature = 0.70204, chi = 40, N = 2087, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0015899.
+Did not find record for:
+chi = 50, temperature = 0.70204, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.70204, chi = 50, N = 1940, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0012673.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 8e-07, N = 1940
+I did an additional 148 steps.
+stored to database: 
+temperature = 0.70204, chi = 50, N = 2088, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0012673.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 4e-07, N = 2088
+I did an additional 149 steps.
+stored to database: 
+temperature = 0.70204, chi = 50, N = 2237, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0012674.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 2e-07, N = 2237
+I did an additional 149 steps.
+stored to database: 
+temperature = 0.70204, chi = 50, N = 2386, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0012674.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 1e-07, N = 2386
+I did an additional 149 steps.
+stored to database: 
+temperature = 0.70204, chi = 50, N = 2535, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0012674.
+Found a record with higher tolerance to use as initial condition
+chi = 50, convergence = 5e-08, N = 2535
+I did an additional 149 steps.
+stored to database: 
+temperature = 0.70204, chi = 50, N = 2684, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0012674.
+Did not find record for:
+chi = 60, temperature = 0.70204, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.70204, chi = 60, N = 2322, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.0010894.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 8e-07, N = 2322
+I did an additional 183 steps.
+stored to database: 
+temperature = 0.70204, chi = 60, N = 2505, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.0010894.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 4e-07, N = 2505
+I did an additional 186 steps.
+stored to database: 
+temperature = 0.70204, chi = 60, N = 2691, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.0010895.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 2e-07, N = 2691
+I did an additional 221 steps.
+stored to database: 
+temperature = 0.70204, chi = 60, N = 2912, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.0010895.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 1e-07, N = 2912
+I did an additional 24699 steps.
+stored to database: 
+temperature = 0.70204, chi = 60, N = 27611, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.0010865.
+Found a record with higher tolerance to use as initial condition
+chi = 60, convergence = 5e-08, N = 27611
+I did an additional 2495 steps.
+stored to database: 
+temperature = 0.70204, chi = 60, N = 30106, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.0010865.
+Did not find record for:
+chi = 70, temperature = 0.70204, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.70204, chi = 70, N = 2924, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00093004.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 8e-07, N = 2924
+I did an additional 237 steps.
+stored to database: 
+temperature = 0.70204, chi = 70, N = 3161, convergence = 4e-07, initial = spin-up, q = 6truncation error = 0.00093011.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 4e-07, N = 3161
+I did an additional 245 steps.
+stored to database: 
+temperature = 0.70204, chi = 70, N = 3406, convergence = 2e-07, initial = spin-up, q = 6truncation error = 0.00093014.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 2e-07, N = 3406
+I did an additional 314 steps.
+stored to database: 
+temperature = 0.70204, chi = 70, N = 3720, convergence = 1e-07, initial = spin-up, q = 6truncation error = 0.00093016.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 1e-07, N = 3720
+I did an additional 25159 steps.
+stored to database: 
+temperature = 0.70204, chi = 70, N = 28879, convergence = 5e-08, initial = spin-up, q = 6truncation error = 0.00093214.
+Found a record with higher tolerance to use as initial condition
+chi = 70, convergence = 5e-08, N = 28879
+I did an additional 2876 steps.
+stored to database: 
+temperature = 0.70204, chi = 70, N = 31755, convergence = 2.5e-08, initial = spin-up, q = 6truncation error = 0.00093215.
+Did not find record for:
+chi = 80, temperature = 0.70204, tolerance = 8e-07, q = 6.
+stored to database: 
+temperature = 0.70204, chi = 80, N = 3451, convergence = 8e-07, initial = spin-up, q = 6truncation error = 0.00082023.
+Found a record with higher tolerance to use as initial condition
+chi = 80, convergence = 8e-07, N = 3451
