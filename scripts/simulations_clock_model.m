@@ -1,5 +1,5 @@
 function simulations_clock_model
-  q = 5;
+  q = 6;
   % We take a temperature that is in the middle of the massless phase
   % temperature = 0.925;
   % number_of_points = 25; left_bound = 0.80; right_bound = 1.05;
