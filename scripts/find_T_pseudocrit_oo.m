@@ -1,7 +1,7 @@
 function find_T_pseudocrit_oo
   % Simulation parameters
   q = 6;
-  N_values = 10:5:80;
+  N_values = 10:5:60;
   TolX = 1e-6;
 
   sim = FindTCritFixedN(q, TolX, N_values);
