@@ -4,8 +4,10 @@ function simulations_clock_model
   % temperature = 0.925;
   number_of_points = 25; left_bound = 0.80; right_bound = 1.05;
   temperatures = linspace(left_bound, right_bound, number_of_points);
-  chi_values = 10:10:100;
-  tolerances = [8e-7 4e-7 2e-7 1e-7 5e-8 2.5e-8];
+  chi_values = 10:10:120;
+  % chi_values = 10:10:100;
+  tolerances = [8e-7 4e-7 2e-7 1e-7 5e-8 2.5e-8 1.25e-8];
+  % tolerances = [8e-7 4e-7 2e-7 1e-7 5e-8 2.5e-8];
 
   sim = FixedToleranceSimulation(temperatures, chi_values, tolerances, q).run();
   % order_params = sim.compute('order_parameter');
