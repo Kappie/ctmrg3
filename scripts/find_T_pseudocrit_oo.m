@@ -1,23 +1,24 @@
 function find_T_pseudocrit_oo
   % Simulation parameters
-  q = 6;
-  N_values = 60:10:80;
-  % N_values = 10:5:110;
-  TolX = 1e-5;
+  q = 5;
+  % N_values = 60:10:80;
+  N_values = 10:5:110;
+  % TolX = 1e-5;
+  TolX = 1e-6;
 
   sim = FindTCritFixedN(q, TolX, N_values);
-  sim.max_truncation_error = 1e-5;
+  sim.max_truncation_error = 1e-6;
   sim.chi_start = 200;
-  % sim.initial_condition = 'spin-up';
-  sim.initial_condition = 'symmetric';
+  sim.initial_condition = 'spin-up';
+  % sim.initial_condition = 'symmetric';
   sim.T_crit_range = [0.6 0.65];
   sim = sim.run();
 
   % Fit parameters
   TolXFit = 1e-10;
-  N_min = 0;
+  N_min = 85;
   exclude = N_values < N_min;
-  T_crit_guess = 0.70
+  T_crit_guess = 0.94
   search_width = 2e-2;
   skipBegin = 0;
 
@@ -33,7 +34,7 @@ function find_T_pseudocrit_oo
   sim.T_pseudocrits
   [T_crit, mse, ~] = fit_kosterlitz_transition2(sim.T_pseudocrits, N_values, exclude, T_crit_guess, ...
     search_width, TolXFit)
-  xlabel('$N$')
+  xlabel('$1/\ell$')
   ylabel('$T^{*}(N)$')
   title(['Fit to $T^{*}(N)$ for BKT-transition for $q = ' num2str(q) '$ clock model.'])
 

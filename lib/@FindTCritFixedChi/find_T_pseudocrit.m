@@ -5,7 +5,7 @@ function [T_pseudocrit, tensors]  = find_T_pseudocrit(obj, q, chi)
     neg_entropy = -sim.compute('entropy');
   end
 
-  range = obj.T_crit_bounds(q);
+  range = obj.T_crit_range;
   options = optimset('Display', 'iter', 'TolX', obj.TolX);
   [T_pseudocrit, neg_entropy, EXITFLAG, OUTPUT] = fminbnd(@negative_entropy, ...
     range(1), range(2), options);

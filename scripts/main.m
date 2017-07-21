@@ -1,11 +1,13 @@
 function main
   rehash;
 
+  simulations_clock_model
+  % calculate_central_charge_q5
+  % find_T_pseudocrit_chi
   % analyze_q5
   % test_save_function
   % compare_spectra_clock
-  % simulations_clock_model
-  find_T_pseudocrit_oo
+  % find_T_pseudocrit_oo
   % plot_order_param_vs_entropy
   % calculate_beta_finite_N
   % check_chi_values_max_truncation_error
@@ -15,7 +17,6 @@ function main
   % calculate_beta
   % calculate_kappa
   % test_data_collapse_chi
-  % find_T_pseudocrit_chi
   % plot_entropy_vs_T
   % plot_spectrum_ctm_finite_N
   % order_param_test

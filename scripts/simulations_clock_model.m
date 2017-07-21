@@ -1,8 +1,11 @@
 function simulations_clock_model
   q = 5;
-  number_of_points = 10;
-  left_bound_T1 = 0.9; right_bound_T1 = 0.92;
-  left_bound_T2 = 0.93; right_bound_T2 = 0.95;
+  % number_of_points = 10;
+  number_of_points = 5;
+  % left_bound_T1 = 0.9; right_bound_T1 = 0.92;
+  % left_bound_T2 = 0.93; right_bound_T2 = 0.95;
+  left_bound_T1 = 0.89; right_bound_T1 = 0.90;
+  left_bound_T2 = 0.95; right_bound_T2 = 0.96;
   temperatures_zoom_T1 = linspace(left_bound_T1, right_bound_T1, number_of_points);
   temperatures_zoom_T2 = linspace(left_bound_T2, right_bound_T2, number_of_points);
   temperatures = [temperatures_zoom_T1 temperatures_zoom_T2];
@@ -19,7 +22,7 @@ function simulations_clock_model
   % tolerances = [8e-7 4e-7 2e-7 1e-7];
 
   sim = FixedToleranceSimulation(temperatures, chi_values, tolerances, q).run();
-  save('q5_chi10-100_tol5e-8_zoom.mat', 'sim')
+  save('q5_chi10-100_tol5e-8_zoom2.mat', 'sim')
   % order_params = sim.compute('order_parameter');
   % entropies = sim.compute('entropy');
   % corr_lengths = sim.compute('correlation_length')
