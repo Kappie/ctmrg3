@@ -1,7 +1,7 @@
 function find_T_pseudocrit_oo
   % Simulation parameters
-  q = 5;
-  N_values = 80:10:120;
+  q = 6;
+  N_values = 60:10:80;
   % N_values = 10:5:110;
   TolX = 1e-5;
 
@@ -10,14 +10,14 @@ function find_T_pseudocrit_oo
   sim.chi_start = 200;
   % sim.initial_condition = 'spin-up';
   sim.initial_condition = 'symmetric';
-  sim.T_crit_range = [0.3 0.8];
+  sim.T_crit_range = [0.6 0.65];
   sim = sim.run();
 
   % Fit parameters
   TolXFit = 1e-10;
-  N_min = 75;
+  N_min = 0;
   exclude = N_values < N_min;
-  T_crit_guess = 0.94
+  T_crit_guess = 0.70
   search_width = 2e-2;
   skipBegin = 0;
 
