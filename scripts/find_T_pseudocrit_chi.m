@@ -1,16 +1,20 @@
 function find_T_pseudocrit_chi
   % Simulation parameters
   q = 5;
-  chi_values = [10 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90];
+  % chi_values = [10 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90];
   % chi_values = [20 30 40 50 60 70 80 90];
-  TolX = 1e-6;
+  chi_values = 10:10:80;
+  % TolX = 1e-6;
+  TolX = 1e-5;
   tolerance = 1e-7;
   method = 'entropy';
 
   sim = FindTCritFixedChi(q, TolX, chi_values);
   sim.method = method;
   sim.tolerance = tolerance;
-  sim.T_crit_range = [0.95 1.05];
+  sim.initial_condition = 'symmetric';
+  % sim.initial_condition = 'spin-up';
+  sim.T_crit_range = [0.8 0.92];
   sim = sim.run();
 
   % Fitting parameters

@@ -1,9 +1,9 @@
 function main
   rehash;
 
-  simulations_clock_model
+  % simulations_clock_model
   % calculate_central_charge_q5
-  % find_T_pseudocrit_chi
+  find_T_pseudocrit_chi
   % analyze_q5
   % test_save_function
   % compare_spectra_clock
