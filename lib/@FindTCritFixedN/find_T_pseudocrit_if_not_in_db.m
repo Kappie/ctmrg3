@@ -1,8 +1,8 @@
 function [T_pseudocrit, tensors, truncation_error] = find_T_pseudocrit_if_not_in_db(obj, q, N)
   if obj.LOAD_FROM_DB
     query = ['select * from t_pseudocrits where ' ...
-      'q = ? AND tol_x = ? AND n = ? AND truncation_error <= ? AND initial = ? ' ...
-      'order by truncation_error asc limit 1'];
+      'q = ? AND tol_x <= ? AND n = ? AND truncation_error <= ? AND initial = ? ' ...
+      'order by truncation_error asc, tol_x asc limit 1'];
     query_result = sqlite3.execute(obj.db_id, query, q, obj.TolX, N, obj.max_truncation_error, obj.initial_condition);
   else
     query_result = [];

@@ -5,7 +5,6 @@ function main
   % calculate_central_charge_q5
   find_T_pseudocrit_chi
   % analyze_q5
-  % test_save_function
   % compare_spectra_clock
   % find_T_pseudocrit_oo
   % plot_order_param_vs_entropy

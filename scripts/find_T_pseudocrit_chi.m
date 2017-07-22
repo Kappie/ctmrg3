@@ -3,7 +3,9 @@ function find_T_pseudocrit_chi
   q = 5;
   % chi_values = [10 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90];
   % chi_values = [20 30 40 50 60 70 80 90];
-  chi_values = 10:10:80;
+  % chi_values = 10:10:80;
+  % Symmetric values
+  chi_values = [15, 25, 30, 35, 55, 65, 95];
   % TolX = 1e-6;
   TolX = 1e-5;
   tolerance = 1e-7;
