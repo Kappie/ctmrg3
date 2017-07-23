@@ -1,14 +1,16 @@
 function main
   rehash;
 
-  plot_order_param_and_entropy_clock_model
-  % test_golden_section_search
-  % simulations_clock_model
   % calculate_central_charge_q5
+  % calculate_central_charge_q6
   % find_T_pseudocrit_chi
-  % analyze_q5
-  % compare_spectra_clock
   % find_T_pseudocrit_oo
+  % analyze_sims
+  % analyze_q5
+  % plot_order_param_and_entropy_clock_model
+  % test_golden_section_search
+  simulations_clock_model
+  % compare_spectra_clock
   % plot_order_param_vs_entropy
   % calculate_beta_finite_N
   % check_chi_values_max_truncation_error

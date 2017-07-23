@@ -1,16 +1,17 @@
 function find_T_pseudocrit_oo
   % Simulation parameters
-  q = 5;
+  q = 6;
   % N_values = 60:10:80;
-  N_values = [10:5:70 80:10:120];
+  % N_values = [10:5:70 80:10:120];
+  N_values = [10:5:85];
   % TolX = 1e-5;
   TolX = 1e-5;
 
   sim = FindTCritFixedN(q, TolX, N_values);
   sim.max_truncation_error = 1e-5;
   sim.chi_start = 200;
-  % sim.initial_condition = 'spin-up';
-  sim.initial_condition = 'symmetric';
+  sim.initial_condition = 'spin-up';
+  % sim.initial_condition = 'symmetric';
   sim.T_crit_range = [0.6 0.65];
   sim = sim.run();
 
@@ -18,8 +19,8 @@ function find_T_pseudocrit_oo
   TolXFit = 1e-10;
   N_min = 60;
   exclude = N_values < N_min;
-  T_crit_guess = 0.91
-  search_width = 2e-2;
+  T_crit_guess = 0.90
+  search_width = 3e-2;
   skipBegin = 0;
 
   % entropies = sim.compute('entropy');
