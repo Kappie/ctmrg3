@@ -41,6 +41,7 @@ function tensor_struct = find_or_calculate_environment(obj, temperature, chi, to
       end
       convergence = query_result.convergence;
       simulated = false;
+      converged = true;
     else
       fprintf(['Found a record with higher tolerance to use as initial condition\n' ...
         'chi = ' num2str(query_result.chi) ...
@@ -59,5 +60,6 @@ function tensor_struct = find_or_calculate_environment(obj, temperature, chi, to
     obj.save_to_db(temperature, chi, N, tolerance, C, T, truncation_error);
   end
 
-  tensor_struct = struct('C', C, 'T', T, 'convergence', convergence, 'truncation_error', truncation_error);
+  tensor_struct = struct('C', C, 'T', T, 'convergence', convergence, 'truncation_error', truncation_error, ...
+    'converged', converged);
 end

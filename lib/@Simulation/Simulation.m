@@ -26,7 +26,7 @@ classdef (Abstract) Simulation
       obj.chi_values   = chi_values;
       obj.q            = q;
       % create empty array of structs that I can fill with C, T tensors.
-      obj.tensors = struct('C', {}, 'T', {}, 'convergence', {}, 'truncation_error', {});
+      obj.tensors = struct('C', {}, 'T', {}, 'convergence', {}, 'truncation_error', {}, 'converged', {});
       % initialize lattice objects that contain all physical information
       obj = obj.initialize_lattices();
       % precalculate a-tensors for each temperature

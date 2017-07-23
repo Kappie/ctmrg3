@@ -32,7 +32,11 @@ function [T_pseudocrit, tensors] = find_T_pseudocrit_if_not_in_db(obj, q, chi)
     display(['Found record in database for q = ' num2str(q) ' chi = ' num2str(chi)])
   else
     % T_pseudocrit not known: run simulations
-    [T_pseudocrit, tensors] = obj.find_T_pseudocrit(q, chi);
+    if strcmp(obj.initial_condition, 'symmetric')
+      [T_pseudocrit, tensors] = obj.find_T_pseudocrit_symmetric(q, chi);
+    else
+      [T_pseudocrit, tensors] = obj.find_T_pseudocrit(q, chi);
+    end
     obj.store_to_db(T_pseudocrit, q, chi, tensors);
   end
 end
